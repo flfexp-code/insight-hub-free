@@ -1,17 +1,8 @@
 {
-  "attempted_at": "2026-10-12T13:14:41.028689+00:00",
-  "last_success": "2026-10-12T13:14:41.028689+00:00",
+  "attempted_at": "2026-10-12T14:11:10.893627+00:00",
+  "last_success": "2026-10-12T14:11:10.893627+00:00",
   "ok": true,
-  "received": 341,
-  "stored": 423,
-  "errors": [
-    "Google 뉴스 거시경제: ReadTimeout",
-    "Google 뉴스 금융: ReadTimeout",
-    "Google 뉴스 에너지: ReadTimeout",
-    "Google 뉴스 산업·통상: ReadTimeout",
-    "Google 뉴스 고용·사회: ReadTimeout",
-    "Google 뉴스 국제·정책: ReadTimeout",
-    "한국경제 국제: ReadTimeout",
-    "한국경제 사회: ReadTimeout"
-  ]
+  "received": 660,
+  "stored": 672,
+  "errors": []
 }
