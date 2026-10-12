@@ -1,0 +1,21 @@
+name: 앱 검증
+on:
+  push:
+    paths: ['**.py', '**.txt', '.github/workflows/**']
+  pull_request:
+    paths: ['**.py', '**.txt', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q
