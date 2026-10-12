@@ -70,6 +70,18 @@ def test_multiple_industries_and_issues():
     assert all(c['evidence'] and c['questions'] for c in cards)
 
 
+def test_ambiguous_match_words_and_saved_tags():
+    sports = article('안세영 배드민턴 경기 일정·32강 대진표')
+    sports['categories'] = ['거시경제']  # 과거 규칙으로 저장된 오분류
+    assert deduplicate([sports])[0]['categories'] == ['기타']
+    assert '거시경제' in classify('경기침체 우려와 경기부양 대책')
+    title = '조선산업 발전에 기여한 외국인 명예시민'
+    assert '에너지' not in classify(title)
+    assert '전력·에너지' not in industry_tags(title)
+    assert '설비·전력수요' not in issue_tags(title)
+    assert '전력·에너지' in industry_tags('한국서부발전 태양광 발전설비 점검')
+
+
 def test_filter_period_company_alias_and_unknown_date():
     a = article('서부발전 전력 투자')
     b = article('한국서부발전 발전설비 투자', 'https://x.com/b', days=20)
