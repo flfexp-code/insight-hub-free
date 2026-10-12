@@ -56,7 +56,7 @@ except (OSError, ValueError) as exc:
     saved = {}
     st.warning('저장된 기사 파일을 읽지 못했습니다. 최신 뉴스 수집으로 다시 시도하세요.')
 status = load_json(ROOT / 'data/status.json')
-articles = saved.get('articles', [])
+articles = deduplicate(saved.get('articles', []))
 errors = []
 mode = '일일 수집 저장본'
 if refresh:

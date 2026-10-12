@@ -42,7 +42,7 @@ https://github.com/new 에서 아래 값으로 생성합니다.
 
 1. https://share.streamlit.io/ 에서 GitHub 계정으로 로그인합니다.
 2. GitHub 연결 승인이 나오면 공개 저장소에 필요한 권한을 확인합니다.
-3. `Create app` → `Yup, I have an app`을 선택합니다.
+3. `Create app` → `Deploy from repo`을 선택합니다.
 4. Repository: 본인 계정의 `insight-hub-free`
 5. Branch: `main`
 6. Main file path: `app.py`
@@ -50,6 +50,13 @@ https://github.com/new 에서 아래 값으로 생성합니다.
 8. `Deploy`를 누릅니다.
 
 앱 URL은 배포 화면에서 확정됩니다. URL을 미리 만들어 두지 않습니다.
+
+## 개인용 비공개 설정
+
+운영 앱은 https://insight-app-free-jeaigezue99ssijooexnga.streamlit.app/ 입니다.
+공개 저장소에서 만든 앱은 최초에 공개됩니다. 생성 직후 앱 상단 `Share` → `Make this app public` 끄기로 비공개 전환을 마쳤습니다. 다시 열어 꺼짐 상태를 확인했으며, 로그인 없는 요청은 HTTP 303으로 인증 화면에 이동했습니다. 다른 열람자는 초대하지 않았습니다.
+
+계정의 앱 설정 `Sharing`에서 `Who can view this app`을 `Only specific people can view this app`으로 선택해도 같은 설정을 변경할 수 있습니다. 앱을 공개로 전환하거나 열람자를 추가하지 마세요. GitHub 코드·기사 데이터·기업 설정은 계속 공개입니다.
 
 ## 5. 배포 후 확인
 
