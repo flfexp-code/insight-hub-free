@@ -1,0 +1,44 @@
+name: 일일 뉴스 수집
+on:
+  schedule:
+    - cron: '17 22 * * *' # UTC 22:17 = 다음 날 한국시간 07:17
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+jobs:
+  collect:
+    # 비공개 저장소의 무료 사용량 초과 과금 위험을 피한다.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 수집 전용 패키지 설치
+        run: python -m pip install -r requirements-collector.txt
+      - name: 뉴스 수집
+        id: collect
+        continue-on-error: true
+        run: python collect_news.py
+      - name: 결과와 수집 상태 저장
+        if: always() && steps.collect.outcome != 'skipped'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json data/status.json
+          if git diff --staged --quiet; then
+            echo '저장할 변경 없음'
+          else
+            git commit -m 'data: 일일 뉴스 및 수집 상태 갱신'
+            git push
+          fi
+      - name: 전체 수집 실패 알림
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo '수집이 실패했습니다. 기존 기사는 보존되며 상태 파일을 확인하세요.'
+          exit 1
