@@ -191,10 +191,19 @@ def parse_feed(content: bytes, topic: str, feed_name: str, limit: int) -> list[d
     return rows
 
 
+def excluded_personnel(title: str) -> bool:
+    """면접·경제 학습에서 제외하도록 요청한 내부 인사 기사."""
+    return bool(re.search(r'인사(?!이트|이드)|승진|승격|전보|보직|블랙리스트|'
+                          r'채용.{0,25}(?:비리|청탁|내정|논란)|(?:비리|청탁|내정).{0,25}채용|'
+                          r'(?:임원|사장|부사장).{0,8}(?:인선|선임|임명|교체)', clean(title)))
+
+
 def deduplicate(articles: list[dict]) -> list[dict]:
     """같은 URL 또는 정규화 제목만 병합. 다른 제목의 같은 사건은 유지한다."""
     result, titles, links = [], {}, {}
     for raw in articles:
+        if excluded_personnel(raw['title']):
+            continue  # 새 수집·과거 저장본·추가 검색에 모두 적용. 표시 토글로도 복원하지 않음.
         a = copy.deepcopy(raw)
         # 저장본도 최신 제목 규칙으로 재분류하여 이전 오분류를 남기지 않는다.
         a['categories'] = classify(a['title'])

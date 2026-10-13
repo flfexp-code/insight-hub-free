@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlsplit
 
 import requests
 
-from news_core import UTC, clean, company_matches, deduplicate, format_kst, parse_time, safe_link
+from news_core import UTC, clean, company_matches, deduplicate, excluded_personnel, format_kst, parse_time, safe_link
 
 SECTORS = ['발전·에너지', '도로·교통', '토지·주택', '금융·보험', '제조·수출', '기타']
 DEFAULT_PROFILES = [
@@ -122,6 +122,8 @@ def normalize_profiles(value) -> list[dict]:
 def news_quality(title: str) -> dict:
     """본문 판정이 아닌 제목 선별. 홍보 의도 자체를 단정하지 않는다."""
     title = clean(title)
+    if excluded_personnel(title):
+        return {'include': False, 'label': '내부 인사 제외', 'reason': '인사·승진·내부 채용 논란은 사용자 요청으로 수집·분석에서 제외'}
     if re.search(r'KOVO|GS칼텍스|프로배구|배구|컵대회|챔피언결정전|챔프전|득점|감독\s*대행|친정팀|\[포토\]|부고|시모상|부친상|모친상', title, re.I):
         return {'include': False, 'label': '스포츠·사진·부고 제외', 'reason': '기업명과 같은 이름이 등장해도 경제·사업 현안으로 보기 어려움'}
     numeric = bool(re.search(r'\d[\d,.]*\s*(?:조원|억원|만원|억\s*원|조\s*원|%|MW|GW|톤|호|km)', title, re.I))
