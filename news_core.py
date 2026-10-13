@@ -24,6 +24,8 @@ SEARCHES = {
     '산업·통상': '수출 OR 관세 OR 반도체 OR 산업정책',
     '고용·사회': '고용률 OR 청년고용 OR 노동시장',
     '국제·정책': '국제경제 OR 재정정책 OR 경제정책',
+    '주택·건설': '공공주택 OR 공사비 OR 부동산 PF OR 미분양',
+    '교통·인프라': '고속도로 OR 통행료 OR 교통량 OR 도로 건설',
 }
 KEYWORDS = {
     '거시경제': ['금리', '환율', '물가', '통화정책', '경제성장', '경기침체', '한국은행', '국채', 'GDP', '경제', '경기부양', '경기회복', '경기둔화', '경기변동', '경기안정', '성장률', '소비', '유가'],
@@ -32,6 +34,8 @@ KEYWORDS = {
     '산업·통상': ['산업', '수출', '수입', '관세', '무역', '반도체', '공급망', '제조업'],
     '고용·사회': ['고용', '취업', '채용', '실업', '노동', '인구', '저출생', '연금'],
     '국제·정책': ['정책', '정부', '재정', '미국', '중국', '유럽', '국회', '예산'],
+    '주택·건설': ['공공주택', '주택', '분양', '부동산', '공사비', '시공사', '택지', '건설'],
+    '교통·인프라': ['고속도로', '통행료', '교통량', '도로공사', '도로관리', '물동량'],
 }
 INDUSTRIES = {
     '금융·보험': ['은행', '보험', '증권', '금융', '신용보증', '대출'],
@@ -41,6 +45,7 @@ INDUSTRIES = {
     '자동차·배터리': ['자동차', '현대차', '기아', '전기차', '배터리', '이차전지', '리튬', '하이브리드', '르노', 'ESS'],
     '건설·부동산': ['건설', '부동산', '주택', '아파트', 'PF', '분양'],
     '유통·식품': ['유통', '식품', '농협', '소매', '마트', '물류', '농업'],
+    '교통·인프라': ['고속도로', '도로공사', '통행료', '교통량', '화물', '물동량'],
 }
 ISSUES = {
     '금리·자금조달': {
@@ -261,7 +266,17 @@ def company_query(name: str) -> str:
 
 def company_matches(article: dict, names: list[str]) -> bool:
     text = (article.get('title', '') + ' ' + article.get('summary', '')).casefold()
-    return any(n.strip().casefold() in text for n in names if n.strip())
+    for raw in names:
+        word = raw.strip().casefold()
+        if not word:
+            continue
+        # LH, AI, LNG 등을 다른 영문 단어의 일부와 매칭하지 않는다.
+        if re.fullmatch(r'[a-z0-9]+', word):
+            if re.search(r'(?<![a-z0-9])' + re.escape(word) + r'(?![a-z0-9])', text):
+                return True
+        elif word in text:
+            return True
+    return False
 
 
 def filter_articles(articles: list[dict], topics=None, industry='전체', keyword='', days=7,
