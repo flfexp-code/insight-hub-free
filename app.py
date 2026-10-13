@@ -10,7 +10,7 @@ import streamlit as st
 from news_core import (ROOT, SEARCHES, INDUSTRIES, UTC, analysis_cards, company_query,
                        deduplicate, fetch_news, filter_articles, format_kst, load_json, parse_time)
 from insights import (DEFAULT_PROFILES, REPORTS, SECTORS, analysis_packet, build_insights,
-                      cross_connections, news_quality, normalize_profiles, related_articles)
+                      cross_connections, curate_brief, news_quality, normalize_profiles, related_articles)
 from watchlist_ui import render_watchlist, watchlist_download
 from ai_insights import generate as generate_ai, ready as ai_ready
 
@@ -27,8 +27,8 @@ st.title('경제·산업 인사이트 허브')
 st.caption('관련 뉴스 → 공식 자료의 진단 → 기업별 영향과 대응 조건 · 무료 RSS · 유료 API 없음')
 status_area = st.container()
 
-insight_tab, related_tab, news_tab, reports_tab, watch_tab, guide_tab = st.tabs(
-    ['기업 인사이트', '관련 뉴스', '뉴스 모아보기', '공식 보고서', '관심 기업 등록', '수집·이용 안내'])
+brief_tab, insight_tab, related_tab, news_tab, reports_tab, watch_tab, guide_tab = st.tabs(
+    ['핵심 브리핑', '기업 인사이트', '관련 뉴스', '전체 검색 자료', '공식 보고서', '관심 기업 등록', '수집·이용 안내'])
 with watch_tab:
     st.subheader('관심 기업 등록과 보관')
     st.caption('기본 기업: 한국서부발전 · 한국도로공사 · 한국토지주택공사(LH). 최대 10개까지 등록할 수 있습니다.')
@@ -55,7 +55,7 @@ with st.sidebar:
                                 key='watch_company', on_change=select_registered_company)
     topics = st.multiselect('뉴스 분야', [*SEARCHES, '기타'], default=list(SEARCHES))
     industry = st.selectbox('산업 선택', ['전체', *INDUSTRIES, '기타'], key='industry')
-    days = st.selectbox('조회 기간', [1, 3, 7, 14, 30], index=2, format_func=lambda n: f'최근 {n}일', key='days')
+    days = st.selectbox('조회 기간', [1, 3, 7, 14, 30], index=1, format_func=lambda n: f'최근 {n}일', key='days')
     company = st.text_input('관심 기업명', placeholder='예: 한국서부발전', max_chars=60, key='company').strip()
     alias = st.text_input('다른 표기 (쉼표 구분)', placeholder='예: 서부발전, KOWEPO', max_chars=150, key='aliases').strip()
     st.caption('등록한 사업 분야를 이용해 기업명 없는 기사도 연결합니다. 단순 협약·행사·지원 홍보는 기본 제외합니다.')
@@ -163,13 +163,30 @@ company_rows = filter_articles(base, days=days, company_names=names) if names el
 related = related_articles(base, profile, include_promo=show_promo) if profile else []
 cards = build_insights(related, profile) if profile else []
 connections = cross_connections(cards, profile) if profile else []
+brief = curate_brief(base, profiles)
 with status_area:
     m1, m2, m3 = st.columns(3)
-    m1.metric('기간·분류에 맞는 뉴스', f'{len(base):,}건')
-    m2.metric('기업명 직접 등장', f'{len(company_rows):,}건' if company else '기업명 입력')
+    m1.metric('핵심 브리핑', f'{len(brief)}건')
+    m2.metric('선택 기업 핵심 기사', f"{sum(a['brief_group'] == company for a in brief)}건" if company else '기업명 입력')
     m3.metric('기업 영향 분석 후보', f'{len(cards)}개')
     if not topics:
         st.info('뉴스 분야를 한 개 이상 선택하세요.')
+
+with brief_tab:
+    st.subheader('취업 준비와 경제 현안 · 핵심 10건 이내')
+    st.caption('최근 3일의 기사에서 중요한 경제 변화와 관심 기업의 사업·경영 과제를 우선합니다. 기업당 최대 2건, 경제 현안 최대 4건이며 읽을 만한 후보가 부족하면 10건을 채우지 않습니다.')
+    st.caption('단순 홍보·스포츠·사진·부고와 유사 제목은 제외합니다. 제목 기준의 읽기 목록이므로 원문에서 실제 변화와 근거를 확인하세요.')
+    if not brief:
+        st.info('현재 조건에서 핵심으로 추릴 새 기사가 없습니다. 관심 기업을 추가하거나 뉴스 추가 검색을 이용하세요.')
+    for index, article in enumerate(brief, 1):
+        with st.container(border=True):
+            st.caption(f"{index}. {article['brief_group']} · {format_kst(article.get('published', ''))}")
+            st.markdown('**' + html.escape(article['title']) + '**')
+            st.caption('선정 이유: ' + article['brief_reason'])
+            st.write('생각해 볼 질문: ' + article['brief_question'])
+            if article.get('link'):
+                st.link_button('핵심 기사 원문 보기', article['link'])
+    st.caption('그 밖의 후보는 전체 검색 자료에서 필요할 때 찾아볼 수 있습니다. 선별 기준은 사용해 보면서 조정합니다.')
 
 
 def render_news(rows, key):
