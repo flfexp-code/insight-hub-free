@@ -93,7 +93,20 @@ def test_official_discovery_does_not_promote_unreviewed_text():
         def raise_for_status(self): pass
     with patch('insights.requests.get', return_value=Response()):
         candidates, errors = discover_reports()
-    assert candidates and not errors
+    assert candidates
+    assert len(errors) == 2  # 다른 기관의 응답에는 해당 기관 자료 링크가 없음
     assert all('검토 전' in r['status'] for r in candidates)
     assert all('summary' not in r for r in candidates)
     assert not any(r['url'].endswith('9999') for r in REPORTS)
+
+
+def test_official_discovery_skips_navigation_and_reports_empty_listing():
+    class Response:
+        content = b'valid'
+        text = '<a href="/trends/ecotrendsList">KIET 경제 산업 동향 목록</a>'
+        def raise_for_status(self): pass
+    with patch('insights.requests.get', return_value=Response()):
+        candidates, errors = discover_reports()
+    assert candidates == []
+    assert len(errors) == 3
+    assert all('자료 후보를 찾지 못함' in error for error in errors)
