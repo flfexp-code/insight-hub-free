@@ -1,0 +1,309 @@
+{
+  "updated_at": "2026-10-13T10:24:50.369980+00:00",
+  "news_updated_at": "2026-10-13T10:22:58.756551+00:00",
+  "model": "gemini-3.8-flash",
+  "companies": {
+    "한국서부발전": {
+      "items": [
+        {
+          "title": "유연탄 수입·재고 관제 체계와 대외 에너지·환율 충격의 상호작용",
+          "phenomenon": "기사 제목 단서(N1)에 따르면 서부발전은 AI를 활용한 '유연탄 수입·재고 통합관제시스템'을 구축한 것으로 나타남. 공식 보고서인 산업연구원(kiet_energy, 2026-08)은 높은 에너지 수입의존도가 대외 가격 충격 노출을 키우며 전환 과정의 충격 회복력이 필수적이라고 진단했고, 한국은행(bok_fx, 2026-03)은 환율 변동이 수입물가를 거쳐 기업 수익성에 영향을 미친다고 분석함.",
+          "impact": "서부발전은 유연탄 발전설비를 핵심 사업으로 운영하므로 글로벌 에너지 가격 및 환율 변동에 직접 노출됨. AI 기반 재고 관제 도입은 연료 조달 시점 최적화와 재고 관리 비용 절감 기회로 작용할 수 있으나, 거시적 환율 급등 및 원자재 공급망 충격이 복합 발생할 경우 자체 시스템만으로 수입단가 상승 위험을 전액 방어할 수 있을지는 미확정임.",
+          "response": "AI 관제 시스템의 조달 예측 모형을 환율·탄소배출권 변동 시나리오와 통합 운용하고, 중장기 연료비 정산 구조를 고려한 비축량 유연성 확보 방안을 수립할 필요가 있음.",
+          "counter": "기사 제목 단서 수준이므로 시스템의 실제 가동 여부 및 정량적 비용 절감 효과는 원문 검증이 필요함. 또한 발전용 연료비 정산(SMP 등) 제도상 연료비 변동분이 정산단가에 반영되는 구조적 완충이 작동할 경우 기업 손익에 미치는 영향은 축소될 수 있음.",
+          "news_ids": [
+            "N1"
+          ],
+          "report_ids": [
+            "kiet_energy",
+            "bok_fx"
+          ],
+          "check_metrics": [
+            "원/달러 환율 추이",
+            "국제 유연탄 도입 단가",
+            "유연탄 재고 회전일수 및 조달비용 절감액(미확정)"
+          ]
+        },
+        {
+          "title": "한전 재무·전력망 이슈 및 고금리 환경과 발전설비 투자 여건",
+          "phenomenon": "기사 제목 단서(N2, N4, N5)에 따르면 한전 사장이 한전채 한도 축소 시 전기료 인상 필요성과 호남 전력망 민간 부담을 언급했고, 기준금리 인상 효과 및 재검토 논란이 제기됨. 한국은행 보고서(bok_fx, 2026-03)는 금리와 금융시장 여건이 기업 건전성 및 수익성에 파급된다고 진단함.",
+          "impact": "서부발전은 발전설비 건설·운영 및 신재생에너지를 영위하는 모회사(한전) 산하 발전 공기업임. 전력망 보강 지연이나 투자비 분담 리스크가 발생하고 고금리 기조가 이어질 경우 설비 투자용 차입금 조달 비용이 증가할 위험이 있음. 반면 전력망 부족 현상은 지역 내 계통 접속 가능 여부에 따라 민간·공공 발전사별 신규 설비 가동 시점에 차등적 영향을 미침.",
+          "response": "송배전망 확충 계획과 연계된 발전설비·신재생 사업 착공 일정을 재점검하고, 금리 변동성에 대비해 조달 만기 분산 및 자본적 지출(CAPEX) 우선순위 조정을 검토해야 함.",
+          "counter": "한전채 한도 축소, 전기요금 인상, 기준금리 조정 등은 정치권·기관장 발언 단계의 단서이며 구체적인 집행 여부와 규모는 미확정 상태임. 또한 고속도로 태양광 관련 기사(N3)는 피감기관이 한국도로공사로 한정되어 있어 서부발전과의 직접적 사업 인과관계를 확인할 수 없어 본 분석에서 제외함.",
+          "news_ids": [
+            "N2",
+            "N4",
+            "N5"
+          ],
+          "report_ids": [
+            "bok_fx"
+          ],
+          "check_metrics": [
+            "발전채·공사채 발행 금리 스프레드",
+            "계통 연계 지연 여부 및 송배전망 투자 진행률",
+            "전력거래 정산단가(SMP) 추이"
+          ]
+        }
+      ],
+      "news": [
+        {
+          "id": "75cf56f21b454985b7d6",
+          "title": "서부발전, AI 활용 ‘유연탄 수입·재고 통합관제시스템’ 구축",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lQjB0Rmprd2lTbHpXUUdDc2s5c2RtRkowNi1VdmRZcUw1UlBoeTdfZjZ1QndqTnlCejJTeC1zSHkxNEF5TFdpV0RRVE1rSG9nRk9zd21SSEhuMzh6V1hwWEhaaS0xMVp2M0pWT9IBb0FVX3lxTFA4cVVQQWxjandrNlozQ2tJMTJ1MVdCbWpmd1FLNWJFamhwYnZkTVZSQWxub1NmU2kwbUNLSHVKV2I4YmpmT1hPM2h3SW45U1dlTDVyTU5FTU14TUtXaTlFSmhXRUVuWm5lRnA5QnpMUQ?oc=5",
+          "source": "금융경제신문",
+          "published": "2026-10-12T07:04:16+00:00",
+          "collected_at": "2026-10-13T05:06:14.008814+00:00",
+          "categories": [
+            "에너지",
+            "산업·통상"
+          ],
+          "industries": [
+            "전력·에너지",
+            "반도체·IT"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "기업: 한국서부발전"
+          ],
+          "brief_group": "한국서부발전",
+          "brief_theme": "연료·환율",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 연료·환율",
+          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "연료·환율"
+          ],
+          "relation": "기업명 직접 등장",
+          "direct": true,
+          "rank": 7
+        },
+        {
+          "id": "124bd0317367f1ac7fb6",
+          "title": "한전 사장 \"한전채 한도 줄면 전기료 인상 필요…호남 전력망 삼성·SK 80% 부담\"(종합2보)",
+          "summary": "",
+          "link": "https://www.newsis.com/view/NISX20261012_0003822557",
+          "source": "뉴시스 경제",
+          "published": "2026-10-12T11:42:42+00:00",
+          "collected_at": "2026-10-12T22:35:28.022652+00:00",
+          "categories": [
+            "에너지"
+          ],
+          "industries": [
+            "전력·에너지"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "거시경제",
+            "산업·통상"
+          ],
+          "brief_group": "한국서부발전",
+          "brief_theme": "전력망·수요",
+          "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 전력망·수요",
+          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "전력망·수요"
+          ],
+          "relation": "사업 키워드: 전력망",
+          "direct": false,
+          "rank": 3
+        },
+        {
+          "id": "52623b58a8714faa8e56",
+          "title": "(2026 국감) 복기왕 의원 “도로공사, 고속도로 태양광 확대 계획 재검토해야”",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pNzBKbElHRXlUQjVIa0p6dzYwZ01BaFpzT2RUNzZrZkgyU1l5QVlTNlc2YklYWG1wdUFyb25OZzNZaXVDRXAtbUduVm1CLUJuN2RFNkttMXdqVmVQUDF6M2JlRXgwZWVjdUVDbtIBcEFVX3lxTFBpZ3g5MnhHaXI4V3VWNHlXUzY4ekZfZ2dNeGlHSVVnVGQxMDNLNDIwM3dJaDU4WTdLLUV2SHhiMGVsOVpOWjNjNE1Kbkt4ZUo0UEs3VmU5UjIxS2pCdlYydDMyZjB5WHRkS0lMc3dlV0M?oc=5",
+          "source": "전기신문",
+          "published": "2026-10-11T13:22:49+00:00",
+          "collected_at": "2026-10-13T10:22:54.243891+00:00",
+          "categories": [
+            "에너지",
+            "교통·인프라"
+          ],
+          "industries": [
+            "전력·에너지",
+            "교통·인프라"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "교통·인프라",
+            "기업: 한국도로공사"
+          ],
+          "brief_group": "한국도로공사",
+          "brief_theme": "국정감사",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 탄소·전환, 교통·통행료",
+          "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "탄소·전환"
+          ],
+          "relation": "사업 키워드: 태양광",
+          "direct": false,
+          "rank": 3
+        },
+        {
+          "id": "70fd7d362d443c646a4b",
+          "title": "野배준영 \"한은총재, 이달 기준금리 인상 '원점 재검토'해야\"",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDbUJvbUZaVTM4eXhmWEM3UVVscWJXWEx0cDh4Smd3UGs0MkhpRllpX3BfNXNPRXJxdzFNd3JxYUdhZkFzWURfTWVjNFUyTUJDTjlrSE13SldvS0nSAWBBVV95cUxNY08zVlZDZC1fdG12cnJpNU5uUWhqcGlIekNEQTdrRWhLWnhJdE8xMVNMeVc5SnNjRVB5S3MyU0plaVNNZDVmTlkyYjdfblFvNDVfRk1uRjhYSEF0LWlES1A?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-13T06:50:33+00:00",
+          "collected_at": "2026-10-13T10:22:53.586046+00:00",
+          "categories": [
+            "거시경제"
+          ],
+          "industries": [
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "금리·자금조달",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달"
+          ],
+          "relation": "파급 경로: 금리·자금조달",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "abc5c02453ccbe1b0641",
+          "title": "한은 총재 \"기준금리 0.5%p 인상, 물가상승률 0.08%p 하락 효과\"(종합)",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-12T08:30:37+00:00",
+          "collected_at": "2026-10-13T10:22:53.585901+00:00",
+          "categories": [
+            "거시경제"
+          ],
+          "industries": [
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "금리·자금조달",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달"
+          ],
+          "relation": "파급 경로: 금리·자금조달",
+          "direct": false,
+          "rank": 1
+        }
+      ],
+      "reports": {
+        "bok_fx": {
+          "id": "bok_fx",
+          "institution": "한국은행",
+          "title": "통화신용정책보고서(2026년 3월)",
+          "published": "2026-03",
+          "reviewed": "2026-10-13",
+          "locator": "통화신용정책 운영의 일반원칙: 외환시장 변동",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000156/view.do?menuNo=200067&nttId=10096935",
+          "summary": "환율 변동은 수입물가, 금융기관 건전성, 기업 수익성 등을 거쳐 물가와 금융안정에 영향을 준다.",
+          "topics": [
+            "연료·환율",
+            "금리·자금조달"
+          ],
+          "scope": "일반적인 파급 경로. 개별 공기업의 손익을 계산한 자료는 아님."
+        },
+        "kiet_energy": {
+          "id": "kiet_energy",
+          "institution": "산업연구원",
+          "author": "이상원",
+          "title": "에너지 안보 리스크와 한국 산업의 녹색전환 전략",
+          "published": "2026-08-31",
+          "reviewed": "2026-10-13",
+          "locator": "요약 및 에너지 안보 충격의 산업 리스크 전이",
+          "url": "https://www.kiet.re.kr/research/economyDetailView?detail_no=3370",
+          "summary": "높은 에너지 수입의존도와 제조업·산업 에너지소비 비중이 가격 충격에 대한 노출을 키운다. 연료 체계 전환은 속도뿐 아니라 외부 충격에 견디는 회복력을 함께 고려해야 한다.",
+          "topics": [
+            "연료·환율",
+            "전력망·수요",
+            "탄소·전환"
+          ],
+          "scope": "산업 전체의 에너지 전환 분석. 발전사의 정산방식·전원 구성은 별도 확인."
+        },
+        "bok_construction": {
+          "id": "bok_construction",
+          "institution": "한국은행",
+          "title": "통화신용정책보고서(2025년 9월)",
+          "published": "2025-09",
+          "reviewed": "2026-10-13",
+          "locator": "건설투자의 장기 하강국면과 제약 요인",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000156/view.do?menuNo=200067&nttId=10093507",
+          "summary": "공사비 상승, 금리 상승, 부동산가격 하락과 PF 부실이 수주·착공 및 건설투자를 제약했다. 안전사고에 따른 공사 차질도 분석했다.",
+          "topics": [
+            "공사비·시공사",
+            "주택공급·수요",
+            "금리·자금조달",
+            "기후·안전"
+          ],
+          "scope": "2025년 당시의 건설경기 분석. 현재 수치·지역별 상황은 별도 확인."
+        },
+        "kdi_construction": {
+          "id": "kdi_construction",
+          "institution": "한국개발연구원",
+          "title": "KDI 경제전망 수정, 2025년 8월",
+          "published": "2025-08",
+          "reviewed": "2026-10-13",
+          "locator": "전망의 위험요인: 부동산 PF 및 건설업체 재무건전성",
+          "url": "https://www.kdi.re.kr/research/economy?pub_no=18859",
+          "summary": "PF 정상화 지연은 건설투자 회복을 늦출 수 있고, 건설업체 재무건전성 악화는 공사 진행 차질로 전이될 수 있다고 분석했다.",
+          "topics": [
+            "공사비·시공사",
+            "주택공급·수요",
+            "금리·자금조달"
+          ],
+          "scope": "과거 전망의 위험 경로를 참고한다. 당시 성장률 전망을 현재 전망으로 사용하지 않음."
+        }
+      },
+      "sector": "발전·에너지"
+    }
+  },
+  "errors": [
+    "한국도로공사: AI 연결 또는 결과 해석에 실패했습니다. 기존 자료를 유지합니다."
+  ]
+}
