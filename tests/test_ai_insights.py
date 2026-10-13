@@ -31,6 +31,14 @@ def test_unknown_source_is_rejected():
     assert validate_output(output(), {'N1'}, {'bok_construction'})
 
 
+def test_personnel_never_sent_to_ai():
+    with patch('ai_insights.requests.post') as post:
+        with pytest.raises(ValueError, match='인사·승진'):
+            generate(DEFAULT_PROFILES[1], [row('도로공사 승진 논란')], [{}],
+                     {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'})
+        post.assert_not_called()
+
+
 def test_rate_limit_has_no_retry_or_upgrade():
     profile = DEFAULT_PROFILES[2]
     rows = related_articles([row('LH 공사비 상승 우려')], profile)
