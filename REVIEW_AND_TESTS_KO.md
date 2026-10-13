@@ -133,3 +133,20 @@ Google 뉴스 RSS는 이 개발 환경에서 여러 분야 검색에 503 또는 
 - 서버 63개 테스트 통과(6.69초): https://github.com/flfexp-code/insight-hub-free/actions/runs/38355395689
 - 일일 수집 성공: https://github.com/flfexp-code/insight-hub-free/actions/runs/38355596195 — 핵심 10건, 수집 후보 356건, 검색 이력 1,259건, 피드 오류 0건. news.json과 brief.json에서 인사·승진·블랙리스트 제목 0건 확인.
 - AI 연결 승인 범위: 결제 미연결 무료 프로젝트와 키 생성, Streamlit 및 해당 GitHub Actions 비밀설정에 키 보관, 핵심 기사 제목·공식 요지·공개 기업 사업정보의 Google 전달. 아직 승인·실제 연결 전.
+
+
+## 2026-10-13 무료 AI 연결 후 검증
+
+- 기존 승인 범위 안에서 결제 계정 없음·무료 등급의 프로젝트와 키를 생성하고 Streamlit Secrets 및 해당 저장소 Actions Secret에 저장함.
+- Gemini 3.6 Flash의 실제 요청에서 HTTP 503 확인. 공식 무료 요금이 확인된 Gemini 3.8 Flash로 수동 변경 후 서부발전 인사이트 생성·저장 성공.
+- 첫 일일 분석에서는 도로공사의 응답 처리 실패를 확인. 추론 수준 low, 출력 한도 8192, 대기 90초로 조정하고 잘린 출력·JSON 형식 오류·시간 초과를 구분함.
+- 무료 한도(429)와 서버 오류(503)에서 외부 요청 1회만 수행하는 회귀 검증 추가. 개발 환경 64 passed in 14.72s. GitHub 앱 검증 성공: https://github.com/flfexp-code/insight-hub-free/actions/runs/38383408348
+- 과거 문단의 승인 대기·미연결 기록은 당시의 검증 이력이며 현재 상태는 이 절과 IMPLEMENTATION_STATUS_KO.json을 참조함.
+
+- 3.8 서버의 반복 503 이후 공식 무료 요금이 확인된 Gemini 3.5 Flash-Lite로 수동 변경. 서부발전 결과 생성·저장 성공. 도로공사 결과의 입력에 없는 출처를 차단한 뒤, JSON Schema의 enum을 실제 기사·보고서 ID로 제한하도록 수정. 사후 인용 검증도 유지함.
+- 출처 출력 제한 수정 후 개발 환경 64 passed in 11.70s. 모델 자동 전환·유료 도구·자동 재시도는 사용하지 않음.
+
+- 새 responseFormat의 HTTP 400 확인 후 경량 모델과 호환되는 responseSchema로 변경. 인용 번호 enum 제한 및 사후 검증 유지.
+- 최종 일일 통합 실행 성공: https://github.com/flfexp-code/insight-hub-free/actions/runs/38384575187 — 2026-10-13 19:37 KST, 서부발전 3개·도로공사 2개·LH 3개 생성·저장, AI 오류 0건. 저장 결과의 모든 기사 번호와 보고서 ID가 입력 자료에 존재함을 확인.
+- 최종 코드의 GitHub 검증 성공: https://github.com/flfexp-code/insight-hub-free/actions/runs/38384533990 (64개). 뉴스 수집 후보 360건·누적 검색 자료 1464건 중 기본 핵심 브리핑은 10건이며 AI 입력은 기업별 4~5건.
+- 무료 서버의 향후 성공을 보장하지 않음. 장애·한도·인용 검증 실패 시 이전 자료를 유지하고 상태를 표시함. 인용 존재 검증이 모든 인과관계의 전문가 검증을 뜻하지 않음.

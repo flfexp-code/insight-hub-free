@@ -1,28 +1,28 @@
 {
-  "version": "v3.2",
+  "version": "v3.3",
   "checked_at": "2026-10-13",
-  "local_tests": "63 passed in 3.67s",
+  "local_tests": "64 passed in 11.70s",
   "cloud_deployed": true,
   "browser_watchlist_verified": true,
-  "real_ai_request_verified": false,
+  "real_ai_request_verified": true,
   "blocker": null,
   "default_companies": [
     "한국서부발전",
     "한국도로공사",
     "한국토지주택공사"
   ],
-  "api_calls_enabled": false,
-  "github_ci": "63 passed in 6.69s",
+  "api_calls_enabled": true,
+  "github_ci": "64 tests passed",
   "daily_collection": {
-    "received": 356,
-    "stored": 1259,
+    "received": 360,
+    "stored": 1464,
     "brief_count": 10,
     "feed_errors": 0,
-    "run_id": 38355596195
+    "run_id": 38384575187
   },
   "brief_limit": 10,
   "brief_purpose": "취업 준비·경제 현안",
-  "github_ci_run_id": 38355395689,
+  "github_ci_run_id": 38384533990,
   "browser_brief_verified": true,
   "official_candidates": 13,
   "official_listing_issues": [
@@ -31,9 +31,24 @@
   "personnel_excluded": true,
   "browser_personnel_exclusion_verified": true,
   "ai_input_core_only": true,
-  "ai_connection_stage": "project and credential creation awaiting confirmation",
+  "ai_connection_stage": "free API connected; all 3 companies generated and saved",
   "google_billing_account": "none observed",
   "stored_personnel_titles": 0,
-  "ai_key_created": false,
-  "ai_project_name": "insight-hub-free-ai"
+  "ai_key_created": true,
+  "ai_project_name": "insight-hub-free-ai",
+  "ai_model": "gemini-3.5-flash-lite",
+  "ai_automatic_retry": false,
+  "ai_last_run_id": 38384575187,
+  "ai_last_run_ok": true,
+  "ai_verified_companies": [
+    "한국서부발전",
+    "한국도로공사",
+    "한국토지주택공사"
+  ],
+  "ai_last_success_kst": "2026-10-13 19:37",
+  "ai_insight_counts": {
+    "한국서부발전": 3,
+    "한국도로공사": 2,
+    "한국토지주택공사": 3
+  }
 }
