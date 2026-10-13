@@ -223,7 +223,7 @@ with news_tab:
     render_news(base, 'news_page')
 with insight_tab:
     st.subheader(f'{company} · 근거 연결 인사이트' if company else '기업을 선택하세요')
-    st.info('공식 자료의 검토된 요지와 기사 제목의 단서를 연결한 규칙 기반 초안입니다. 대응·교차 해석은 앱의 조건부 제안이며 연구기관의 직접 권고와 구별합니다. 새 보고서 전문을 AI가 읽고 자유롭게 작성하는 기능은 아직 연결하지 않았습니다.')
+    st.info('아래 기본 인사이트는 검토한 공식 자료 요지와 기사 제목의 단서를 연결한 규칙 기반 초안입니다. 대응·교차 해석은 앱의 조건부 제안이며 연구기관의 직접 권고와 구별합니다. 별도의 AI 심층 초안도 같은 공개 근거를 사용하며, 새 보고서 전문을 자동으로 읽지는 않습니다.')
     if profile:
         st.caption(profile['sector'] + ' · ' + (profile['business'] or '직접 등록한 사업 분야'))
     if not cards:
@@ -273,11 +273,17 @@ with insight_tab:
             ai_settings = {k: st.secrets.get(k, '') for k in ('GEMINI_API_KEY', 'AI_FREE_TIER_CONFIRMED')}
         except (FileNotFoundError, st.errors.StreamlitSecretNotFoundError):
             ai_settings = {}
-        st.subheader('AI 심층 초안 · 연결 후 이용')
+        st.subheader('AI 심층 초안')
         st.caption('AI 기능은 핵심 목록에서 선택된 기업 관련 기사 제목, 검토한 보고서 요지와 기업 사업정보를 Google Gemini에 전달합니다. 공개정보만 입력하세요.')
         st.caption('기사 제목과 검토한 보고서 요지를 바탕으로 관계·예외·대응을 종합합니다. 기사 원문 전체나 기업 노출 수치를 검증한 결과는 아닙니다.')
         if not ai_ready(ai_settings):
             st.caption('현재 무료 AI 계정 연결 전입니다. 자동 AI 요청이나 과금은 발생하지 않습니다. 아래 근거 자료를 현재 ChatGPT에서 분석할 수 있습니다.')
+        else:
+            st.caption('무료 AI 연결됨 · 핵심 기사와 검토한 보고서 요지만 사용 · 한도·서버 오류 시 자동 재시도 없음')
+        ai_status = load_json(ROOT / 'data/ai_status.json')
+        if ai_status.get('ok') is False and ai_status.get('errors'):
+            st.warning('최근 일일 AI 분석을 완료하지 못했습니다. 시도: ' + format_kst(ai_status.get('attempted_at', '')) + ' KST')
+            st.caption(' · '.join(ai_status['errors']))
         ai_clicked = st.button('AI 심층 초안 작성', disabled=not ai_ready(ai_settings), key='ai_generate')
         if ai_clicked:
             try:
@@ -352,7 +358,7 @@ with guide_tab:
 - GitHub Actions가 매일 오전 7:17에 수집합니다. 최근 30일, 최대 3,000건을 저장합니다.
 - 수집이 모두 실패하면 이전 기사는 보존합니다. 화면의 새로 수집한 결과는 세션에만 남습니다.
 - 기업 인사이트는 기업의 사업 분야, 기사 제목의 단서와 검토한 공식 자료의 일반 경로를 연결하는 규칙 기반 초안입니다.
-- 보고서의 진단과 앱의 기업 영향·대응 제안을 구분합니다. 새 보고서 전문의 자유로운 AI 해석·재무수치 계산은 아직 연결하지 않았습니다.
+- 보고서의 진단과 앱의 기업 영향·대응 제안을 구분합니다. AI 심층 초안은 기사 제목·검토한 보고서 요지·공개 사업정보를 종합하며, 새 보고서 전문이나 기업 재무수치를 자동 검증하지 않습니다.
 - 협약·기부·행사·지원금 전달 등은 기본 제외합니다. 규모·실행 조건이 있는 정책·협약은 검토 후보로 남기고 원문을 확인합니다.
 - 관심 기업은 이 브라우저에 저장하며 목록 파일로 다른 기기에 옮길 수 있습니다. 목록은 GitHub에 자동 공개되지 않습니다.
 - 매일 기본 기업 3곳과 경제·전력·교통·주택 주제의 뉴스를 수집합니다. 추가 기업의 명칭 검색은 뉴스 추가 검색으로 갱신합니다.

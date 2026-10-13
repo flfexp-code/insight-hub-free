@@ -9,7 +9,7 @@ import requests
 from insights import analysis_packet
 from news_core import excluded_personnel
 
-MODEL = 'gemini-3.6-flash'
+MODEL = 'gemini-3.8-flash'
 ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/' + MODEL + ':generateContent'
 
 
@@ -65,6 +65,8 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
                                  timeout=(5, 60))
         if response.status_code == 429:
             raise ValueError('무료 사용 한도 또는 요청 제한에 도달했습니다. 유료 전환·재시도 없이 중단했습니다.')
+        if response.status_code == 503:
+            raise ValueError('AI 서버가 현재 요청을 처리하지 못했습니다(HTTP 503). 기존 근거 연결 초안을 유지하며 자동 재시도하지 않습니다.')
         if response.status_code != 200:
             raise ValueError(f'AI 요청 실패(HTTP {response.status_code}). 키나 서버 응답 원문은 표시하지 않습니다.')
         payload = response.json()
