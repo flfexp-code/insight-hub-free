@@ -39,14 +39,15 @@ def test_personnel_never_sent_to_ai():
         post.assert_not_called()
 
 
-def test_rate_limit_has_no_retry_or_upgrade():
+@pytest.mark.parametrize(('status', 'message'), [(429, '유료 전환·재시도 없이'), (503, '자동 재시도하지')])
+def test_rate_limit_or_unavailable_has_no_retry_or_upgrade(status, message):
     profile = DEFAULT_PROFILES[2]
     rows = related_articles([row('LH 공사비 상승 우려')], profile)
     cards = build_insights(rows, profile)
     class Response:
-        status_code = 429
+        status_code = status
     with patch('ai_insights.requests.post', return_value=Response()) as post:
-        with pytest.raises(ValueError, match='유료 전환·재시도 없이'):
+        with pytest.raises(ValueError, match=message):
             generate(profile, rows, cards, {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'})
         assert post.call_count == 1
         assert 'tools' not in post.call_args.kwargs['json']
