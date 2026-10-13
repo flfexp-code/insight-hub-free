@@ -9,7 +9,7 @@ import requests
 from insights import analysis_packet
 from news_core import excluded_personnel
 
-MODEL = 'gemini-3.8-flash'
+MODEL = 'gemini-3.5-flash-lite'
 ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/' + MODEL + ':generateContent'
 
 
