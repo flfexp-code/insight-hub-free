@@ -138,7 +138,7 @@ def test_failed_collect_preserves_bytes(tmp_path):
 
 def test_successful_collect_writes(tmp_path):
     config = tmp_path/'config.json'; atomic_json(config, {'companies':[]})
-    with patch('collect_news.fetch_news', return_value=([article(days=0)], [])), patch('news_core.datetime') as dt:
+    with patch('collect_news.fetch_news', return_value=([article(days=0)], [])), patch('collect_news.discover_reports', return_value=([], [])), patch('news_core.datetime') as dt:
         dt.now.return_value = NOW
         dt.fromisoformat.side_effect = datetime.fromisoformat
         assert collect_news.collect(tmp_path, config) == 0

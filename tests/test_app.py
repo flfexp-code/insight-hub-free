@@ -24,19 +24,25 @@ def test_screen_filters_company_search_refresh():
         at.sidebar.text_input[0].set_value('한국서부발전').run()
         assert not at.exception
         assert at.metric[1].value != '기업명 입력'
-        at.sidebar.button[0].click().run()
+        at.button(key='search_company').click().run()
         assert not at.exception
-        at.sidebar.selectbox[0].set_value('전력·에너지').run()
+        at.selectbox(key='industry').set_value('전력·에너지').run()
         assert not at.exception
         at.text_input(key='keyword').set_value('없는단어123').run()
         assert not at.exception
         assert at.metric[0].value == '0건'
         at.text_input(key='keyword').set_value('').run()
-        at.sidebar.button[1].click().run()
+        at.button(key='refresh').click().run()
         assert not at.exception
         at.sidebar.multiselect[0].set_value([]).run()
         assert not at.exception
         assert at.metric[0].value == '0건'
+        at.selectbox(key='watch_company').set_value('한국도로공사').run()
+        assert not at.exception
+        assert at.text_input(key='company').value == '한국도로공사'
+        at.selectbox(key='watch_company').set_value('한국토지주택공사').run()
+        assert not at.exception
+        assert 'LH' in at.text_input(key='aliases').value
 
 
 def test_all_network_failures_empty_saved_file():
