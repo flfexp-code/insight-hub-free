@@ -41,16 +41,16 @@ def validate_output(value, news_ids: set[str], report_ids: set[str]):
 
 
 def output_schema(news_ids: set[str], report_ids: set[str]) -> dict:
-    properties = {field: {'type': 'string'} for field in
+    properties = {field: {'type': 'STRING'} for field in
                   ('title', 'phenomenon', 'impact', 'response', 'counter')}
     for field, allowed in (('news_ids', news_ids), ('report_ids', report_ids)):
-        properties[field] = {'type': 'array', 'minItems': 1,
-                             'items': {'type': 'string', 'enum': sorted(allowed)}}
-    properties['check_metrics'] = {'type': 'array', 'minItems': 1, 'maxItems': 8,
-                                    'items': {'type': 'string'}}
-    return {'type': 'object', 'required': ['insights'], 'properties': {
-        'insights': {'type': 'array', 'minItems': 1, 'maxItems': 3, 'items': {
-            'type': 'object', 'properties': properties, 'required': list(properties)}}}}
+        properties[field] = {'type': 'ARRAY', 'minItems': 1,
+                             'items': {'type': 'STRING', 'enum': sorted(allowed)}}
+    properties['check_metrics'] = {'type': 'ARRAY', 'minItems': 1, 'maxItems': 8,
+                                    'items': {'type': 'STRING'}}
+    return {'type': 'OBJECT', 'required': ['insights'], 'properties': {
+        'insights': {'type': 'ARRAY', 'minItems': 1, 'maxItems': 3, 'items': {
+            'type': 'OBJECT', 'properties': properties, 'required': list(properties)}}}}
 
 
 def generate(profile: dict, rows: list[dict], cards: list[dict], settings: dict):
@@ -80,9 +80,8 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
                                  json={'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
                                        'generationConfig': {'temperature': 1.0, 'maxOutputTokens': 8192,
                                                             'thinkingConfig': {'thinkingLevel': 'low'},
-                                                            'responseFormat': {'text': {
-                                                                'mimeType': 'application/json',
-                                                                'schema': output_schema(news_ids, report_ids)}}}},
+                                                            'responseMimeType': 'application/json',
+                                                            'responseSchema': output_schema(news_ids, report_ids)}},
                                  timeout=(5, 90))
         if response.status_code == 429:
             raise ValueError('무료 사용 한도 또는 요청 제한에 도달했습니다. 유료 전환·재시도 없이 중단했습니다.')
