@@ -40,6 +40,19 @@ def validate_output(value, news_ids: set[str], report_ids: set[str]):
     return result
 
 
+def output_schema(news_ids: set[str], report_ids: set[str]) -> dict:
+    properties = {field: {'type': 'string'} for field in
+                  ('title', 'phenomenon', 'impact', 'response', 'counter')}
+    for field, allowed in (('news_ids', news_ids), ('report_ids', report_ids)):
+        properties[field] = {'type': 'array', 'minItems': 1,
+                             'items': {'type': 'string', 'enum': sorted(allowed)}}
+    properties['check_metrics'] = {'type': 'array', 'minItems': 1, 'maxItems': 8,
+                                    'items': {'type': 'string'}}
+    return {'type': 'object', 'required': ['insights'], 'properties': {
+        'insights': {'type': 'array', 'minItems': 1, 'maxItems': 3, 'items': {
+            'type': 'object', 'properties': properties, 'required': list(properties)}}}}
+
+
 def generate(profile: dict, rows: list[dict], cards: list[dict], settings: dict):
     if not ready(settings):
         raise ValueError('무료 AI 연결 전입니다. API 요청을 보내지 않았습니다.')
@@ -47,6 +60,10 @@ def generate(profile: dict, rows: list[dict], cards: list[dict], settings: dict)
         raise ValueError('기사와 검토한 공식 자료가 모두 있어야 AI 초안을 작성합니다.')
     if any(excluded_personnel(a.get('title', '')) for a in rows):
         raise ValueError('인사·승진 관련 입력을 제외해야 AI 초안을 작성할 수 있습니다.')
+    news_ids = {f'N{i+1}' for i in range(min(18, len(rows)))}
+    report_ids = {r['id'] for c in cards for r in c['reports']}
+    if not report_ids:
+        raise ValueError('검토한 공식 자료 출처가 없어 AI 요청을 보내지 않습니다.')
     prompt = analysis_packet(profile, rows, cards) + """
 기사 원문을 읽은 것으로 표현하지 마세요. 외부 인터넷 도구를 사용할 수 없습니다.
 자료의 보고서 요지만 확인한 것입니다. 단정할 수 없는 방향·금액은 미확정이라고 적으세요.
@@ -63,7 +80,9 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
                                  json={'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
                                        'generationConfig': {'temperature': 1.0, 'maxOutputTokens': 8192,
                                                             'thinkingConfig': {'thinkingLevel': 'low'},
-                                                            'responseMimeType': 'application/json'}},
+                                                            'responseFormat': {'text': {
+                                                                'mimeType': 'application/json',
+                                                                'schema': output_schema(news_ids, report_ids)}}}},
                                  timeout=(5, 90))
         if response.status_code == 429:
             raise ValueError('무료 사용 한도 또는 요청 제한에 도달했습니다. 유료 전환·재시도 없이 중단했습니다.')
@@ -82,5 +101,4 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
         raise ValueError('AI 응답 형식을 해석하지 못했습니다. 불완전한 초안은 표시하지 않습니다.') from None
     except (requests.RequestException, KeyError, IndexError):
         raise ValueError('AI 연결 또는 결과 해석에 실패했습니다. 기존 자료를 유지합니다.') from None
-    report_ids = {r['id'] for c in cards for r in c['reports']}
-    return validate_output(value, {f'N{i+1}' for i in range(min(18, len(rows)))}, report_ids)
+    return validate_output(value, news_ids, report_ids)
