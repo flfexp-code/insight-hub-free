@@ -23,11 +23,17 @@ def watchlist_component(**kwargs):
       let profiles=data.current;
       let error='';
       try {
-        const raw=localStorage.getItem(storageKey);
-        if(raw) profiles=JSON.parse(raw);
+        if(!data.loaded) {
+          const raw=localStorage.getItem(storageKey);
+          if(raw) profiles=JSON.parse(raw);
+        } else {
+          localStorage.setItem(storageKey,JSON.stringify(profiles));
+        }
       } catch(e) {error='브라우저 저장을 사용할 수 없습니다. 목록을 내려받아 보관하세요.';}
       if(!Array.isArray(profiles)) profiles=data.current;
-      if(JSON.stringify(profiles)!==JSON.stringify(data.current)) setStateValue('profiles',profiles);
+      // Restore once per server session. Later renders use the validated server
+      // value, so object key order and normalization cannot cause rerun loops.
+      if(!data.loaded) setStateValue('profiles',profiles);
       root.replaceChildren();
       const status=document.createElement('p'); status.className='wl-status';
       status.textContent=error || '이 브라우저에 자동 저장됩니다. 다른 기기에서는 목록 파일로 불러오세요.';
@@ -87,15 +93,29 @@ def watchlist_component(**kwargs):
 
 def render_watchlist():
     st.session_state.setdefault('profiles', normalize_profiles(DEFAULT_PROFILES))
-    result = watchlist_component(data={'current': st.session_state['profiles'], 'sectors': SECTORS},
+    st.session_state.setdefault('watchlist_loaded', False)
+
+    def sync_profiles():
+        st.session_state['watchlist_loaded'] = True
+        try:
+            state = st.session_state.get('watchlist_store', {})
+            st.session_state['profiles'] = normalize_profiles(state['profiles'])
+            st.session_state.pop('watchlist_error', None)
+        except (KeyError, ValueError, TypeError):
+            st.session_state['watchlist_error'] = '저장된 목록 형식이 올바르지 않습니다. 등록 화면에서 목록을 다시 확인하세요.'
+
+    result = watchlist_component(data={'current': st.session_state['profiles'], 'sectors': SECTORS,
+                                      'loaded': st.session_state['watchlist_loaded']},
                                 default={'profiles': st.session_state['profiles']},
-                                on_profiles_change=lambda: None, key='watchlist_store')
+                                on_profiles_change=sync_profiles, key='watchlist_store')
     try:
         profiles = normalize_profiles(result.profiles)
         if profiles != st.session_state['profiles']:
             st.session_state['profiles'] = profiles
     except (ValueError, TypeError):
         st.warning('저장된 목록 형식이 올바르지 않습니다. 등록 화면에서 목록을 다시 확인하세요.')
+    if st.session_state.get('watchlist_error'):
+        st.warning(st.session_state['watchlist_error'])
     return st.session_state['profiles']
 
 
