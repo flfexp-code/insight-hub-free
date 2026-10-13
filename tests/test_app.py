@@ -21,6 +21,8 @@ def test_screen_filters_company_search_refresh():
         at = AppTest.from_file(str(ROOT/'app.py'), default_timeout=30).run()
         assert not at.exception
         assert at.title[0].value == '경제·산업 인사이트 허브'
+        assert at.tabs[0].label == '핵심 브리핑'
+        assert int(at.metric[0].value.removesuffix('건')) <= 10
         at.sidebar.text_input[0].set_value('한국서부발전').run()
         assert not at.exception
         assert at.metric[1].value != '기업명 입력'

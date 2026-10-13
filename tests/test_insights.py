@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 import pytest
 
-from insights import (DEFAULT_PROFILES, REPORTS, analysis_packet, build_insights,
+from insights import (DEFAULT_PROFILES, REPORTS, analysis_packet, build_insights, curate_brief,
                       cross_connections, discover_reports, news_quality, normalize_profiles,
                       related_articles)
 from news_core import UTC, classify, company_matches, industry_tags, issue_tags
@@ -110,3 +110,32 @@ def test_official_discovery_skips_navigation_and_reports_empty_listing():
     assert candidates == []
     assert len(errors) == 3
     assert all('자료 후보를 찾지 못함' in error for error in errors)
+
+
+@pytest.mark.parametrize('title', ['한국도로공사 KOVO컵 3-1 승리', '[포토] LH 사장 질의에 답변', 'LH 직원 부친상'])
+def test_corporate_name_in_sports_photo_obituary_is_not_business_news(title):
+    assert not news_quality(title)['include']
+
+
+def test_brief_filters_repeats_and_does_not_fill_with_irrelevant_news():
+    rows = [row('한국도로공사 KOVO컵 우승'), row('서부발전 이웃돕기 성금 전달'),
+            row('한국도로공사 고속도로 공사비 증가로 준공 지연'),
+            row('한국도로공사 고속도로 공사비 증가로 준공 지연(종합)'),
+            row('한국도로공사서비스 채용 블랙리스트와 인사 개입 논란'),
+            row('한국은행 기준금리 인상 시사'), row('경제 뉴스 오늘 알아보기')]
+    brief = curate_brief(rows, normalize_profiles(DEFAULT_PROFILES))
+    assert len(brief) == 3
+    assert sum(a['brief_group'] == '한국도로공사' for a in brief) == 2
+    assert all('KOVO' not in a['title'] and '성금' not in a['title'] for a in brief)
+    assert all(a['brief_reason'] and a['brief_question'] for a in brief)
+
+
+def test_brief_caps_daily_reading_and_excludes_old_articles():
+    profiles = normalize_profiles([{'name': f'검증기업{i}', 'sector': '발전·에너지'} for i in range(10)])
+    rows = [row(f'검증기업{i} 발전 연료비 증가 {i}') for i in range(10)]
+    rows += [row('한국은행 기준금리 추가 인상 시사')]
+    old = row('한국은행 환율 상승으로 수입 원가 증가')
+    old['published'] = '2020-01-01T00:00:00+00:00'
+    brief = curate_brief([old, *rows], profiles)
+    assert len(brief) <= 10
+    assert old['title'] not in [a['title'] for a in brief]
