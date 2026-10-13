@@ -1,7 +1,7 @@
 {
-  "version": "v3.1",
+  "version": "v3.2",
   "checked_at": "2026-10-13",
-  "local_tests": "56 passed in 3.42s",
+  "local_tests": "63 passed in 3.67s",
   "cloud_deployed": true,
   "browser_watchlist_verified": true,
   "real_ai_request_verified": false,
@@ -12,20 +12,28 @@
     "한국토지주택공사"
   ],
   "api_calls_enabled": false,
-  "github_ci": "56 passed in 3.94s",
+  "github_ci": "63 passed in 6.69s",
   "daily_collection": {
-    "received": 147,
-    "stored": 1216,
+    "received": 356,
+    "stored": 1259,
     "brief_count": 10,
-    "feed_errors": 11,
-    "run_id": 38351085452
+    "feed_errors": 0,
+    "run_id": 38355596195
   },
   "brief_limit": 10,
   "brief_purpose": "취업 준비·경제 현안",
-  "github_ci_run_id": 38351013087,
+  "github_ci_run_id": 38355395689,
   "browser_brief_verified": true,
   "official_candidates": 13,
   "official_listing_issues": [
     "한국은행 자료 후보 0건·목록 구조 확인 필요"
-  ]
+  ],
+  "personnel_excluded": true,
+  "browser_personnel_exclusion_verified": true,
+  "ai_input_core_only": true,
+  "ai_connection_stage": "project and credential creation awaiting confirmation",
+  "google_billing_account": "none observed",
+  "stored_personnel_titles": 0,
+  "ai_key_created": false,
+  "ai_project_name": "insight-hub-free-ai"
 }

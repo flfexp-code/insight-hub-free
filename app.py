@@ -175,7 +175,7 @@ with status_area:
 with brief_tab:
     st.subheader('취업 준비와 경제 현안 · 핵심 10건 이내')
     st.caption('최근 3일의 기사에서 중요한 경제 변화와 관심 기업의 사업·경영 과제를 우선합니다. 기업당 최대 2건, 경제 현안 최대 4건이며 읽을 만한 후보가 부족하면 10건을 채우지 않습니다.')
-    st.caption('단순 홍보·스포츠·사진·부고와 유사 제목은 제외합니다. 제목 기준의 읽기 목록이므로 원문에서 실제 변화와 근거를 확인하세요.')
+    st.caption('인사·승진·내부 채용 논란은 항상 제외합니다. 단순 홍보·스포츠·사진·부고와 유사 제목도 제외합니다. 제목 기준의 읽기 목록이므로 원문에서 실제 변화와 근거를 확인하세요.')
     if not brief:
         st.info('현재 조건에서 핵심으로 추릴 새 기사가 없습니다. 관심 기업을 추가하거나 뉴스 추가 검색을 이용하세요.')
     for index, article in enumerate(brief, 1):
@@ -274,6 +274,7 @@ with insight_tab:
         except (FileNotFoundError, st.errors.StreamlitSecretNotFoundError):
             ai_settings = {}
         st.subheader('AI 심층 초안 · 연결 후 이용')
+        st.caption('AI 기능은 핵심 목록에서 선택된 기업 관련 기사 제목, 검토한 보고서 요지와 기업 사업정보를 Google Gemini에 전달합니다. 공개정보만 입력하세요.')
         st.caption('기사 제목과 검토한 보고서 요지를 바탕으로 관계·예외·대응을 종합합니다. 기사 원문 전체나 기업 노출 수치를 검증한 결과는 아닙니다.')
         if not ai_ready(ai_settings):
             st.caption('현재 무료 AI 계정 연결 전입니다. 자동 AI 요청이나 과금은 발생하지 않습니다. 아래 근거 자료를 현재 ChatGPT에서 분석할 수 있습니다.')
