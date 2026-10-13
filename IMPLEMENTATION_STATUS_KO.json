@@ -1,0 +1,22 @@
+{
+  "version": "v3",
+  "checked_at": "2026-10-13",
+  "local_tests": "51 passed in 3.52s",
+  "cloud_deployed": true,
+  "browser_watchlist_verified": true,
+  "real_ai_request_verified": false,
+  "blocker": null,
+  "default_companies": [
+    "한국서부발전",
+    "한국도로공사",
+    "한국토지주택공사"
+  ],
+  "api_calls_enabled": false,
+  "github_ci": "50 passed; latest 51-test update pending",
+  "daily_collection": {
+    "received": 715,
+    "stored": 1200,
+    "errors": 0,
+    "run_id": 38349683353
+  }
+}

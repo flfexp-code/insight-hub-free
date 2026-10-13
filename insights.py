@@ -230,7 +230,7 @@ def _angle(profile: dict, topic: str) -> dict:
     if sector == '토지·주택' and topic == '공사비·시공사':
         impact = '공공주택 사업의 발주·착공 확대가 있어도 시공사의 원가·금융 부담이 크면 준공과 입주 일정이 늦어질 수 있다.'
         response = '공급 목표를 착공·준공·입주로 나누고, 사업장별 공정·대금·시공사 위험과 입주자 안내·대체 지원을 함께 관리한다.'
-    return {'path': path, 'impact': f"{profile['name']}의 {business}을 기준으로 보면, " + impact,
+    return {'path': path, 'impact': f"{profile['name']}의 사업 조건({business})을 기준으로 보면, " + impact,
             'response': response, 'counter': counter, 'metrics': metrics}
 
 
@@ -331,7 +331,7 @@ def discover_reports() -> tuple[list[dict], list[str]]:
             count = 0
             for link, title in parser.items:
                 absolute = urljoin(url, link)
-                if not re.search(pattern, absolute) or len(title) < 8 or urlsplit(absolute).hostname != urlsplit(url).hostname:
+                if not re.search(pattern, absolute) or not urlsplit(absolute).query or len(title) < 8 or urlsplit(absolute).hostname != urlsplit(url).hostname:
                     continue
                 if absolute in seen:
                     continue
@@ -341,6 +341,8 @@ def discover_reports() -> tuple[list[dict], list[str]]:
                 count += 1
                 if count >= 12:
                     break
+            if count == 0:
+                errors.append(institution + ': 자료 후보를 찾지 못함 · 목록 구조 확인 필요')
         except (requests.RequestException, ValueError):
             errors.append(institution + ': 목록 갱신 실패')
     return result[:40], errors
