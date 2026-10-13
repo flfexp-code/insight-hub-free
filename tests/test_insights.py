@@ -6,7 +6,7 @@ import pytest
 from insights import (DEFAULT_PROFILES, REPORTS, analysis_packet, build_insights, curate_brief,
                       cross_connections, discover_reports, news_quality, normalize_profiles,
                       related_articles)
-from news_core import UTC, classify, company_matches, industry_tags, issue_tags
+from news_core import UTC, classify, company_matches, deduplicate, industry_tags, issue_tags
 
 
 def row(title):
@@ -124,10 +124,23 @@ def test_brief_filters_repeats_and_does_not_fill_with_irrelevant_news():
             row('한국도로공사서비스 채용 블랙리스트와 인사 개입 논란'),
             row('한국은행 기준금리 인상 시사'), row('경제 뉴스 오늘 알아보기')]
     brief = curate_brief(rows, normalize_profiles(DEFAULT_PROFILES))
-    assert len(brief) == 3
-    assert sum(a['brief_group'] == '한국도로공사' for a in brief) == 2
+    assert len(brief) == 2
+    assert sum(a['brief_group'] == '한국도로공사' for a in brief) == 1
     assert all('KOVO' not in a['title'] and '성금' not in a['title'] for a in brief)
     assert all(a['brief_reason'] and a['brief_question'] for a in brief)
+
+
+@pytest.mark.parametrize('title', ['도로공사서비스 인사 개입 논란', 'LH 승진심사 내정 의혹',
+                                 '서부발전 채용 비리 논란', '도로공사 임원 인선', 'LH 사장 교체'])
+def test_personnel_removed_from_storage_and_analysis(title):
+    assert deduplicate([row(title)]) == []
+    assert not news_quality(title)['include']
+    assert curate_brief([row(title)], normalize_profiles(DEFAULT_PROFILES)) == []
+
+
+def test_personnel_filter_preserves_research_and_economic_employment():
+    rows = [row('KOTI 인사이트 교통량 증가와 도로 투자'), row('청년 실업 증가와 고용 둔화')]
+    assert len(deduplicate(rows)) == 2
 
 
 def test_brief_caps_daily_reading_and_excludes_old_articles():
