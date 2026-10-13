@@ -1,12 +1,6 @@
 {
-  "updated_at": "2026-10-13T05:06:15.866074+00:00",
+  "updated_at": "2026-10-13T05:23:20.987307+00:00",
   "reports": [
-    {
-      "institution": "산업연구원",
-      "title": "KIET 경제 · 산업 동향",
-      "url": "https://www.kiet.re.kr/trends/ecotrendsList",
-      "status": "새 자료 후보 · 본문 검토 전"
-    },
     {
       "institution": "산업연구원",
       "title": "KIET 경제·산업 동향 2026년 10월 1호",
@@ -75,7 +69,7 @@
     },
     {
       "institution": "한국교통연구원",
-      "title": "연구개발적립금보고서 2026년 교통분야 미래전망 및 정책방향 2026.04.30",
+      "title": "2026년 교통분야 미래전망 및 정책방향 연구개발적립금보고서 2026.04.30",
       "url": "https://www.koti.re.kr/user/bbs/rndRsrchReprtView.do?bbs_no=73582",
       "status": "새 자료 후보 · 본문 검토 전"
     },
@@ -84,13 +78,9 @@
       "title": "인구위기지역 이동취약성 진단 기반 수요응답형 교통 최적화 AI 프레임워크 연구 연구개발적립금보고서 2026.04.30",
       "url": "https://www.koti.re.kr/user/bbs/rndRsrchReprtView.do?bbs_no=73563",
       "status": "새 자료 후보 · 본문 검토 전"
-    },
-    {
-      "institution": "한국교통연구원",
-      "title": "생활도로 내 「표지교차로」 도입방안 연구 연구개발적립금보고서 2026.04.30",
-      "url": "https://www.koti.re.kr/user/bbs/rndRsrchReprtView.do?bbs_no=73562",
-      "status": "새 자료 후보 · 본문 검토 전"
     }
   ],
-  "errors": []
+  "errors": [
+    "한국은행: 자료 후보를 찾지 못함 · 목록 구조 확인 필요"
+  ]
 }

@@ -1,0 +1,267 @@
+{
+  "updated_at": "2026-10-13T05:23:20.987307+00:00",
+  "purpose": "취업 준비·경제 현안",
+  "articles": [
+    {
+      "id": "abc5c02453ccbe1b0641",
+      "title": "한은 총재 \"기준금리 0.5%p 인상, 물가상승률 0.08%p 하락 효과\"(종합)",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-12T08:30:37+00:00",
+      "collected_at": "2026-10-13T05:06:13.654514+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "금리·자금조달",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "75cf56f21b454985b7d6",
+      "title": "서부발전, AI 활용 ‘유연탄 수입·재고 통합관제시스템’ 구축",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lQjB0Rmprd2lTbHpXUUdDc2s5c2RtRkowNi1VdmRZcUw1UlBoeTdfZjZ1QndqTnlCejJTeC1zSHkxNEF5TFdpV0RRVE1rSG9nRk9zd21SSEhuMzh6V1hwWEhaaS0xMVp2M0pWT9IBb0FVX3lxTFA4cVVQQWxjandrNlozQ2tJMTJ1MVdCbWpmd1FLNWJFamhwYnZkTVZSQWxub1NmU2kwbUNLSHVKV2I4YmpmT1hPM2h3SW45U1dlTDVyTU5FTU14TUtXaTlFSmhXRUVuWm5lRnA5QnpMUQ?oc=5",
+      "source": "금융경제신문",
+      "published": "2026-10-12T07:04:16+00:00",
+      "collected_at": "2026-10-13T05:06:14.008814+00:00",
+      "categories": [
+        "에너지",
+        "산업·통상"
+      ],
+      "industries": [
+        "전력·에너지",
+        "반도체·IT"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "기업: 한국서부발전"
+      ],
+      "brief_group": "한국서부발전",
+      "brief_theme": "연료·환율",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 연료·환율",
+      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "52623b58a8714faa8e56",
+      "title": "(2026 국감) 복기왕 의원 “도로공사, 고속도로 태양광 확대 계획 재검토해야”",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pNzBKbElHRXlUQjVIa0p6dzYwZ01BaFpzT2RUNzZrZkgyU1l5QVlTNlc2YklYWG1wdUFyb25OZzNZaXVDRXAtbUduVm1CLUJuN2RFNkttMXdqVmVQUDF6M2JlRXgwZWVjdUVDbtIBcEFVX3lxTFBpZ3g5MnhHaXI4V3VWNHlXUzY4ekZfZ2dNeGlHSVVnVGQxMDNLNDIwM3dJaDU4WTdLLUV2SHhiMGVsOVpOWjNjNE1Kbkt4ZUo0UEs3VmU5UjIxS2pCdlYydDMyZjB5WHRkS0lMc3dlV0M?oc=5",
+      "source": "전기신문",
+      "published": "2026-10-11T13:22:49+00:00",
+      "collected_at": "2026-10-13T05:06:14.335008+00:00",
+      "categories": [
+        "에너지",
+        "교통·인프라"
+      ],
+      "industries": [
+        "전력·에너지",
+        "교통·인프라"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "교통·인프라",
+        "기업: 한국도로공사"
+      ],
+      "brief_group": "한국도로공사",
+      "brief_theme": "국정감사",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 탄소·전환, 교통·통행료",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "7ebe50385539c31455f8",
+      "title": "[LH 국정감사] 토지주택공사 분사 실효성·주택 공급 지연 ‘도마’",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLOUpyYmx5bEpPU0hkQWV4UlB3cVZzQmR6amhtNEhMOElMUHdhUUNoallTbHNBelRFR0JxWnBIQjdESC16dEJKN0FmRkM5LS1kdk0tREF6dExYMlhVMU5mT1hvcU1vX1VpWmVB?oc=5",
+      "source": "경남신문",
+      "published": "2026-10-12T11:09:10+00:00",
+      "collected_at": "2026-10-13T05:06:14.264871+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "기업: 한국토지주택공사"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "국정감사",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
+      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "9b2f6900955cb6873d94",
+      "title": "한은 총재 “7·8월 연속 기준금리 인상으로 궁극적 비용 축소”",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzak51UWpRWkdhU2M4Q05TR0NFbUlGb2tZamxNbXF5R09kLUR0UWNGRDIzOVRjSEkwTmZFVHZJVEw5bW40dmZ1S05LeEZwQ3Y0dVJxcmVvbFMwaFk?oc=5",
+      "source": "KBS 뉴스",
+      "published": "2026-10-12T02:45:00+00:00",
+      "collected_at": "2026-10-13T05:06:13.656781+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "금리·자금조달",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "124bd0317367f1ac7fb6",
+      "title": "한전 사장 \"한전채 한도 줄면 전기료 인상 필요…호남 전력망 삼성·SK 80% 부담\"(종합2보)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261012_0003822557",
+      "source": "뉴시스 경제",
+      "published": "2026-10-12T11:42:42+00:00",
+      "collected_at": "2026-10-12T22:35:28.022652+00:00",
+      "categories": [
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ],
+      "brief_group": "한국서부발전",
+      "brief_theme": "전력망·수요",
+      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 전력망·수요",
+      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "32d39fea043c79dd427b",
+      "title": "[단독] 도로공사서비스 인사 개입 논란 … '채용 블랙리스트' 이어 '승진심사 내정' 의혹",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11a0I4UGhldWE3dXFBWDlHWGZCbGpnTDQ2VEh4T0FCYVJaLW9hbWNzRVVUYlBsZFVUeHdNWS1fbmJudThiN0xkWWpHbDR0WF95dW1GNFFMS0thSTN4dnRyWS1ud1g5TUt2LVMtZDJzY1pKVjFoaUg0UTdhTdIBgAFBVV95cUxQN25samZlaFQ1UkhGX3pSMm5ya0dua1gyejJVdkFRZzBybmEwcU16ZkxrdHllSUdmTGJydWdLUkt2akdKY3ItclV0bmpHR1hVLWgzQjcxZWFYZi1VYTNjdkNWa3lxYnNsVUI0Q2NvMkczR2RGZDJHcjZaNzJaMGN5eg?oc=5",
+      "source": "뉴데일리",
+      "published": "2026-10-13T01:07:24+00:00",
+      "collected_at": "2026-10-13T05:06:14.185411+00:00",
+      "categories": [
+        "고용·사회",
+        "교통·인프라"
+      ],
+      "industries": [
+        "교통·인프라"
+      ],
+      "issues": [
+        "고용·운영"
+      ],
+      "search_topics": [
+        "교통·인프라"
+      ],
+      "brief_group": "한국도로공사",
+      "brief_theme": "경영·조직",
+      "brief_reason": "관심 기업의 사업·경영 현안",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "4835f7511bc5872c3690",
+      "title": "LH 사장 \"주택 공급 확대로 부채 급증…정부에 재정 지원 요청\"",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHVjdkZmxSOTJGNVlGYVVMeW1ac3RneUp0OWk5NlloMDhHSWVUM0NBNmFfb3Q5d1J3alMtQkpZS3ZwYjg0Wlo4ZFNOdjg4UXRqdmpwQ3g3R2pzb0RFdlAtUTNuT0g4TDJkSHRFcEMwZENJYmJGT2ZDQ9IBeEFVX3lxTFBHVjdkZmxSOTJGNVlGYVVMeW1ac3RneUp0OWk5NlloMDhHSWVUM0NBNmFfb3Q5d1J3alMtQkpZS3ZwYjg0Wlo4ZFNOdjg4UXRqdmpwQ3g3R2pzb0RFdlAtUTNuT0g4TDJkSHRFcEMwZENJYmJGT2ZDQw?oc=5",
+      "source": "뉴시스",
+      "published": "2026-10-12T02:37:29+00:00",
+      "collected_at": "2026-10-13T05:06:14.264265+00:00",
+      "categories": [
+        "국제·정책",
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [
+        "규제·재정"
+      ],
+      "search_topics": [
+        "기업: 한국토지주택공사"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "주택공급·수요",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
+      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "77cb4e11e6ddc8b7eae2",
+      "title": "신현송 \"금리 연속 인상, 환율 안정 효과도 거둬\"(종합)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261012_0003822858",
+      "source": "뉴시스 금융",
+      "published": "2026-10-12T10:11:21+00:00",
+      "collected_at": "2026-10-12T22:35:27.907288+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달",
+        "환율·원가"
+      ],
+      "search_topics": [
+        "금융"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "6df68df66bac06ee4edb",
+      "title": "환율 하락에 원가 부담 던 석화업계…수익성 개선은 미지수",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261013_0003823334",
+      "source": "뉴시스 경제",
+      "published": "2026-10-13T04:11:46+00:00",
+      "collected_at": "2026-10-13T05:23:16.125406+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "환율·원가",
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    }
+  ],
+  "selected_count": 10,
+  "candidate_count": 147
+}
