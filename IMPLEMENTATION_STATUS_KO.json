@@ -1,7 +1,7 @@
 {
-  "version": "v3",
+  "version": "v3.1",
   "checked_at": "2026-10-13",
-  "local_tests": "51 passed in 3.52s",
+  "local_tests": "56 passed in 3.42s",
   "cloud_deployed": true,
   "browser_watchlist_verified": true,
   "real_ai_request_verified": false,
@@ -12,11 +12,20 @@
     "한국토지주택공사"
   ],
   "api_calls_enabled": false,
-  "github_ci": "50 passed; latest 51-test update pending",
+  "github_ci": "56 passed in 3.94s",
   "daily_collection": {
-    "received": 715,
-    "stored": 1200,
-    "errors": 0,
-    "run_id": 38349683353
-  }
+    "received": 147,
+    "stored": 1216,
+    "brief_count": 10,
+    "feed_errors": 11,
+    "run_id": 38351085452
+  },
+  "brief_limit": 10,
+  "brief_purpose": "취업 준비·경제 현안",
+  "github_ci_run_id": 38351013087,
+  "browser_brief_verified": true,
+  "official_candidates": 13,
+  "official_listing_issues": [
+    "한국은행 자료 후보 0건·목록 구조 확인 필요"
+  ]
 }
