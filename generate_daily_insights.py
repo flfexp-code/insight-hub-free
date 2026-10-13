@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 from ai_insights import MODEL, generate, ready
-from insights import DEFAULT_PROFILES, build_insights, related_articles
+from insights import DEFAULT_PROFILES, build_insights, curate_brief, related_articles
 from news_core import ROOT, UTC, atomic_json, filter_articles, load_json
 
 
@@ -16,7 +16,8 @@ def run():
     if load_json(ROOT / 'data/status.json').get('ok') is False:
         print('뉴스 수집 실패: 이전 AI 초안을 유지합니다.')
         return 0
-    rows = filter_articles(news.get('articles', []), days=7)
+    # 수백 건의 후보 대신 화면과 같은 최대 10건의 핵심 목록만 AI 입력으로 사용.
+    rows = curate_brief(filter_articles(news.get('articles', []), days=3), DEFAULT_PROFILES)
     output, errors = {}, []
     for profile in DEFAULT_PROFILES:
         selected = related_articles(rows, profile)

@@ -7,6 +7,7 @@ import json
 import requests
 
 from insights import analysis_packet
+from news_core import excluded_personnel
 
 MODEL = 'gemini-3.6-flash'
 ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/' + MODEL + ':generateContent'
@@ -44,6 +45,8 @@ def generate(profile: dict, rows: list[dict], cards: list[dict], settings: dict)
         raise ValueError('무료 AI 연결 전입니다. API 요청을 보내지 않았습니다.')
     if not rows or not cards:
         raise ValueError('기사와 검토한 공식 자료가 모두 있어야 AI 초안을 작성합니다.')
+    if any(excluded_personnel(a.get('title', '')) for a in rows):
+        raise ValueError('인사·승진 관련 입력을 제외해야 AI 초안을 작성할 수 있습니다.')
     prompt = analysis_packet(profile, rows, cards) + """
 기사 원문을 읽은 것으로 표현하지 마세요. 외부 인터넷 도구를 사용할 수 없습니다.
 자료의 보고서 요지만 확인한 것입니다. 단정할 수 없는 방향·금액은 미확정이라고 적으세요.

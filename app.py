@@ -281,9 +281,11 @@ with insight_tab:
         if ai_clicked:
             try:
                 with st.spinner('자료의 근거를 연결해 AI 초안을 작성합니다...'):
-                    result = generate_ai(profile, related, cards, ai_settings)
+                    ai_rows = related_articles(brief, profile)
+                    ai_cards = build_insights(ai_rows, profile)
+                    result = generate_ai(profile, ai_rows, ai_cards, ai_settings)
                 st.session_state['ai_draft'] = {'company': company, 'items': result,
-                    'news': related[:18], 'reports': {r['id']: r for c in cards for r in c['reports']},
+                    'news': ai_rows[:18], 'reports': {r['id']: r for c in ai_cards for r in c['reports']},
                     'created_at': datetime.now(UTC).isoformat()}
             except ValueError as exc:
                 st.warning(str(exc))
