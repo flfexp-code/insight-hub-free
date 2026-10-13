@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T05:23:20.987307+00:00",
+  "updated_at": "2026-10-13T06:14:33.846922+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
     {
@@ -9,7 +9,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-12T08:30:37+00:00",
-      "collected_at": "2026-10-13T05:06:13.654514+00:00",
+      "collected_at": "2026-10-13T06:14:32.539305+00:00",
       "categories": [
         "거시경제"
       ],
@@ -61,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pNzBKbElHRXlUQjVIa0p6dzYwZ01BaFpzT2RUNzZrZkgyU1l5QVlTNlc2YklYWG1wdUFyb25OZzNZaXVDRXAtbUduVm1CLUJuN2RFNkttMXdqVmVQUDF6M2JlRXgwZWVjdUVDbtIBcEFVX3lxTFBpZ3g5MnhHaXI4V3VWNHlXUzY4ekZfZ2dNeGlHSVVnVGQxMDNLNDIwM3dJaDU4WTdLLUV2SHhiMGVsOVpOWjNjNE1Kbkt4ZUo0UEs3VmU5UjIxS2pCdlYydDMyZjB5WHRkS0lMc3dlV0M?oc=5",
       "source": "전기신문",
       "published": "2026-10-11T13:22:49+00:00",
-      "collected_at": "2026-10-13T05:06:14.335008+00:00",
+      "collected_at": "2026-10-13T06:14:33.108868+00:00",
       "categories": [
         "에너지",
         "교통·인프라"
@@ -157,24 +157,22 @@
       "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "32d39fea043c79dd427b",
-      "title": "[단독] 도로공사서비스 인사 개입 논란 … '채용 블랙리스트' 이어 '승진심사 내정' 의혹",
+      "id": "b1e564c74e507661a9ff",
+      "title": "한국도로공사 유휴부지 80% ‘방치’… 41조 부채 속 자산 효율화 시급",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11a0I4UGhldWE3dXFBWDlHWGZCbGpnTDQ2VEh4T0FCYVJaLW9hbWNzRVVUYlBsZFVUeHdNWS1fbmJudThiN0xkWWpHbDR0WF95dW1GNFFMS0thSTN4dnRyWS1ud1g5TUt2LVMtZDJzY1pKVjFoaUg0UTdhTdIBgAFBVV95cUxQN25samZlaFQ1UkhGX3pSMm5ya0dua1gyejJVdkFRZzBybmEwcU16ZkxrdHllSUdmTGJydWdLUkt2akdKY3ItclV0bmpHR1hVLWgzQjcxZWFYZi1VYTNjdkNWa3lxYnNsVUI0Q2NvMkczR2RGZDJHcjZaNzJaMGN5eg?oc=5",
-      "source": "뉴데일리",
-      "published": "2026-10-13T01:07:24+00:00",
-      "collected_at": "2026-10-13T05:06:14.185411+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoZGpBZVpWT0xBVTBvODBCMGJlM2gxVFhVenNaOV9sV0xKaURJRVFBcGNtSWdKdTNUN29rTktwd3MzRlExQUFLa1F6aC1qd21jSTgwbEs5a05SQQ?oc=5",
+      "source": "브릿지경제",
+      "published": "2026-10-11T00:02:00+00:00",
+      "collected_at": "2026-10-13T06:14:33.107176+00:00",
       "categories": [
-        "고용·사회",
         "교통·인프라"
       ],
       "industries": [
         "교통·인프라"
       ],
-      "issues": [
-        "고용·운영"
-      ],
+      "issues": [],
       "search_topics": [
+        "기업: 한국도로공사",
         "교통·인프라"
       ],
       "brief_group": "한국도로공사",
@@ -209,6 +207,32 @@
       "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
+      "id": "9597da00b6be2e0b5b45",
+      "title": "한은, 국감서 \"대출 규제 흔들지 말라\"…강남 잡혔지만 외곽·경기 남부 집값 여전히 상승",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aclRFdVZrdEdSc0ZYU19GSTZEY0cxZkMwQ2JHTERTM2dmNzBvd05CUmJLTXJBVjUwMFZyMHhldXhzM0VkQzgxUF9CWUNoSFlHV3djWFdxMFI5VGU5UlNGZEZvdEhWQTNJ?oc=5",
+      "source": "녹색경제신문",
+      "published": "2026-10-12T10:11:26+00:00",
+      "collected_at": "2026-10-12T14:11:09.697213+00:00",
+      "categories": [
+        "금융"
+      ],
+      "industries": [
+        "금융·보험"
+      ],
+      "issues": [
+        "금리·자금조달",
+        "규제·재정"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "경영·조직",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
       "id": "77cb4e11e6ddc8b7eae2",
       "title": "신현송 \"금리 연속 인상, 환율 안정 효과도 거둬\"(종합)",
       "summary": "",
@@ -233,35 +257,8 @@
       "brief_theme": "연료·환율",
       "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "6df68df66bac06ee4edb",
-      "title": "환율 하락에 원가 부담 던 석화업계…수익성 개선은 미지수",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823334",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T04:11:46+00:00",
-      "collected_at": "2026-10-13T05:23:16.125406+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가",
-        "실적·수익성"
-      ],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
   "selected_count": 10,
-  "candidate_count": 147
+  "candidate_count": 356
 }
