@@ -1,130 +1,169 @@
 {
-  "updated_at": "2026-10-14T22:47:57.819104+00:00",
-  "news_updated_at": "2026-10-14T22:47:45.354011+00:00",
+  "updated_at": "2026-10-15T22:47:40.785009+00:00",
+  "news_updated_at": "2026-10-15T22:47:26.459854+00:00",
   "model": "gemini-3.5-flash-lite",
   "companies": {
     "한국서부발전": {
       "items": [
         {
-          "title": "AI 기반 유연탄 수입·재고 통합관제시스템 구축",
-          "phenomenon": "서부발전이 AI를 활용한 유연탄 수입·재고 통합관제시스템을 구축했다는 기사 제목 단서가 있음.",
-          "impact": "연료비 관리 효율성을 높일 수 있는 사업 조건이나, 실제 원가 절감 효과는 원문 검증이 필요함.",
-          "response": "시스템 도입에 따른 실제 연료비 절감 효과를 모니터링하고 조건부로 확대 적용해야 함.",
-          "counter": "시스템 구축이 실질적인 재무 건전성 개선으로 이어질지는 추가 데이터가 필요함.",
+          "title": "고유가 및 환율 변동에 따른 연료비 부담 증가",
+          "phenomenon": "미국 고유가로 인한 물가 상승과 금리 인상 확률 증가 기사 제목 단서(N1) 및 한국은행의 환율 변동 파급 경로 진단(bok_fx)",
+          "impact": "한국서부발전의 유연탄 및 LNG 등 연료 수입 비용이 증가하여 발전 원가 상승 및 수익성에 부정적 영향",
+          "response": "연료비 조정 요인 반영 및 도입선 다변화를 통한 원가 절감 검토 필요",
+          "counter": "환율 및 원자재 가격 변동성이 완화되거나 정부의 전력요금 조정이 이뤄질 경우 영향은 제한적일 수 있음",
           "news_ids": [
             "N1"
-          ],
-          "report_ids": [
-            "kiet_energy"
-          ],
-          "check_metrics": [
-            "유연탄 재고 관리 효율성",
-            "연료비 절감액"
-          ]
-        },
-        {
-          "title": "국제유가 상승과 에너지 안보 리스크",
-          "phenomenon": "IEA 공급 경고 및 중동 긴장으로 브렌트유가 배럴당 106달러를 기록했다는 기사 제목 단서가 있음.",
-          "impact": "연료 수입 의존도가 높은 발전사의 연료비 부담을 가중시키는 위험 요인으로 작용함.",
-          "response": "연료비 변동성에 대응하기 위해 수입선 다변화 및 재고 관리를 강화해야 함.",
-          "counter": "환율 변동 및 정산방식에 따라 실제 손익에 미치는 영향은 다를 수 있음.",
-          "news_ids": [
-            "N3"
-          ],
-          "report_ids": [
-            "bok_fx",
-            "kiet_energy"
-          ],
-          "check_metrics": [
-            "국제유가",
-            "환율",
-            "연료 수입 단가"
-          ]
-        },
-        {
-          "title": "기준금리 변동 가능성과 자금조달 여건",
-          "phenomenon": "기준금리 인상 원점 재검토 및 금리 인상의 물가 안정 효과에 대한 기사 제목 단서가 있음.",
-          "impact": "발전소 건설 및 신재생에너지 사업을 위한 자금조달 비용에 직접적인 영향을 미침.",
-          "response": "금리 변동성에 연동된 자금조달 계획을 재검토하고 유동성 리스크를 관리해야 함.",
-          "counter": "정치적 발언이나 정책 논의 단계의 사안은 실제 집행 전까지 확정 사업으로 볼 수 없음.",
-          "news_ids": [
-            "N4",
-            "N5"
           ],
           "report_ids": [
             "bok_fx"
           ],
           "check_metrics": [
-            "기준금리",
-            "회사채 금리",
+            "유연탄 및 LNG 수입 단가",
+            "원달러 환율",
+            "전력도매가격(SMP)"
+          ]
+        },
+        {
+          "title": "에너지 고속도로 구축 검토에 따른 전력망 연계 변화",
+          "phenomenon": "도로공사의 에너지 고속도로 구축 검토 기사 제목 단서(N3)와 산업연구원의 에너지 안보 및 전력망 수요 분석(kiet_energy)",
+          "impact": "신재생에너지 발전소 연계 송전망 확충으로 발전 사업의 송전 제약이 해소될 기회 요인 존재",
+          "response": "신재생에너지 프로젝트와 연계된 송전망 인프라 계획을 모니터링하고 참여 조건부 검토",
+          "counter": "구축 계획이 검토 단계에 머물러 실제 집행으로 이어지지 않을 경우 단기적 사업 영향은 미미함",
+          "news_ids": [
+            "N3"
+          ],
+          "report_ids": [
+            "kiet_energy"
+          ],
+          "check_metrics": [
+            "송전망 구축 투자 계획",
+            "신재생에너지 발전 허용 용량"
+          ]
+        },
+        {
+          "title": "금리 변동성에 따른 자금조달 여건 변화",
+          "phenomenon": "기준금리 인상 확률 및 원점 재검토 관련 기사 제목 단서(N1, N4)와 한국은행의 금리 상승 및 건설투자 제약 진단(bok_construction)",
+          "impact": "발전소 건설 및 신재생에너지 설비 투자 과정에서 이자 비용이 증가하여 재무 건전성에 부담",
+          "response": "자금조달 포트폴리오를 재점검하고 금리 변동 리스크에 대응한 유동성 관리 강화",
+          "counter": "금리 인상 기조가 철회되거나 동결될 경우 자금조달 비용 부담은 완화될 수 있음",
+          "news_ids": [
+            "N1",
+            "N4"
+          ],
+          "report_ids": [
+            "bok_construction"
+          ],
+          "check_metrics": [
+            "시장 금리",
+            "순차입금 의존도",
             "이자보상배율"
           ]
         }
       ],
       "news": [
         {
-          "id": "75cf56f21b454985b7d6",
-          "title": "서부발전, AI 활용 ‘유연탄 수입·재고 통합관제시스템’ 구축",
+          "id": "24c386fca6ea4eb16e7f",
+          "title": "미국 고유가에 물가 상승‥금리 인상 확률 '쑥'",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lQjB0Rmprd2lTbHpXUUdDc2s5c2RtRkowNi1VdmRZcUw1UlBoeTdfZjZ1QndqTnlCejJTeC1zSHkxNEF5TFdpV0RRVE1rSG9nRk9zd21SSEhuMzh6V1hwWEhaaS0xMVp2M0pWT9IBb0FVX3lxTFA4cVVQQWxjandrNlozQ2tJMTJ1MVdCbWpmd1FLNWJFamhwYnZkTVZSQWxub1NmU2kwbUNLSHVKV2I4YmpmT1hPM2h3SW45U1dlTDVyTU5FTU14TUtXaTlFSmhXRUVuWm5lRnA5QnpMUQ?oc=5",
-          "source": "금융경제신문",
-          "published": "2026-10-12T07:04:16+00:00",
-          "collected_at": "2026-10-13T05:06:14.008814+00:00",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kQTZKU3JEQ2t3RmRaMGN0RkZrenZwOFNrZGtfczd1ejViVldvbDAxVnQ5Umhtb0JsMUNmZThfUHl1TF9NeXluaURJc0J0RnZoVThXRUlNYS1YbEViM3kwQ0xOdTlDT1R5LWtqQmFqQ1pYQjhNT2VGWtIBeEFVX3lxTE1FTWttTGI2X2xqOXNZeGtfU2hFQXhpQVFBSW9UQ1RkZVNSdDVsNWFSeFN6V0F2VzBBMVZlR1IyUkFVcGliTUI3QlRvRno2T3l3anJia3lsVDFFMmpldUIyVmpkZzZxY0JBcnBlNG91QmV3aGNYNGdFRA?oc=5",
+          "source": "MBC 뉴스",
+          "published": "2026-10-15T03:19:30+00:00",
+          "collected_at": "2026-10-15T22:47:25.112848+00:00",
           "categories": [
-            "에너지",
-            "산업·통상"
+            "거시경제",
+            "국제·정책"
           ],
           "industries": [
-            "전력·에너지",
-            "반도체·IT"
+            "기타"
           ],
           "issues": [
-            "설비·전력수요"
+            "금리·자금조달",
+            "환율·원가"
           ],
           "search_topics": [
-            "기업: 한국서부발전"
+            "거시경제"
           ],
-          "brief_group": "한국서부발전",
+          "brief_group": "경제 현안",
           "brief_theme": "연료·환율",
-          "brief_reason": "관심 기업의 사업·경영 현안 · 연료·환율",
-          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
           "quality": {
             "include": true,
             "label": "분석 후보",
             "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
           },
           "signals": [
+            "금리·자금조달",
             "연료·환율"
           ],
-          "relation": "기업명 직접 등장",
-          "direct": true,
-          "rank": 7
+          "relation": "파급 경로: 연료·환율, 금리·자금조달",
+          "direct": false,
+          "rank": 2
         },
         {
-          "id": "124bd0317367f1ac7fb6",
-          "title": "한전 사장 \"한전채 한도 줄면 전기료 인상 필요…호남 전력망 삼성·SK 80% 부담\"(종합2보)",
+          "id": "638b65dde28474203c9e",
+          "title": "[현장에서] 금리 인상이 취약계층 돕는다…신현송의 '환율 경로'",
           "summary": "",
-          "link": "https://www.newsis.com/view/NISX20261012_0003822557",
-          "source": "뉴시스 경제",
-          "published": "2026-10-12T11:42:42+00:00",
-          "collected_at": "2026-10-12T22:35:28.022652+00:00",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BVDBCcjJiY003Z1EtUUtoWFFMNnlueGlDclpCQTE3SDhRUlpfdjBBclU5U29YNG04Yk9oUVRCVHJwV0VYYlNnVF96bHRDZzRJb01YWDZlXzNnZlNTc3VuRm9aLVU2VlNLOGt2R0dScjA?oc=5",
+          "source": "연합인포맥스",
+          "published": "2026-10-15T00:45:05+00:00",
+          "collected_at": "2026-10-15T22:47:25.112454+00:00",
           "categories": [
-            "에너지"
+            "거시경제"
           ],
           "industries": [
-            "전력·에너지"
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달",
+            "환율·원가"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달",
+            "연료·환율"
+          ],
+          "relation": "파급 경로: 연료·환율, 금리·자금조달",
+          "direct": false,
+          "rank": 2
+        },
+        {
+          "id": "e7dc5e810a7f6888f237",
+          "title": "고속도로에 송전망 깐다?…도로공사, '에너지 고속도로' 구축 검토",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NWG9oUzRaemdnNlhqVUtWbGJEVGh1akRKX0lGVGxNTEw4dkc2OGxYalRBYUs3WkMtTVJLU1o3Ql95QU1pV014cHFXbTRqUGdKN0FUUzBsUFI4U2dZMEJhWFhIM0l0cl9oeFFDdk13blB0dzdRV2tr0gF3QVVfeXFMTU1Yb2hTNFp6Z2c2WGpVS1ZsYkRUaHVqREpfSUZUbE1MTDh2RzY4bFhqVEFhSzdaQy1NUktTWjdCX3lBTWlXTXhwcVdtNGpQZ0o3QVRTMGxQUjhTZ1kwQmFYWEgzSXRyX2h4UUN2TXduUHR3N1FXa2s?oc=5",
+          "source": "스트레이트뉴스",
+          "published": "2026-10-15T06:58:15+00:00",
+          "collected_at": "2026-10-15T22:47:25.659641+00:00",
+          "categories": [
+            "에너지",
+            "교통·인프라"
+          ],
+          "industries": [
+            "전력·에너지",
+            "교통·인프라"
           ],
           "issues": [
             "설비·전력수요"
           ],
           "search_topics": [
-            "거시경제",
-            "산업·통상"
+            "교통·인프라"
           ],
-          "brief_group": "한국서부발전",
+          "brief_group": "한국도로공사",
           "brief_theme": "전력망·수요",
-          "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 전력망·수요",
-          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 전력망·수요, 교통·통행료",
+          "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
           "quality": {
             "include": true,
             "label": "분석 후보",
@@ -133,43 +172,7 @@
           "signals": [
             "전력망·수요"
           ],
-          "relation": "사업 키워드: 전력망",
-          "direct": false,
-          "rank": 3
-        },
-        {
-          "id": "17ae6df3dc1e72c0b763",
-          "title": "국제유가, IEA 공급 경고·중동 긴장에 상승…브렌트유, 배럴당 106달러",
-          "summary": "",
-          "link": "https://www.newsis.com/view/NISX20261015_0003826487",
-          "source": "뉴시스 경제",
-          "published": "2026-10-14T22:35:42+00:00",
-          "collected_at": "2026-10-14T22:47:44.697719+00:00",
-          "categories": [
-            "거시경제"
-          ],
-          "industries": [
-            "기타"
-          ],
-          "issues": [
-            "환율·원가"
-          ],
-          "search_topics": [
-            "거시경제"
-          ],
-          "brief_group": "경제 현안",
-          "brief_theme": "연료·환율",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
-          "quality": {
-            "include": true,
-            "label": "분석 후보",
-            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
-          },
-          "signals": [
-            "연료·환율"
-          ],
-          "relation": "파급 경로: 연료·환율",
+          "relation": "파급 경로: 전력망·수요",
           "direct": false,
           "rank": 1
         },
@@ -181,42 +184,6 @@
           "source": "연합뉴스",
           "published": "2026-10-13T06:50:33+00:00",
           "collected_at": "2026-10-13T22:48:22.659678+00:00",
-          "categories": [
-            "거시경제"
-          ],
-          "industries": [
-            "기타"
-          ],
-          "issues": [
-            "금리·자금조달"
-          ],
-          "search_topics": [
-            "거시경제"
-          ],
-          "brief_group": "경제 현안",
-          "brief_theme": "금리·자금조달",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
-          "quality": {
-            "include": true,
-            "label": "분석 후보",
-            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
-          },
-          "signals": [
-            "금리·자금조달"
-          ],
-          "relation": "파급 경로: 금리·자금조달",
-          "direct": false,
-          "rank": 1
-        },
-        {
-          "id": "abc5c02453ccbe1b0641",
-          "title": "한은 총재 \"기준금리 0.5%p 인상, 물가상승률 0.08%p 하락 효과\"(종합)",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
-          "source": "연합뉴스",
-          "published": "2026-10-12T08:30:37+00:00",
-          "collected_at": "2026-10-13T22:48:22.659430+00:00",
           "categories": [
             "거시경제"
           ],
@@ -262,23 +229,6 @@
           ],
           "scope": "일반적인 파급 경로. 개별 공기업의 손익을 계산한 자료는 아님."
         },
-        "kiet_energy": {
-          "id": "kiet_energy",
-          "institution": "산업연구원",
-          "author": "이상원",
-          "title": "에너지 안보 리스크와 한국 산업의 녹색전환 전략",
-          "published": "2026-08-31",
-          "reviewed": "2026-10-13",
-          "locator": "요약 및 에너지 안보 충격의 산업 리스크 전이",
-          "url": "https://www.kiet.re.kr/research/economyDetailView?detail_no=3370",
-          "summary": "높은 에너지 수입의존도와 제조업·산업 에너지소비 비중이 가격 충격에 대한 노출을 키운다. 연료 체계 전환은 속도뿐 아니라 외부 충격에 견디는 회복력을 함께 고려해야 한다.",
-          "topics": [
-            "연료·환율",
-            "전력망·수요",
-            "탄소·전환"
-          ],
-          "scope": "산업 전체의 에너지 전환 분석. 발전사의 정산방식·전원 구성은 별도 확인."
-        },
         "bok_construction": {
           "id": "bok_construction",
           "institution": "한국은행",
@@ -311,6 +261,23 @@
             "금리·자금조달"
           ],
           "scope": "과거 전망의 위험 경로를 참고한다. 당시 성장률 전망을 현재 전망으로 사용하지 않음."
+        },
+        "kiet_energy": {
+          "id": "kiet_energy",
+          "institution": "산업연구원",
+          "author": "이상원",
+          "title": "에너지 안보 리스크와 한국 산업의 녹색전환 전략",
+          "published": "2026-08-31",
+          "reviewed": "2026-10-13",
+          "locator": "요약 및 에너지 안보 충격의 산업 리스크 전이",
+          "url": "https://www.kiet.re.kr/research/economyDetailView?detail_no=3370",
+          "summary": "높은 에너지 수입의존도와 제조업·산업 에너지소비 비중이 가격 충격에 대한 노출을 키운다. 연료 체계 전환은 속도뿐 아니라 외부 충격에 견디는 회복력을 함께 고려해야 한다.",
+          "topics": [
+            "연료·환율",
+            "전력망·수요",
+            "탄소·전환"
+          ],
+          "scope": "산업 전체의 에너지 전환 분석. 발전사의 정산방식·전원 구성은 별도 확인."
         }
       },
       "sector": "발전·에너지"
@@ -318,43 +285,175 @@
     "한국도로공사": {
       "items": [
         {
-          "title": "기준금리 변동 논의와 자금조달 여건",
-          "phenomenon": "기준금리 인상 원점 재검토 및 인상 효과에 대한 논의(기사 제목 단서)",
-          "impact": "금리 변동은 한국도로공사의 고속도로 건설 및 유지관리 관련 자금조달 비용에 영향을 미칠 수 있음",
-          "response": "금리 변동성에 대비한 차입 구조 다변화 및 조건부 자금 집행 계획 수립 검토 필요",
-          "counter": "공식 보고서의 금리 파급 경로 외에 개별 공기업의 구체적 손익 변화는 미확정",
+          "title": "에너지 고속도로 검토와 송전망 구축",
+          "phenomenon": "도로공사가 고속도로에 송전망을 까는 '에너지 고속도로' 구축을 검토 중이라는 기사 제목 단서가 있다.",
+          "impact": "신재생에너지 인프라 연계 사업 조건이 형성될 수 있으나 구체적 투자 규모는 미확정이다.",
+          "response": "공식 정책과 연계된 타당성 검증을 거쳐 조건부로 사업 참여를 검토해야 한다.",
+          "counter": "실제 사업 추진 여부와 재원 조달 계획은 원문과 추가 공시를 통해 확인해야 한다.",
           "news_ids": [
-            "N1",
-            "N2"
+            "N1"
+          ],
+          "report_ids": [
+            "koti_toll"
+          ],
+          "check_metrics": [
+            "송전망 구축 투자비",
+            "에너지 고속도로 관련 예산"
+          ]
+        },
+        {
+          "title": "금리 인상 압박과 자금조달 여건",
+          "phenomenon": "미국 고유가로 인한 물가 상승과 금리 인상 확률 증가 관련 기사 제목 단서가 있다.",
+          "impact": "금리 상승 압박은 공공기관의 자금조달 비용을 증가시켜 재무 건전성에 위험 요인으로 작용할 수 있다.",
+          "response": "자금 조달 포트폴리오를 다변화하고 금리 변동성에 대비한 리스크 관리를 강화해야 한다.",
+          "counter": "금리 인상 경로와 환율 변동의 영향은 거시경제 상황에 따라 달라질 수 있다.",
+          "news_ids": [
+            "N2",
+            "N3"
           ],
           "report_ids": [
             "bok_fx"
           ],
           "check_metrics": [
-            "기준금리 변동 추이",
-            "조달금리"
+            "기준금리",
+            "조달금리",
+            "원달러 환율"
           ]
         },
         {
-          "title": "건설투자 제약 요인과 고속도로 건설",
-          "phenomenon": "건설투자의 장기 하강국면과 공사비·금리 상승에 따른 제약 요인 진단",
-          "impact": "건설경기 부진과 자금조달 제약은 고속도로 건설 및 유지관리 사업의 시공 여건에 부정적 위험으로 작용할 수 있음",
-          "response": "공사비 변동에 따른 계약 조건 점검 및 시공사 재무건전성 모니터링 강화",
-          "counter": "과거 보고서의 진단이므로 현재 지역별·현장별 상황은 별도 확인 필요",
+          "title": "인구감소지역 이동성과 통행료 관리 연계",
+          "phenomenon": "한국교통연구원은 인구감소지역의 생활서비스 접근성과 민자·재정고속도로 통행료 관리 연계를 제안했다.",
+          "impact": "지방 인구 감소와 교통 수요 변화는 고속도로 통행량과 통행료 수입에 복합적인 영향을 준다.",
+          "response": "지역별 수요에 맞춘 교통 서비스 개선과 제도를 연계한 조건부 대응이 필요하다.",
+          "counter": "기관의 제안은 직접 권고일 뿐 도로공사의 확정된 계획으로 볼 수 없다.",
           "news_ids": [
-            "N1"
+            "N4"
           ],
           "report_ids": [
-            "bok_construction",
-            "kdi_construction"
+            "koti_regions",
+            "koti_toll"
           ],
           "check_metrics": [
-            "건설투자 증가율",
-            "공사비 지수"
+            "고속도로 교통량",
+            "통행료 수입",
+            "지방 인구 이동성"
           ]
         }
       ],
       "news": [
+        {
+          "id": "e7dc5e810a7f6888f237",
+          "title": "고속도로에 송전망 깐다?…도로공사, '에너지 고속도로' 구축 검토",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NWG9oUzRaemdnNlhqVUtWbGJEVGh1akRKX0lGVGxNTEw4dkc2OGxYalRBYUs3WkMtTVJLU1o3Ql95QU1pV014cHFXbTRqUGdKN0FUUzBsUFI4U2dZMEJhWFhIM0l0cl9oeFFDdk13blB0dzdRV2tr0gF3QVVfeXFMTU1Yb2hTNFp6Z2c2WGpVS1ZsYkRUaHVqREpfSUZUbE1MTDh2RzY4bFhqVEFhSzdaQy1NUktTWjdCX3lBTWlXTXhwcVdtNGpQZ0o3QVRTMGxQUjhTZ1kwQmFYWEgzSXRyX2h4UUN2TXduUHR3N1FXa2s?oc=5",
+          "source": "스트레이트뉴스",
+          "published": "2026-10-15T06:58:15+00:00",
+          "collected_at": "2026-10-15T22:47:25.659641+00:00",
+          "categories": [
+            "에너지",
+            "교통·인프라"
+          ],
+          "industries": [
+            "전력·에너지",
+            "교통·인프라"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "교통·인프라"
+          ],
+          "brief_group": "한국도로공사",
+          "brief_theme": "전력망·수요",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 전력망·수요, 교통·통행료",
+          "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "교통·통행료"
+          ],
+          "relation": "기업명 직접 등장",
+          "direct": true,
+          "rank": 7
+        },
+        {
+          "id": "24c386fca6ea4eb16e7f",
+          "title": "미국 고유가에 물가 상승‥금리 인상 확률 '쑥'",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kQTZKU3JEQ2t3RmRaMGN0RkZrenZwOFNrZGtfczd1ejViVldvbDAxVnQ5Umhtb0JsMUNmZThfUHl1TF9NeXluaURJc0J0RnZoVThXRUlNYS1YbEViM3kwQ0xOdTlDT1R5LWtqQmFqQ1pYQjhNT2VGWtIBeEFVX3lxTE1FTWttTGI2X2xqOXNZeGtfU2hFQXhpQVFBSW9UQ1RkZVNSdDVsNWFSeFN6V0F2VzBBMVZlR1IyUkFVcGliTUI3QlRvRno2T3l3anJia3lsVDFFMmpldUIyVmpkZzZxY0JBcnBlNG91QmV3aGNYNGdFRA?oc=5",
+          "source": "MBC 뉴스",
+          "published": "2026-10-15T03:19:30+00:00",
+          "collected_at": "2026-10-15T22:47:25.112848+00:00",
+          "categories": [
+            "거시경제",
+            "국제·정책"
+          ],
+          "industries": [
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달",
+            "환율·원가"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달"
+          ],
+          "relation": "파급 경로: 금리·자금조달",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "638b65dde28474203c9e",
+          "title": "[현장에서] 금리 인상이 취약계층 돕는다…신현송의 '환율 경로'",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BVDBCcjJiY003Z1EtUUtoWFFMNnlueGlDclpCQTE3SDhRUlpfdjBBclU5U29YNG04Yk9oUVRCVHJwV0VYYlNnVF96bHRDZzRJb01YWDZlXzNnZlNTc3VuRm9aLVU2VlNLOGt2R0dScjA?oc=5",
+          "source": "연합인포맥스",
+          "published": "2026-10-15T00:45:05+00:00",
+          "collected_at": "2026-10-15T22:47:25.112454+00:00",
+          "categories": [
+            "거시경제"
+          ],
+          "industries": [
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달",
+            "환율·원가"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달"
+          ],
+          "relation": "파급 경로: 금리·자금조달",
+          "direct": false,
+          "rank": 1
+        },
         {
           "id": "70fd7d362d443c646a4b",
           "title": "野배준영 \"한은총재, 이달 기준금리 인상 '원점 재검토'해야\"",
@@ -390,45 +489,40 @@
           "relation": "파급 경로: 금리·자금조달",
           "direct": false,
           "rank": 1
-        },
-        {
-          "id": "abc5c02453ccbe1b0641",
-          "title": "한은 총재 \"기준금리 0.5%p 인상, 물가상승률 0.08%p 하락 효과\"(종합)",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
-          "source": "연합뉴스",
-          "published": "2026-10-12T08:30:37+00:00",
-          "collected_at": "2026-10-13T22:48:22.659430+00:00",
-          "categories": [
-            "거시경제"
-          ],
-          "industries": [
-            "기타"
-          ],
-          "issues": [
-            "금리·자금조달"
-          ],
-          "search_topics": [
-            "거시경제"
-          ],
-          "brief_group": "경제 현안",
-          "brief_theme": "금리·자금조달",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
-          "quality": {
-            "include": true,
-            "label": "분석 후보",
-            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
-          },
-          "signals": [
-            "금리·자금조달"
-          ],
-          "relation": "파급 경로: 금리·자금조달",
-          "direct": false,
-          "rank": 1
         }
       ],
       "reports": {
+        "koti_regions": {
+          "id": "koti_regions",
+          "institution": "한국교통연구원",
+          "author": "이종우·정승환",
+          "title": "KOTI 인사이트 Vol.2 No.9: 인구감소지역 생활서비스 접근과 이동성",
+          "published": "2026-09-30",
+          "reviewed": "2026-10-13",
+          "locator": "통행행태·생활서비스 접근 현황 및 이동성 개선방안",
+          "url": "https://www.koti.re.kr/user/bbs/insightView.do?bbs_no=74659",
+          "summary": "인구감소지역은 의료 등 생활서비스 이용을 위해 거점도시로 이동하며, 행정경계를 넘는 접근성을 고려해야 한다. 시설 배치와 교통서비스 계획의 연계 및 지역별 수요에 맞는 서비스 개선을 제안했다.",
+          "topics": [
+            "인구·지역수요",
+            "교통·통행료"
+          ],
+          "scope": "지역 생활서비스의 접근성 연구. 고속도로 교통량 감소를 직접 추정한 자료는 아님."
+        },
+        "koti_toll": {
+          "id": "koti_toll",
+          "institution": "한국교통연구원",
+          "title": "민자·재정고속도로 통행료 관리 연계 강화 제안",
+          "published": "2026-09-28",
+          "reviewed": "2026-10-13",
+          "locator": "연구원의 통행료 관리 제안 보도자료",
+          "url": "https://www.koti.re.kr/user/bbs/pmediaView.do?bbs_no=74668",
+          "summary": "민자고속도로와 재정고속도로를 이용하는 국민의 관점에서 통행료 관리의 연계를 강화할 필요성을 제기했다.",
+          "topics": [
+            "교통·통행료",
+            "제도·예산"
+          ],
+          "scope": "연구기관의 정책 제안. 현재 시행된 제도나 도로공사의 확정 계획으로 간주하지 않음."
+        },
         "bok_fx": {
           "id": "bok_fx",
           "institution": "한국은행",
@@ -483,11 +577,11 @@
     "한국토지주택공사": {
       "items": [
         {
-          "title": "주택 공급 확대와 부채 급증",
-          "phenomenon": "LH 국정감사 및 사장 발언(N1, N2 기사 제목 단서)을 통해 주택 공급 지연과 부채 급증 현상이 제기됨.",
-          "impact": "공공주택 공급 확대 과정에서 재정 부담과 자금조달 위험이 커질 수 있음.",
-          "response": "정부 재정 지원 요청에 따른 조건부 재원 확보 여부를 모니터링해야 함.",
-          "counter": "분사 및 재정 지원 확정 여부는 원문 확인 필요하며 미확정 상태임.",
+          "title": "공공주택 화재안전 강화와 공급 계약",
+          "phenomenon": "한국토지주택공사는 국민임대주택 간이형 스프링클러 확대 및 대우건설과 4130억원 규모 공급계약을 체결했다는 기사 제목 단서가 있다. 한국은행 보고서는 공사비와 안전사고가 건설투자를 제약한다고 진단했다.",
+          "impact": "화재안전 투자 확대는 비용 요인으로 작용할 수 있으며 대규모 공급계약은 사업 조건에 따라 기회와 위험을 동시에 내포한다.",
+          "response": "공사비 상승과 안전 규제 강화에 대응하여 사업비 집행의 효율성을 높이고 조건부 실행 계획을 수립해야 한다.",
+          "counter": "계약 금액과 집행 시기는 미확정이며 원문 확인이 필요하다.",
           "news_ids": [
             "N1",
             "N2"
@@ -496,81 +590,67 @@
             "bok_construction"
           ],
           "check_metrics": [
-            "부채비율",
+            "공사비 지수",
+            "안전사고 발생률",
             "공공주택 공급 실적"
           ]
         },
         {
-          "title": "금리 변동과 자금조달 제약",
-          "phenomenon": "기준금리 인상 및 재검토 논의(N3, N4 기사 제목 단서)가 진행됨.",
-          "impact": "금리 변동은 자금조달 비용을 높여 공기업과 건설투자에 부정적 영향을 줄 수 있음.",
-          "response": "금리 추이에 따른 자금조달 다변화 및 조건부 대응이 필요함.",
-          "counter": "금리 정책의 실제 영향은 인과관계 확인이 필요하며 미확정임.",
+          "title": "금리 인상 압박과 자금조달 여건",
+          "phenomenon": "미국 고유가와 물가 상승으로 금리 인상 확률이 높아졌다는 기사 제목 단서가 있다. 한국은행과 KDI 보고서는 금리 상승과 PF 부실이 건설투자와 자금조달을 제약한다고 진단했다.",
+          "impact": "금리 인상은 자금조달 비용을 증가시키고 공공주택 사업의 재무 건전성에 위험 요인으로 작용한다.",
+          "response": "금리 변동성에 대비하여 자금조달 포트폴리오를 다변화하고 조건부 유동성 관리 계획을 검토해야 한다.",
+          "counter": "금리 인상 여부는 원점 재검토 등 정책 변동성에 따라 달라질 수 있다.",
           "news_ids": [
             "N3",
-            "N4"
+            "N5"
           ],
           "report_ids": [
+            "bok_construction",
             "kdi_construction"
           ],
           "check_metrics": [
             "기준금리",
-            "조달금리"
+            "조달금리",
+            "PF 정상화 지연 지표"
+          ]
+        },
+        {
+          "title": "환율 변동과 수입물가 파급",
+          "phenomenon": "환율 변동이 수입물가와 금융안정에 영향을 준다는 한국은행 보고서 진단과 고유가로 인한 물가 상승 기사 제목 단서가 있다.",
+          "impact": "환율과 유가 상승은 원자재 수입 비용을 높여 공공 건설 사업의 원가 부담으로 작용할 수 있다.",
+          "response": "환율 및 원자재 가격 변동에 따른 공사원가 변동성을 모니터링하고 조건부 예산 대응안을 마련해야 한다.",
+          "counter": "환율 경로가 개별 공기업 손익에 미치는 영향은 인과관계가 확정되지 않아 가설 수준이다.",
+          "news_ids": [
+            "N3"
+          ],
+          "report_ids": [
+            "bok_fx"
+          ],
+          "check_metrics": [
+            "원달러 환율",
+            "수입물가지수",
+            "원자재 가격"
           ]
         }
       ],
       "news": [
         {
-          "id": "7ebe50385539c31455f8",
-          "title": "[LH 국정감사] 토지주택공사 분사 실효성·주택 공급 지연 ‘도마’",
+          "id": "a333de861b3adf143936",
+          "title": "한국토지주택공사(LH), 간이형 스프링클러 국민임대까지 확대... 노후 임대주택 화재안전 강화",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLOUpyYmx5bEpPU0hkQWV4UlB3cVZzQmR6amhtNEhMOElMUHdhUUNoallTbHNBelRFR0JxWnBIQjdESC16dEJKN0FmRkM5LS1kdk0tREF6dExYMlhVMU5mT1hvcU1vX1VpWmVB?oc=5",
-          "source": "경남신문",
-          "published": "2026-10-12T11:09:10+00:00",
-          "collected_at": "2026-10-13T05:06:14.264871+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44ZWN6SnpRV01FQlE2U1d5TXYtS3hLemxqcmllMUF0REo2MFNlLTFNRHc3VnNYMk5IRENlU3VZbG5fSzhaYjVHYlVTNGt4bnAtaUVuRWV0RWZDekFCNlg0NWhEUGRsdzg?oc=5",
+          "source": "일간대한뉴스",
+          "published": "2026-10-13T04:15:00+00:00",
+          "collected_at": "2026-10-13T05:06:14.264636+00:00",
           "categories": [
-            "주택·건설"
-          ],
-          "industries": [
-            "건설·부동산"
-          ],
-          "issues": [],
-          "search_topics": [
-            "기업: 한국토지주택공사"
-          ],
-          "brief_group": "한국토지주택공사",
-          "brief_theme": "국정감사",
-          "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
-          "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
-          "quality": {
-            "include": true,
-            "label": "분석 후보",
-            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
-          },
-          "signals": [
-            "주택공급·수요"
-          ],
-          "relation": "기업명 직접 등장",
-          "direct": true,
-          "rank": 5
-        },
-        {
-          "id": "4835f7511bc5872c3690",
-          "title": "LH 사장 \"주택 공급 확대로 부채 급증…정부에 재정 지원 요청\"",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHVjdkZmxSOTJGNVlGYVVMeW1ac3RneUp0OWk5NlloMDhHSWVUM0NBNmFfb3Q5d1J3alMtQkpZS3ZwYjg0Wlo4ZFNOdjg4UXRqdmpwQ3g3R2pzb0RFdlAtUTNuT0g4TDJkSHRFcEMwZENJYmJGT2ZDQ9IBeEFVX3lxTFBHVjdkZmxSOTJGNVlGYVVMeW1ac3RneUp0OWk5NlloMDhHSWVUM0NBNmFfb3Q5d1J3alMtQkpZS3ZwYjg0Wlo4ZFNOdjg4UXRqdmpwQ3g3R2pzb0RFdlAtUTNuT0g4TDJkSHRFcEMwZENJYmJGT2ZDQw?oc=5",
-          "source": "뉴시스",
-          "published": "2026-10-12T02:37:29+00:00",
-          "collected_at": "2026-10-13T05:06:14.264265+00:00",
-          "categories": [
-            "국제·정책",
             "주택·건설"
           ],
           "industries": [
             "건설·부동산"
           ],
           "issues": [
-            "규제·재정"
+            "안전·운영관리"
           ],
           "search_topics": [
             "기업: 한국토지주택공사"
@@ -592,28 +672,62 @@
           "rank": 5
         },
         {
-          "id": "70fd7d362d443c646a4b",
-          "title": "野배준영 \"한은총재, 이달 기준금리 인상 '원점 재검토'해야\"",
+          "id": "464e4deb30c874c75cae",
+          "title": "대우건설, 한국토지주택공사와 4130억원 규모 공급계약",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDbUJvbUZaVTM4eXhmWEM3UVVscWJXWEx0cDh4Smd3UGs0MkhpRllpX3BfNXNPRXJxdzFNd3JxYUdhZkFzWURfTWVjNFUyTUJDTjlrSE13SldvS0nSAWBBVV95cUxNY08zVlZDZC1fdG12cnJpNU5uUWhqcGlIekNEQTdrRWhLWnhJdE8xMVNMeVc5SnNjRVB5S3MyU0plaVNNZDVmTlkyYjdfblFvNDVfRk1uRjhYSEF0LWlES1A?oc=5",
-          "source": "연합뉴스",
-          "published": "2026-10-13T06:50:33+00:00",
-          "collected_at": "2026-10-13T22:48:22.659678+00:00",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ucWdoMFdOdWtTZEVXR0VIU1NsSVY1WUVxQlh2dlpCV3JoM3N1UEJZaWdKM1RkMy1GYTduOG5GWlVLLTJzYjFDWFpqNU1zeURlaE5TM1IzN0xPMW9Xc3MzdGw2eUl4VGhMaTZtVVd6MVF5Y3M?oc=5",
+          "source": "데이터투자",
+          "published": "2026-10-13T02:16:48+00:00",
+          "collected_at": "2026-10-13T05:06:14.264513+00:00",
           "categories": [
-            "거시경제"
+            "주택·건설"
+          ],
+          "industries": [
+            "건설·부동산"
+          ],
+          "issues": [],
+          "search_topics": [
+            "기업: 한국토지주택공사"
+          ],
+          "brief_group": "한국토지주택공사",
+          "brief_theme": "경영·조직",
+          "brief_reason": "관심 기업의 사업·경영 현안",
+          "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [],
+          "relation": "기업명 직접 등장",
+          "direct": true,
+          "rank": 4
+        },
+        {
+          "id": "24c386fca6ea4eb16e7f",
+          "title": "미국 고유가에 물가 상승‥금리 인상 확률 '쑥'",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kQTZKU3JEQ2t3RmRaMGN0RkZrenZwOFNrZGtfczd1ejViVldvbDAxVnQ5Umhtb0JsMUNmZThfUHl1TF9NeXluaURJc0J0RnZoVThXRUlNYS1YbEViM3kwQ0xOdTlDT1R5LWtqQmFqQ1pYQjhNT2VGWtIBeEFVX3lxTE1FTWttTGI2X2xqOXNZeGtfU2hFQXhpQVFBSW9UQ1RkZVNSdDVsNWFSeFN6V0F2VzBBMVZlR1IyUkFVcGliTUI3QlRvRno2T3l3anJia3lsVDFFMmpldUIyVmpkZzZxY0JBcnBlNG91QmV3aGNYNGdFRA?oc=5",
+          "source": "MBC 뉴스",
+          "published": "2026-10-15T03:19:30+00:00",
+          "collected_at": "2026-10-15T22:47:25.112848+00:00",
+          "categories": [
+            "거시경제",
+            "국제·정책"
           ],
           "industries": [
             "기타"
           ],
           "issues": [
-            "금리·자금조달"
+            "금리·자금조달",
+            "환율·원가"
           ],
           "search_topics": [
             "거시경제"
           ],
           "brief_group": "경제 현안",
-          "brief_theme": "금리·자금조달",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
           "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
           "quality": {
             "include": true,
@@ -628,13 +742,50 @@
           "rank": 1
         },
         {
-          "id": "abc5c02453ccbe1b0641",
-          "title": "한은 총재 \"기준금리 0.5%p 인상, 물가상승률 0.08%p 하락 효과\"(종합)",
+          "id": "638b65dde28474203c9e",
+          "title": "[현장에서] 금리 인상이 취약계층 돕는다…신현송의 '환율 경로'",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0M9IBYEFVX3lxTE5mR1hhV3dybWNIc25lMUdQSm05S2c4cGRfcktoZ2lITHZTcmtZeE9zSkFaS3V0SzdraVJJWWJJYWxqcXBldkFqUlhaS196Y1FyLUtxOG8waUZ3Y1BUaUw0Mw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BVDBCcjJiY003Z1EtUUtoWFFMNnlueGlDclpCQTE3SDhRUlpfdjBBclU5U29YNG04Yk9oUVRCVHJwV0VYYlNnVF96bHRDZzRJb01YWDZlXzNnZlNTc3VuRm9aLVU2VlNLOGt2R0dScjA?oc=5",
+          "source": "연합인포맥스",
+          "published": "2026-10-15T00:45:05+00:00",
+          "collected_at": "2026-10-15T22:47:25.112454+00:00",
+          "categories": [
+            "거시경제"
+          ],
+          "industries": [
+            "기타"
+          ],
+          "issues": [
+            "금리·자금조달",
+            "환율·원가"
+          ],
+          "search_topics": [
+            "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "금리·자금조달"
+          ],
+          "relation": "파급 경로: 금리·자금조달",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "70fd7d362d443c646a4b",
+          "title": "野배준영 \"한은총재, 이달 기준금리 인상 '원점 재검토'해야\"",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDbUJvbUZaVTM4eXhmWEM3UVVscWJXWEx0cDh4Smd3UGs0MkhpRllpX3BfNXNPRXJxdzFNd3JxYUdhZkFzWURfTWVjNFUyTUJDTjlrSE13SldvS0nSAWBBVV95cUxNY08zVlZDZC1fdG12cnJpNU5uUWhqcGlIekNEQTdrRWhLWnhJdE8xMVNMeVc5SnNjRVB5S3MyU0plaVNNZDVmTlkyYjdfblFvNDVfRk1uRjhYSEF0LWlES1A?oc=5",
           "source": "연합뉴스",
-          "published": "2026-10-12T08:30:37+00:00",
-          "collected_at": "2026-10-13T22:48:22.659430+00:00",
+          "published": "2026-10-13T06:50:33+00:00",
+          "collected_at": "2026-10-13T22:48:22.659678+00:00",
           "categories": [
             "거시경제"
           ],
