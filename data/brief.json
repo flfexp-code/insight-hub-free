@@ -1,7 +1,59 @@
 {
-  "updated_at": "2026-10-16T22:48:38.503193+00:00",
+  "updated_at": "2026-10-17T22:42:12.958545+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
+    {
+      "id": "9ceb61a8bba1e90906fb",
+      "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tMUVCZEVOcnpCb0EyamNuVmpwU0ZNTXJ1SXJaa2ZULVdsWmV4bkt4ZUwxN2ZrTTFJMnoxbTI4eF9PcExQVGxDMWoySEEyYXc5NUx2T2daSGxQYkXSAWBBVV95cUxPajRSaDdRSDBpXy02YVpyUllRb3A2MGtJSHFhaFYwS3ZneWl1UjN6RHBfZjJwbWdlbWIybktFNGhITkdkTlV6NWNmdWN5TVJlOFdYeUhDTzRMcFl4TnFMSms?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-17T00:07:32+00:00",
+      "collected_at": "2026-10-17T22:42:11.997419+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "금리·자금조달",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "e7dc5e810a7f6888f237",
+      "title": "고속도로에 송전망 깐다?…도로공사, '에너지 고속도로' 구축 검토",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NWG9oUzRaemdnNlhqVUtWbGJEVGh1akRKX0lGVGxNTEw4dkc2OGxYalRBYUs3WkMtTVJLU1o3Ql95QU1pV014cHFXbTRqUGdKN0FUUzBsUFI4U2dZMEJhWFhIM0l0cl9oeFFDdk13blB0dzdRV2tr0gF3QVVfeXFMTU1Yb2hTNFp6Z2c2WGpVS1ZsYkRUaHVqREpfSUZUbE1MTDh2RzY4bFhqVEFhSzdaQy1NUktTWjdCX3lBTWlXTXhwcVdtNGpQZ0o3QVRTMGxQUjhTZ1kwQmFYWEgzSXRyX2h4UUN2TXduUHR3N1FXa2s?oc=5",
+      "source": "스트레이트뉴스",
+      "published": "2026-10-15T06:58:15+00:00",
+      "collected_at": "2026-10-17T22:42:12.419413+00:00",
+      "categories": [
+        "에너지",
+        "교통·인프라"
+      ],
+      "industries": [
+        "전력·에너지",
+        "교통·인프라"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "교통·인프라"
+      ],
+      "brief_group": "한국도로공사",
+      "brief_theme": "전력망·수요",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 전력망·수요, 교통·통행료",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
     {
       "id": "114f5842d80c44249495",
       "title": "캠코·주금공·신보 국감…기업회생 부실·청년대출 실효성 도마에(종합)",
@@ -28,70 +80,19 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "e7dc5e810a7f6888f237",
-      "title": "고속도로에 송전망 깐다?…도로공사, '에너지 고속도로' 구축 검토",
+      "id": "52d2b5b853c26956fdfd",
+      "title": "일본은행 총재 “더 이상의 물가 상승 용납 못해”…금리 인상 지속 방침",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NWG9oUzRaemdnNlhqVUtWbGJEVGh1akRKX0lGVGxNTEw4dkc2OGxYalRBYUs3WkMtTVJLU1o3Ql95QU1pV014cHFXbTRqUGdKN0FUUzBsUFI4U2dZMEJhWFhIM0l0cl9oeFFDdk13blB0dzdRV2tr0gF3QVVfeXFMTU1Yb2hTNFp6Z2c2WGpVS1ZsYkRUaHVqREpfSUZUbE1MTDh2RzY4bFhqVEFhSzdaQy1NUktTWjdCX3lBTWlXTXhwcVdtNGpQZ0o3QVRTMGxQUjhTZ1kwQmFYWEgzSXRyX2h4UUN2TXduUHR3N1FXa2s?oc=5",
-      "source": "스트레이트뉴스",
-      "published": "2026-10-15T06:58:15+00:00",
-      "collected_at": "2026-10-16T22:48:37.693242+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aYXlrdkZpZW9EMW5uSHdmYnJhMTBqaFIwcmktX2R3R2N0TzVtR2ROZ1NqMHNTNkpMU2EzV2JMUjBxNHB2al9IbUhpUjBZS1VoeVB4UnZhQmdzZ9IBX0FVX3lxTE9Jc1lfR1p4TVk3NlhxamVWRTRsV05qLVBuREVTbXYyRGRwNVFYeGw5RTlYRlhFaFhKWXJlNHY4QnJfQXZNUi1jMEVIN1RZLUlxMHI2SHRLYmhXSjNUOVhj?oc=5",
+      "source": "경향신문",
+      "published": "2026-10-17T07:41:00+00:00",
+      "collected_at": "2026-10-17T22:42:12.003806+00:00",
       "categories": [
-        "에너지",
-        "교통·인프라"
+        "거시경제",
+        "금융"
       ],
       "industries": [
-        "전력·에너지",
-        "교통·인프라"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "교통·인프라"
-      ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "전력망·수요",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 전력망·수요, 교통·통행료",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "26f07279599db4c26494",
-      "title": "뉴욕증시, AI 매도세·유가 상승에 하락 마감…나스닥, 2.1%↓",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261017_0003829820",
-      "source": "뉴시스 경제",
-      "published": "2026-10-16T20:50:34+00:00",
-      "collected_at": "2026-10-16T22:48:38.436529+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "35a033b34ef9fcdd7209",
-      "title": "BOJ 총재 \"추가 금리인상 지속…물가 2% 상회 리스크 유의\"",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qbS1ELTRWNURfQ0VRTWxZZkphMU5OMTRvbjVpR04xeXlfRHlhQkNTQ3hzTmRsYnFQUngyQ2tHc0xWOGp2SzVtOUVDUDRCcWdUUEZiSzYxYlk1aVdSUlZqWWJCeDcwcERVZmlfMVNsU2s?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-16T09:02:50+00:00",
-      "collected_at": "2026-10-16T22:48:36.972066+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
+        "금융·보험"
       ],
       "issues": [
         "금리·자금조달"
@@ -105,24 +106,24 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "fa4eaff041b6f1ce2d83",
-      "title": "석유 최고가격, 또 동결…물가 둔화·'100불 유가'에도 5개월째 유지",
+      "id": "aef490bada0c890a9ead",
+      "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5cXlHcFc1dlY2WDhta0FZMGpZakJHdkhya0FuZzdmZzdXd3N1R1JFWFUyWmJyaWxTVzg5YkEzV3lOMldHNXpNWGgtVXplcTJydUdlRmxxMXhtVDVieDhNOTFnZ2JDenlUVC00QTFzU24?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-16T09:00:08+00:00",
-      "collected_at": "2026-10-16T22:48:36.972708+00:00",
+      "link": "https://www.hankyung.com/article/2026101775037",
+      "source": "한국경제 증권",
+      "published": "2026-10-16T22:55:04+00:00",
+      "collected_at": "2026-10-17T22:42:12.450376+00:00",
       "categories": [
         "거시경제"
       ],
       "industries": [
-        "전력·에너지"
+        "반도체·IT"
       ],
       "issues": [
         "환율·원가"
       ],
       "search_topics": [
-        "거시경제"
+        "금융"
       ],
       "brief_group": "경제 현안",
       "brief_theme": "연료·환율",
