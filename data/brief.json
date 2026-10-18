@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-17T22:42:12.958545+00:00",
+  "updated_at": "2026-10-18T22:44:01.170814+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
     {
-      "id": "9ceb61a8bba1e90906fb",
-      "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
+      "id": "e7642f2b136de332c174",
+      "title": "연거푸 인상한 기준금리...이번 주 금통위 결정 촉각",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tMUVCZEVOcnpCb0EyamNuVmpwU0ZNTXJ1SXJaa2ZULVdsWmV4bkt4ZUwxN2ZrTTFJMnoxbTI4eF9PcExQVGxDMWoySEEyYXc5NUx2T2daSGxQYkXSAWBBVV95cUxPajRSaDdRSDBpXy02YVpyUllRb3A2MGtJSHFhaFYwS3ZneWl1UjN6RHBfZjJwbWdlbWIybktFNGhITkdkTlV6NWNmdWN5TVJlOFdYeUhDTzRMcFl4TnFMSms?oc=5",
-      "source": "연합뉴스",
-      "published": "2026-10-17T00:07:32+00:00",
-      "collected_at": "2026-10-17T22:42:11.997419+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PU2FIcjhlR2cxeWkweTY1aE1BRUs4ZGhyV3VsMkdVRy1pWkZHQ3oxeUxIUVVKODcxQ3VKM1ZsMkJlb3hXanpfaTNwazRlbnc2QVl4cHRxVF96OUowS3c?oc=5",
+      "source": "YTN",
+      "published": "2026-10-18T02:11:00+00:00",
+      "collected_at": "2026-10-18T22:43:59.950275+00:00",
       "categories": [
         "거시경제"
       ],
@@ -28,71 +28,45 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "e7dc5e810a7f6888f237",
-      "title": "고속도로에 송전망 깐다?…도로공사, '에너지 고속도로' 구축 검토",
+      "id": "75cdfff1721517f4831c",
+      "title": "브라질 대선, 태양광 확대 놓고 룰라·보우소나루 정책 경쟁",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NWG9oUzRaemdnNlhqVUtWbGJEVGh1akRKX0lGVGxNTEw4dkc2OGxYalRBYUs3WkMtTVJLU1o3Ql95QU1pV014cHFXbTRqUGdKN0FUUzBsUFI4U2dZMEJhWFhIM0l0cl9oeFFDdk13blB0dzdRV2tr0gF3QVVfeXFMTU1Yb2hTNFp6Z2c2WGpVS1ZsYkRUaHVqREpfSUZUbE1MTDh2RzY4bFhqVEFhSzdaQy1NUktTWjdCX3lBTWlXTXhwcVdtNGpQZ0o3QVRTMGxQUjhTZ1kwQmFYWEgzSXRyX2h4UUN2TXduUHR3N1FXa2s?oc=5",
-      "source": "스트레이트뉴스",
-      "published": "2026-10-15T06:58:15+00:00",
-      "collected_at": "2026-10-17T22:42:12.419413+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12U0lBV0VOX25DdGhFUU9aRmlBRVRkNFphN0RLTXFxWGZISlRlSWxicXZtYmp4WlJBcGJ0YXYwekgzaWRqQ1lYR3F2Q1ZXeEl0c1NvWEZSd0NQZWx1c2hZSHJUbGk3R2V6M3c?oc=5",
+      "source": "AI타임스",
+      "published": "2026-10-17T23:35:00+00:00",
+      "collected_at": "2026-10-18T22:43:59.698744+00:00",
       "categories": [
         "에너지",
-        "교통·인프라"
+        "국제·정책"
       ],
       "industries": [
-        "전력·에너지",
-        "교통·인프라"
+        "전력·에너지"
       ],
       "issues": [
-        "설비·전력수요"
+        "설비·전력수요",
+        "규제·재정"
       ],
       "search_topics": [
-        "교통·인프라"
+        "에너지"
       ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "전력망·수요",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 전력망·수요, 교통·통행료",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+      "brief_group": "한국서부발전",
+      "brief_theme": "탄소·전환",
+      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 탄소·전환",
+      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "114f5842d80c44249495",
-      "title": "캠코·주금공·신보 국감…기업회생 부실·청년대출 실효성 도마에(종합)",
+      "id": "9ceb61a8bba1e90906fb",
+      "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261015_0003828055",
-      "source": "뉴시스 금융",
-      "published": "2026-10-15T09:22:18+00:00",
-      "collected_at": "2026-10-15T22:47:26.177522+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tMUVCZEVOcnpCb0EyamNuVmpwU0ZNTXJ1SXJaa2ZULVdsWmV4bkt4ZUwxN2ZrTTFJMnoxbTI4eF9PcExQVGxDMWoySEEyYXc5NUx2T2daSGxQYkXSAWBBVV95cUxPajRSaDdRSDBpXy02YVpyUllRb3A2MGtJSHFhaFYwS3ZneWl1UjN6RHBfZjJwbWdlbWIybktFNGhITkdkTlV6NWNmdWN5TVJlOFdYeUhDTzRMcFl4TnFMSms?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-17T00:07:32+00:00",
+      "collected_at": "2026-10-18T22:43:59.948010+00:00",
       "categories": [
-        "금융"
+        "거시경제"
       ],
       "industries": [
-        "금융·보험"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "금융"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "경영·조직",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "52d2b5b853c26956fdfd",
-      "title": "일본은행 총재 “더 이상의 물가 상승 용납 못해”…금리 인상 지속 방침",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aYXlrdkZpZW9EMW5uSHdmYnJhMTBqaFIwcmktX2R3R2N0TzVtR2ROZ1NqMHNTNkpMU2EzV2JMUjBxNHB2al9IbUhpUjBZS1VoeVB4UnZhQmdzZ9IBX0FVX3lxTE9Jc1lfR1p4TVk3NlhxamVWRTRsV05qLVBuREVTbXYyRGRwNVFYeGw5RTlYRlhFaFhKWXJlNHY4QnJfQXZNUi1jMEVIN1RZLUlxMHI2SHRLYmhXSjNUOVhj?oc=5",
-      "source": "경향신문",
-      "published": "2026-10-17T07:41:00+00:00",
-      "collected_at": "2026-10-17T22:42:12.003806+00:00",
-      "categories": [
-        "거시경제",
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
+        "기타"
       ],
       "issues": [
         "금리·자금조달"
@@ -106,20 +80,22 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "aef490bada0c890a9ead",
-      "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
+      "id": "adebe933ea8b89d5890c",
+      "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
       "summary": "",
-      "link": "https://www.hankyung.com/article/2026101775037",
+      "link": "https://www.hankyung.com/article/2026101888191",
       "source": "한국경제 증권",
-      "published": "2026-10-16T22:55:04+00:00",
-      "collected_at": "2026-10-17T22:42:12.450376+00:00",
+      "published": "2026-10-18T08:19:39+00:00",
+      "collected_at": "2026-10-18T22:44:00.400768+00:00",
       "categories": [
-        "거시경제"
+        "거시경제",
+        "금융"
       ],
       "industries": [
-        "반도체·IT"
+        "기타"
       ],
       "issues": [
+        "금리·자금조달",
         "환율·원가"
       ],
       "search_topics": [
@@ -127,10 +103,33 @@
       ],
       "brief_group": "경제 현안",
       "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "43c2679cb39043735855",
+      "title": "IMF \"3저 호황 후 40년 만에 韓 잠재성장률 2년 연속 상승\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026101888761",
+      "source": "한국경제 증권",
+      "published": "2026-10-18T08:27:49+00:00",
+      "collected_at": "2026-10-18T22:44:00.400545+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "금융"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "경영·조직",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안",
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
   "selected_count": 5,
-  "candidate_count": 367
+  "candidate_count": 362
 }

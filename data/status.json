@@ -1,9 +1,9 @@
 {
-  "attempted_at": "2026-10-17T22:42:12.958545+00:00",
-  "last_success": "2026-10-17T22:42:12.958545+00:00",
+  "attempted_at": "2026-10-18T22:44:01.170814+00:00",
+  "last_success": "2026-10-18T22:44:01.170814+00:00",
   "ok": true,
-  "received": 367,
-  "stored": 2395,
+  "received": 362,
+  "stored": 2580,
   "brief_count": 5,
   "errors": []
 }
