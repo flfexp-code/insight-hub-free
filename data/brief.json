@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T22:49:18.284266+00:00",
+  "updated_at": "2026-10-21T22:50:29.386946+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
     {
@@ -9,7 +9,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RLVlCdExFX2lZQVA3MGFkTlp3TFkzMWlvUl9PSU9ES0FHU0JHQlhSYVhnQXJoaHY4cEMwRXNsemhyaDMxVUZDSEEwT1hjZDVsYnlQZFBIM1RpZFhGa0ItNA?oc=5",
       "source": "뉴스토마토",
       "published": "2026-10-20T04:20:49+00:00",
-      "collected_at": "2026-10-20T22:49:16.818382+00:00",
+      "collected_at": "2026-10-21T22:50:27.622215+00:00",
       "categories": [
         "거시경제"
       ],
@@ -59,7 +59,7 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMNWpEMG5Wa1AwZmQzY3hYTTd2c1FpX0FlQTN6dzQxek9xcHhyLXZEdjBvdFV6bXdjTmhwUGhpOTFCUEV1X0dRdEJPcnJvRF96X0VSRWxMMWd4LW1wVjVYUzh3UGh1TjVONkZIVThOb1NMWUJWX1HSAXpBVV95cUxNU2I2ODNyTzlOSEVYSWd0enRpTENJMDVTand6a1lqRFNUT0RVS2RtN3hDa0VFY25CcHdneEwxelRmNnd6Tm5QRUh6eWx0Z2hkdWJ2RGRWb0tnOWQtSjlUOFpKRnJHT0haY3hNTW5BR3ZtLVRtNUFhRXJtdw?oc=5",
       "source": "그린포스트코리아",
       "published": "2026-10-20T07:09:11+00:00",
-      "collected_at": "2026-10-20T22:49:17.416026+00:00",
+      "collected_at": "2026-10-21T22:50:28.179299+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -69,6 +69,7 @@
       ],
       "issues": [],
       "search_topics": [
+        "교통·인프라",
         "기업: 한국도로공사"
       ],
       "brief_group": "한국도로공사",
@@ -80,10 +81,10 @@
       "id": "1af0cfb800278ec234a9",
       "title": "[단독] 노후 임대주택 고칠 돈으로 ‘빚투’...758억원 까먹은 LH",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE52M2lsV2xoS0pHN0VfRmYxOGtaNHRoU3B5OFV1TnpWVE5JaS1xa3kzUlZMU2x2NHB2ZFJlQlN3THNySzZ0S3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XVUJHcUlDYk8yQUxSUXlmNVpxTzh0Z0V3M095Tk5EVFNHVXBvV29HWGZjdE5iS2xDQXZvUDBxeUJOQ0NGNkZReEVzSVFnX3hNSGlUdw?oc=5",
       "source": "매일경제",
       "published": "2026-10-19T22:00:00+00:00",
-      "collected_at": "2026-10-20T22:49:17.331790+00:00",
+      "collected_at": "2026-10-21T22:50:28.131299+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -97,58 +98,6 @@
       "brief_group": "한국토지주택공사",
       "brief_theme": "주택공급·수요",
       "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
-      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "d61efbe518c745ea9000",
-      "title": "[국제 경제 흐름 읽기] 고유가 버틴 세계경제⋯재정·AI 부채가 복병",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fOHBscWpMdWd3Z2FoWk5Ic1lsLWJWSkpsbTBKN3RmZG00MzV0VnI2R3JHaHBzSDltek5VZDlpM2l3aGtfUTFYYmlYemZOYldERWd6NG5XUGRwUnBFelp6Uw?oc=5",
-      "source": "포커스온경제",
-      "published": "2026-10-18T20:10:02+00:00",
-      "collected_at": "2026-10-20T22:49:16.563231+00:00",
-      "categories": [
-        "거시경제",
-        "국제·정책"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "국제·정책"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "a689304c70a8f98eec5a",
-      "title": "[공기업 Pick] 한전KDN·한국토지주택공사, 사회안전망 구축과 자원순환",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zc2ZUcHl0NVNyRDZid2ZsLWdWZkpvc0M1NV9PZXNZWnZOYWRhOTRtYnFvSjJtZFZTZTVaa0lJVmhValUzaEozT2tqWHJhbEw4bFV6blBzUkc4V2p1R1ZWanNzQnBhYURqcC00?oc=5",
-      "source": "라이센스뉴스",
-      "published": "2026-10-20T04:30:00+00:00",
-      "collected_at": "2026-10-20T22:49:17.328832+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "전력·에너지",
-        "건설·부동산"
-      ],
-      "issues": [
-        "안전·운영관리"
-      ],
-      "search_topics": [
-        "기업: 한국토지주택공사"
-      ],
-      "brief_group": "한국토지주택공사",
-      "brief_theme": "경영·조직",
-      "brief_reason": "관심 기업의 사업·경영 현안",
       "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
@@ -178,13 +127,39 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
+      "id": "a689304c70a8f98eec5a",
+      "title": "[공기업 Pick] 한전KDN·한국토지주택공사, 사회안전망 구축과 자원순환",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zc2ZUcHl0NVNyRDZid2ZsLWdWZkpvc0M1NV9PZXNZWnZOYWRhOTRtYnFvSjJtZFZTZTVaa0lJVmhValUzaEozT2tqWHJhbEw4bFV6blBzUkc4V2p1R1ZWanNzQnBhYURqcC00?oc=5",
+      "source": "라이센스뉴스",
+      "published": "2026-10-20T04:30:00+00:00",
+      "collected_at": "2026-10-21T22:50:28.132423+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "전력·에너지",
+        "건설·부동산"
+      ],
+      "issues": [
+        "안전·운영관리"
+      ],
+      "search_topics": [
+        "기업: 한국토지주택공사"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "경영·조직",
+      "brief_reason": "관심 기업의 사업·경영 현안",
+      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
       "id": "099e6b97435cec3503b6",
       "title": "한은, 기준금리 동결 무게…연내 추가 인상 가능성",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-20T07:11:00+00:00",
-      "collected_at": "2026-10-20T22:49:16.819026+00:00",
+      "collected_at": "2026-10-21T22:50:27.622803+00:00",
       "categories": [
         "거시경제"
       ],
@@ -201,8 +176,34 @@
       "brief_theme": "금리·자금조달",
       "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "8c6b17895cf7f49f342c",
+      "title": "[속보] 10월 1∼20일 수출 616억달러, 105.4% 증가…일평균 65.9%↑",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FZ01TaWY4RkRxN1l0MWpMZ3VVb3ktYlMtS1hWLTBUY2RPZWhKMlkybG5fSGNweWNLT0FZOHJ6clp6NlNDYmxubFlPeFB6ZWY3dUR2LQ?oc=5",
+      "source": "매일경제",
+      "published": "2026-10-21T00:09:16+00:00",
+      "collected_at": "2026-10-21T22:50:27.340422+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "환율·원가",
+        "통상·공급망"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
   "selected_count": 8,
-  "candidate_count": 363
+  "candidate_count": 362
 }
