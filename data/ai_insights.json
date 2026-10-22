@@ -1,43 +1,67 @@
 {
-  "updated_at": "2026-10-21T22:50:43.612871+00:00",
-  "news_updated_at": "2026-10-21T22:50:29.386946+00:00",
+  "updated_at": "2026-10-22T22:49:52.377530+00:00",
+  "news_updated_at": "2026-10-22T22:49:38.425847+00:00",
   "model": "gemini-3.5-flash-lite",
   "companies": {
     "한국서부발전": {
       "items": [
         {
           "title": "태양광 발전설비 공급계약을 통한 신재생 사업 연계",
-          "phenomenon": "에스에너지와 한국서부발전 간의 태양광 발전설비 공급계약 체결 단서(N1)와 산업연구원의 에너지 안보 및 녹색전환 리스크 진단(kiet_energy)",
-          "impact": "재생에너지 설비 확충을 통한 전원 다변화 기회가 있으나 외부 에너지 가격 충격과 전환 속도 조절 부담이 존재함",
-          "response": "설비 투자 집행 시 외부 충격에 대비한 회복력을 감안하여 단계별로 추진하는 조건부 대응이 필요함",
-          "counter": "계약의 구체적 이행 여부 및 공급 차질 가능성에 대해서는 원문 확인과 미확정 요소 점검이 필요함",
+          "phenomenon": "에스에너지와 한국서부발전 간의 125억원 규모 태양광 발전설비 공급계약 체결 단서(N1)",
+          "impact": "재생에너지 확대 기조 속에서 발전설비 확충 기회가 있으나 실제 집행 여부와 원가 조건은 미확정",
+          "response": "설비 공급 계약의 이행 단계와 시공사 재무 건전성 모니터링 필요",
+          "counter": "공사비 상승 및 건설업 부실 장기화 시 납기 지연이나 비용 부담 확대 가능성",
           "news_ids": [
             "N1"
           ],
           "report_ids": [
-            "kiet_energy"
+            "kiet_energy",
+            "bok_construction"
           ],
           "check_metrics": [
-            "태양광 설비 투자 집행률",
-            "신재생에너지 발전 비중"
+            "태양광 설비 납품 진척률",
+            "계약 이행 보증",
+            "원자재 가격"
           ]
         },
         {
-          "title": "금리 변동에 따른 자금조달 여건 변화",
-          "phenomenon": "기준금리 인상 가능성과 시중 금리 상승세에 대한 언론 보도(N4, N5) 및 한국은행의 통화신용정책 진단(bok_fx)",
-          "impact": "발전소 건설 및 설비 투자를 위한 자금조달 비용이 증가하여 재무 건전성에 부담으로 작용할 위험이 있음",
-          "response": "금리 인상 국면에 대응하여 차입 구조를 다변화하고 자금 집행 시기를 조율하는 조건부 대응을 검토해야 함",
-          "counter": "실제 기준금리 동결 여부와 개별 공기업의 구체적 조달 금리는 추가 확인이 필요함",
+          "title": "국제 유가 상승에 따른 연료비 및 원가 부담",
+          "phenomenon": "중동 긴장 고조로 인한 국제 유가 급등 및 원자재 시장 변동성 확대(N3, N4)",
+          "impact": "화력발전 중심의 연료비용 증가로 이어져 발전 공기업의 수익성 압박 요인으로 작용",
+          "response": "연료 도입 다변화 및 장기 계약을 통한 가격 변동성 완화 검토",
+          "counter": "전력 정산가격(SMP) 조정 여부에 따라 손익 방어력이 달라질 수 있음",
           "news_ids": [
-            "N4",
-            "N5"
+            "N3",
+            "N4"
           ],
           "report_ids": [
+            "kiet_energy",
             "bok_fx"
           ],
           "check_metrics": [
-            "조달금리",
-            "이동평균 차입비용"
+            "브렌트유 가격",
+            "환율 변동성",
+            "연료비 정산 단가"
+          ]
+        },
+        {
+          "title": "기준금리 동결 기조와 자금조달 여건",
+          "phenomenon": "한국은행의 기준금리 3% 동결 및 통화정책 속도 조절(N5, N7)",
+          "impact": "추가 금리 인상 충격은 완화되었으나 고금리 장기화로 신규 발전소 건설 및 투자비용 조달 부담 지속",
+          "response": "자금조달 포트폴리오 재점검 및 공사채 발행 금리 모니터링",
+          "counter": "금리 하락 전환 시점과 자금시장 유동성에 따라 금융비용 부담 완화 가능성",
+          "news_ids": [
+            "N5",
+            "N7"
+          ],
+          "report_ids": [
+            "bok_construction",
+            "bok_fx"
+          ],
+          "check_metrics": [
+            "기준금리 추이",
+            "회사채 발행 금리",
+            "부채비율"
           ]
         }
       ],
@@ -79,63 +103,61 @@
           "rank": 7
         },
         {
-          "id": "bb97cbb3f44275223fab",
-          "title": "[올댓차이나] 홍콩 증시, 고유가·글로벌 금리상승에 반락 마감… H주 1.21%↓",
+          "id": "450f0654a3f51c5f5b1d",
+          "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
           "summary": "",
-          "link": "https://www.newsis.com/view/NISX20261020_0003834023",
-          "source": "뉴시스 경제",
-          "published": "2026-10-20T10:04:48+00:00",
-          "collected_at": "2026-10-20T22:49:18.204044+00:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
+          "source": "굿모닝충청",
+          "published": "2026-10-22T03:43:46+00:00",
+          "collected_at": "2026-10-22T22:49:37.418423+00:00",
           "categories": [
-            "거시경제"
+            "에너지"
           ],
           "industries": [
-            "기타"
+            "전력·에너지"
           ],
           "issues": [
-            "금리·자금조달",
-            "환율·원가"
+            "설비·전력수요",
+            "안전·운영관리"
           ],
           "search_topics": [
-            "거시경제"
+            "기업: 한국서부발전"
           ],
-          "brief_group": "경제 현안",
-          "brief_theme": "연료·환율",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "brief_group": "한국서부발전",
+          "brief_theme": "기후·안전",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
+          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
           "quality": {
             "include": true,
             "label": "분석 후보",
             "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
           },
           "signals": [
-            "금리·자금조달",
-            "연료·환율"
+            "기후·안전"
           ],
-          "relation": "파급 경로: 금리·자금조달, 연료·환율",
-          "direct": false,
-          "rank": 2
+          "relation": "기업명 직접 등장",
+          "direct": true,
+          "rank": 5
         },
         {
-          "id": "8c6b17895cf7f49f342c",
-          "title": "[속보] 10월 1∼20일 수출 616억달러, 105.4% 증가…일평균 65.9%↑",
+          "id": "b204f5eac924610547ba",
+          "title": "[속보]뉴욕 증시, AI주 약세·고유가에 하락…나스닥, 2.6% ↓",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FZ01TaWY4RkRxN1l0MWpMZ3VVb3ktYlMtS1hWLTBUY2RPZWhKMlkybG5fSGNweWNLT0FZOHJ6clp6NlNDYmxubFlPeFB6ZWY3dUR2LQ?oc=5",
-          "source": "매일경제",
-          "published": "2026-10-21T00:09:16+00:00",
-          "collected_at": "2026-10-21T22:50:27.340422+00:00",
+          "link": "https://www.newsis.com/view/NISX20261023_0003837723",
+          "source": "뉴시스 경제",
+          "published": "2026-10-22T20:06:39+00:00",
+          "collected_at": "2026-10-22T22:49:38.095481+00:00",
           "categories": [
-            "산업·통상"
+            "거시경제"
           ],
           "industries": [
-            "기타"
+            "반도체·IT"
           ],
           "issues": [
-            "환율·원가",
-            "통상·공급망"
+            "환율·원가"
           ],
           "search_topics": [
-            "산업·통상"
+            "거시경제"
           ],
           "brief_group": "경제 현안",
           "brief_theme": "연료·환율",
@@ -154,13 +176,13 @@
           "rank": 1
         },
         {
-          "id": "099e6b97435cec3503b6",
-          "title": "한은, 기준금리 동결 무게…연내 추가 인상 가능성",
+          "id": "3939c54979bcb715cd6b",
+          "title": "국제 유가, 중동 긴장 고조에 급등…브렌트유, 5월 이후 최고",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
-          "source": "연합뉴스TV",
-          "published": "2026-10-20T07:11:00+00:00",
-          "collected_at": "2026-10-21T22:50:27.622803+00:00",
+          "link": "https://www.newsis.com/view/NISX20261023_0003837721",
+          "source": "뉴시스 경제",
+          "published": "2026-10-22T19:51:04+00:00",
+          "collected_at": "2026-10-22T22:49:38.095584+00:00",
           "categories": [
             "거시경제"
           ],
@@ -168,10 +190,47 @@
             "기타"
           ],
           "issues": [
-            "금리·자금조달"
+            "환율·원가"
           ],
           "search_topics": [
             "거시경제"
+          ],
+          "brief_group": "경제 현안",
+          "brief_theme": "연료·환율",
+          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "연료·환율"
+          ],
+          "relation": "파급 경로: 연료·환율",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "166746a6f8c04137f07d",
+          "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-10-22T12:09:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.963251+00:00",
+          "categories": [
+            "거시경제",
+            "금융"
+          ],
+          "industries": [
+            "금융·보험"
+          ],
+          "issues": [
+            "금리·자금조달"
+          ],
+          "search_topics": [
+            "금융"
           ],
           "brief_group": "경제 현안",
           "brief_theme": "금리·자금조달",
@@ -190,13 +249,49 @@
           "rank": 1
         },
         {
-          "id": "6624c231dd6039bc9889",
-          "title": "4% 조달금리 허덕이는 카드사, 기준금리 인상여부 촉각",
+          "id": "1de361395071d0beeddc",
+          "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RLVlCdExFX2lZQVA3MGFkTlp3TFkzMWlvUl9PSU9ES0FHU0JHQlhSYVhnQXJoaHY4cEMwRXNsemhyaDMxVUZDSEEwT1hjZDVsYnlQZFBIM1RpZFhGa0ItNA?oc=5",
-          "source": "뉴스토마토",
-          "published": "2026-10-20T04:20:49+00:00",
-          "collected_at": "2026-10-21T22:50:27.622215+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
+          "source": "아시아타임즈",
+          "published": "2026-10-22T04:57:00+00:00",
+          "collected_at": "2026-10-22T22:49:37.003715+00:00",
+          "categories": [
+            "주택·건설"
+          ],
+          "industries": [
+            "건설·부동산"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "주택·건설"
+          ],
+          "brief_group": "한국토지주택공사",
+          "brief_theme": "공사비·시공사",
+          "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
+          "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "공사비·시공사"
+          ],
+          "relation": "파급 경로: 공사비·시공사",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "3d9b1a3b669fea166bc9",
+          "title": "기준금리 3%로 동결…두 차례 인상 후 속도 조절",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MMTJzV0xCWmdyYXdSMVRHTUNoMFgyQWk1OXp4ZjZrWjd4amYwTU0yNXJSNURtUU1zN09rbVZhWkp2SlhWLWdZZkFJVThwRzJhblRBMG1RU0x5NXQtdkRWdjJIMnlYeUE?oc=5",
+          "source": "연합뉴스TV",
+          "published": "2026-10-22T03:29:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.879199+00:00",
           "categories": [
             "거시경제"
           ],
@@ -244,21 +339,6 @@
           ],
           "scope": "산업 전체의 에너지 전환 분석. 발전사의 정산방식·전원 구성은 별도 확인."
         },
-        "bok_fx": {
-          "id": "bok_fx",
-          "institution": "한국은행",
-          "title": "통화신용정책보고서(2026년 3월)",
-          "published": "2026-03",
-          "reviewed": "2026-10-13",
-          "locator": "통화신용정책 운영의 일반원칙: 외환시장 변동",
-          "url": "https://www.bok.or.kr/portal/bbs/B0000156/view.do?menuNo=200067&nttId=10096935",
-          "summary": "환율 변동은 수입물가, 금융기관 건전성, 기업 수익성 등을 거쳐 물가와 금융안정에 영향을 준다.",
-          "topics": [
-            "연료·환율",
-            "금리·자금조달"
-          ],
-          "scope": "일반적인 파급 경로. 개별 공기업의 손익을 계산한 자료는 아님."
-        },
         "bok_construction": {
           "id": "bok_construction",
           "institution": "한국은행",
@@ -275,6 +355,21 @@
             "기후·안전"
           ],
           "scope": "2025년 당시의 건설경기 분석. 현재 수치·지역별 상황은 별도 확인."
+        },
+        "bok_fx": {
+          "id": "bok_fx",
+          "institution": "한국은행",
+          "title": "통화신용정책보고서(2026년 3월)",
+          "published": "2026-03",
+          "reviewed": "2026-10-13",
+          "locator": "통화신용정책 운영의 일반원칙: 외환시장 변동",
+          "url": "https://www.bok.or.kr/portal/bbs/B0000156/view.do?menuNo=200067&nttId=10096935",
+          "summary": "환율 변동은 수입물가, 금융기관 건전성, 기업 수익성 등을 거쳐 물가와 금융안정에 영향을 준다.",
+          "topics": [
+            "연료·환율",
+            "금리·자금조달"
+          ],
+          "scope": "일반적인 파급 경로. 개별 공기업의 손익을 계산한 자료는 아님."
         },
         "kdi_construction": {
           "id": "kdi_construction",
@@ -298,11 +393,11 @@
     "한국도로공사": {
       "items": [
         {
-          "title": "해외 스마트 도로 협력 확대",
-          "phenomenon": "한국도로공사, 말레이시아 통행료 개편 참여··· 스마트 도로 협력 확대(N1, 기사 제목 단서)",
-          "impact": "해외 사업 참여 확대를 통해 신규 수익원 창출 기회가 있으나, 실제 계약 조건 및 수익성은 미확정 상태임",
-          "response": "해외 프로젝트의 구체적인 계약 조건과 재무적 타당성을 검증한 후 단계적으로 사업에 착수해야 함",
-          "counter": "단순 MOU나 협력 의향 수준일 수 있어 원문 확인과 구속력 검토가 필요함",
+          "title": "해외 스마트 도로 협력과 통행료 개편 참여",
+          "phenomenon": "한국도로공사의 말레이시아 통행료 개편 참여 및 스마트 도로 협력 확대 기사 제목 단서(N1)",
+          "impact": "해외 사업 확장의 기회가 될 수 있으나 실제 계약 조건과 구체적 수익성은 미확정 상태임",
+          "response": "현지 파트너십의 구체적 집행 전에는 조건부 가설로 접근하고 리스크를 점검할 필요가 있음",
+          "counter": "공식적인 확정 사업이나 구체적 매출 규모가 확인되지 않아 원문 및 추가 계약 확인 필요",
           "news_ids": [
             "N1"
           ],
@@ -310,47 +405,46 @@
             "koti_toll"
           ],
           "check_metrics": [
-            "해외 사업 수주 계약서",
-            "해외 매출 비중"
+            "해외 사업 계약 체결 여부",
+            "스마트 도로 수출 실적"
           ]
         },
         {
-          "title": "기준금리 동결 및 인상 압력에 따른 조달비용 부담",
-          "phenomenon": "한은 기준금리 동결 무게 및 연내 추가 인상 가능성(N3)",
-          "impact": "금리 상승 기조가 지속될 경우 채권 발행 및 차입을 통한 자금 조달 비용이 증가하여 재무 건전성에 부정적 영향",
-          "response": "자금 조달 포트폴리오를 다변화하고 단기 차입 의존도를 낮추는 조건부 재무 전략 수립 필요",
-          "counter": "금리 인하로 전환될 경우 조달 비용 부담이 완화되는 반대 경로 존재",
+          "title": "교통안전 데이터 공유 체계 구축",
+          "phenomenon": "IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축 기사 제목 단서(N2)",
+          "impact": "도로 유지관리 및 교통 서비스 효율성 제고의 기회가 존재하나 데이터 연계 비용이 발생할 수 있음",
+          "response": "협약 참여 기업들과의 구체적인 데이터 활용 성과를 주기적으로 모니터링해야 함",
+          "counter": "단순 협약 단계에 그칠 수 있으며 구속력 있는 집행 전에는 확정 효과로 볼 수 없음",
           "news_ids": [
-            "N2",
+            "N2"
+          ],
+          "report_ids": [
+            "koti_regions"
+          ],
+          "check_metrics": [
+            "데이터 공유 플랫폼 활성도",
+            "교통안전 개선 지표"
+          ]
+        },
+        {
+          "title": "기준금리 동결과 건설투자 제약 요인",
+          "phenomenon": "한국은행의 기준금리 3% 유지 결정 및 건설사 줄폐업·공사비 부담 관련 기사 제목 단서(N3, N4, N6)",
+          "impact": "고금리 기조와 건설경기 부진이 지속될 경우 공공부문 도로 건설 및 자금 조달에 부담으로 작용할 위험이 있음",
+          "response": "금리 변동에 따른 자금 조달 비용을 점검하고 공사비 상승에 대응한 예산 집행 계획을 수립해야 함",
+          "counter": "한국은행의 금리 동결이 즉각적인 공공 건설 투자의 확대나 도로공사 실적 개선으로 이어진다는 인과관계는 미확정임",
+          "news_ids": [
             "N3",
-            "N4"
+            "N4",
+            "N6"
           ],
           "report_ids": [
-            "bok_fx"
+            "bok_construction",
+            "kdi_construction"
           ],
           "check_metrics": [
-            "시장 금리",
-            "채권 발행 금리",
-            "이차보전 비용"
-          ]
-        },
-        {
-          "title": "인구감소지역 이동성 변화와 통행료 관리 연계",
-          "phenomenon": "인구감소지역 생활서비스 접근과 이동성 연구 및 민자·재정고속도로 통행료 관리 연계 제안(koti_regions, koti_toll)",
-          "impact": "거점도시 이동 수요 변화에 따라 특정 구간의 교통량이 변동할 수 있으며, 통행료 정책 연계에 따라 수익 구조에 영향",
-          "response": "지역별 교통 수요 변화를 모니터링하고 정책 제안에 맞춘 통행 서비스 효율화 방안 검토",
-          "counter": "연구원의 정책 제안일 뿐 도로공사의 확정된 요금 인상이나 노선 조정 계획이 아님",
-          "news_ids": [
-            "N1"
-          ],
-          "report_ids": [
-            "koti_regions",
-            "koti_toll"
-          ],
-          "check_metrics": [
-            "고속도로 교통량",
-            "통행료 수입",
-            "지역별 이동 데이터"
+            "기준금리 추이",
+            "건설투자 증감률",
+            "공공 공사 계약 낙찰률"
           ]
         }
       ],
@@ -362,7 +456,7 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMNWpEMG5Wa1AwZmQzY3hYTTd2c1FpX0FlQTN6dzQxek9xcHhyLXZEdjBvdFV6bXdjTmhwUGhpOTFCUEV1X0dRdEJPcnJvRF96X0VSRWxMMWd4LW1wVjVYUzh3UGh1TjVONkZIVThOb1NMWUJWX1HSAXpBVV95cUxNU2I2ODNyTzlOSEVYSWd0enRpTENJMDVTand6a1lqRFNUT0RVS2RtN3hDa0VFY25CcHdneEwxelRmNnd6Tm5QRUh6eWx0Z2hkdWJ2RGRWb0tnOWQtSjlUOFpKRnJHT0haY3hNTW5BR3ZtLVRtNUFhRXJtdw?oc=5",
           "source": "그린포스트코리아",
           "published": "2026-10-20T07:09:11+00:00",
-          "collected_at": "2026-10-21T22:50:28.179299+00:00",
+          "collected_at": "2026-10-22T22:49:37.326387+00:00",
           "categories": [
             "교통·인프라"
           ],
@@ -372,8 +466,8 @@
           ],
           "issues": [],
           "search_topics": [
-            "교통·인프라",
-            "기업: 한국도로공사"
+            "기업: 한국도로공사",
+            "교통·인프라"
           ],
           "brief_group": "한국도로공사",
           "brief_theme": "교통·통행료",
@@ -392,61 +486,60 @@
           "rank": 7
         },
         {
-          "id": "bb97cbb3f44275223fab",
-          "title": "[올댓차이나] 홍콩 증시, 고유가·글로벌 금리상승에 반락 마감… H주 1.21%↓",
+          "id": "34ec63cc98d2263616e7",
+          "title": "한국도로공사, IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축",
           "summary": "",
-          "link": "https://www.newsis.com/view/NISX20261020_0003834023",
-          "source": "뉴시스 경제",
-          "published": "2026-10-20T10:04:48+00:00",
-          "collected_at": "2026-10-20T22:49:18.204044+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
+          "source": "데일리대구경북뉴스",
+          "published": "2026-10-22T04:40:26+00:00",
+          "collected_at": "2026-10-22T22:49:37.325098+00:00",
           "categories": [
-            "거시경제"
+            "교통·인프라"
           ],
           "industries": [
-            "기타"
+            "교통·인프라"
           ],
           "issues": [
-            "금리·자금조달",
-            "환율·원가"
+            "안전·운영관리"
           ],
           "search_topics": [
-            "거시경제"
+            "교통·인프라",
+            "기업: 한국도로공사"
           ],
-          "brief_group": "경제 현안",
-          "brief_theme": "연료·환율",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
+          "brief_group": "한국도로공사",
+          "brief_theme": "경영·조직",
+          "brief_reason": "관심 기업의 사업·경영 현안",
+          "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
           "quality": {
             "include": true,
             "label": "분석 후보",
             "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
           },
-          "signals": [
-            "금리·자금조달"
-          ],
-          "relation": "파급 경로: 금리·자금조달",
-          "direct": false,
-          "rank": 1
+          "signals": [],
+          "relation": "기업명 직접 등장",
+          "direct": true,
+          "rank": 4
         },
         {
-          "id": "099e6b97435cec3503b6",
-          "title": "한은, 기준금리 동결 무게…연내 추가 인상 가능성",
+          "id": "166746a6f8c04137f07d",
+          "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
-          "source": "연합뉴스TV",
-          "published": "2026-10-20T07:11:00+00:00",
-          "collected_at": "2026-10-21T22:50:27.622803+00:00",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-10-22T12:09:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.963251+00:00",
           "categories": [
-            "거시경제"
+            "거시경제",
+            "금융"
           ],
           "industries": [
-            "기타"
+            "금융·보험"
           ],
           "issues": [
             "금리·자금조달"
           ],
           "search_topics": [
-            "거시경제"
+            "금융"
           ],
           "brief_group": "경제 현안",
           "brief_theme": "금리·자금조달",
@@ -465,13 +558,86 @@
           "rank": 1
         },
         {
-          "id": "6624c231dd6039bc9889",
-          "title": "4% 조달금리 허덕이는 카드사, 기준금리 인상여부 촉각",
+          "id": "1de361395071d0beeddc",
+          "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RLVlCdExFX2lZQVA3MGFkTlp3TFkzMWlvUl9PSU9ES0FHU0JHQlhSYVhnQXJoaHY4cEMwRXNsemhyaDMxVUZDSEEwT1hjZDVsYnlQZFBIM1RpZFhGa0ItNA?oc=5",
-          "source": "뉴스토마토",
-          "published": "2026-10-20T04:20:49+00:00",
-          "collected_at": "2026-10-21T22:50:27.622215+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
+          "source": "아시아타임즈",
+          "published": "2026-10-22T04:57:00+00:00",
+          "collected_at": "2026-10-22T22:49:37.003715+00:00",
+          "categories": [
+            "주택·건설"
+          ],
+          "industries": [
+            "건설·부동산"
+          ],
+          "issues": [
+            "설비·전력수요"
+          ],
+          "search_topics": [
+            "주택·건설"
+          ],
+          "brief_group": "한국토지주택공사",
+          "brief_theme": "공사비·시공사",
+          "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
+          "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "공사비·시공사"
+          ],
+          "relation": "파급 경로: 공사비·시공사",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "450f0654a3f51c5f5b1d",
+          "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
+          "source": "굿모닝충청",
+          "published": "2026-10-22T03:43:46+00:00",
+          "collected_at": "2026-10-22T22:49:37.418423+00:00",
+          "categories": [
+            "에너지"
+          ],
+          "industries": [
+            "전력·에너지"
+          ],
+          "issues": [
+            "설비·전력수요",
+            "안전·운영관리"
+          ],
+          "search_topics": [
+            "기업: 한국서부발전"
+          ],
+          "brief_group": "한국서부발전",
+          "brief_theme": "기후·안전",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
+          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "기후·안전"
+          ],
+          "relation": "파급 경로: 기후·안전",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "3d9b1a3b669fea166bc9",
+          "title": "기준금리 3%로 동결…두 차례 인상 후 속도 조절",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MMTJzV0xCWmdyYXdSMVRHTUNoMFgyQWk1OXp4ZjZrWjd4amYwTU0yNXJSNURtUU1zN09rbVZhWkp2SlhWLWdZZkFJVThwRzJhblRBMG1RU0x5NXQtdkRWdjJIMnlYeUE?oc=5",
+          "source": "연합뉴스TV",
+          "published": "2026-10-22T03:29:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.879199+00:00",
           "categories": [
             "거시경제"
           ],
@@ -587,48 +753,13 @@
     "한국토지주택공사": {
       "items": [
         {
-          "title": "노후 임대주택 보수 예산과 자금 운용 리스크",
-          "phenomenon": "노후 임대주택 보수 재원을 활용한 자금 운용으로 손실이 발생했다는 기사 제목의 단서가 존재함.",
-          "impact": "재무 건전성 악화로 인해 공공주택 공급 및 주거복지 사업 조건에 부정적 영향이 우려됨.",
-          "response": "자금 운용 투명성 강화 및 노후 임대주택 보수 예산의 목적 외 사용 방지책 마련이 필요함.",
-          "counter": "구체적인 손실 규모와 원인에 대해서는 추가적인 원문 확인이 필요하며, 공식 보고서의 진단과 기업의 개별 대응을 구분해야 함.",
+          "title": "공공주택 공급 확대와 건설업 부진 상충",
+          "phenomenon": "LH가 연말까지 공공주택 5만 호 착공을 목표로 민간과 협력 방안을 논의하는 한편, 건설사들은 미분양과 공사비 부담으로 줄폐업 위기에 직면했다는 기사 제목 단서가 있다. 한국은행 보고서에 따르면 공사비와 금리 상승, PF 부실이 건설투자를 제약하고 있다.",
+          "impact": "공공주택 공급 목표 달성을 위해 공공 투자가 확대될 수 있으나, 협력 대상 건설사의 재무 건전성 악화로 실제 공사 진행에 차질이 생길 위험이 있다.",
+          "response": "민간 건설사의 자금 조달 여건과 공사비 현실화 요구를 반영하여 미확정된 착공 계획을 조건부로 조정해야 한다.",
+          "counter": "건설사들의 줄폐업이 본격화될 경우 공공주택 착공 목표 달성이 지연될 수 있으며, 원문 확인이 필요하다.",
           "news_ids": [
-            "N1"
-          ],
-          "report_ids": [
-            "bok_construction"
-          ],
-          "check_metrics": [
-            "임대주택 보수 예산 집행률",
-            "자금 운용 손실 규모"
-          ]
-        },
-        {
-          "title": "금리 변동과 공공기관 조달 비용 부담",
-          "phenomenon": "기준금리 동결 기조 및 추가 인상 가능성과 고금리 장기화 우려가 제기됨.",
-          "impact": "자금조달 금리 상승은 공공기관의 사업비 부담을 가중시키고 주택 건설 및 공급 여력을 제약할 수 있음.",
-          "response": "자금 조달 다변화 및 리스크 관리를 통한 유동성 확보가 조건부로 요구됨.",
-          "counter": "기준금리 인상 여부와 실제 조달 비용의 증감은 거시경제 환경에 따라 달라질 수 있음.",
-          "news_ids": [
-            "N4",
-            "N5"
-          ],
-          "report_ids": [
-            "bok_construction",
-            "kdi_construction"
-          ],
-          "check_metrics": [
-            "기준금리 추이",
-            "채권 발행 금리"
-          ]
-        },
-        {
-          "title": "건설경기 부진과 공공주택 공급 여건",
-          "phenomenon": "공사비 상승과 건설투자 제약 요인이 지속되고 있다는 진단이 있음.",
-          "impact": "건설업체 재무건전성 악화가 공공 주택 공사 진행 차질로 전이될 위험이 있음.",
-          "response": "시공사 리스크 모니터링 강화 및 공사비 변동에 따른 사업 일정 조정이 필요함.",
-          "counter": "보고서의 과거 진단이 현재 지역별 사업장에 미치는 영향은 다를 수 있어 개별 확인이 필요함.",
-          "news_ids": [
+            "N1",
             "N2"
           ],
           "report_ids": [
@@ -636,20 +767,40 @@
             "kdi_construction"
           ],
           "check_metrics": [
-            "건설투자 증가율",
-            "공사비 지수"
+            "공공주택 착공 실적",
+            "건설사 부도율",
+            "PF 대출 연체율"
+          ]
+        },
+        {
+          "title": "기준금리 동결과 자금조달 여건",
+          "phenomenon": "한국은행이 기준금리를 3%로 유지하며 두 차례 인상 효과 점검에 나섰다는 기사 제목 단서가 있다. 한국은행 통화신용정책보고서는 금리 상승이 건설투자 및 자금조달에 미치는 제약 요인을 분석했다.",
+          "impact": "금리 인상 기조가 속도 조절에 들어갔으나 여전히 높은 수준의 금리는 LH의 자금조달 비용과 사업 추진에 부담으로 작용할 수 있다.",
+          "response": "금리 동결 국면에서 자금조달 포트폴리오를 재점검하고 금융비용 상승에 대비한 유동성 관리 계획을 수립해야 한다.",
+          "counter": "시장 금리가 예상과 다르게 반등하거나 자금 경색이 심화될 경우 금융비용 부담이 가중될 수 있다.",
+          "news_ids": [
+            "N3",
+            "N5"
+          ],
+          "report_ids": [
+            "bok_construction"
+          ],
+          "check_metrics": [
+            "기준금리 추이",
+            "채권발행 금리",
+            "공공기관 부채비율"
           ]
         }
       ],
       "news": [
         {
-          "id": "1af0cfb800278ec234a9",
-          "title": "[단독] 노후 임대주택 고칠 돈으로 ‘빚투’...758억원 까먹은 LH",
+          "id": "a2e13bc2e442a4a9976d",
+          "title": "LH 민간과 주택공급 속도 협력 방안 논의, 연말까지 공공주택 5만 호 착공 목표",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XVUJHcUlDYk8yQUxSUXlmNVpxTzh0Z0V3M095Tk5EVFNHVXBvV29HWGZjdE5iS2xDQXZvUDBxeUJOQ0NGNkZReEVzSVFnX3hNSGlUdw?oc=5",
-          "source": "매일경제",
-          "published": "2026-10-19T22:00:00+00:00",
-          "collected_at": "2026-10-21T22:50:28.131299+00:00",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FNmF4dFlQemZTQTJ1ak9hUWlrM3pqNEZJdERNaHFKWW5UTE96Y1MyRG9QYXNfREg3N3hlOW1lQUswUGhtTnlJbWpvVHNLX1JzSnZyajZxN0h2aG5EVlBHRmJ6b3VLRjJfOS1SMTY3YXN2RmM?oc=5",
+          "source": "비즈니스포스트",
+          "published": "2026-10-22T07:16:35+00:00",
+          "collected_at": "2026-10-22T22:49:37.470417+00:00",
           "categories": [
             "주택·건설"
           ],
@@ -674,99 +825,65 @@
           ],
           "relation": "기업명 직접 등장",
           "direct": true,
-          "rank": 5
+          "rank": 7
         },
         {
-          "id": "a689304c70a8f98eec5a",
-          "title": "[공기업 Pick] 한전KDN·한국토지주택공사, 사회안전망 구축과 자원순환",
+          "id": "1de361395071d0beeddc",
+          "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zc2ZUcHl0NVNyRDZid2ZsLWdWZkpvc0M1NV9PZXNZWnZOYWRhOTRtYnFvSjJtZFZTZTVaa0lJVmhValUzaEozT2tqWHJhbEw4bFV6blBzUkc4V2p1R1ZWanNzQnBhYURqcC00?oc=5",
-          "source": "라이센스뉴스",
-          "published": "2026-10-20T04:30:00+00:00",
-          "collected_at": "2026-10-21T22:50:28.132423+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
+          "source": "아시아타임즈",
+          "published": "2026-10-22T04:57:00+00:00",
+          "collected_at": "2026-10-22T22:49:37.003715+00:00",
           "categories": [
             "주택·건설"
           ],
           "industries": [
-            "전력·에너지",
             "건설·부동산"
           ],
           "issues": [
-            "안전·운영관리"
+            "설비·전력수요"
           ],
           "search_topics": [
-            "기업: 한국토지주택공사"
+            "주택·건설"
           ],
           "brief_group": "한국토지주택공사",
-          "brief_theme": "경영·조직",
-          "brief_reason": "관심 기업의 사업·경영 현안",
+          "brief_theme": "공사비·시공사",
+          "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
           "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
           "quality": {
             "include": true,
             "label": "분석 후보",
             "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
           },
-          "signals": [],
-          "relation": "기업명 직접 등장",
-          "direct": true,
+          "signals": [
+            "공사비·시공사",
+            "주택공급·수요"
+          ],
+          "relation": "사업 키워드: 공사비, 미분양",
+          "direct": false,
           "rank": 4
         },
         {
-          "id": "bb97cbb3f44275223fab",
-          "title": "[올댓차이나] 홍콩 증시, 고유가·글로벌 금리상승에 반락 마감… H주 1.21%↓",
+          "id": "166746a6f8c04137f07d",
+          "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
           "summary": "",
-          "link": "https://www.newsis.com/view/NISX20261020_0003834023",
-          "source": "뉴시스 경제",
-          "published": "2026-10-20T10:04:48+00:00",
-          "collected_at": "2026-10-20T22:49:18.204044+00:00",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-10-22T12:09:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.963251+00:00",
           "categories": [
-            "거시경제"
+            "거시경제",
+            "금융"
           ],
           "industries": [
-            "기타"
-          ],
-          "issues": [
-            "금리·자금조달",
-            "환율·원가"
-          ],
-          "search_topics": [
-            "거시경제"
-          ],
-          "brief_group": "경제 현안",
-          "brief_theme": "연료·환율",
-          "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
-          "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?",
-          "quality": {
-            "include": true,
-            "label": "분석 후보",
-            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
-          },
-          "signals": [
-            "금리·자금조달"
-          ],
-          "relation": "파급 경로: 금리·자금조달",
-          "direct": false,
-          "rank": 1
-        },
-        {
-          "id": "099e6b97435cec3503b6",
-          "title": "한은, 기준금리 동결 무게…연내 추가 인상 가능성",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
-          "source": "연합뉴스TV",
-          "published": "2026-10-20T07:11:00+00:00",
-          "collected_at": "2026-10-21T22:50:27.622803+00:00",
-          "categories": [
-            "거시경제"
-          ],
-          "industries": [
-            "기타"
+            "금융·보험"
           ],
           "issues": [
             "금리·자금조달"
           ],
           "search_topics": [
-            "거시경제"
+            "금융"
           ],
           "brief_group": "경제 현안",
           "brief_theme": "금리·자금조달",
@@ -785,13 +902,50 @@
           "rank": 1
         },
         {
-          "id": "6624c231dd6039bc9889",
-          "title": "4% 조달금리 허덕이는 카드사, 기준금리 인상여부 촉각",
+          "id": "450f0654a3f51c5f5b1d",
+          "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RLVlCdExFX2lZQVA3MGFkTlp3TFkzMWlvUl9PSU9ES0FHU0JHQlhSYVhnQXJoaHY4cEMwRXNsemhyaDMxVUZDSEEwT1hjZDVsYnlQZFBIM1RpZFhGa0ItNA?oc=5",
-          "source": "뉴스토마토",
-          "published": "2026-10-20T04:20:49+00:00",
-          "collected_at": "2026-10-21T22:50:27.622215+00:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
+          "source": "굿모닝충청",
+          "published": "2026-10-22T03:43:46+00:00",
+          "collected_at": "2026-10-22T22:49:37.418423+00:00",
+          "categories": [
+            "에너지"
+          ],
+          "industries": [
+            "전력·에너지"
+          ],
+          "issues": [
+            "설비·전력수요",
+            "안전·운영관리"
+          ],
+          "search_topics": [
+            "기업: 한국서부발전"
+          ],
+          "brief_group": "한국서부발전",
+          "brief_theme": "기후·안전",
+          "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
+          "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?",
+          "quality": {
+            "include": true,
+            "label": "분석 후보",
+            "reason": "사업 관련성과 실제 변화 여부는 원문 확인 필요"
+          },
+          "signals": [
+            "기후·안전"
+          ],
+          "relation": "파급 경로: 기후·안전",
+          "direct": false,
+          "rank": 1
+        },
+        {
+          "id": "3d9b1a3b669fea166bc9",
+          "title": "기준금리 3%로 동결…두 차례 인상 후 속도 조절",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MMTJzV0xCWmdyYXdSMVRHTUNoMFgyQWk1OXp4ZjZrWjd4amYwTU0yNXJSNURtUU1zN09rbVZhWkp2SlhWLWdZZkFJVThwRzJhblRBMG1RU0x5NXQtdkRWdjJIMnlYeUE?oc=5",
+          "source": "연합뉴스TV",
+          "published": "2026-10-22T03:29:00+00:00",
+          "collected_at": "2026-10-22T22:49:36.879199+00:00",
           "categories": [
             "거시경제"
           ],

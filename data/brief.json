@@ -1,26 +1,27 @@
 {
-  "updated_at": "2026-10-21T22:50:29.386946+00:00",
+  "updated_at": "2026-10-22T22:49:38.425847+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
     {
-      "id": "6624c231dd6039bc9889",
-      "title": "4% 조달금리 허덕이는 카드사, 기준금리 인상여부 촉각",
+      "id": "166746a6f8c04137f07d",
+      "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RLVlCdExFX2lZQVA3MGFkTlp3TFkzMWlvUl9PSU9ES0FHU0JHQlhSYVhnQXJoaHY4cEMwRXNsemhyaDMxVUZDSEEwT1hjZDVsYnlQZFBIM1RpZFhGa0ItNA?oc=5",
-      "source": "뉴스토마토",
-      "published": "2026-10-20T04:20:49+00:00",
-      "collected_at": "2026-10-21T22:50:27.622215+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-10-22T12:09:00+00:00",
+      "collected_at": "2026-10-22T22:49:36.963251+00:00",
       "categories": [
-        "거시경제"
+        "거시경제",
+        "금융"
       ],
       "industries": [
-        "기타"
+        "금융·보험"
       ],
       "issues": [
         "금리·자금조달"
       ],
       "search_topics": [
-        "거시경제"
+        "금융"
       ],
       "brief_group": "경제 현안",
       "brief_theme": "금리·자금조달",
@@ -53,113 +54,64 @@
       "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "b55fa61fbcada4714049",
-      "title": "한국도로공사, 말레이시아 통행료 개편 참여··· 스마트 도로 협력 확대",
+      "id": "34ec63cc98d2263616e7",
+      "title": "한국도로공사, IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMNWpEMG5Wa1AwZmQzY3hYTTd2c1FpX0FlQTN6dzQxek9xcHhyLXZEdjBvdFV6bXdjTmhwUGhpOTFCUEV1X0dRdEJPcnJvRF96X0VSRWxMMWd4LW1wVjVYUzh3UGh1TjVONkZIVThOb1NMWUJWX1HSAXpBVV95cUxNU2I2ODNyTzlOSEVYSWd0enRpTENJMDVTand6a1lqRFNUT0RVS2RtN3hDa0VFY25CcHdneEwxelRmNnd6Tm5QRUh6eWx0Z2hkdWJ2RGRWb0tnOWQtSjlUOFpKRnJHT0haY3hNTW5BR3ZtLVRtNUFhRXJtdw?oc=5",
-      "source": "그린포스트코리아",
-      "published": "2026-10-20T07:09:11+00:00",
-      "collected_at": "2026-10-21T22:50:28.179299+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
+      "source": "데일리대구경북뉴스",
+      "published": "2026-10-22T04:40:26+00:00",
+      "collected_at": "2026-10-22T22:49:37.325098+00:00",
       "categories": [
         "교통·인프라"
       ],
       "industries": [
-        "유통·식품",
         "교통·인프라"
-      ],
-      "issues": [],
-      "search_topics": [
-        "교통·인프라",
-        "기업: 한국도로공사"
-      ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "교통·통행료",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 교통·통행료",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "1af0cfb800278ec234a9",
-      "title": "[단독] 노후 임대주택 고칠 돈으로 ‘빚투’...758억원 까먹은 LH",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XVUJHcUlDYk8yQUxSUXlmNVpxTzh0Z0V3M095Tk5EVFNHVXBvV29HWGZjdE5iS2xDQXZvUDBxeUJOQ0NGNkZReEVzSVFnX3hNSGlUdw?oc=5",
-      "source": "매일경제",
-      "published": "2026-10-19T22:00:00+00:00",
-      "collected_at": "2026-10-21T22:50:28.131299+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [],
-      "search_topics": [
-        "기업: 한국토지주택공사"
-      ],
-      "brief_group": "한국토지주택공사",
-      "brief_theme": "주택공급·수요",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
-      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "bb97cbb3f44275223fab",
-      "title": "[올댓차이나] 홍콩 증시, 고유가·글로벌 금리상승에 반락 마감… H주 1.21%↓",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261020_0003834023",
-      "source": "뉴시스 경제",
-      "published": "2026-10-20T10:04:48+00:00",
-      "collected_at": "2026-10-20T22:49:18.204044+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "금리·자금조달",
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율, 금리·자금조달",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "a689304c70a8f98eec5a",
-      "title": "[공기업 Pick] 한전KDN·한국토지주택공사, 사회안전망 구축과 자원순환",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zc2ZUcHl0NVNyRDZid2ZsLWdWZkpvc0M1NV9PZXNZWnZOYWRhOTRtYnFvSjJtZFZTZTVaa0lJVmhValUzaEozT2tqWHJhbEw4bFV6blBzUkc4V2p1R1ZWanNzQnBhYURqcC00?oc=5",
-      "source": "라이센스뉴스",
-      "published": "2026-10-20T04:30:00+00:00",
-      "collected_at": "2026-10-21T22:50:28.132423+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "전력·에너지",
-        "건설·부동산"
       ],
       "issues": [
         "안전·운영관리"
       ],
       "search_topics": [
-        "기업: 한국토지주택공사"
+        "교통·인프라",
+        "기업: 한국도로공사"
       ],
-      "brief_group": "한국토지주택공사",
+      "brief_group": "한국도로공사",
       "brief_theme": "경영·조직",
       "brief_reason": "관심 기업의 사업·경영 현안",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "1de361395071d0beeddc",
+      "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
+      "source": "아시아타임즈",
+      "published": "2026-10-22T04:57:00+00:00",
+      "collected_at": "2026-10-22T22:49:37.003715+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "주택·건설"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "공사비·시공사",
+      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
       "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "099e6b97435cec3503b6",
-      "title": "한은, 기준금리 동결 무게…연내 추가 인상 가능성",
+      "id": "3d9b1a3b669fea166bc9",
+      "title": "기준금리 3%로 동결…두 차례 인상 후 속도 조절",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MMTJzV0xCWmdyYXdSMVRHTUNoMFgyQWk1OXp4ZjZrWjd4amYwTU0yNXJSNURtUU1zN09rbVZhWkp2SlhWLWdZZkFJVThwRzJhblRBMG1RU0x5NXQtdkRWdjJIMnlYeUE?oc=5",
       "source": "연합뉴스TV",
-      "published": "2026-10-20T07:11:00+00:00",
-      "collected_at": "2026-10-21T22:50:27.622803+00:00",
+      "published": "2026-10-22T03:29:00+00:00",
+      "collected_at": "2026-10-22T22:49:36.879199+00:00",
       "categories": [
         "거시경제"
       ],
@@ -178,25 +130,123 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "8c6b17895cf7f49f342c",
-      "title": "[속보] 10월 1∼20일 수출 616억달러, 105.4% 증가…일평균 65.9%↑",
+      "id": "450f0654a3f51c5f5b1d",
+      "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FZ01TaWY4RkRxN1l0MWpMZ3VVb3ktYlMtS1hWLTBUY2RPZWhKMlkybG5fSGNweWNLT0FZOHJ6clp6NlNDYmxubFlPeFB6ZWY3dUR2LQ?oc=5",
-      "source": "매일경제",
-      "published": "2026-10-21T00:09:16+00:00",
-      "collected_at": "2026-10-21T22:50:27.340422+00:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
+      "source": "굿모닝충청",
+      "published": "2026-10-22T03:43:46+00:00",
+      "collected_at": "2026-10-22T22:49:37.418423+00:00",
       "categories": [
-        "산업·통상"
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [
+        "설비·전력수요",
+        "안전·운영관리"
+      ],
+      "search_topics": [
+        "기업: 한국서부발전"
+      ],
+      "brief_group": "한국서부발전",
+      "brief_theme": "기후·안전",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
+      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "b55fa61fbcada4714049",
+      "title": "한국도로공사, 말레이시아 통행료 개편 참여··· 스마트 도로 협력 확대",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMNWpEMG5Wa1AwZmQzY3hYTTd2c1FpX0FlQTN6dzQxek9xcHhyLXZEdjBvdFV6bXdjTmhwUGhpOTFCUEV1X0dRdEJPcnJvRF96X0VSRWxMMWd4LW1wVjVYUzh3UGh1TjVONkZIVThOb1NMWUJWX1HSAXpBVV95cUxNU2I2ODNyTzlOSEVYSWd0enRpTENJMDVTand6a1lqRFNUT0RVS2RtN3hDa0VFY25CcHdneEwxelRmNnd6Tm5QRUh6eWx0Z2hkdWJ2RGRWb0tnOWQtSjlUOFpKRnJHT0haY3hNTW5BR3ZtLVRtNUFhRXJtdw?oc=5",
+      "source": "그린포스트코리아",
+      "published": "2026-10-20T07:09:11+00:00",
+      "collected_at": "2026-10-22T22:49:37.326387+00:00",
+      "categories": [
+        "교통·인프라"
+      ],
+      "industries": [
+        "유통·식품",
+        "교통·인프라"
+      ],
+      "issues": [],
+      "search_topics": [
+        "기업: 한국도로공사",
+        "교통·인프라"
+      ],
+      "brief_group": "한국도로공사",
+      "brief_theme": "교통·통행료",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 교통·통행료",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "a2e13bc2e442a4a9976d",
+      "title": "LH 민간과 주택공급 속도 협력 방안 논의, 연말까지 공공주택 5만 호 착공 목표",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FNmF4dFlQemZTQTJ1ak9hUWlrM3pqNEZJdERNaHFKWW5UTE96Y1MyRG9QYXNfREg3N3hlOW1lQUswUGhtTnlJbWpvVHNLX1JzSnZyajZxN0h2aG5EVlBHRmJ6b3VLRjJfOS1SMTY3YXN2RmM?oc=5",
+      "source": "비즈니스포스트",
+      "published": "2026-10-22T07:16:35+00:00",
+      "collected_at": "2026-10-22T22:49:37.470417+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "기업: 한국토지주택공사"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "주택공급·수요",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
+      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "b204f5eac924610547ba",
+      "title": "[속보]뉴욕 증시, AI주 약세·고유가에 하락…나스닥, 2.6% ↓",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837723",
+      "source": "뉴시스 경제",
+      "published": "2026-10-22T20:06:39+00:00",
+      "collected_at": "2026-10-22T22:49:38.095481+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [
+        "환율·원가"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "3939c54979bcb715cd6b",
+      "title": "국제 유가, 중동 긴장 고조에 급등…브렌트유, 5월 이후 최고",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837721",
+      "source": "뉴시스 경제",
+      "published": "2026-10-22T19:51:04+00:00",
+      "collected_at": "2026-10-22T22:49:38.095584+00:00",
+      "categories": [
+        "거시경제"
       ],
       "industries": [
         "기타"
       ],
       "issues": [
-        "환율·원가",
-        "통상·공급망"
+        "환율·원가"
       ],
       "search_topics": [
-        "산업·통상"
+        "거시경제"
       ],
       "brief_group": "경제 현안",
       "brief_theme": "연료·환율",
@@ -204,6 +254,6 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
-  "selected_count": 8,
-  "candidate_count": 362
+  "selected_count": 10,
+  "candidate_count": 354
 }
