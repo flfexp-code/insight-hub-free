@@ -1,7 +1,109 @@
 {
-  "updated_at": "2026-10-22T22:49:38.425847+00:00",
+  "updated_at": "2026-10-23T22:48:59.614077+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
+    {
+      "id": "4a8002f5f43e5541b1e7",
+      "title": "[스타트 경제] 한은, 기준금리 연 3%로 만장일치 동결...11월 인상?",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dWczYUlhbGF6alpycXF3ZzRyUXdjUXI4MUllTXVFbXVfX0pmYnVLVXlGT1FRWVQxckd2RFRwZlY1WUVzeDd0cGtHZHZqM00xSjNWUTRrN1RDRmFWbGc?oc=5",
+      "source": "YTN",
+      "published": "2026-10-22T22:27:00+00:00",
+      "collected_at": "2026-10-23T22:48:57.942156+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "거시경제"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "금리·자금조달",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+    },
+    {
+      "id": "450f0654a3f51c5f5b1d",
+      "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
+      "source": "굿모닝충청",
+      "published": "2026-10-22T03:43:46+00:00",
+      "collected_at": "2026-10-23T22:48:58.311805+00:00",
+      "categories": [
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [
+        "설비·전력수요",
+        "안전·운영관리"
+      ],
+      "search_topics": [
+        "기업: 한국서부발전"
+      ],
+      "brief_group": "한국서부발전",
+      "brief_theme": "기후·안전",
+      "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
+      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "34ec63cc98d2263616e7",
+      "title": "한국도로공사, IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
+      "source": "데일리대구경북뉴스",
+      "published": "2026-10-22T04:40:26+00:00",
+      "collected_at": "2026-10-23T22:48:58.538806+00:00",
+      "categories": [
+        "교통·인프라"
+      ],
+      "industries": [
+        "교통·인프라"
+      ],
+      "issues": [
+        "안전·운영관리"
+      ],
+      "search_topics": [
+        "교통·인프라",
+        "기업: 한국도로공사"
+      ],
+      "brief_group": "한국도로공사",
+      "brief_theme": "경영·조직",
+      "brief_reason": "관심 기업의 사업·경영 현안",
+      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "1de361395071d0beeddc",
+      "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
+      "source": "아시아타임즈",
+      "published": "2026-10-22T04:57:00+00:00",
+      "collected_at": "2026-10-23T22:48:58.192331+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "주택·건설"
+      ],
+      "brief_group": "한국토지주택공사",
+      "brief_theme": "공사비·시공사",
+      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
+      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
     {
       "id": "166746a6f8c04137f07d",
       "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
@@ -29,15 +131,16 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "fcd391faa9099a53ece9",
-      "title": "에스에너지, 한국서부발전과 125억원 규모 태양광 발전설비 공급계약",
+      "id": "6d8a168236667a384ff1",
+      "title": "서부발전, 대전 산업단지에 13MW급 태양광 및 에너지 자급자족 인프라 구축",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRaDVwQUs5Sm5kRG14T1lTUUhVUzNHbDAyNzkwZktkUWFIZ3ZZM2IxOFdmdk1tbnlUNjJpLXFUOVQybjdwV25aR1dmQ1JmX2djX1dVUnZOek9vRms4b1lCOVRON2o5TUVhRDBiNEJkVHkxU21kV1hCOE5Sbw?oc=5",
-      "source": "디지털투데이",
-      "published": "2026-10-20T09:50:01+00:00",
-      "collected_at": "2026-10-20T22:49:17.255149+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UTWpqZGtTdnNvclVHTnJMV3hqdXl6SzRCV3paTkVVQnV0QmMyMzJfU2ZhOUh5NmFqa3NaR21icFVFZ3prTUllUEZwUVhVZTNrMzUyWlAxejhyZTJ6aW1DdnN0Wk5LT1IxVGJxa2NGLV9lZHRaY01J0gF3QVVfeXFMTlRNampka1N2c29yVUdOckxXeGp1eXpLNEJXelpORVVCdXRCYzIzMl9TZmE5SHk2YWprc1pHbWJwVUVnemtNSWVQRnBRWFVlM2szNTJaUDF6OHJlMnppbUN2c3RaTktPUjFUYnFrY0YtX2VkdFpjTUk?oc=5",
+      "source": "스트레이트뉴스",
+      "published": "2026-10-21T05:12:34+00:00",
+      "collected_at": "2026-10-23T22:48:58.313389+00:00",
       "categories": [
-        "에너지"
+        "에너지",
+        "산업·통상"
       ],
       "industries": [
         "전력·에너지"
@@ -54,140 +157,13 @@
       "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "34ec63cc98d2263616e7",
-      "title": "한국도로공사, IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
-      "source": "데일리대구경북뉴스",
-      "published": "2026-10-22T04:40:26+00:00",
-      "collected_at": "2026-10-22T22:49:37.325098+00:00",
-      "categories": [
-        "교통·인프라"
-      ],
-      "industries": [
-        "교통·인프라"
-      ],
-      "issues": [
-        "안전·운영관리"
-      ],
-      "search_topics": [
-        "교통·인프라",
-        "기업: 한국도로공사"
-      ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "경영·조직",
-      "brief_reason": "관심 기업의 사업·경영 현안",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "1de361395071d0beeddc",
-      "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
-      "source": "아시아타임즈",
-      "published": "2026-10-22T04:57:00+00:00",
-      "collected_at": "2026-10-22T22:49:37.003715+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "주택·건설"
-      ],
-      "brief_group": "한국토지주택공사",
-      "brief_theme": "공사비·시공사",
-      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
-      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "3d9b1a3b669fea166bc9",
-      "title": "기준금리 3%로 동결…두 차례 인상 후 속도 조절",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MMTJzV0xCWmdyYXdSMVRHTUNoMFgyQWk1OXp4ZjZrWjd4amYwTU0yNXJSNURtUU1zN09rbVZhWkp2SlhWLWdZZkFJVThwRzJhblRBMG1RU0x5NXQtdkRWdjJIMnlYeUE?oc=5",
-      "source": "연합뉴스TV",
-      "published": "2026-10-22T03:29:00+00:00",
-      "collected_at": "2026-10-22T22:49:36.879199+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "금리·자금조달",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "450f0654a3f51c5f5b1d",
-      "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
-      "source": "굿모닝충청",
-      "published": "2026-10-22T03:43:46+00:00",
-      "collected_at": "2026-10-22T22:49:37.418423+00:00",
-      "categories": [
-        "에너지"
-      ],
-      "industries": [
-        "전력·에너지"
-      ],
-      "issues": [
-        "설비·전력수요",
-        "안전·운영관리"
-      ],
-      "search_topics": [
-        "기업: 한국서부발전"
-      ],
-      "brief_group": "한국서부발전",
-      "brief_theme": "기후·안전",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
-      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "b55fa61fbcada4714049",
-      "title": "한국도로공사, 말레이시아 통행료 개편 참여··· 스마트 도로 협력 확대",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMNWpEMG5Wa1AwZmQzY3hYTTd2c1FpX0FlQTN6dzQxek9xcHhyLXZEdjBvdFV6bXdjTmhwUGhpOTFCUEV1X0dRdEJPcnJvRF96X0VSRWxMMWd4LW1wVjVYUzh3UGh1TjVONkZIVThOb1NMWUJWX1HSAXpBVV95cUxNU2I2ODNyTzlOSEVYSWd0enRpTENJMDVTand6a1lqRFNUT0RVS2RtN3hDa0VFY25CcHdneEwxelRmNnd6Tm5QRUh6eWx0Z2hkdWJ2RGRWb0tnOWQtSjlUOFpKRnJHT0haY3hNTW5BR3ZtLVRtNUFhRXJtdw?oc=5",
-      "source": "그린포스트코리아",
-      "published": "2026-10-20T07:09:11+00:00",
-      "collected_at": "2026-10-22T22:49:37.326387+00:00",
-      "categories": [
-        "교통·인프라"
-      ],
-      "industries": [
-        "유통·식품",
-        "교통·인프라"
-      ],
-      "issues": [],
-      "search_topics": [
-        "기업: 한국도로공사",
-        "교통·인프라"
-      ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "교통·통행료",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 교통·통행료",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
       "id": "a2e13bc2e442a4a9976d",
       "title": "LH 민간과 주택공급 속도 협력 방안 논의, 연말까지 공공주택 5만 호 착공 목표",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FNmF4dFlQemZTQTJ1ak9hUWlrM3pqNEZJdERNaHFKWW5UTE96Y1MyRG9QYXNfREg3N3hlOW1lQUswUGhtTnlJbWpvVHNLX1JzSnZyajZxN0h2aG5EVlBHRmJ6b3VLRjJfOS1SMTY3YXN2RmM?oc=5",
       "source": "비즈니스포스트",
       "published": "2026-10-22T07:16:35+00:00",
-      "collected_at": "2026-10-22T22:49:37.470417+00:00",
+      "collected_at": "2026-10-23T22:48:58.477852+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -204,18 +180,18 @@
       "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
     },
     {
-      "id": "b204f5eac924610547ba",
-      "title": "[속보]뉴욕 증시, AI주 약세·고유가에 하락…나스닥, 2.6% ↓",
+      "id": "0d8a0ad7755cb7420a60",
+      "title": "뉴욕증시, 유가 급등 속 하락 마감…다우 1.23%↓",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261023_0003837723",
+      "link": "https://www.newsis.com/view/NISX20261024_0003839365",
       "source": "뉴시스 경제",
-      "published": "2026-10-22T20:06:39+00:00",
-      "collected_at": "2026-10-22T22:49:38.095481+00:00",
+      "published": "2026-10-23T21:16:25+00:00",
+      "collected_at": "2026-10-23T22:48:59.028882+00:00",
       "categories": [
         "거시경제"
       ],
       "industries": [
-        "반도체·IT"
+        "기타"
       ],
       "issues": [
         "환율·원가"
@@ -229,13 +205,13 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "3939c54979bcb715cd6b",
-      "title": "국제 유가, 중동 긴장 고조에 급등…브렌트유, 5월 이후 최고",
+      "id": "a80f0dfd204f8433267a",
+      "title": "[속보]뉴욕증시, 유가 상승 속 하락 출발",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261023_0003837721",
+      "link": "https://www.newsis.com/view/NISX20261023_0003839347",
       "source": "뉴시스 경제",
-      "published": "2026-10-22T19:51:04+00:00",
-      "collected_at": "2026-10-22T22:49:38.095584+00:00",
+      "published": "2026-10-23T14:25:44+00:00",
+      "collected_at": "2026-10-23T22:48:59.030040+00:00",
       "categories": [
         "거시경제"
       ],
@@ -254,6 +230,6 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
-  "selected_count": 10,
-  "candidate_count": 354
+  "selected_count": 9,
+  "candidate_count": 363
 }
