@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T22:48:59.614077+00:00",
+  "updated_at": "2026-10-24T22:45:59.191200+00:00",
   "purpose": "취업 준비·경제 현안",
   "articles": [
     {
@@ -9,7 +9,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dWczYUlhbGF6alpycXF3ZzRyUXdjUXI4MUllTXVFbXVfX0pmYnVLVXlGT1FRWVQxckd2RFRwZlY1WUVzeDd0cGtHZHZqM00xSjNWUTRrN1RDRmFWbGc?oc=5",
       "source": "YTN",
       "published": "2026-10-22T22:27:00+00:00",
-      "collected_at": "2026-10-23T22:48:57.942156+00:00",
+      "collected_at": "2026-10-24T22:45:57.645939+00:00",
       "categories": [
         "거시경제"
       ],
@@ -34,7 +34,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
       "source": "굿모닝충청",
       "published": "2026-10-22T03:43:46+00:00",
-      "collected_at": "2026-10-23T22:48:58.311805+00:00",
+      "collected_at": "2026-10-24T22:45:58.257135+00:00",
       "categories": [
         "에너지"
       ],
@@ -60,7 +60,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
       "source": "데일리대구경북뉴스",
       "published": "2026-10-22T04:40:26+00:00",
-      "collected_at": "2026-10-23T22:48:58.538806+00:00",
+      "collected_at": "2026-10-24T22:45:58.249037+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -131,39 +131,13 @@
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
-      "id": "6d8a168236667a384ff1",
-      "title": "서부발전, 대전 산업단지에 13MW급 태양광 및 에너지 자급자족 인프라 구축",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UTWpqZGtTdnNvclVHTnJMV3hqdXl6SzRCV3paTkVVQnV0QmMyMzJfU2ZhOUh5NmFqa3NaR21icFVFZ3prTUllUEZwUVhVZTNrMzUyWlAxejhyZTJ6aW1DdnN0Wk5LT1IxVGJxa2NGLV9lZHRaY01J0gF3QVVfeXFMTlRNampka1N2c29yVUdOckxXeGp1eXpLNEJXelpORVVCdXRCYzIzMl9TZmE5SHk2YWprc1pHbWJwVUVnemtNSWVQRnBRWFVlM2szNTJaUDF6OHJlMnppbUN2c3RaTktPUjFUYnFrY0YtX2VkdFpjTUk?oc=5",
-      "source": "스트레이트뉴스",
-      "published": "2026-10-21T05:12:34+00:00",
-      "collected_at": "2026-10-23T22:48:58.313389+00:00",
-      "categories": [
-        "에너지",
-        "산업·통상"
-      ],
-      "industries": [
-        "전력·에너지"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "기업: 한국서부발전"
-      ],
-      "brief_group": "한국서부발전",
-      "brief_theme": "탄소·전환",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 탄소·전환",
-      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
       "id": "a2e13bc2e442a4a9976d",
       "title": "LH 민간과 주택공급 속도 협력 방안 논의, 연말까지 공공주택 5만 호 착공 목표",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FNmF4dFlQemZTQTJ1ak9hUWlrM3pqNEZJdERNaHFKWW5UTE96Y1MyRG9QYXNfREg3N3hlOW1lQUswUGhtTnlJbWpvVHNLX1JzSnZyajZxN0h2aG5EVlBHRmJ6b3VLRjJfOS1SMTY3YXN2RmM?oc=5",
       "source": "비즈니스포스트",
       "published": "2026-10-22T07:16:35+00:00",
-      "collected_at": "2026-10-23T22:48:58.477852+00:00",
+      "collected_at": "2026-10-24T22:45:58.303146+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -178,6 +152,31 @@
       "brief_theme": "주택공급·수요",
       "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
       "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+    },
+    {
+      "id": "acb5d9291761f6d783e0",
+      "title": "美·이란 전운에 유가 급등…뉴욕증시 3대 지수 일제히 하락",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026102422807",
+      "source": "한국경제 증권",
+      "published": "2026-10-24T00:29:10+00:00",
+      "collected_at": "2026-10-24T22:45:58.268139+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "환율·원가"
+      ],
+      "search_topics": [
+        "금융"
+      ],
+      "brief_group": "경제 현안",
+      "brief_theme": "연료·환율",
+      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
+      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     },
     {
       "id": "0d8a0ad7755cb7420a60",
@@ -203,33 +202,8 @@
       "brief_theme": "연료·환율",
       "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
       "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "a80f0dfd204f8433267a",
-      "title": "[속보]뉴욕증시, 유가 상승 속 하락 출발",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261023_0003839347",
-      "source": "뉴시스 경제",
-      "published": "2026-10-23T14:25:44+00:00",
-      "collected_at": "2026-10-23T22:48:59.030040+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
     }
   ],
-  "selected_count": 9,
-  "candidate_count": 363
+  "selected_count": 8,
+  "candidate_count": 362
 }
