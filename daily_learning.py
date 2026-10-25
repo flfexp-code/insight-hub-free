@@ -64,7 +64,8 @@ def eligible_news(packet):
 
 
 def depth_schema(packet):
-    def text(): return {'type': 'STRING'}
+    def text(description='한글 문장으로 작성하며 입력에 없는 현재 사실은 만들지 않습니다.'):
+        return {'type': 'STRING', 'description': description}
     refs = [s['id'] for group in packet.values() for s in group]
     def references(): return {'type': 'ARRAY', 'minItems': 1, 'maxItems': 4,
                               'items': {'type': 'STRING', 'enum': refs}}
@@ -73,11 +74,17 @@ def depth_schema(packet):
         return {'type': 'ARRAY', 'minItems': minimum, 'maxItems': maximum, 'items': obj(properties)}
     return obj({
         'event': obj({**{key: text() for key in ('who', 'when', 'where', 'what', 'why_known', 'how_known')}, 'source_ids': references()}),
-        'why_now': obj({'explanation': text(), 'source_ids': references()}),
-        'foundations': rows({'term': text(), 'explanation': text(), 'application': text()}, 2, 3),
-        'mechanism': rows({'change': text(), 'because': text(), 'condition': text(), 'source_ids': references()}, 3, 4),
+        'why_now': obj({'explanation': text('왜 지금 부각됐는지 근거로 설명하는 120~300자 문단.'), 'source_ids': references()}),
+        'foundations': rows({'term': text(), 'explanation': text('정의와 헷갈리는 점을 설명하는 80~180자 문단.'),
+                             'application': text('개념을 이 기사에 적용하는 방법을 60~160자로 설명.')}, 2, 3),
+        'mechanism': rows({'change': text('무엇이 변하는지 15~80자로 설명.'),
+                          'because': text('다음 단계가 생기는 중간 경로를 100~220자로 구체적으로 설명. 화살표만 나열하거나 변화 내용을 반복하지 않음.'),
+                          'condition': text('경로의 성립 조건을 40~120자로 설명.'), 'source_ids': references()}, 3, 4),
         'connections': rows({'kind': {'type': 'STRING', 'enum': ['산업', '사회', '거시경제']},
-                             **{key: text() for key in ('target', 'pathway', 'condition', 'limit')},
+                             'target': text('연결할 다른 산업·사회문제·경제 변수의 이름.'),
+                             'pathway': text('반드시 130~260자의 완결된 2~3문장. 출발 변화에서 중간 비용·수요·자금 경로를 거쳐 대상의 영향으로 넘어가는 이유를 설명. 짧은 화살표·단어 나열 금지.'),
+                             'condition': text('언제 이 연결이 성립하는지 40~120자.'),
+                             'limit': text('반대 효과 또는 아직 모르는 점을 40~120자로 설명.'),
                              'source_ids': references()}, 1, 3),
         'source_contributions': rows({'source_id': {'type': 'STRING', 'enum': refs}, 'supports': text(), 'does_not_prove': text()}, 2, 5),
         'thinking_questions': rows({'question': text(), 'hint': text()}, 2, 3),
@@ -183,7 +190,8 @@ def validate_depth(study, packet):
     def text(item, key, minimum=1, maximum=500):
         value = item.get(key) if isinstance(item, dict) else None
         if not isinstance(value, str) or not minimum <= len(value.strip()) <= maximum:
-            raise ValueError('학습 내용 누락·분량 오류: ' + key)
+            length = len(value.strip()) if isinstance(value, str) else -1
+            raise ValueError(f'학습 내용 누락·분량 오류: {key} ({length}자; 허용 {minimum}~{maximum}자)')
 
     def refs(item, news_required=False):
         values = item.get('source_ids') if isinstance(item, dict) else None
