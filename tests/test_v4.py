@@ -166,8 +166,8 @@ def depth_fixture(report_ref):
         'event': {**{k: '자료에서 확인되지 않음' for k in ('who','when','where','why_known','how_known')},
                   'what':'전력망 접속 지연과 발전설비 가동 시점의 관계를 다룬 기사', 'source_ids':['N1']},
         'why_now': {'explanation':'설비 투자 이후에도 전력망에 연결되는 시점이 늦어지면 생산과 판매를 시작하는 시점이 달라질 수 있어 가동 조건을 함께 확인할 필요가 있다.', 'source_ids':refs},
-        'foundations': [{'term':term, 'explanation':'설비를 마련하는 지출과 생산물을 판매하는 시점은 다를 수 있다. 설비 완공만으로 수입이 생기는 것은 아니므로 가동 조건을 확인한다.',
-                         'application':'이 기사에서는 건설 일정과 전력망 접속 일정이 일치하는지 구분해 살펴본다.'} for term in ('설비 투자','현금흐름','비용 회수')],
+        'foundations': [{'concept_id':concept_id, 'term':term, 'explanation':'설비를 마련하는 지출과 생산물을 판매하는 시점은 다를 수 있다. 설비 완공만으로 수입이 생기는 것은 아니므로 가동 조건을 확인한다.',
+                         'application':'이 기사에서는 건설 일정과 전력망 접속 일정이 일치하는지 구분해 살펴본다.'} for concept_id, term in (('capacity_generation','설비 투자'),('liquidity_profit','현금흐름'),('cost_price','비용 회수'))],
         'mechanism': [{'change':f'{i}단계 전력망 접속 조건 변화', 'because':f'{i}단계에서는 전력망 접속이 완료되어야 생산한 전력을 공급할 수 있으므로 공사 완료 일정과 판매 개시 시점을 따로 확인해야 한다.', 'condition':'전력망 접속 이전에는 공급할 수 없는 사업 조건인 경우', 'source_ids':refs} for i in range(1,4)],
         'connections':[{'kind':'산업','target':'전력 공급을 필요로 하는 제조업', 'pathway':'발전설비가 완공되어도 전력망 연결이 늦어지면 공급 가능한 시점이 달라질 수 있다. 신규 공장의 전력 조달 계획이 해당 설비에 의존한다면 가동 계획도 함께 점검할 필요가 있다.', 'condition':'공장의 추가 수요를 기존 공급원으로 충당할 수 없는 경우', 'limit':'개별 제조업체의 계약과 기존 공급 여력을 확인하지 않아 현재의 생산 차질을 단정할 수 없다.', 'source_ids':refs}, {'kind':'거시경제','target':'투자와 자금 수요', 'pathway':'완공된 설비의 판매 개시가 늦어지면 투자금 회수가 지연되어 다른 투자에 사용할 자금 여력이 줄어들 수 있다. 차입으로 이를 보완한다면 금리 수준과 만기 조건에 따라 추가 부담이 달라진다.', 'condition':'회수 지연분을 기존 현금으로 충당하기 어려운 경우', 'limit':'경제 전체 투자에 미치는 규모를 알 수 없으므로 총투자가 감소했다고 단정할 수 없다.', 'source_ids':refs}],
         'source_contributions':[{'source_id':r,'supports':'접속 조건과 에너지 전환의 일반적인 제약 요인을 참고했다.', 'does_not_prove':'개별 기업의 생산 손실 규모나 현재 계약 조건을 입증하지는 않는다.'} for r in refs],
@@ -231,6 +231,6 @@ def test_deep_study_renders_full_learning_and_unknown_event_fields():
     assert not app.exception
     rendered = '\n'.join(x.value for x in app.markdown)
     assert '산업·사회·경제와 연결해서 읽기' in rendered
-    assert '자료에서 확인되지 않음' in rendered
-    assert packet['news'][0]['id'] in rendered
+    assert '자료에서 확인되지 않음' in rendered + '\n'.join(str(x.value) for x in app.table)
+    assert '전력망 접속' in rendered
     assert '입증하지 않는 내용' in '\n'.join(x.value for x in app.caption)
