@@ -79,13 +79,13 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
     return validate_output(value, news_ids, report_ids)
 
 
-def request_json(prompt: str, schema: dict, settings: dict):
+def request_json(prompt: str, schema: dict, settings: dict, *, max_output_tokens=8192):
     if not ready(settings):
         raise ValueError('무료 AI 연결 전입니다. API 요청을 보내지 않았습니다.')
     try:
         response = requests.post(ENDPOINT, headers={'x-goog-api-key': settings['GEMINI_API_KEY']},
                                  json={'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
-                                       'generationConfig': {'temperature': 1.0, 'maxOutputTokens': 8192,
+                                       'generationConfig': {'temperature': 1.0, 'maxOutputTokens': min(12288, max_output_tokens),
                                                             'thinkingConfig': {'thinkingLevel': 'low'},
                                                             'responseMimeType': 'application/json',
                                                             'responseSchema': schema}},
