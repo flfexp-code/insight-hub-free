@@ -18,6 +18,8 @@ CONCEPT_PAIRS = {
                                '발표만으로 시행일·예산·적용 대상이 확정되는 것은 아니다. 법령·예산·후속 절차를 따로 확인한다.'),
     'liquidity_profit': ('유동성', '만기가 돌아온 지급 의무를 감당할 현금·자금조달 여력.', '수익성', '매출과 비용을 비교해 이익을 내는 정도.',
                         '차입 한도를 늘리면 지급 여력이 나아질 수 있지만 수입·비용 조건까지 바뀌지는 않는다. 이익과 현금흐름도 인식·지급 시차 때문에 다를 수 있다.'),
+    'stock_flow': ('잔액', '특정 시점에 남아 있는 자산·부채 등의 규모.', '기간 중 증감', '일정 기간에 새로 발생하거나 줄어든 금액.',
+                   '현재 부채 잔액과 올해 적자는 다른 수치다. 올해 흑자가 나더라도 과거에 쌓인 부채가 모두 없어지는 것은 아니다.'),
 }
 
 
@@ -75,7 +77,8 @@ def depth_schema(packet):
     return obj({
         'event': obj({**{key: text() for key in ('who', 'when', 'where', 'what', 'why_known', 'how_known')}, 'source_ids': references()}),
         'why_now': obj({'explanation': text('왜 지금 부각됐는지 근거로 설명하는 120~300자 문단.'), 'source_ids': references()}),
-        'foundations': rows({'term': text(), 'explanation': text('정의와 헷갈리는 점을 설명하는 80~180자 문단.'),
+        'foundations': rows({'concept_id': {'type': 'STRING', 'enum': list(CONCEPT_PAIRS)},
+                             'term': text(), 'explanation': text('앱 개념 목록의 정의와 차이를 유지.'),
                              'application': text('개념을 이 기사에 적용하는 방법을 60~160자로 설명.')}, 3, 3),
         'mechanism': rows({'change': text('무엇이 변하는지 15~80자로 설명.'),
                           'because': text('다음 단계가 생기는 중간 경로를 100~220자로 구체적으로 설명. 화살표만 나열하거나 변화 내용을 반복하지 않음.'),
@@ -213,7 +216,14 @@ def validate_depth(study, packet):
         if not isinstance(rows, list) or not minimum <= len(rows) <= maximum:
             raise ValueError('학습 항목 수 오류: ' + key)
     for item in depth['foundations']:
+        concept = CONCEPT_PAIRS.get(item.get('concept_id'))
+        if not concept:
+            raise ValueError('확인하지 않은 기초 개념 차단')
+        item['term'] = concept[0] + ' · ' + concept[2]
+        item['explanation'] = concept[0] + ': ' + concept[1] + ' ' + concept[2] + ': ' + concept[3] + ' ' + concept[4]
         text(item, 'term', maximum=50); text(item, 'explanation', 35, 350); text(item, 'application', 25, 350)
+    if len({x['concept_id'] for x in depth['foundations']}) != 3:
+        raise ValueError('서로 다른 기초 개념을 선택해야 합니다.')
     for item in depth['mechanism']:
         text(item, 'change', 10, 200); text(item, 'because', 40, 420); text(item, 'condition', 15, 250); refs(item)
         if item['change'].strip() == item['because'].strip():
@@ -272,7 +282,7 @@ claim과 counter는 각각 비용·수요·자금·소득 등 손익이 생기�
 1 event: who(누가), when(언제), where(어디/적용 범위), what(무엇), why_known(보도에서 확인한 이유), how_known(확인한 추진/진행 방식).
 각 항목 1~2문장. 자료에 없는 내용은 '자료에서 확인되지 않음'으로 적으세요. 추측으로 육하원칙을 채우지 않습니다.
 2 why_now.explanation: 120~300자. 왜 지금 이 문제가 부각됐는지 입력의 배경과 변화를 설명. 알 수 없는 역사·정책을 보충하지 않습니다.
-3 foundations: 주제 이해에 필요한 기초 개념 3개. term, explanation(쉬운 정의와 헷갈리는 점 80~180자), application(이 사건에 적용하는 법 60~160자).
+3 foundations: 주제 이해에 필요한 기초 개념 3개. concept_id는 제공한 앱 개념 목록에서 서로 다른 3개를 고릅니다. term과 explanation은 그 목록의 정의를 유지합니다. application(이 사건에 적용하는 법 60~160자).
 기초 개념 중 하나는 재무·경제 변수의 구분(예: 유동성과 수익성, 자산과 현금, 가격수준과 상승률)을 가르치세요. 사채 발행 한도 같은 개별 기관의 법적 조건을 모든 기업에 공통으로 적용되는 규정처럼 설명하지 마세요.
 기초 개념은 안정적인 일반 지식으로 설명하되 새로운 현황 수치·법령·실제 해외 사례를 만들지 마세요. 가상 예시는 반드시 '가정한 예'라고 표시.
 4 mechanism: 3~4단계. change(무엇이 변하는가), because(왜 다음 변화가 생기는가, 100~220자), condition(성립 조건 40~120자).
@@ -287,6 +297,8 @@ pathway(출발 변화→중간 경로→대상 영향, 130~260자), condition(�
 event·why_now·mechanism·connections의 source_ids는 해당 주제의 news_ids/report_ids 안에서 고르세요.
 일반적인 작동 경로와 구체적인 현재 사실을 구분해 표시하세요. 출처가 있다는 이유만으로 인과관계가 증명되는 것은 아닙니다.
 opinion_views는 입력 opinions에 있는 필자의 주장만. 없거나 이 주제와 다르면 빈 목록. 가상의 전문가·찬반 의견은 금지.
+요금 기사는 적용 대상을 반드시 구분하세요. 주택용·일반용 요금 동결 기사를 근거로 산업용 인상을 확정하거나 곧바로 제조업 원가 상승으로 연결하지 마세요. 산업용까지 조정될 경우라는 별도 조건이 필요합니다.
+투자 지출과 영업 비용은 구별합니다. 투자 수요가 증가했다는 사실만으로 영업 적자가 발생했다고 쓰지 마세요. 가격이 오른다고 물가 상승률이 계속 높게 유지된다는 뜻도 아닙니다.
 자료가 부족한 내용은 모른다고 밝혀야 하며 분량을 채우려고 현황을 만들지 않습니다.
 개념 비교 목록:\n''' + json.dumps(CONCEPT_PAIRS, ensure_ascii=False) + '\n학습 가능 기사: ' + json.dumps(eligible_news(packet)) + '\n자료:\n' + json.dumps(packet, ensure_ascii=False)
     output = validate_learning(request_json(prompt, learning_schema(packet), settings, max_output_tokens=12288), packet)
