@@ -7,7 +7,7 @@ import pytest
 import requests
 
 from insights import DEFAULT_PROFILES, curate_brief, news_quality
-from evidence import ArticleParser, allowed_url, read_evidence, strategic_mou_context
+from evidence import ArticleParser, allowed_url, read_evidence, strategic_mou_context, article_text
 from daily_learning import learning_sources, validate_learning, generate_learning
 from news_core import UTC, article_id
 from test_insights import row
@@ -146,5 +146,14 @@ def test_body_parser_requires_specific_container_inside_article_shell():
 
 def test_article_shell_alone_is_not_verified_body():
     parser = ArticleParser()
-    parser.feed('<article><h1>기사 제목</h1><div>구독하기 추천 뉴스 메뉴</div></article>')
+    parser.feed('<article><div class="news_viewer article-content-wrap"><h1>기사 제목</h1><div>구독하기 추천 뉴스 메뉴</div></div></article>')
     assert not parser.parts
+
+
+def test_evidence_excerpt_starts_with_substantive_body_not_title_metadata():
+    title = '한전 사채 한도와 전기요금 인상 압박'
+    body = '연료비와 요금 반영 시차로 인해 자금 조달 부담이 커질 수 있으며 실제 요금 조정 여부는 후속 절차와 비용 회수 조건을 확인해야 한다.'
+    parser = ArticleParser()
+    parser.feed(f'<div class="article-body">구독하기 AI 추천 뉴스<h1>{title}</h1>'
+                f'<div>등록 2026.10.25 수정 2026.10.25</div><p>{body}</p></div>')
+    assert article_text(parser, title) == body
