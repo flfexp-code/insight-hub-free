@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T14:14:28.339466+00:00",
+  "updated_at": "2026-10-25T14:20:14.425742+00:00",
   "articles": [
     {
       "id": "f0ef5afe3e14e0d19c55",
@@ -9,7 +9,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840248",
       "source": "뉴시스 경제",
       "published": "2026-10-25T13:43:33+00:00",
-      "collected_at": "2026-10-25T14:14:28.285093+00:00",
+      "collected_at": "2026-10-25T14:20:14.151526+00:00",
       "categories": [
         "기타"
       ],
@@ -28,7 +28,7 @@
       "link": "https://www.hankyung.com/article/2026102537677",
       "source": "한국경제 국제",
       "published": "2026-10-25T13:28:43+00:00",
-      "collected_at": "2026-10-25T14:14:27.813795+00:00",
+      "collected_at": "2026-10-25T14:20:13.939439+00:00",
       "categories": [
         "거시경제"
       ],
@@ -47,7 +47,7 @@
       "link": "https://www.newsis.com/view/NISX20261021_0003834553",
       "source": "뉴시스 금융",
       "published": "2026-10-25T12:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.022234+00:00",
+      "collected_at": "2026-10-25T14:20:14.239686+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -66,7 +66,7 @@
       "link": "https://www.hankyung.com/article/2026102537537",
       "source": "한국경제 국제",
       "published": "2026-10-25T12:22:45+00:00",
-      "collected_at": "2026-10-25T14:14:27.813903+00:00",
+      "collected_at": "2026-10-25T14:20:13.939545+00:00",
       "categories": [
         "기타"
       ],
@@ -85,7 +85,7 @@
       "link": "https://www.hankyung.com/article/2026102537527",
       "source": "한국경제 사회",
       "published": "2026-10-25T12:07:30+00:00",
-      "collected_at": "2026-10-25T14:14:27.878738+00:00",
+      "collected_at": "2026-10-25T14:20:14.057137+00:00",
       "categories": [
         "기타"
       ],
@@ -104,7 +104,7 @@
       "link": "https://www.hankyung.com/article/2026102537397",
       "source": "한국경제 사회",
       "published": "2026-10-25T11:51:46+00:00",
-      "collected_at": "2026-10-25T14:14:27.878845+00:00",
+      "collected_at": "2026-10-25T14:20:14.057258+00:00",
       "categories": [
         "기타"
       ],
@@ -123,7 +123,7 @@
       "link": "https://www.hankyung.com/article/2026102537297",
       "source": "한국경제 사회",
       "published": "2026-10-25T11:20:43+00:00",
-      "collected_at": "2026-10-25T14:14:27.878929+00:00",
+      "collected_at": "2026-10-25T14:20:14.057344+00:00",
       "categories": [
         "기타"
       ],
@@ -142,7 +142,7 @@
       "link": "https://www.hankyung.com/article/202610253289H",
       "source": "한국경제 경제",
       "published": "2026-10-25T11:07:49+00:00",
-      "collected_at": "2026-10-25T14:14:27.577600+00:00",
+      "collected_at": "2026-10-25T14:20:13.792725+00:00",
       "categories": [
         "기타"
       ],
@@ -161,7 +161,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840214",
       "source": "뉴시스 경제",
       "published": "2026-10-25T10:52:55+00:00",
-      "collected_at": "2026-10-25T14:14:28.285203+00:00",
+      "collected_at": "2026-10-25T14:20:14.372099+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -184,7 +184,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840190",
       "source": "뉴시스 산업",
       "published": "2026-10-25T10:13:29+00:00",
-      "collected_at": "2026-10-25T14:14:28.222501+00:00",
+      "collected_at": "2026-10-25T14:20:14.372234+00:00",
       "categories": [
         "기타"
       ],
@@ -206,7 +206,7 @@
       "link": "https://www.hankyung.com/article/2026102536707",
       "source": "한국경제 국제",
       "published": "2026-10-25T10:11:55+00:00",
-      "collected_at": "2026-10-25T14:14:27.813989+00:00",
+      "collected_at": "2026-10-25T14:20:13.939633+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -225,7 +225,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839818",
       "source": "뉴시스 금융",
       "published": "2026-10-25T10:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.022354+00:00",
+      "collected_at": "2026-10-25T14:20:14.239805+00:00",
       "categories": [
         "기타"
       ],
@@ -244,7 +244,7 @@
       "link": "https://www.hankyung.com/article/2026102535691",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:45:37+00:00",
-      "collected_at": "2026-10-25T14:14:27.577779+00:00",
+      "collected_at": "2026-10-25T14:20:13.792840+00:00",
       "categories": [
         "에너지"
       ],
@@ -265,7 +265,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkQmhIMng2Y1VCR01RdjF2ZzR5Uy12QlY3YnQ2dUgtaEtBTWQwa3l0ckZwZFlwc3NFY2xBcDlLdUxWd2wtbFZ3dUprTE5xaVVPZXpFcnZveEZEdw?oc=5",
       "source": "파이낸셜뉴스",
       "published": "2026-10-25T09:45:14+00:00",
-      "collected_at": "2026-10-25T14:14:26.931349+00:00",
+      "collected_at": "2026-10-25T14:20:13.240423+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -287,7 +287,7 @@
       "link": "https://www.hankyung.com/article/2026102535061",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:44:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.559695+00:00",
+      "collected_at": "2026-10-25T14:20:13.815661+00:00",
       "categories": [
         "기타"
       ],
@@ -306,7 +306,7 @@
       "link": "https://www.hankyung.com/article/2026102535051",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:44:02+00:00",
-      "collected_at": "2026-10-25T14:14:27.555565+00:00",
+      "collected_at": "2026-10-25T14:20:13.825978+00:00",
       "categories": [
         "기타"
       ],
@@ -325,7 +325,7 @@
       "link": "https://www.hankyung.com/article/202610253648i",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:43:53+00:00",
-      "collected_at": "2026-10-25T14:14:27.577927+00:00",
+      "collected_at": "2026-10-25T14:20:13.792926+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -344,7 +344,7 @@
       "link": "https://www.hankyung.com/article/2026102535071",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:43:09+00:00",
-      "collected_at": "2026-10-25T14:14:27.555667+00:00",
+      "collected_at": "2026-10-25T14:20:13.826081+00:00",
       "categories": [
         "기타"
       ],
@@ -364,7 +364,7 @@
       "link": "https://www.hankyung.com/article/2026102535481",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:42:48+00:00",
-      "collected_at": "2026-10-25T14:14:27.578078+00:00",
+      "collected_at": "2026-10-25T14:20:13.793012+00:00",
       "categories": [
         "기타"
       ],
@@ -383,7 +383,7 @@
       "link": "https://www.hankyung.com/article/2026102535531",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:42:07+00:00",
-      "collected_at": "2026-10-25T14:14:27.578224+00:00",
+      "collected_at": "2026-10-25T14:20:13.793093+00:00",
       "categories": [
         "기타"
       ],
@@ -402,7 +402,7 @@
       "link": "https://www.hankyung.com/article/2026102535511",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:40:22+00:00",
-      "collected_at": "2026-10-25T14:14:27.578378+00:00",
+      "collected_at": "2026-10-25T14:20:13.793195+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -421,7 +421,7 @@
       "link": "https://www.hankyung.com/article/2026102535521",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:40:15+00:00",
-      "collected_at": "2026-10-25T14:14:27.578540+00:00",
+      "collected_at": "2026-10-25T14:20:13.793276+00:00",
       "categories": [
         "기타"
       ],
@@ -434,13 +434,34 @@
       ]
     },
     {
+      "id": "40010bc6a17235534326",
+      "title": "이 대통령, 대규모 경상수지 흑자에 “이제 세계경제 선도국가”",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZWFlHUTVpRGJ5NWs5dUpuOU9SUGh2R3dud01hZGdNaUxreUloZXhwSHBtMHBOLVJNVUR4ZUx5S0Y3R2lCWEx3YUtlUTA2eUprR1lhQVZSU2NTZGM?oc=5",
+      "source": "KBS 뉴스",
+      "published": "2026-10-25T09:38:00+00:00",
+      "collected_at": "2026-10-25T14:20:13.241497+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "국제·정책"
+      ]
+    },
+    {
       "id": "b9d1e7b92ca6f12e7dbb",
       "title": "\"AI 생산성 혁명 실현되려면 적절한 제도·인센티브 필수\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102535661",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:37:13+00:00",
-      "collected_at": "2026-10-25T14:14:27.879014+00:00",
+      "collected_at": "2026-10-25T14:20:14.057428+00:00",
       "categories": [
         "기타"
       ],
@@ -459,7 +480,7 @@
       "link": "https://www.hankyung.com/article/2026102535641",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:36:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.879097+00:00",
+      "collected_at": "2026-10-25T14:20:14.057513+00:00",
       "categories": [
         "기타"
       ],
@@ -478,7 +499,7 @@
       "link": "https://www.hankyung.com/article/2026102535231",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:36:27+00:00",
-      "collected_at": "2026-10-25T14:14:27.814074+00:00",
+      "collected_at": "2026-10-25T14:20:13.939720+00:00",
       "categories": [
         "기타"
       ],
@@ -497,7 +518,7 @@
       "link": "https://www.hankyung.com/article/2026102535211",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:35:42+00:00",
-      "collected_at": "2026-10-25T14:14:27.814164+00:00",
+      "collected_at": "2026-10-25T14:20:13.939810+00:00",
       "categories": [
         "기타"
       ],
@@ -516,7 +537,7 @@
       "link": "https://www.hankyung.com/article/2026102535241",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:35:08+00:00",
-      "collected_at": "2026-10-25T14:14:27.578685+00:00",
+      "collected_at": "2026-10-25T14:20:13.793355+00:00",
       "categories": [
         "거시경제"
       ],
@@ -537,7 +558,7 @@
       "link": "https://www.hankyung.com/article/2026102535261",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:34:47+00:00",
-      "collected_at": "2026-10-25T14:14:27.814247+00:00",
+      "collected_at": "2026-10-25T14:20:13.939896+00:00",
       "categories": [
         "기타"
       ],
@@ -556,7 +577,7 @@
       "link": "https://www.hankyung.com/article/2026102535221",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:34:42+00:00",
-      "collected_at": "2026-10-25T14:14:27.814321+00:00",
+      "collected_at": "2026-10-25T14:20:13.939971+00:00",
       "categories": [
         "기타"
       ],
@@ -575,7 +596,7 @@
       "link": "https://www.hankyung.com/article/2026102535721",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:34:26+00:00",
-      "collected_at": "2026-10-25T14:14:27.578839+00:00",
+      "collected_at": "2026-10-25T14:20:13.793439+00:00",
       "categories": [
         "기타"
       ],
@@ -596,7 +617,7 @@
       "link": "https://www.hankyung.com/article/2026102535701",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:34:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.578992+00:00",
+      "collected_at": "2026-10-25T14:20:13.793524+00:00",
       "categories": [
         "산업·통상",
         "고용·사회"
@@ -619,7 +640,7 @@
       "link": "https://www.hankyung.com/article/2026102535681",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:47+00:00",
-      "collected_at": "2026-10-25T14:14:27.579134+00:00",
+      "collected_at": "2026-10-25T14:20:13.793607+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -638,7 +659,7 @@
       "link": "https://www.hankyung.com/article/2026102535741",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:30+00:00",
-      "collected_at": "2026-10-25T14:14:27.579272+00:00",
+      "collected_at": "2026-10-25T14:20:13.793682+00:00",
       "categories": [
         "기타"
       ],
@@ -657,7 +678,7 @@
       "link": "https://www.hankyung.com/article/2026102535731",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:24+00:00",
-      "collected_at": "2026-10-25T14:14:27.579444+00:00",
+      "collected_at": "2026-10-25T14:20:13.793775+00:00",
       "categories": [
         "기타"
       ],
@@ -676,7 +697,7 @@
       "link": "https://www.hankyung.com/article/2026102535711",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:17+00:00",
-      "collected_at": "2026-10-25T14:14:27.579588+00:00",
+      "collected_at": "2026-10-25T14:20:13.793853+00:00",
       "categories": [
         "기타"
       ],
@@ -695,7 +716,7 @@
       "link": "https://www.hankyung.com/article/2026102534821",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:32:54+00:00",
-      "collected_at": "2026-10-25T14:14:27.555759+00:00",
+      "collected_at": "2026-10-25T14:20:13.826189+00:00",
       "categories": [
         "기타"
       ],
@@ -714,7 +735,7 @@
       "link": "https://www.hankyung.com/article/2026102534761",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:32:27+00:00",
-      "collected_at": "2026-10-25T14:14:27.579729+00:00",
+      "collected_at": "2026-10-25T14:20:13.794045+00:00",
       "categories": [
         "기타"
       ],
@@ -733,7 +754,7 @@
       "link": "https://www.hankyung.com/article/2026102534811",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:32:06+00:00",
-      "collected_at": "2026-10-25T14:14:27.555844+00:00",
+      "collected_at": "2026-10-25T14:20:13.826277+00:00",
       "categories": [
         "기타"
       ],
@@ -752,7 +773,7 @@
       "link": "https://www.hankyung.com/article/2026102534801",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:31:40+00:00",
-      "collected_at": "2026-10-25T14:14:27.555925+00:00",
+      "collected_at": "2026-10-25T14:20:13.826358+00:00",
       "categories": [
         "기타"
       ],
@@ -771,7 +792,7 @@
       "link": "https://www.hankyung.com/article/2026102535281",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:30:38+00:00",
-      "collected_at": "2026-10-25T14:14:27.559803+00:00",
+      "collected_at": "2026-10-25T14:20:13.815769+00:00",
       "categories": [
         "기타"
       ],
@@ -790,7 +811,7 @@
       "link": "https://www.hankyung.com/article/2026102535271",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:27:30+00:00",
-      "collected_at": "2026-10-25T14:14:27.559886+00:00",
+      "collected_at": "2026-10-25T14:20:13.815856+00:00",
       "categories": [
         "기타"
       ],
@@ -811,7 +832,7 @@
       "link": "https://www.hankyung.com/article/2026102535321",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:26:48+00:00",
-      "collected_at": "2026-10-25T14:14:27.579873+00:00",
+      "collected_at": "2026-10-25T14:20:13.794172+00:00",
       "categories": [
         "거시경제"
       ],
@@ -830,7 +851,7 @@
       "link": "https://www.hankyung.com/article/2026102535331",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:25:15+00:00",
-      "collected_at": "2026-10-25T14:14:27.536971+00:00",
+      "collected_at": "2026-10-25T14:20:13.805220+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -850,7 +871,7 @@
       "link": "https://www.hankyung.com/article/2026102535301",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:24:25+00:00",
-      "collected_at": "2026-10-25T14:14:27.559971+00:00",
+      "collected_at": "2026-10-25T14:20:13.815940+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -873,7 +894,7 @@
       "link": "https://www.hankyung.com/article/2026102535311",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:23:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.580017+00:00",
+      "collected_at": "2026-10-25T14:20:13.794255+00:00",
       "categories": [
         "거시경제"
       ],
@@ -894,7 +915,7 @@
       "link": "https://www.hankyung.com/article/2026102535781",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:23:24+00:00",
-      "collected_at": "2026-10-25T14:14:27.560048+00:00",
+      "collected_at": "2026-10-25T14:20:13.816020+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -913,7 +934,7 @@
       "link": "https://www.hankyung.com/article/2026102535941",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:20:46+00:00",
-      "collected_at": "2026-10-25T14:14:27.556001+00:00",
+      "collected_at": "2026-10-25T14:20:13.826436+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -934,7 +955,7 @@
       "link": "https://www.hankyung.com/article/2026102535961",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:19:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.580161+00:00",
+      "collected_at": "2026-10-25T14:20:13.794337+00:00",
       "categories": [
         "기타"
       ],
@@ -955,7 +976,7 @@
       "link": "https://www.hankyung.com/article/2026102535951",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:19:17+00:00",
-      "collected_at": "2026-10-25T14:14:27.556078+00:00",
+      "collected_at": "2026-10-25T14:20:13.826513+00:00",
       "categories": [
         "기타"
       ],
@@ -974,7 +995,7 @@
       "link": "https://www.hankyung.com/article/2026102535931",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:18:50+00:00",
-      "collected_at": "2026-10-25T14:14:27.556157+00:00",
+      "collected_at": "2026-10-25T14:20:13.826593+00:00",
       "categories": [
         "기타"
       ],
@@ -993,7 +1014,7 @@
       "link": "https://www.hankyung.com/article/2026102535981",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:18:12+00:00",
-      "collected_at": "2026-10-25T14:14:27.580312+00:00",
+      "collected_at": "2026-10-25T14:20:13.794424+00:00",
       "categories": [
         "기타"
       ],
@@ -1012,7 +1033,7 @@
       "link": "https://www.hankyung.com/article/2026102536021",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:17:38+00:00",
-      "collected_at": "2026-10-25T14:14:27.580477+00:00",
+      "collected_at": "2026-10-25T14:20:13.794502+00:00",
       "categories": [
         "기타"
       ],
@@ -1031,7 +1052,7 @@
       "link": "https://www.hankyung.com/article/2026102536041",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:16:25+00:00",
-      "collected_at": "2026-10-25T14:14:27.556237+00:00",
+      "collected_at": "2026-10-25T14:20:13.826673+00:00",
       "categories": [
         "기타"
       ],
@@ -1050,7 +1071,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkbG80dm9lUnBPeTZqYVE3cUNzalo3dkctQnpZSWNsOG5IOVZKMTVHZVdmRXFWUEFmQnVlVzZMWTJKVldNRWR1bEtLNmZZU3AxeDlFSzNNX2MwNXPSAWBBVV95cUxNS2FDa2RBN0F3UUVtWXA3enY3R1h3RzBVS3lWdFU5RHJlZmhDTGtvQzNvd1ZmQ1dQLVpXN0NSRkhVdW1YRDIwdGJUdkMzdkE3YlpLbUl4TVBiNzBZZHp3T0k?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-25T09:14:33+00:00",
-      "collected_at": "2026-10-25T14:14:26.931953+00:00",
+      "collected_at": "2026-10-25T14:20:13.241584+00:00",
       "categories": [
         "거시경제"
       ],
@@ -1071,7 +1092,7 @@
       "link": "https://www.hankyung.com/article/2026102536091",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:14:11+00:00",
-      "collected_at": "2026-10-25T14:14:27.537079+00:00",
+      "collected_at": "2026-10-25T14:20:13.805338+00:00",
       "categories": [
         "기타"
       ],
@@ -1090,7 +1111,7 @@
       "link": "https://www.hankyung.com/article/2026102536101",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:13:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.537168+00:00",
+      "collected_at": "2026-10-25T14:20:13.805426+00:00",
       "categories": [
         "기타"
       ],
@@ -1109,7 +1130,7 @@
       "link": "https://www.hankyung.com/article/2026102536111",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:12:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.537248+00:00",
+      "collected_at": "2026-10-25T14:20:13.805508+00:00",
       "categories": [
         "기타"
       ],
@@ -1128,7 +1149,7 @@
       "link": "https://www.hankyung.com/article/2026102536131",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:11:12+00:00",
-      "collected_at": "2026-10-25T14:14:27.537318+00:00",
+      "collected_at": "2026-10-25T14:20:13.805581+00:00",
       "categories": [
         "기타"
       ],
@@ -1147,7 +1168,7 @@
       "link": "https://www.hankyung.com/article/2026102536341",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:10:16+00:00",
-      "collected_at": "2026-10-25T14:14:27.879173+00:00",
+      "collected_at": "2026-10-25T14:20:14.057590+00:00",
       "categories": [
         "기타"
       ],
@@ -1166,7 +1187,7 @@
       "link": "https://www.hankyung.com/article/2026102535141",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:06:55+00:00",
-      "collected_at": "2026-10-25T14:14:27.560126+00:00",
+      "collected_at": "2026-10-25T14:20:13.816096+00:00",
       "categories": [
         "금융"
       ],
@@ -1185,7 +1206,7 @@
       "link": "https://www.hankyung.com/article/2026102535151",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:04:15+00:00",
-      "collected_at": "2026-10-25T14:14:27.560204+00:00",
+      "collected_at": "2026-10-25T14:20:13.816202+00:00",
       "categories": [
         "기타"
       ],
@@ -1204,7 +1225,7 @@
       "link": "https://www.hankyung.com/article/2026102535401",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:02:36+00:00",
-      "collected_at": "2026-10-25T14:14:27.560285+00:00",
+      "collected_at": "2026-10-25T14:20:13.816289+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -1223,7 +1244,7 @@
       "link": "https://www.hankyung.com/article/2026102535817",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:57:30+00:00",
-      "collected_at": "2026-10-25T14:14:27.879316+00:00",
+      "collected_at": "2026-10-25T14:20:14.057763+00:00",
       "categories": [
         "기타"
       ],
@@ -1242,7 +1263,7 @@
       "link": "https://www.hankyung.com/article/2026102535181",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:56:09+00:00",
-      "collected_at": "2026-10-25T14:14:27.556314+00:00",
+      "collected_at": "2026-10-25T14:20:13.826749+00:00",
       "categories": [
         "기타"
       ],
@@ -1261,7 +1282,7 @@
       "link": "https://www.hankyung.com/article/2026102535391",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:51:50+00:00",
-      "collected_at": "2026-10-25T14:14:27.556395+00:00",
+      "collected_at": "2026-10-25T14:20:13.826830+00:00",
       "categories": [
         "기타"
       ],
@@ -1280,7 +1301,7 @@
       "link": "https://www.hankyung.com/article/2026102534851",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:48:12+00:00",
-      "collected_at": "2026-10-25T14:14:27.814402+00:00",
+      "collected_at": "2026-10-25T14:20:13.940052+00:00",
       "categories": [
         "기타"
       ],
@@ -1299,7 +1320,7 @@
       "link": "https://www.hankyung.com/article/2026102535297",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:47:53+00:00",
-      "collected_at": "2026-10-25T14:14:27.879396+00:00",
+      "collected_at": "2026-10-25T14:20:14.057843+00:00",
       "categories": [
         "기타"
       ],
@@ -1318,7 +1339,7 @@
       "link": "https://www.hankyung.com/article/2026102534841",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:43:45+00:00",
-      "collected_at": "2026-10-25T14:14:27.814502+00:00",
+      "collected_at": "2026-10-25T14:20:13.940136+00:00",
       "categories": [
         "기타"
       ],
@@ -1337,7 +1358,7 @@
       "link": "https://www.hankyung.com/article/2026102535011",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:42:42+00:00",
-      "collected_at": "2026-10-25T14:14:27.537435+00:00",
+      "collected_at": "2026-10-25T14:20:13.805666+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -1354,7 +1375,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102535011",
         "excerpt": "오피니언 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 [사설] 가상자산 과세, 또 물러서는 정부…조세 원칙에 맞나 입력 2026.10.25 17:42 수정 2026.10.25 17:42",
-        "checked_at": "2026-10-25T14:14:28.987847+00:00",
+        "checked_at": "2026-10-25T14:20:15.059042+00:00",
         "kind": "오피니언",
         "page_title": "[사설] 가상자산 과세, 또 물러서는 정부…조세 원칙에 맞나"
       }
@@ -1366,7 +1387,7 @@
       "link": "https://www.hankyung.com/article/2026102535001",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:42:23+00:00",
-      "collected_at": "2026-10-25T14:14:27.537527+00:00",
+      "collected_at": "2026-10-25T14:20:13.805753+00:00",
       "categories": [
         "기타"
       ],
@@ -1381,7 +1402,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102535001",
         "excerpt": "오피니언 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 [사설] 낙찰받고도 착공 못하는 LNG 발전…저가 입찰 개선해야 입력 2026.10.25 17:42 수정 2026.10.25 17:42",
-        "checked_at": "2026-10-25T14:14:29.473804+00:00",
+        "checked_at": "2026-10-25T14:20:15.059558+00:00",
         "kind": "오피니언",
         "page_title": "[사설] 낙찰받고도 착공 못하는 LNG 발전…저가 입찰 개선해야"
       }
@@ -1393,7 +1414,7 @@
       "link": "https://www.hankyung.com/article/2026102534991",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:41:59+00:00",
-      "collected_at": "2026-10-25T14:14:27.537617+00:00",
+      "collected_at": "2026-10-25T14:20:13.805841+00:00",
       "categories": [
         "기타"
       ],
@@ -1414,7 +1435,7 @@
       "link": "https://www.hankyung.com/article/2026102535021",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:41:39+00:00",
-      "collected_at": "2026-10-25T14:14:27.537703+00:00",
+      "collected_at": "2026-10-25T14:20:13.805925+00:00",
       "categories": [
         "기타"
       ],
@@ -1433,7 +1454,7 @@
       "link": "https://www.hankyung.com/article/2026102535031",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:40:58+00:00",
-      "collected_at": "2026-10-25T14:14:27.537775+00:00",
+      "collected_at": "2026-10-25T14:20:13.806002+00:00",
       "categories": [
         "기타"
       ],
@@ -1452,7 +1473,7 @@
       "link": "https://www.hankyung.com/article/2026102534891",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:38:57+00:00",
-      "collected_at": "2026-10-25T14:14:27.879493+00:00",
+      "collected_at": "2026-10-25T14:20:14.057921+00:00",
       "categories": [
         "기타"
       ],
@@ -1471,7 +1492,7 @@
       "link": "https://www.hankyung.com/article/2026102534861",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:38:26+00:00",
-      "collected_at": "2026-10-25T14:14:27.879576+00:00",
+      "collected_at": "2026-10-25T14:20:14.058000+00:00",
       "categories": [
         "기타"
       ],
@@ -1490,7 +1511,7 @@
       "link": "https://www.hankyung.com/article/2026102534921",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:59+00:00",
-      "collected_at": "2026-10-25T14:14:27.879651+00:00",
+      "collected_at": "2026-10-25T14:20:14.058074+00:00",
       "categories": [
         "기타"
       ],
@@ -1509,7 +1530,7 @@
       "link": "https://www.hankyung.com/article/2026102534931",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:47+00:00",
-      "collected_at": "2026-10-25T14:14:27.879734+00:00",
+      "collected_at": "2026-10-25T14:20:14.058153+00:00",
       "categories": [
         "기타"
       ],
@@ -1528,7 +1549,7 @@
       "link": "https://www.hankyung.com/article/2026102534911",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:20+00:00",
-      "collected_at": "2026-10-25T14:14:27.879810+00:00",
+      "collected_at": "2026-10-25T14:20:14.058265+00:00",
       "categories": [
         "기타"
       ],
@@ -1547,7 +1568,7 @@
       "link": "https://www.hankyung.com/article/2026102534871",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:09+00:00",
-      "collected_at": "2026-10-25T14:14:27.879882+00:00",
+      "collected_at": "2026-10-25T14:20:14.058336+00:00",
       "categories": [
         "기타"
       ],
@@ -1566,7 +1587,7 @@
       "link": "https://www.hankyung.com/article/2026102534901",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.879960+00:00",
+      "collected_at": "2026-10-25T14:20:14.058411+00:00",
       "categories": [
         "기타"
       ],
@@ -1585,7 +1606,7 @@
       "link": "https://www.hankyung.com/article/2026102534631",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:36:40+00:00",
-      "collected_at": "2026-10-25T14:14:27.537844+00:00",
+      "collected_at": "2026-10-25T14:20:13.806070+00:00",
       "categories": [
         "기타"
       ],
@@ -1604,7 +1625,7 @@
       "link": "https://www.hankyung.com/article/2026102534621",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:36:06+00:00",
-      "collected_at": "2026-10-25T14:14:27.537921+00:00",
+      "collected_at": "2026-10-25T14:20:13.806149+00:00",
       "categories": [
         "금융"
       ],
@@ -1625,7 +1646,7 @@
       "link": "https://www.hankyung.com/article/2026102534641",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:35:29+00:00",
-      "collected_at": "2026-10-25T14:14:27.538000+00:00",
+      "collected_at": "2026-10-25T14:20:13.806253+00:00",
       "categories": [
         "기타"
       ],
@@ -1644,7 +1665,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840144",
       "source": "뉴시스 산업",
       "published": "2026-10-25T08:26:22+00:00",
-      "collected_at": "2026-10-25T14:14:28.222597+00:00",
+      "collected_at": "2026-10-25T14:20:14.372330+00:00",
       "categories": [
         "기타"
       ],
@@ -1663,7 +1684,7 @@
       "link": "https://www.hankyung.com/article/2026102534057",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:07:38+00:00",
-      "collected_at": "2026-10-25T14:14:27.814587+00:00",
+      "collected_at": "2026-10-25T14:20:13.940235+00:00",
       "categories": [
         "기타"
       ],
@@ -1682,7 +1703,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839998",
       "source": "뉴시스 경제",
       "published": "2026-10-25T08:02:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.285294+00:00",
+      "collected_at": "2026-10-25T14:20:14.151732+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -1701,7 +1722,7 @@
       "link": "https://www.hankyung.com/article/202610253407i",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:01:34+00:00",
-      "collected_at": "2026-10-25T14:14:27.556491+00:00",
+      "collected_at": "2026-10-25T14:20:13.826913+00:00",
       "categories": [
         "기타"
       ],
@@ -1720,7 +1741,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838631",
       "source": "뉴시스 산업",
       "published": "2026-10-25T08:01:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.222686+00:00",
+      "collected_at": "2026-10-25T14:20:14.372424+00:00",
       "categories": [
         "기타"
       ],
@@ -1739,7 +1760,7 @@
       "link": "https://www.hankyung.com/article/202610253406i",
       "source": "한국경제 IT",
       "published": "2026-10-25T07:53:30+00:00",
-      "collected_at": "2026-10-25T14:14:27.556584+00:00",
+      "collected_at": "2026-10-25T14:20:13.827006+00:00",
       "categories": [
         "기타"
       ],
@@ -1758,7 +1779,7 @@
       "link": "https://www.hankyung.com/article/2026102533277",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:45:47+00:00",
-      "collected_at": "2026-10-25T14:14:27.880039+00:00",
+      "collected_at": "2026-10-25T14:20:14.058490+00:00",
       "categories": [
         "기타"
       ],
@@ -1777,7 +1798,7 @@
       "link": "https://www.hankyung.com/article/202610191229i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:41:53+00:00",
-      "collected_at": "2026-10-25T14:14:27.560360+00:00",
+      "collected_at": "2026-10-25T14:20:13.816367+00:00",
       "categories": [
         "기타"
       ],
@@ -1796,7 +1817,7 @@
       "link": "https://www.hankyung.com/article/2026102533767",
       "source": "한국경제 국제",
       "published": "2026-10-25T07:40:47+00:00",
-      "collected_at": "2026-10-25T14:14:27.814672+00:00",
+      "collected_at": "2026-10-25T14:20:13.940319+00:00",
       "categories": [
         "기타"
       ],
@@ -1815,7 +1836,7 @@
       "link": "https://www.hankyung.com/article/202610253382i",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:39:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.880124+00:00",
+      "collected_at": "2026-10-25T14:20:14.058576+00:00",
       "categories": [
         "기타"
       ],
@@ -1834,7 +1855,7 @@
       "link": "https://www.hankyung.com/article/202610253370i",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:38:28+00:00",
-      "collected_at": "2026-10-25T14:14:27.880204+00:00",
+      "collected_at": "2026-10-25T14:20:14.058658+00:00",
       "categories": [
         "기타"
       ],
@@ -1853,7 +1874,7 @@
       "link": "https://www.hankyung.com/article/202610252718i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:38:27+00:00",
-      "collected_at": "2026-10-25T14:14:27.560470+00:00",
+      "collected_at": "2026-10-25T14:20:13.816451+00:00",
       "categories": [
         "금융"
       ],
@@ -1872,7 +1893,7 @@
       "link": "https://www.hankyung.com/article/202610253357i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:37:16+00:00",
-      "collected_at": "2026-10-25T14:14:27.560555+00:00",
+      "collected_at": "2026-10-25T14:20:13.816534+00:00",
       "categories": [
         "기타"
       ],
@@ -1891,7 +1912,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840113",
       "source": "뉴시스 금융",
       "published": "2026-10-25T07:34:28+00:00",
-      "collected_at": "2026-10-25T14:14:28.022462+00:00",
+      "collected_at": "2026-10-25T14:20:14.239932+00:00",
       "categories": [
         "기타"
       ],
@@ -1910,7 +1931,7 @@
       "link": "https://www.hankyung.com/article/202610167397i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:31:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.560639+00:00",
+      "collected_at": "2026-10-25T14:20:13.816615+00:00",
       "categories": [
         "기타"
       ],
@@ -1929,7 +1950,7 @@
       "link": "https://www.hankyung.com/article/202610216499i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:28:25+00:00",
-      "collected_at": "2026-10-25T14:14:27.560723+00:00",
+      "collected_at": "2026-10-25T14:20:13.816698+00:00",
       "categories": [
         "기타"
       ],
@@ -1948,7 +1969,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840101",
       "source": "뉴시스 산업",
       "published": "2026-10-25T07:22:28+00:00",
-      "collected_at": "2026-10-25T14:14:28.222769+00:00",
+      "collected_at": "2026-10-25T14:20:14.372511+00:00",
       "categories": [
         "기타"
       ],
@@ -1967,7 +1988,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840109",
       "source": "뉴시스 경제",
       "published": "2026-10-25T07:17:28+00:00",
-      "collected_at": "2026-10-25T14:14:28.285378+00:00",
+      "collected_at": "2026-10-25T14:20:14.240019+00:00",
       "categories": [
         "기타"
       ],
@@ -1987,7 +2008,7 @@
       "link": "https://www.hankyung.com/article/2026102533297",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:08:39+00:00",
-      "collected_at": "2026-10-25T14:14:27.880337+00:00",
+      "collected_at": "2026-10-25T14:20:14.058746+00:00",
       "categories": [
         "기타"
       ],
@@ -2037,7 +2058,7 @@
       "link": "https://www.hankyung.com/article/202610253311i",
       "source": "한국경제 증권",
       "published": "2026-10-25T06:55:16+00:00",
-      "collected_at": "2026-10-25T14:14:27.560804+00:00",
+      "collected_at": "2026-10-25T14:20:13.816779+00:00",
       "categories": [
         "기타"
       ],
@@ -2056,7 +2077,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840090",
       "source": "뉴시스 산업",
       "published": "2026-10-25T06:54:36+00:00",
-      "collected_at": "2026-10-25T14:14:28.222857+00:00",
+      "collected_at": "2026-10-25T14:20:14.372601+00:00",
       "categories": [
         "기타"
       ],
@@ -2075,7 +2096,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840037",
       "source": "뉴시스 경제",
       "published": "2026-10-25T06:46:10+00:00",
-      "collected_at": "2026-10-25T14:14:28.285481+00:00",
+      "collected_at": "2026-10-25T14:20:14.151905+00:00",
       "categories": [
         "기타"
       ],
@@ -2094,7 +2115,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840029",
       "source": "뉴시스 경제",
       "published": "2026-10-25T06:45:45+00:00",
-      "collected_at": "2026-10-25T14:14:28.285565+00:00",
+      "collected_at": "2026-10-25T14:20:14.372683+00:00",
       "categories": [
         "에너지"
       ],
@@ -2105,15 +2126,7 @@
       "search_topics": [
         "거시경제",
         "산업·통상"
-      ],
-      "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261025_0003840029",
-        "excerpt": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입 등록 2026.10.25 15:45:45 구글에서 선호하는 매체로 추가 RPS 폐지에 경쟁입찰 전환…정부 물량 이행 공공 역할",
-        "checked_at": "2026-10-25T14:14:28.986952+00:00",
-        "kind": "보도",
-        "page_title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입"
-      }
+      ]
     },
     {
       "id": "88615b14c360e7cc26a1",
@@ -2122,7 +2135,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840052",
       "source": "뉴시스 금융",
       "published": "2026-10-25T06:17:23+00:00",
-      "collected_at": "2026-10-25T14:14:28.022638+00:00",
+      "collected_at": "2026-10-25T14:20:14.240107+00:00",
       "categories": [
         "기타"
       ],
@@ -2141,7 +2154,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840047",
       "source": "뉴시스 산업",
       "published": "2026-10-25T06:03:07+00:00",
-      "collected_at": "2026-10-25T14:14:28.223027+00:00",
+      "collected_at": "2026-10-25T14:20:14.372769+00:00",
       "categories": [
         "기타"
       ],
@@ -2160,7 +2173,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838678",
       "source": "뉴시스 산업",
       "published": "2026-10-25T06:01:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.223106+00:00",
+      "collected_at": "2026-10-25T14:20:14.372850+00:00",
       "categories": [
         "기타"
       ],
@@ -2180,7 +2193,7 @@
       "link": "https://www.newsis.com/view/NISX20261024_0003839670",
       "source": "뉴시스 산업",
       "published": "2026-10-25T05:32:14+00:00",
-      "collected_at": "2026-10-25T14:14:28.223190+00:00",
+      "collected_at": "2026-10-25T14:20:14.372937+00:00",
       "categories": [
         "거시경제"
       ],
@@ -2199,7 +2212,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840012",
       "source": "뉴시스 금융",
       "published": "2026-10-25T05:10:39+00:00",
-      "collected_at": "2026-10-25T14:14:28.022807+00:00",
+      "collected_at": "2026-10-25T14:20:14.240297+00:00",
       "categories": [
         "거시경제"
       ],
@@ -2220,7 +2233,7 @@
       "link": "https://www.newsis.com/view/NISX20261020_0003833799",
       "source": "뉴시스 경제",
       "published": "2026-10-25T05:05:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.285652+00:00",
+      "collected_at": "2026-10-25T14:20:14.152079+00:00",
       "categories": [
         "기타"
       ],
@@ -2239,7 +2252,7 @@
       "link": "https://www.hankyung.com/article/202610229149i",
       "source": "한국경제 국제",
       "published": "2026-10-25T05:00:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.814761+00:00",
+      "collected_at": "2026-10-25T14:20:13.940407+00:00",
       "categories": [
         "기타"
       ],
@@ -2258,7 +2271,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839167",
       "source": "뉴시스 산업",
       "published": "2026-10-25T05:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.223280+00:00",
+      "collected_at": "2026-10-25T14:20:14.373029+00:00",
       "categories": [
         "기타"
       ],
@@ -2277,7 +2290,7 @@
       "link": "https://www.hankyung.com/article/202610253238i",
       "source": "한국경제 증권",
       "published": "2026-10-25T04:56:26+00:00",
-      "collected_at": "2026-10-25T14:14:27.560886+00:00",
+      "collected_at": "2026-10-25T14:20:13.816862+00:00",
       "categories": [
         "기타"
       ],
@@ -2298,7 +2311,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839973",
       "source": "뉴시스 경제",
       "published": "2026-10-25T04:54:37+00:00",
-      "collected_at": "2026-10-25T14:14:28.285741+00:00",
+      "collected_at": "2026-10-25T14:20:14.240380+00:00",
       "categories": [
         "기타"
       ],
@@ -2318,7 +2331,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839917",
       "source": "뉴시스 금융",
       "published": "2026-10-25T04:43:10+00:00",
-      "collected_at": "2026-10-25T14:14:28.022975+00:00",
+      "collected_at": "2026-10-25T14:20:14.240463+00:00",
       "categories": [
         "기타"
       ],
@@ -2337,7 +2350,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9CRWlzTHJEOHlLRFVnVTd5UUhENVZCS3NCejZycUtqNkhESlktakxaTTlhWHpJNDFWVkhsX2xtRm41U1daVHRLaHE3V1I?oc=5",
       "source": "대구MBC",
       "published": "2026-10-25T04:04:12+00:00",
-      "collected_at": "2026-10-25T14:14:27.533699+00:00",
+      "collected_at": "2026-10-25T14:20:13.873491+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -2357,7 +2370,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839844",
       "source": "뉴시스 경제",
       "published": "2026-10-25T04:04:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.285827+00:00",
+      "collected_at": "2026-10-25T14:20:14.152269+00:00",
       "categories": [
         "거시경제",
         "주택·건설"
@@ -2379,7 +2392,7 @@
       "link": "https://www.hankyung.com/article/202610230860i",
       "source": "한국경제 IT",
       "published": "2026-10-25T04:00:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.556674+00:00",
+      "collected_at": "2026-10-25T14:20:13.827096+00:00",
       "categories": [
         "기타"
       ],
@@ -2398,7 +2411,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839954",
       "source": "뉴시스 산업",
       "published": "2026-10-25T04:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.223365+00:00",
+      "collected_at": "2026-10-25T14:20:14.373117+00:00",
       "categories": [
         "기타"
       ],
@@ -2417,7 +2430,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839950",
       "source": "뉴시스 경제",
       "published": "2026-10-25T03:50:13+00:00",
-      "collected_at": "2026-10-25T14:14:28.285912+00:00",
+      "collected_at": "2026-10-25T14:20:14.152367+00:00",
       "categories": [
         "기타"
       ],
@@ -2432,7 +2445,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003839950",
         "excerpt": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세 등록 2026.10.25 12:50:13 수정 2026.10.25 13:10:23 구글에서 선호하는 매체로 추가 서울 0.61% 올라…전월보다 상승폭 반토막 동탄·병점·군포",
-        "checked_at": "2026-10-25T14:14:28.986300+00:00",
+        "checked_at": "2026-10-25T14:20:15.057391+00:00",
         "kind": "보도",
         "page_title": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세"
       }
@@ -2444,7 +2457,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839964",
       "source": "뉴시스 산업",
       "published": "2026-10-25T03:40:17+00:00",
-      "collected_at": "2026-10-25T14:14:28.223466+00:00",
+      "collected_at": "2026-10-25T14:20:14.373216+00:00",
       "categories": [
         "기타"
       ],
@@ -2463,7 +2476,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839939",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:34:34+00:00",
-      "collected_at": "2026-10-25T14:14:28.023060+00:00",
+      "collected_at": "2026-10-25T14:20:14.240547+00:00",
       "categories": [
         "기타"
       ],
@@ -2476,13 +2489,57 @@
       ]
     },
     {
+      "id": "575377f9869bb80c62f5",
+      "title": "韓 연구팀, 15년간 오류였던 전력반도체 국제기준 바로잡았다",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94WFY2YTlsUkJtRjZYSG04cmo2anFEbnV3M2xiN1dDRHBtNE45VHl4bUMxNEZlZ1NkVFZ3dExucG0zS0tkNWJvQVlfNE5zT3lqdGhTQg?oc=5",
+      "source": "DongA Science",
+      "published": "2026-10-25T03:26:00+00:00",
+      "collected_at": "2026-10-25T14:20:13.294369+00:00",
+      "categories": [
+        "에너지",
+        "산업·통상"
+      ],
+      "industries": [
+        "전력·에너지",
+        "반도체·IT"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "6f81c0987197734113f2",
+      "title": "반도체가 끌어올린 한국 경상흑자…독일·일본 합계 첫 추월",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40SjNsTDVManlvNFNfVFJzeG1MdGFVVG9fUUIzRmpUejY3QnNzOVJ4aXRRMWlYRERBdGlzQWdhbEx6Nnh0Mm1SdTgwM2xyQQ?oc=5",
+      "source": "전자신문",
+      "published": "2026-10-25T03:15:32+00:00",
+      "collected_at": "2026-10-25T14:20:13.293596+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
       "id": "a1eb49edbd68731bfb03",
       "title": "청년 일자리 ‘임금’ 가장 중요…“최소는 250만원”",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EY0N2ZVZFejgxam9aRm1la1lCRklQMGxST21Ec0EwQmhmcDBHMlI5dndhTDBiNkg1YTRIV3dYeGJxZjBzZVVOTmhoRzhNMS1jaGNJaWpwUnZpelBlZGRCWFZBUFMwZDNubDN2a2ItOFVlUDRadHfSAWZBVV95cUxONlMtSDlwQXpTalBsTFdVN1BrX0hRME5WbVZIWmdGVnByWVRuMlJoMW5fWmRQLXQtMUFRc1o5cU1DUUVjS3VEVEozdGhPMzJHYzZ5bkZFTVdRTm5wZlNaS1cxSTdTN3c?oc=5",
       "source": "동아일보",
       "published": "2026-10-25T03:06:56+00:00",
-      "collected_at": "2026-10-25T14:14:28.223726+00:00",
+      "collected_at": "2026-10-25T14:20:14.373471+00:00",
       "categories": [
         "기타"
       ],
@@ -2504,7 +2561,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839815",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:04:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023146+00:00",
+      "collected_at": "2026-10-25T14:20:14.240636+00:00",
       "categories": [
         "기타"
       ],
@@ -2523,7 +2580,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839784",
       "source": "뉴시스 경제",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.285992+00:00",
+      "collected_at": "2026-10-25T14:20:14.373551+00:00",
       "categories": [
         "금융"
       ],
@@ -2543,7 +2600,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839877",
       "source": "뉴시스 경제",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.286075+00:00",
+      "collected_at": "2026-10-25T14:20:14.373634+00:00",
       "categories": [
         "에너지"
       ],
@@ -2563,7 +2620,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839013",
       "source": "뉴시스 산업",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.223553+00:00",
+      "collected_at": "2026-10-25T14:20:14.373300+00:00",
       "categories": [
         "기타"
       ],
@@ -2582,7 +2639,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839073",
       "source": "뉴시스 산업",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.223636+00:00",
+      "collected_at": "2026-10-25T14:20:14.373381+00:00",
       "categories": [
         "기타"
       ],
@@ -2601,7 +2658,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839023",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023228+00:00",
+      "collected_at": "2026-10-25T14:20:14.240719+00:00",
       "categories": [
         "금융"
       ],
@@ -2622,7 +2679,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839173",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023304+00:00",
+      "collected_at": "2026-10-25T14:20:14.240795+00:00",
       "categories": [
         "금융"
       ],
@@ -2643,7 +2700,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839750",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023381+00:00",
+      "collected_at": "2026-10-25T14:20:14.240875+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -2665,7 +2722,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839755",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023476+00:00",
+      "collected_at": "2026-10-25T14:20:14.240959+00:00",
       "categories": [
         "기타"
       ],
@@ -2684,7 +2741,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839932",
       "source": "뉴시스 산업",
       "published": "2026-10-25T02:56:05+00:00",
-      "collected_at": "2026-10-25T14:14:28.223977+00:00",
+      "collected_at": "2026-10-25T14:20:14.373719+00:00",
       "categories": [
         "기타"
       ],
@@ -2703,7 +2760,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839926",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:46:11+00:00",
-      "collected_at": "2026-10-25T14:14:28.286156+00:00",
+      "collected_at": "2026-10-25T14:20:14.373803+00:00",
       "categories": [
         "기타"
       ],
@@ -2723,7 +2780,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839930",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:43:40+00:00",
-      "collected_at": "2026-10-25T14:14:28.286241+00:00",
+      "collected_at": "2026-10-25T14:20:14.152715+00:00",
       "categories": [
         "기타"
       ],
@@ -2744,7 +2801,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838447",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.286322+00:00",
+      "collected_at": "2026-10-25T14:20:14.152794+00:00",
       "categories": [
         "기타"
       ],
@@ -2763,7 +2820,7 @@
       "link": "https://www.hankyung.com/article/2026102530707",
       "source": "한국경제 증권",
       "published": "2026-10-25T02:24:56+00:00",
-      "collected_at": "2026-10-25T14:14:27.560973+00:00",
+      "collected_at": "2026-10-25T14:20:13.816951+00:00",
       "categories": [
         "기타"
       ],
@@ -2782,7 +2839,7 @@
       "link": "https://www.hankyung.com/article/202610253103i",
       "source": "한국경제 증권",
       "published": "2026-10-25T02:22:33+00:00",
-      "collected_at": "2026-10-25T14:14:27.561055+00:00",
+      "collected_at": "2026-10-25T14:20:13.817036+00:00",
       "categories": [
         "기타"
       ],
@@ -2801,7 +2858,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839872",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:03:31+00:00",
-      "collected_at": "2026-10-25T14:14:28.286408+00:00",
+      "collected_at": "2026-10-25T14:20:14.152877+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -2822,7 +2879,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839804",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:03:05+00:00",
-      "collected_at": "2026-10-25T14:14:28.286510+00:00",
+      "collected_at": "2026-10-25T14:20:14.152962+00:00",
       "categories": [
         "기타"
       ],
@@ -2841,7 +2898,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838598",
       "source": "뉴시스 금융",
       "published": "2026-10-25T02:01:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023561+00:00",
+      "collected_at": "2026-10-25T14:20:14.241044+00:00",
       "categories": [
         "기타"
       ],
@@ -2860,7 +2917,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839884",
       "source": "뉴시스 금융",
       "published": "2026-10-25T02:00:29+00:00",
-      "collected_at": "2026-10-25T14:14:28.023644+00:00",
+      "collected_at": "2026-10-25T14:20:14.241126+00:00",
       "categories": [
         "기타"
       ],
@@ -2879,7 +2936,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839783",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.286595+00:00",
+      "collected_at": "2026-10-25T14:20:14.153046+00:00",
       "categories": [
         "기타"
       ],
@@ -2898,7 +2955,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839788",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.286679+00:00",
+      "collected_at": "2026-10-25T14:20:14.153128+00:00",
       "categories": [
         "기타"
       ],
@@ -2917,7 +2974,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839795",
       "source": "뉴시스 경제",
       "published": "2026-10-25T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.286759+00:00",
+      "collected_at": "2026-10-25T14:20:14.153217+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -2938,7 +2995,7 @@
       "link": "https://www.hankyung.com/article/202610253029i",
       "source": "한국경제 증권",
       "published": "2026-10-25T01:46:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.561138+00:00",
+      "collected_at": "2026-10-25T14:20:13.817119+00:00",
       "categories": [
         "기타"
       ],
@@ -2957,7 +3014,7 @@
       "link": "https://www.hankyung.com/article/2026102530427",
       "source": "한국경제 국제",
       "published": "2026-10-25T01:43:28+00:00",
-      "collected_at": "2026-10-25T14:14:27.814855+00:00",
+      "collected_at": "2026-10-25T14:20:13.940501+00:00",
       "categories": [
         "기타"
       ],
@@ -2976,7 +3033,7 @@
       "link": "https://www.hankyung.com/article/202610231352i",
       "source": "한국경제 IT",
       "published": "2026-10-25T01:06:44+00:00",
-      "collected_at": "2026-10-25T14:14:27.556774+00:00",
+      "collected_at": "2026-10-25T14:20:13.827203+00:00",
       "categories": [
         "기타"
       ],
@@ -2995,7 +3052,7 @@
       "link": "https://www.hankyung.com/article/202610242537i",
       "source": "한국경제 IT",
       "published": "2026-10-25T01:00:04+00:00",
-      "collected_at": "2026-10-25T14:14:27.556870+00:00",
+      "collected_at": "2026-10-25T14:20:13.827301+00:00",
       "categories": [
         "기타"
       ],
@@ -3014,7 +3071,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838697",
       "source": "뉴시스 금융",
       "published": "2026-10-25T01:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023727+00:00",
+      "collected_at": "2026-10-25T14:20:14.241221+00:00",
       "categories": [
         "기타"
       ],
@@ -3033,7 +3090,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003838822",
       "source": "뉴시스 금융",
       "published": "2026-10-25T01:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023812+00:00",
+      "collected_at": "2026-10-25T14:20:14.241306+00:00",
       "categories": [
         "기타"
       ],
@@ -3052,7 +3109,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVREE1RHI5WTJFVXNEWHVHUkNrQkZxZ2dMdnBtREtFVnR3WDhzMElTOFUtdlJrWDh4Y2xGNkNXc0RfV2w4X0hNbkZUTWF5NjBCcEV3eEVIVEZ6TVVpTHBqMXE3Y21tWVE?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-25T00:31:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.884891+00:00",
+      "collected_at": "2026-10-25T14:20:13.293332+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -3071,7 +3128,7 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40UVZ4OVJMMkVCWGxNX2RoRFdPRVZPRkkxVDlhX0Eta2VGU3kyMWRQSmVSbW4ydjVZejUzc3pOMThZQnM3clpLeElsZlIxY3E0U0x1RDRaLTVmWXFWTkE1dDZtZw?oc=5",
       "source": "에너지경제신문",
       "published": "2026-10-25T00:19:28+00:00",
-      "collected_at": "2026-10-25T14:14:27.052049+00:00",
+      "collected_at": "2026-10-25T14:20:13.438519+00:00",
       "categories": [
         "에너지"
       ],
@@ -3090,7 +3147,7 @@
       "link": "https://www.hankyung.com/article/2026102529337",
       "source": "한국경제 증권",
       "published": "2026-10-25T00:12:23+00:00",
-      "collected_at": "2026-10-25T14:14:27.561223+00:00",
+      "collected_at": "2026-10-25T14:20:13.817230+00:00",
       "categories": [
         "기타"
       ],
@@ -3109,7 +3166,7 @@
       "link": "https://www.hankyung.com/article/202610231190i",
       "source": "한국경제 증권",
       "published": "2026-10-25T00:00:11+00:00",
-      "collected_at": "2026-10-25T14:14:27.561303+00:00",
+      "collected_at": "2026-10-25T14:20:13.817312+00:00",
       "categories": [
         "기타"
       ],
@@ -3128,7 +3185,7 @@
       "link": "https://www.newsis.com/view/NISX20261023_0003839171",
       "source": "뉴시스 금융",
       "published": "2026-10-25T00:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:28.023895+00:00",
+      "collected_at": "2026-10-25T14:20:14.241391+00:00",
       "categories": [
         "금융"
       ],
@@ -3147,7 +3204,7 @@
       "link": "https://www.hankyung.com/article/202610252901g",
       "source": "한국경제 IT",
       "published": "2026-10-24T23:59:46+00:00",
-      "collected_at": "2026-10-25T14:14:27.556961+00:00",
+      "collected_at": "2026-10-25T14:20:13.827391+00:00",
       "categories": [
         "기타"
       ],
@@ -3166,7 +3223,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yam8tbzRZcFBOcEdXWkV0NTRZTU5VblVKaUh1QVZQLTY2TVRtbFdhMkhXcGdGRGxaa0tzbEhHUjJ4ZUltYUZ5UlNOWExsZ09SNjRXRlBJMEdKZWZWUmdXY1RQV2dJdWVBMU5ia3A5NjBkUQ?oc=5",
       "source": "KB Think",
       "published": "2026-10-24T23:30:02+00:00",
-      "collected_at": "2026-10-25T14:14:27.088708+00:00",
+      "collected_at": "2026-10-25T14:20:13.409998+00:00",
       "categories": [
         "금융"
       ],
@@ -3185,7 +3242,7 @@
       "link": "https://www.hankyung.com/article/202610231410i",
       "source": "한국경제 IT",
       "published": "2026-10-24T23:27:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.557048+00:00",
+      "collected_at": "2026-10-25T14:20:13.827478+00:00",
       "categories": [
         "기타"
       ],
@@ -3437,7 +3494,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEUkkzWkMtXzh6aEh5NDNXWV9Wb0FuRUhVQkNHTHlUWnR4eEJheDM3NkhTYU01WFViWjJQOWdCMUk5YXlLUHJBdVhrOHp2Z1pXaFAzZjB0SkktbF9qZVBQcnFhZGVESzVn0gFuQVVfeXFMT0NIb3U0R0k0ZEVwUmpjUFBncmxqX211T05kRF9aVi1qbVFYOTdpTlU4QnRjUmtOUTktMDN3bGxteFVyUFhaazZWdVFNcVRlUXRhU3FoTGctOUszVGVSM3dDbEpYWG1qWnRVMnBFZXc?oc=5",
       "source": "머니투데이",
       "published": "2026-10-24T21:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.930812+00:00",
+      "collected_at": "2026-10-25T14:20:13.239980+00:00",
       "categories": [
         "거시경제"
       ],
@@ -3639,7 +3696,7 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNjgtTWJJM0RUeHo3QXhWbEQyNFdFWkJ1aDN3Wk44bjEyUUxTb19PdG9PWlg5VTJmWlBDX2J2NlpNbV9zb25PYlA2emZZSTRGYlNJN2xLYzdibnlnMVBCR3FaWUVFbmxleGxxTk8zTGNSYl9hMG5USXl0X3BUcUlBeUY2ZEN1X1FO?oc=5",
       "source": "글로벌이코노믹",
       "published": "2026-10-24T19:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.932231+00:00",
+      "collected_at": "2026-10-25T14:20:13.240836+00:00",
       "categories": [
         "거시경제"
       ],
@@ -4125,6 +4182,27 @@
       ]
     },
     {
+      "id": "219963c5942bca01e19a",
+      "title": "트럼프, 캐나다 50% 관세 품목 조정…중간선거 표심 겨냥 해석",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FdUVQRTY4R0tWS0hXdGYyOWhiZzJtMGV2YVVhTi1ld3I1ZGR2UlM3cmtXSmRFTGNQN1NaclEzOXBoYlJVWVNnTDBvMGY3Y3FyZkc4aFI0VGR0M19uM2NuckVFSmxwcDB5ZFdlN2xQNS0?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-10-24T08:47:48+00:00",
+      "collected_at": "2026-10-25T14:20:13.294198+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "통상·공급망"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
       "id": "e36a60a0056831ce49c5",
       "title": "청년층이 '집값 심리'에 더 민감…중장년층은 시장 지표 살핀다",
       "summary": "",
@@ -4247,7 +4325,7 @@
       "link": "https://www.hankyung.com/article/202610242500i",
       "source": "한국경제 국제",
       "published": "2026-10-24T07:08:10+00:00",
-      "collected_at": "2026-10-25T14:14:27.814940+00:00",
+      "collected_at": "2026-10-25T14:20:13.940585+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -4368,7 +4446,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiR1BTUkdyWlowcHFFNjhXcWVLWlg1eTFlUlVkRWFpOTNSVnFiczNuZ0RKYUZodHFXNDVQR0RvdjZjM0FaYlp4eV9NZmZhY0ViUFhaSUUzVXVHN3c3Q0REOUtMSTRRVllOcExCaXhOTlA?oc=5",
       "source": "신아일보",
       "published": "2026-10-24T06:55:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.526370+00:00",
+      "collected_at": "2026-10-25T14:20:13.871947+00:00",
       "categories": [
         "고용·사회",
         "주택·건설"
@@ -4527,7 +4605,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tUTFSczB4OXlXcnFaS18xc1N3OUY4VzJFUU55dHZtUndoZ182dmRURHNMY2RkbzR3dEh6a0FjNzZBbmUxdFZ6UzNDQ3RYZnQyd2plclQ1TVM?oc=5",
       "source": "경북신문",
       "published": "2026-10-24T05:59:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.052258+00:00",
+      "collected_at": "2026-10-25T14:20:13.438670+00:00",
       "categories": [
         "에너지",
         "산업·통상"
@@ -4606,7 +4684,7 @@
       "link": "https://www.hankyung.com/article/2026102424357",
       "source": "한국경제 국제",
       "published": "2026-10-24T05:36:49+00:00",
-      "collected_at": "2026-10-25T14:14:27.815023+00:00",
+      "collected_at": "2026-10-25T14:20:13.940668+00:00",
       "categories": [
         "기타"
       ],
@@ -4663,7 +4741,7 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12SGl0bUk2cF9CcV9SamJXZHJUU2c1Wi0ybTl3WEp5cTVMNWNHU2pVQlJTVmswbVFLSW94M3d6b205OGF0REZycnVEbE9IY2tSS3AteFo4SlluQ29SRVV1RjAyNA?oc=5",
       "source": "쿠키뉴스",
       "published": "2026-10-24T05:08:44+00:00",
-      "collected_at": "2026-10-25T14:06:12.304501+00:00",
+      "collected_at": "2026-10-25T14:20:13.708879+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -4856,6 +4934,36 @@
       ]
     },
     {
+      "id": "be4d12d3fa70c2ccdc10",
+      "title": "[10월 넷째 주 세계경제동향 브리핑] 한미 금리 내려도 증시는 약세…유가 급등에 물가 부담 재부상",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
+      "source": "기호일보",
+      "published": "2026-10-24T03:13:07+00:00",
+      "collected_at": "2026-10-25T14:20:13.241396+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달",
+        "환율·원가"
+      ],
+      "search_topics": [
+        "국제·정책"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:20:15.057150+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      }
+    },
+    {
       "id": "94f882b74d9ef002bd46",
       "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
       "summary": "",
@@ -4877,7 +4985,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
         "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
-        "checked_at": "2026-10-25T14:14:28.985257+00:00",
+        "checked_at": "2026-10-25T14:20:15.058086+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
       }
@@ -4946,7 +5054,7 @@
       "link": "https://www.hankyung.com/article/2026102423557",
       "source": "한국경제 국제",
       "published": "2026-10-24T02:21:13+00:00",
-      "collected_at": "2026-10-25T14:14:27.815108+00:00",
+      "collected_at": "2026-10-25T14:20:13.940763+00:00",
       "categories": [
         "기타"
       ],
@@ -5005,7 +5113,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:14:28.986026+00:00",
+        "checked_at": "2026-10-25T14:20:15.057363+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       }
@@ -5076,7 +5184,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWFpNN1lMUmpydTEwNXpPMjRGc0lNT2x2THZ3b25jMkVrTzNEekcxNW9HSWlCaVhYMmJ5a0g3aC0wdlgtWVBuWHJ4cmY4WXViN3c?oc=5",
       "source": "경인일보",
       "published": "2026-10-24T01:31:10+00:00",
-      "collected_at": "2026-10-25T14:14:27.533323+00:00",
+      "collected_at": "2026-10-25T14:20:13.873134+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -5095,7 +5203,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WN1lQOHdlLU80WlEzb2c5aDZESnlWdTVWcG9kb3BsT01sdzFkQ2dZZUtiU0FZWGlPTkJ5U0FvRDdIdHFxS0dWTmZOQ3VrZ25IVDI5c2dDUWMwU1owVFBWY2ZETjIxSkhYZzc1Vm8tQmI?oc=5",
       "source": "https://www.thedailyeconomy.kr/",
       "published": "2026-10-24T01:07:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.474067+00:00",
+      "collected_at": "2026-10-25T14:20:13.709757+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -5137,7 +5245,7 @@
       "link": "https://www.hankyung.com/article/2026102422997",
       "source": "한국경제 국제",
       "published": "2026-10-24T01:04:33+00:00",
-      "collected_at": "2026-10-25T14:14:27.815206+00:00",
+      "collected_at": "2026-10-25T14:20:13.940849+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -5158,7 +5266,7 @@
       "link": "https://www.hankyung.com/article/202610229586i",
       "source": "한국경제 국제",
       "published": "2026-10-24T01:04:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.815293+00:00",
+      "collected_at": "2026-10-25T14:20:13.940938+00:00",
       "categories": [
         "기타"
       ],
@@ -5196,7 +5304,7 @@
       "link": "https://www.hankyung.com/article/202610242096i",
       "source": "한국경제 IT",
       "published": "2026-10-24T01:00:04+00:00",
-      "collected_at": "2026-10-25T14:14:27.557141+00:00",
+      "collected_at": "2026-10-25T14:20:13.827572+00:00",
       "categories": [
         "기타"
       ],
@@ -5272,7 +5380,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oa3p4cXZDMTNYNHhjRm5oSWVVcmdGdnNMY29FOGV2THBVYlZUYUVfRmVHME1LdUJSZngxLWhfU2VxdzhmYUlVYlRfV0NDeFgtZzBjNENqbll1eS1LZE90UWdxY0hvXzhadUxNVXBRVkFsZG1W0gF0QVVfeXFMTU9GQ2lnTHhHaW4xN0xTWXFtbTZwQkpsVzZHVGlZTUcyOThiVnMwTnZHeE1mMUs4MzQwb2tfc0JDam82UWY0MmN1bGFpWXlFaGIxdzRrOTAzWWxZaXhwQ3B4VXg5bTNKWHRlTW9IR2R0VjhJWk4?oc=5",
       "source": "MBC 뉴스",
       "published": "2026-10-24T00:56:13+00:00",
-      "collected_at": "2026-10-25T14:14:27.088979+00:00",
+      "collected_at": "2026-10-25T14:20:13.410289+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -5293,7 +5401,7 @@
       "link": "https://www.hankyung.com/article/202610242301i",
       "source": "한국경제 국제",
       "published": "2026-10-24T00:54:24+00:00",
-      "collected_at": "2026-10-25T14:14:27.815384+00:00",
+      "collected_at": "2026-10-25T14:20:13.941029+00:00",
       "categories": [
         "기타"
       ],
@@ -5312,7 +5420,7 @@
       "link": "https://www.hankyung.com/article/2026102422527",
       "source": "한국경제 국제",
       "published": "2026-10-24T00:43:54+00:00",
-      "collected_at": "2026-10-25T14:14:27.815492+00:00",
+      "collected_at": "2026-10-25T14:20:13.941123+00:00",
       "categories": [
         "기타"
       ],
@@ -5331,7 +5439,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qYjZhZ0V4U0pVWVJiY2ROQ0VKVXpnMHBSZUNLTXRyZ05XZUo4QVZHOXhOS2NuTFN4RWo1NUl5VVRmWTVvWnc5bWRYSU1ScnJIbFBsQVd6dk5DLTdzeVA1ZG91Vzkzci0yU19J0gFuQVVfeXFMTmlBdWxabHVMYUNZZDF4ZEdvM3JVTXZvZk5pN0pjR29LV2ViSmduYjdzWXhad2dBUmd5WjlWdHdOVmJtR1dMRFYzejd2VmZjcFdDVDRhYUhHeW5nZ1lnZXNZaHdJRy01WkRBQlZGYkE?oc=5",
       "source": "파이낸셜투데이",
       "published": "2026-10-24T00:35:08+00:00",
-      "collected_at": "2026-10-25T14:14:27.474540+00:00",
+      "collected_at": "2026-10-25T14:20:13.710195+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -5373,7 +5481,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nSXZrQjFfbVU1eDZZOHB3QTNvY3Z0cmlwVE9Ed2puZWI4TEJsZldfbGxGV0lZbFp5NC16RTdGNUlKcWF3V1VlVGNxeS1kUFNaVlhVeU82b19Gdw?oc=5",
       "source": "한국경제",
       "published": "2026-10-24T00:33:12+00:00",
-      "collected_at": "2026-10-25T14:14:26.885293+00:00",
+      "collected_at": "2026-10-25T14:20:13.293913+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -5476,7 +5584,7 @@
       "link": "https://www.hankyung.com/article/202610232016i",
       "source": "한국경제 IT",
       "published": "2026-10-24T00:00:08+00:00",
-      "collected_at": "2026-10-25T14:14:27.557236+00:00",
+      "collected_at": "2026-10-25T14:20:13.827665+00:00",
       "categories": [
         "기타"
       ],
@@ -5516,7 +5624,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYNWtPY0tMd0szbXZJSXRRNXVvOGpBWXFmSENYaHQ0ek9tdGF3Rm9LVHFiV0hMWVAwQ2cxc0ltVzZVT0w1b19fRHhCZ1FwcUhCZTY1ZXhkRTdrUlpIbkhudVp2cGtIcklrLUNpMm1BV1A?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-24T00:00:03+00:00",
-      "collected_at": "2026-10-25T14:14:26.931783+00:00",
+      "collected_at": "2026-10-25T14:20:13.241154+00:00",
       "categories": [
         "거시경제"
       ],
@@ -5611,7 +5719,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JZlhoRURvMjE1bnZzT1dGMkpBa2xyZ3Vmdnp4blVWYjJGYU1QNWhxeXVWT0tybHNWWFBDVEI1RlRaSEpiYjZxcUxBbXN1dnFQbE1xbE8yLU4tYWPSAWBBVV95cUxPLWEzMVE0Qm1ZTGdXTzRid19YQmIzTlB4ZkpjWDZoeGNhdzhwclNtWG1ObUY2YWR3VUlIRWMyZm5tYUlXSG9nMFlSVmFkRlJRTGQzY2tHekVWb3Z4QkVtUXc?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-23T23:29:50+00:00",
-      "collected_at": "2026-10-25T14:14:27.087976+00:00",
+      "collected_at": "2026-10-25T14:20:13.409071+00:00",
       "categories": [
         "금융"
       ],
@@ -5712,7 +5820,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWQmo5cHYxcEFCSWlsSThrbG1KbDNyZzl0QUNPamdBWkNMd0t0cXl6a040czhhdnhBV21EZEdyQ3h0ODREWHk2TDE2aE84QjFvRzFLSk1BU2h0QTVQUUhaQS03c20xZ2o5aVQ1dzFiWHbSAXRBVV95cUxPbXhXc3QzZEkwZ2xLMkdnUlNwX0xvOUlHWUdudlFNQVR4MWVEaGl4cURiWDU3RHVWM1JVR0NRaDR1Y0w1N2tOaFNBaGZhY2lBNF9SZGV0c2VMZmIxT0dQdDNFWTlza1R6bHo0Rk5zLVZ2bWY1TA?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-23T23:00:13+00:00",
-      "collected_at": "2026-10-25T14:14:27.087718+00:00",
+      "collected_at": "2026-10-25T14:20:13.408813+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -5958,6 +6066,27 @@
       ]
     },
     {
+      "id": "ae723c1fce1480d7d458",
+      "title": "선거 다급한 트럼프, 캐나다 관세 일부 철회…접전지 지원(종합)",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XT0NlWXNCUnFQTVVHQlZfQXc0QS16NGZILVA0bHlyQXo5ZjF4cl9YZ1d6VmRXVk8yeHZyeG9DMldfWFdPYzEyTE5zWWM1d0tMOEd0bE9Fb0pjLVHSAWBBVV95cUxOclM1REhpd1ZVNTVrTmpNaUZIaXlCN2dIUVpJUlB6cXlDekR3M2h3dDVJVDFJVWxpZTBHQUVKbnBKdFRoYmE1aDdmMzNXUTJvSFhTbDA4bTdhZHBWb1RTczY?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-23T21:22:40+00:00",
+      "collected_at": "2026-10-25T14:20:13.293682+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "통상·공급망"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
       "id": "0d8a0ad7755cb7420a60",
       "title": "뉴욕증시, 유가 급등 속 하락 마감…다우 1.23%↓",
       "summary": "",
@@ -6107,7 +6236,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kMkRtb3dVWVFCekhFT2R4Nk9FcGdkV1UxR25sUlFHZnBNLWMzM0pYX2RvRU1aWXh1a0Fxc3otdTI2WS0xYV9iTzZLQ3UxalNRb1oxUC1Lb0VVUnlHeGN0dFRlNVZFNDlIR2VMTw?oc=5",
       "source": "대한민국 정책브리핑",
       "published": "2026-10-23T19:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.087800+00:00",
+      "collected_at": "2026-10-25T14:20:13.408897+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -6131,7 +6260,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LbUt5X05iYUhFbWpwRDZIR3YwUnp2eFc0N0lqNHRJanhSTmkyR0hsR1YwcHlMSUR6RnFxSGhTN0tuZ1NlWnRUYTZsODA3UHo1b191NzZRYXZWREN5dUd3VzhMWDl5WXdiV0800gFwQVVfeXFMT1I0NURUM18zVzJLVzJPaHUyamRuQS01R2ljLVNyVzdxSUQ1SWc2aWxCQ2JTTmNOd2pjWjVtdFEwaHlQNEdVdEJTRTBHQ0NibXRQbnpOc2lGUDVsUmw3VXFnSGo3X05kZGF3ZzJpMEUxUA?oc=5",
       "source": "머니투데이",
       "published": "2026-10-23T18:35:54+00:00",
-      "collected_at": "2026-10-25T14:14:27.041811+00:00",
+      "collected_at": "2026-10-25T14:20:13.436734+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -7033,7 +7162,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fZFZPYVZWOWxfV09HOW1NXzE1V2hsMjJBOWEtSFRkTzV2QVhaQ0l5OWg4TGxFdDZFTTBTLVRVWVEweWdmbV82SlVZbHU0dUo0dk94VU9yaFpRcUU?oc=5",
       "source": "KBS 뉴스",
       "published": "2026-10-23T10:32:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.088062+00:00",
+      "collected_at": "2026-10-25T14:20:13.409157+00:00",
       "categories": [
         "금융"
       ],
@@ -7092,7 +7221,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82ZHJLUWlRTW55LXlQbm1lRnZFbWhlbGtnZjFWT2p2MlUyajlkVU5qdG5ac0l2NEMxWUc0Z05RWm80cnBsWHdXMWZJa0ljLVh3WV9WUnl1M1Y2N3J6OFExVi16SUZzTm9k?oc=5",
       "source": "녹색경제신문",
       "published": "2026-10-23T10:08:48+00:00",
-      "collected_at": "2026-10-25T14:14:27.474691+00:00",
+      "collected_at": "2026-10-25T14:20:13.710351+00:00",
       "categories": [
         "금융"
       ],
@@ -7296,7 +7425,7 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzRGNMTDAtNFZLeVlna1IwbHNGalladEpUemJJSGxTVHNXZktUQzRRT3VRUnhlV1F0TjVwbjBSV3lxZ0pVSlE0Wnl2eUNrSmZnSE5maGVBdUJnMHo2UDZ3bTA1SnQ1Y01qZEVYTnprV0pzRjMxMHc?oc=5",
       "source": "YTN",
       "published": "2026-10-23T09:20:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.088879+00:00",
+      "collected_at": "2026-10-25T14:20:13.410187+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -7665,7 +7794,7 @@
       "link": "https://www.hankyung.com/article/2026102317431",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T09:05:22+00:00",
-      "collected_at": "2026-10-25T14:14:27.538077+00:00",
+      "collected_at": "2026-10-25T14:20:13.806329+00:00",
       "categories": [
         "기타"
       ],
@@ -7764,7 +7893,7 @@
       "link": "https://www.hankyung.com/article/2026102317411",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T09:03:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.538162+00:00",
+      "collected_at": "2026-10-25T14:20:13.806414+00:00",
       "categories": [
         "기타"
       ],
@@ -8401,7 +8530,7 @@
       "link": "https://www.hankyung.com/article/2026102317541",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:38:23+00:00",
-      "collected_at": "2026-10-25T14:14:27.538254+00:00",
+      "collected_at": "2026-10-25T14:20:13.806505+00:00",
       "categories": [
         "기타"
       ],
@@ -8420,7 +8549,7 @@
       "link": "https://www.hankyung.com/article/2026102317581",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:37:26+00:00",
-      "collected_at": "2026-10-25T14:14:27.538332+00:00",
+      "collected_at": "2026-10-25T14:20:13.806585+00:00",
       "categories": [
         "기타"
       ],
@@ -8439,7 +8568,7 @@
       "link": "https://www.hankyung.com/article/2026102317511",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:36:32+00:00",
-      "collected_at": "2026-10-25T14:14:27.538406+00:00",
+      "collected_at": "2026-10-25T14:20:13.806658+00:00",
       "categories": [
         "기타"
       ],
@@ -8458,7 +8587,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0Y3ZLY0pheDFCSzhuUE9MX1NOOEpvLWpzWTM0WVlSU2VTUE45eVdnLXJtTHM3T0Z5NVBTZ1JoYWltc2RSQjRzUlFvQTM4eVlmbEpXSWlpbkliOU5oTTZqbEVhYzd3YTQ1ZmVr0gFwQVVfeXFMTkVhSnlQcGlibnVlT0ZHeVMtMUUwS3g0Z1ZzSG9yRkNqYTNJQ01ZWGpfRlFDa2hpZ3RnMjhLQWU0UHhLMWhiajV4RzhtaDNQaC1TTmJNbWZpNFotMmU1MERoTGkxY2dRUUVvdTRHMzFJVQ?oc=5",
       "source": "머니투데이",
       "published": "2026-10-23T08:35:41+00:00",
-      "collected_at": "2026-10-25T14:14:27.088528+00:00",
+      "collected_at": "2026-10-25T14:20:13.409764+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -8478,7 +8607,7 @@
       "link": "https://www.hankyung.com/article/2026102317501",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:33:57+00:00",
-      "collected_at": "2026-10-25T14:14:27.538501+00:00",
+      "collected_at": "2026-10-25T14:20:13.806739+00:00",
       "categories": [
         "기타"
       ],
@@ -8516,7 +8645,7 @@
       "link": "https://www.hankyung.com/article/2026102317521",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:32:54+00:00",
-      "collected_at": "2026-10-25T14:14:27.538575+00:00",
+      "collected_at": "2026-10-25T14:20:13.806812+00:00",
       "categories": [
         "기타"
       ],
@@ -8690,7 +8819,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xN05BLVJKb1dONkVmY1JLRzkyeTlyWmlYMkVSTE5FRFg3THU3VzM3WGRVR1VLa29aQVdhME82emFSVjBXR2JxSXZHXzdVRW9SX1l1Z18zX2JWZkZhdmlfaWpFQTByUGxIMXQ0cjIyOTQ?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-23T08:09:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.896219+00:00",
+      "collected_at": "2026-10-25T14:20:13.481362+00:00",
       "categories": [
         "거시경제"
       ],
@@ -8730,7 +8859,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SOURuVzh3a3E1WEkweFB1NWIzSHJGMURiVnhjdFZPN3d3SEhwOXJKekVxN204Z2RJUGJDTEdsRm52Zmk0NGIzbjBmX19tUWxiSW9lOWFrVURQUXF4U3k1eGNFMkk?oc=5",
       "source": "디지털데일리",
       "published": "2026-10-23T08:07:04+00:00",
-      "collected_at": "2026-10-25T14:14:27.474371+00:00",
+      "collected_at": "2026-10-25T14:20:13.710037+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -8814,7 +8943,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLQ0Q4YWEyWmIwdDBrTi1PREd4Qjl5SUJCS3plNHJWYjZHRGFSU1g3RVJPYnZfbnZ5QnptaU5ldUJlcWNiXzRWTWlaUFhTZw?oc=5",
       "source": "전자신문",
       "published": "2026-10-23T07:50:04+00:00",
-      "collected_at": "2026-10-25T14:14:27.088626+00:00",
+      "collected_at": "2026-10-25T14:20:13.409859+00:00",
       "categories": [
         "금융"
       ],
@@ -9169,7 +9298,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TVTA2UHZEcE5DX1JJOGxZYUtiSlVwcWxaR0xPTEFpZ21FN0dwWUVhZkdQNUdTaEVoOW8zbFhYLWEtU0VUN0VKSkhraWtXOXlWU1puTGY1U0pLbFZGaWZoMEl3?oc=5",
       "source": "에너지경제신문",
       "published": "2026-10-23T06:46:24+00:00",
-      "collected_at": "2026-10-25T14:14:27.053137+00:00",
+      "collected_at": "2026-10-25T14:20:13.439355+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -9229,7 +9358,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XX2lBb1o1ajJCMENLblJXclVTaUNsUlhCRTJhZDQyXy1fZVZ0STBjVS1pdnY3TnQ1MXBZeHlXT2UtRTdua0RiSmtGTnZjcDVaekU3aEg5NG1zRXFkWEpVQzRhTTdGWGpDd2RKdXJPQ2lIZw?oc=5",
       "source": "에너지데일리",
       "published": "2026-10-23T06:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.051465+00:00",
+      "collected_at": "2026-10-25T14:20:13.437590+00:00",
       "categories": [
         "에너지"
       ],
@@ -9267,7 +9396,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFVWRtaXg3NlpTZHBMeGJxZzJDc2t0cnVuN2p4ZFhLVFRKZmc0bU9XYUowV3FaWl9nczJYSERzWkNqVVFDQjJtZEpPODdzcklUWWNNckRnUm5OZGfSAWBBVV95cUxNSGszaHR5QTFETy1vWnpoak85X2FhVDJraDJkLU9xZ1V5QkJnSER5Tk9sN1J6ZG5NZG1leUZ6cnpkUEljeG81TXJVRHNMZ3hKeS10N1VPSEpESEdrMkQ4ZnE?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-23T06:15:34+00:00",
-      "collected_at": "2026-10-25T14:14:27.089147+00:00",
+      "collected_at": "2026-10-25T14:20:13.410455+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -9287,7 +9416,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tdGRpclg4NVRhQmkwNnd1UFR3WnVrSDExMk9tM3JWaFh2V1NCR2VzUlRsX19yTFRGd0IzRFM4Z1FkQmhoWFdDLTJMa3kxd3JaNlVUU1BKaVpNQQ?oc=5",
       "source": "한국경제",
       "published": "2026-10-23T06:14:57+00:00",
-      "collected_at": "2026-10-25T14:14:26.878251+00:00",
+      "collected_at": "2026-10-25T14:20:13.292667+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -9329,7 +9458,7 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93Q1dIa1p3MEVTMkFfUlJVRzdISjVlT3k0enpiTEZEZmx2enhFSFdYc2NQa2JiY3BSMG9RdGRDd1ZkUGNaZlc2R0t6c1FSb0Q0XzNsQ01XTDFRczUwUVRsZE9walpLdUUzU1F1aGZQLWVQdUU?oc=5",
       "source": "헤드라인제주",
       "published": "2026-10-23T06:09:35+00:00",
-      "collected_at": "2026-10-25T14:14:27.533001+00:00",
+      "collected_at": "2026-10-25T14:20:13.872848+00:00",
       "categories": [
         "기타"
       ],
@@ -9489,7 +9618,7 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45U0ZGM0o4Nmw1enhfajZYX2dWcDFqUnp2S0tQVFBDU0VKR3BxMzdjU1ZmYllKTWREeXpCY01kSGo3V1ZSMWp6MWR4d0Z6YldveXE0SWdLdV81WmdzZ2VuU2hScnFQYTJVNVZMXzRqMTJFQ1p6bE1j0gF3QVVfeXFMTjlTRkYzSjg2bDV6eF9qNlhfZ1ZwMWpSenZLS1BUUENTRUpHcHEzN2NTVmZiWUpNZER5ekJjTWRIajdXVlIxanoxZHh3RnpiV295cTRJZ0t1XzVaZ3NnZW5TaFJycVBhMlU1VkxfNGoxMkVDWnpsTWM?oc=5",
       "source": "한국시민기자협회 뉴스포털1",
       "published": "2026-10-23T05:14:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.051679+00:00",
+      "collected_at": "2026-10-25T14:20:13.438024+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -9554,7 +9683,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sdFluelRwbi1feE53UXczOXVvX1U4dzJXdjJSeXg0emhMa3dSNkNCbGFZTjVzNjMxVWF2TnNROGxLeWtjTHEyeUMxcUFvN0RsbmwtZg?oc=5",
       "source": "DongA Science",
       "published": "2026-10-23T04:45:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.877787+00:00",
+      "collected_at": "2026-10-25T14:20:13.292433+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -9573,7 +9702,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FRDA2blV5VnRaSVBwNjl1TVdzSGFUbUVHYkx0RktvMnBBZVJCM1AxQnN4UUQySEU5Z2tkUkJkOEZyWXBWNUpXWTBQZXdlaV9PeW1UNUtndm56WmxOSE1mM9IBYEFVX3lxTE9FRDA2blV5VnRaSVBwNjl1TVdzSGFUbUVHYkx0RktvMnBBZVJCM1AxQnN4UUQySEU5Z2tkUkJkOEZyWXBWNUpXWTBQZXdlaV9PeW1UNUtndm56WmxOSE1mMw?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-23T04:30:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.526474+00:00",
+      "collected_at": "2026-10-25T14:20:13.872034+00:00",
       "categories": [
         "기타"
       ],
@@ -9613,7 +9742,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OWndxZDVsMHZDVTMxOWNaRU9icjBIZHhRUXVuU3RwaXJyRzRoRVdhM2lBa3RwMXE2SGVaOWZEMi1hOUl1a0NBUHZlYWdidUs1N2ZINkE2bmpsMEtScW1WOG5DOFJoQWNUTnh3?oc=5",
       "source": "대로미디어",
       "published": "2026-10-23T04:13:02+00:00",
-      "collected_at": "2026-10-25T14:14:27.051877+00:00",
+      "collected_at": "2026-10-25T14:20:13.438314+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -9677,7 +9806,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Vb1FaSjBWRlcyMThMX2lqcm1Vd01XSTkwYkIxTmNxZEFrQmVtRnlrak1uZVZXdjVhbnZrbU53cVBXMHhYcmZZN3Vxb0NOVkxtdDBBdnZiZE9Ea21DMDY1OXhqNnlBa1RlbUp5adIBcEFVX3lxTE1pVTJSNF9FeUIwTTlWZ2l2ZjJrSG9DMUxMV2Rkem1IRFZNUmNkWGFtWkVyZlJGUzRqZWNGWEtxYllKWVdxUWl1UWJGeE9Nck5rU01md01KU1V4d3QzdDdrUmxpOGNaM1BlclZZNTVJTXE?oc=5",
       "source": "에너지플랫폼뉴스",
       "published": "2026-10-23T02:46:53+00:00",
-      "collected_at": "2026-10-25T14:14:27.050766+00:00",
+      "collected_at": "2026-10-25T14:20:13.437138+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -9762,7 +9891,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wNW1uejVZUjBjaWVmcXJMOEZreVRDNEVEMDN2dlRZcE5UYUozY2cyNlo5dW0zOVhLbzJNRUx0Z0NVNE1IcGNmb2lleGFDTk9k?oc=5",
       "source": "문화일보",
       "published": "2026-10-23T02:20:11+00:00",
-      "collected_at": "2026-10-25T14:14:27.533785+00:00",
+      "collected_at": "2026-10-25T14:20:13.873577+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -9784,7 +9913,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91ZGNkTkY5TlFvcFBYdlhTU0VIN0pBeHpwTEpnb09SUlhFaHVxbDk5dHpJbGNZZmlnd2p0bVdURGFhcXB2RHpJbEhUanFWbklaOFk4MWUtTi1rTk9XM0phVTR3VnhyeWVpMm9tQ0RkOFdhUzli0gF0QVVfeXFMTVhpWkVtT0JTZTllbjFUUVg1RlU0QUNHd2R1TEhBVUU0MDRlbmdJNEwwN0lxb3lMN2NLYmY2cktCeXRlT21ZMjVYMTBqcWg2SURCTUF5NXYwOTdUVTBPbEJpWmVmaUxUMFVDWXU3VkpJWnVXVGQ?oc=5",
       "source": "MBC 뉴스",
       "published": "2026-10-23T02:06:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.088149+00:00",
+      "collected_at": "2026-10-25T14:20:13.409525+00:00",
       "categories": [
         "금융"
       ],
@@ -9882,7 +10011,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55X3JfdThqRU5PQTJ1ZmVWU0I0R2VVVHZKZlhSaERRekNuSUVoaG1XNlIwdEd0bXItTWtWWlZNMmlvVmtqRWJtOW9yUjVJazJUQU1FRTJzWXlmdWR0Wjdqd2lKQzNlT1duTGtJ?oc=5",
       "source": "일간투데이",
       "published": "2026-10-23T01:39:14+00:00",
-      "collected_at": "2026-10-25T14:14:27.533613+00:00",
+      "collected_at": "2026-10-25T14:20:13.873404+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -9965,7 +10094,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Wak9MSDlkRUlDMGlxNHk4b05sZG5JNWhOT3JYNWlZSEF5b3FSelFRc3I2bllQX3hmenltMEUxaXRwam1YSk40c2t6Vjdldjk0NTZsdEw1VWhyekUxTVN0aFN4RjVnS1dJRlYza3NDTVjSAXBBVV95cUxNVmpPTEg5ZEVJQzBpcTR5OG9ObGRuSTVoTk9yWDVpWUhBeW9xUnpRUXNyNm5ZUF94Znp5bTBFMWl0cGptWEpONHNrelY3ZXY5NDU2bHRMNVVocnpFMU1TdGhTeEY1Z0tXSUZWM2tzQ01Y?oc=5",
       "source": "전기신문",
       "published": "2026-10-23T01:17:18+00:00",
-      "collected_at": "2026-10-25T14:14:27.041724+00:00",
+      "collected_at": "2026-10-25T14:20:13.436646+00:00",
       "categories": [
         "에너지"
       ],
@@ -9986,7 +10115,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xX1o3a3ZuMzRxcXRjSUdXcVlWcENPeGdtTFFhSFVxdmhEOHJKU1VLcmNreTF0d0FodzVZSFdsb2dhS2NjaThNbUNyTFdieDZ0cVNnRFF4U0FpdjBz?oc=5",
       "source": "뉴스핌",
       "published": "2026-10-23T01:09:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.475011+00:00",
+      "collected_at": "2026-10-25T14:20:13.710537+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -10069,7 +10198,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSQzROMmFsNmFXTGVoSVVWYV83b00wa25yanNRa01KSHJ2eHNUTVo5bS1uQ3ViSWZLZjRzWTNpYXEwclJKZHNCaG8xaWF1UkEyQ2dYc2JxbEhBOVAwVWRVUVBROU1LTlNDNmc?oc=5",
       "source": "천지일보",
       "published": "2026-10-23T00:25:41+00:00",
-      "collected_at": "2026-10-25T14:14:27.526779+00:00",
+      "collected_at": "2026-10-25T14:20:13.872339+00:00",
       "categories": [
         "산업·통상",
         "교통·인프라"
@@ -10154,7 +10283,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CZ19tM2hTOGdfQlpOUk1laXpiWnY5YjBnbmtvUXQ1R1lRN3FoYnlZYnljdHh6YkhuOXN0SE9HVnRLTHlaZzRwZnRJeTJmcjJ6azlxWDZWR2hRZGNPTkQ3eWRaUFp1WGlQYktHdHlXc3FOUlYz?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-22T23:21:10+00:00",
-      "collected_at": "2026-10-25T14:14:27.473793+00:00",
+      "collected_at": "2026-10-25T14:20:13.709436+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -10177,7 +10306,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TYldrRmxwMHpGQ0Z3VTdkdkJGc09PNXNReUlKem1OUEZOU0djcWRocEZGM3laVDVQeF9ycDNBdi1NMzQyTHlySVIwWGlEWHJEUTR6WjhUb1RrOHdjckpHMQ?oc=5",
       "source": "KB Think",
       "published": "2026-10-22T23:08:43+00:00",
-      "collected_at": "2026-10-25T14:14:26.895173+00:00",
+      "collected_at": "2026-10-25T14:20:13.481189+00:00",
       "categories": [
         "거시경제"
       ],
@@ -10198,7 +10327,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QdjJoWmRkYmVDcjU1bElYQWRidTc5RHJhMUxsaENpM3AxM0VpMXVLM1RreExLWlhFd0JWTTZVM2x0aGVRc29VS0hFa2pwRVI2b25IX09UQkdORHNqVVJINjRwLXA4dw?oc=5",
       "source": "건설이코노미뉴스",
       "published": "2026-10-22T22:44:16+00:00",
-      "collected_at": "2026-10-25T14:14:27.532648+00:00",
+      "collected_at": "2026-10-25T14:20:13.872564+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -10277,7 +10406,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dWczYUlhbGF6alpycXF3ZzRyUXdjUXI4MUllTXVFbXVfX0pmYnVLVXlGT1FRWVQxckd2RFRwZlY1WUVzeDd0cGtHZHZqM00xSjNWUTRrN1RDRmFWbGc?oc=5",
       "source": "YTN",
       "published": "2026-10-22T22:27:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.896013+00:00",
+      "collected_at": "2026-10-25T14:20:13.481087+00:00",
       "categories": [
         "거시경제"
       ],
@@ -10728,7 +10857,7 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fNldadk9xZ1h0YlpkNFJySEoyeWlsWUhueTVTTnljNDFWak1pZnVYUHU2M1k2SUpmN1JrbDlRUVdNRThiLXk0Vmw3MEtsN2RnRmh5eXd6UFZ1WUhTdHFzLTdTSnZ5N0FFUmlZeUJOUjlldGc?oc=5",
       "source": "대한경제",
       "published": "2026-10-22T21:00:32+00:00",
-      "collected_at": "2026-10-25T14:14:27.526059+00:00",
+      "collected_at": "2026-10-25T14:20:13.871639+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -11221,7 +11350,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aU0UtX0prVnlTMUFFNVNlRmlJTzNqcHIxVThTb01NNTRZMFJqcW1Zc25KV05LakJyQlNLMnB2eWNLNjhaVEtKaHJRRndCSERYUENZVEJBRUhxTEd6YjM2ZjEzdm1RNFE?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-22T20:33:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.088796+00:00",
+      "collected_at": "2026-10-25T14:20:13.410083+00:00",
       "categories": [
         "금융",
         "산업·통상"
@@ -11548,7 +11677,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:14:28.987639+00:00",
+        "checked_at": "2026-10-25T14:20:15.058784+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       }
@@ -11560,7 +11689,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SbEZuTEM3WUJrTHdMeklvVnNwZlhhd1VpdDZ0NVhDZzM2STJLcUZuMV9ySEJNaXA0MFFTY1R6SzNFSzlBUGxmbV9GMDMtSmRoRjZxR2xB?oc=5",
       "source": "중앙일보",
       "published": "2026-10-22T15:02:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.930638+00:00",
+      "collected_at": "2026-10-25T14:20:13.239702+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -11678,7 +11807,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lelI4VFh2YW1LcjQzMTVjMWRnMXV3LU5hbnd2b1BTRV8ya3h5eUZ0bmxzVUpna0lkSHAxTW9QVFlCQTNRdlZ0ODNyeHo3TlA0dWxxMUxpV19POFlveFhOSU8ybzdvS05W?oc=5",
       "source": "목포타임즈",
       "published": "2026-10-22T14:55:53+00:00",
-      "collected_at": "2026-10-25T14:14:27.051238+00:00",
+      "collected_at": "2026-10-25T14:20:13.437448+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -11719,7 +11848,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EVWdWY052UVhuM3M0TTl0b1RZOWxXVXFsaW8tZXVydU00OGJ6UWRGNFBSNHduOGNaREJ4TzRrdkpRVlZncDVFREtvWXJwbkp0VjktXzViRTdaLXFvUmc?oc=5",
       "source": "YTN",
       "published": "2026-10-22T14:02:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.932039+00:00",
+      "collected_at": "2026-10-25T14:20:13.480567+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -11955,7 +12084,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HRmRqRFh5cF9hTk0wQXJnWHFVOHAwLWc3Ml9fN2NnWFVDZlJWLURvWlNrSnlZVFItYXhBbHBoa05RNUhjQ1RUbUNObXhQbjB5SmhMY0VzS0pLNE9sTWQxMUpiNkRXN0E?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-22T12:06:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.894359+00:00",
+      "collected_at": "2026-10-25T14:20:13.480911+00:00",
       "categories": [
         "거시경제"
       ],
@@ -12129,7 +12258,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TcUtLcXBObDZFbUhzT1hNaE5HdHhNTFFndjVUVlFhcjB4NndFRU1rRGNtUGx5VFhYYjZ3UkZKTXZvTDliXzQ4aTloY1NkT2d5ZGVNQVFaMXlnNEdGQkpKTEJB?oc=5",
       "source": "KBC광주방송",
       "published": "2026-10-22T11:00:01+00:00",
-      "collected_at": "2026-10-25T14:14:27.532829+00:00",
+      "collected_at": "2026-10-25T14:20:13.872706+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -12300,7 +12429,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xMkxiNy00Sm5KbDBKazJBMUlwM3pqTngzVWtSNDRmS25MQUVyYm9KalpkenhGeVBjYXFPWDNhS2Ric0Z6NXozM0xpdXg0TE50aGI3OWwyZDAzQjk1UU1WREFXV0RtMnlSRXRSRGZYRnE?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-22T10:29:03+00:00",
-      "collected_at": "2026-10-25T14:14:26.896493+00:00",
+      "collected_at": "2026-10-25T14:20:13.481681+00:00",
       "categories": [
         "거시경제"
       ],
@@ -12456,7 +12585,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hSl9fRWFNMnMzU0E1LUYweDZZNVhlTl9nV3lwaTZvSmR5UklrTkJxTHlHb2VXQUt4YWp3ZGZEeHpPY0xQekNmY09BYTVSajNORjJZaWVWOGNoUQ?oc=5",
       "source": "한국경제",
       "published": "2026-10-22T09:54:32+00:00",
-      "collected_at": "2026-10-25T14:14:27.053237+00:00",
+      "collected_at": "2026-10-25T14:20:13.439442+00:00",
       "categories": [
         "거시경제",
         "에너지"
@@ -12617,7 +12746,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mNFZCWkVtVHRXT1ZGZzlDUTZVTTNUUWlza0dXaTA3c3RGa21fT2EyTEp0RUtZTk5BR2JlMTc0d2o0c0szZm1lM0NxY0ZlSGdEX1UyMkM5ZTlLb0tPMVVET3ZVZ3VFR0xTRWluOE90cC1mOTlE0gF0QVVfeXFMTjlzbWFKNFJlVlp6a3pmWDRzYUFZb2JhZWJSLTZ0aHVBdmhheG9TajR1LUpUSTFiNnpSNUNRLVR6eENLeWRWLVNCYTltenM4d2xVRXI3VFdjUy1ja19JWGJGRDNfNUJpSlBXVlZQTHBYZzhlSGU?oc=5",
       "source": "MBC 뉴스",
       "published": "2026-10-22T09:39:43+00:00",
-      "collected_at": "2026-10-25T14:14:27.089303+00:00",
+      "collected_at": "2026-10-25T14:20:13.410611+00:00",
       "categories": [
         "금융",
         "산업·통상",
@@ -12638,7 +12767,7 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IaFY0MmYyaFpTakNxQ3JRLUdUYXZZOENzSHVUbFNoZmluSWRsS0d6OGJGV1kxTjZEYzdTcmpSVk4zVTd0ZjliLVllWWd4TkdSUW1YYUMtc19GUm1aX1RXVkQ5WFZWYU1qVW5qSUI0WQ?oc=5",
       "source": "대한민국 정책브리핑",
       "published": "2026-10-22T09:37:18+00:00",
-      "collected_at": "2026-10-25T14:14:26.895270+00:00",
+      "collected_at": "2026-10-25T14:20:13.293486+00:00",
       "categories": [
         "거시경제",
         "산업·통상",
@@ -12652,8 +12781,8 @@
         "규제·재정"
       ],
       "search_topics": [
-        "거시경제",
-        "산업·통상"
+        "산업·통상",
+        "거시경제"
       ]
     },
     {
@@ -12817,7 +12946,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0c29aSi14ak1TTlZ1U2pXSTdya19obnFqSjNaX1dnci1YN0FYWHhWejJENUsxUFUtQ0NXMVNIN0hnU3lGLUo0UmlXTy1ZTzdxeWFJTzZpanJBQQ?oc=5",
       "source": "농민신문",
       "published": "2026-10-22T09:19:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.088231+00:00",
+      "collected_at": "2026-10-25T14:20:13.409369+00:00",
       "categories": [
         "금융"
       ],
@@ -12875,7 +13004,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43RjlfVWluM0lINGRiWlFYX2JXakZRNndTYUJPVURZNE9rQXBndDZwclZqMUg3VkNiM3pDTHJzdkFZdU9qQUxjZkpnajBnT0dhbzlGTkdsWW5UX0Y1NnNhdw?oc=5",
       "source": "일렉트릭파워",
       "published": "2026-10-22T09:14:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.052678+00:00",
+      "collected_at": "2026-10-25T14:20:13.438930+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -13032,7 +13161,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XT3dvak51cjJjOXdzZ0VOaFlHd1lCNi0zZnVmM1paNzdPWmtON25ORjlhalUyOWl0SktxQnRwNGVoVmlDQXhnV1pFTjhMNlh3aV9aQ3RHVl85SzFN?oc=5",
       "source": "뉴스핌",
       "published": "2026-10-22T09:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.041993+00:00",
+      "collected_at": "2026-10-25T14:20:13.436922+00:00",
       "categories": [
         "에너지",
         "산업·통상",
@@ -13132,7 +13261,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54TVQ1RVUyOWYwX3ZLN05uM0gzM3JFYjVSaWEzMV9HYzc1cU5aZ1RyQjhvU1Q2ci1TblVPUlJ5VjRaOUI4V2MyYUEtT1dTUnptT0prZkhYVzYtMTI2X3UtWFV4RElJbkJXNzJ6YUlCUHF0Zw?oc=5",
       "source": "한양경제",
       "published": "2026-10-22T08:51:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.043082+00:00",
+      "collected_at": "2026-10-25T14:20:13.388232+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -13153,7 +13282,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxRV9EZDg0M2QzcnpfaG5fWWZocFNHRU5CeUtYcVJIM3l5T3RON0htQklmMVpQZWlQaXQxUF8yay1POVZWZ0Q0cVQza1hMV2NfMVI4SVZsb3M4eEZqS29PeXU3NmM0LU10UnNwdtIBcEFVX3lxTE9XSXVSZ280alNJRDRwdzJHTkgyLVl6VUZEMU5HV3ZCa0NMZ1hhMW1jQUVDVVdyc3JxZFV4SVA2S1U3dGtQbktDc0dCX3B2VzNkTVQtM2djeHpHXzNuU19ER0l3dGl4NVBOUGJFOWZ2ZW0?oc=5",
       "source": "전기신문",
       "published": "2026-10-22T08:46:50+00:00",
-      "collected_at": "2026-10-25T14:14:27.525833+00:00",
+      "collected_at": "2026-10-25T14:20:13.871417+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -13175,7 +13304,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1QV9kSWtxcExqeE83VEZiYm5yYS1nTjJETU5fMnY3N3lsaVZPOWhBY3BKeFQ2T1UybXlNdjQxa0o4SnoyX3dpYXZ6ekhxMmxsOGN1TTBmZG40WHE5SFJVSks3ZDlQYnZUTVd4bVdZa0oyUQ?oc=5",
       "source": "NAVERCorp.",
       "published": "2026-10-22T08:46:42+00:00",
-      "collected_at": "2026-10-25T14:14:27.526272+00:00",
+      "collected_at": "2026-10-25T14:20:13.871852+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -13194,7 +13323,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YU3R4MGdXMzcwb0RZOTVacmd4c20tR0RPOXl6Z1VxSTd2cndGMVRzQzdjZkZ1V3pZTUxoenB4cWxOSGlvb0ltVGp5Z25xZUxvejItdXdVQ0pNWnpzTkZPYTRqcEFrWks2V2lDMdIBcEFVX3lxTFBQaXpTX0FJOUpVQ1FtZ2VnNEhsOTFoeDh2VEM5RGM3M0FMbUVGNXl0ZFEwcW5IaUR5cVZLeDdXdk5hNmNFOWJHampuQVRibEZKaVl3Y0I3c0xVZ2ozeXI0cllBdm00UTF1bnF1MzN6MnU?oc=5",
       "source": "전기신문",
       "published": "2026-10-22T08:43:52+00:00",
-      "collected_at": "2026-10-25T14:14:27.035769+00:00",
+      "collected_at": "2026-10-25T14:20:13.386738+00:00",
       "categories": [
         "에너지"
       ],
@@ -13310,10 +13439,10 @@
       "id": "f6e3a98374a85d367032",
       "title": "기술 혁신으로 쌓아 올린 금자탑… SK하이닉스, ‘제19회 반도체의 날’서 5관왕 영예",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IQmdEVjU4UXZwN1JrQURWb2hDY1dXY19Ic2N6Q0lKZmNmcWh3NU4wQno3RFFrTnZIMnZlOTJfUW1aa2ZoTk9heHpzUnlpNUlDc2JmVGpmdlp5RFRxTEhqZzF3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxbmgyTzFVZ1VQdGxxYVF1UVdCbTlGSEpuN21xWWlQc3JwZDVYWjk3YVRoX2FWazluVVdxaHVsSmkxR05DeGFBY2ZHX0tDR3I0MHYtZW52azBjNFBQTkc4?oc=5",
       "source": "SK hynix",
       "published": "2026-10-22T08:33:28+00:00",
-      "collected_at": "2026-10-24T22:45:57.738753+00:00",
+      "collected_at": "2026-10-25T14:20:13.292824+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -13372,7 +13501,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IcFlZN0h1alVoLU1RNnROWHBVMEZjelFJcURVb0hpNmlDVGdPU1NYckZ1SFBIbU9zYUdZM2VYWXhvUnhsNXJaYVBfeGttVERRc2JrUDdfam9mSGdRVzRkSmY5aWhQdw?oc=5",
       "source": "한국대학신문",
       "published": "2026-10-22T08:25:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.035919+00:00",
+      "collected_at": "2026-10-25T14:20:13.386874+00:00",
       "categories": [
         "고용·사회",
         "국제·정책"
@@ -13395,7 +13524,7 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMnd4eHg3b2xsUUp1WVhUVXZZUFdxcHR5QTQxMVZjQko3OXJqRUVwVm1rb2VFVHl4aGE2YklNV1lodnBrQlNobVFCUTBiVXVSeThqczFvSzNjWGxwMXYwekFWWjhQYWNfYXdVOGtjaDFwRmE3MFRMX1g3ZTRDcjltb3lGN3hyMlU?oc=5",
       "source": "전북도민일보",
       "published": "2026-10-22T08:19:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.036618+00:00",
+      "collected_at": "2026-10-25T14:20:13.387537+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -13416,7 +13545,7 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmpBOGVxREJyTXdSMG8zc3lubGpRN3Z2eThUd09ZMlp0SUg4OVV0MUhYRGRLVnd1bVBwRkQ5bk5Ob1FjellIN0FJRTNkQkpJX3IxNEN5LVlpa3FPVGJvZkxtTkUzMllKOWhVTV9sMXc2YU52Q21aWi1UN0hDMjFZeVpfNXdzUHFObTlCN2Z3?oc=5",
       "source": "조선일보",
       "published": "2026-10-22T08:11:33+00:00",
-      "collected_at": "2026-10-25T14:14:27.087615+00:00",
+      "collected_at": "2026-10-25T14:20:13.408709+00:00",
       "categories": [
         "금융",
         "산업·통상",
@@ -13478,7 +13607,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jcU5Rb3JDMHh2eWJHZXBLOXk2M2RqVDFhX2xkUVFDYVhsYXM4aTBnc0pET2lnMUhEb3lNVHRCNHNlZ1J5UWZReW9ZOVZuYnU0UTZwaWZGUXBnME5XWUpDRDF6YTI?oc=5",
       "source": "매일일보",
       "published": "2026-10-22T07:58:51+00:00",
-      "collected_at": "2026-10-25T14:14:27.533867+00:00",
+      "collected_at": "2026-10-25T14:20:13.873661+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -13497,7 +13626,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VaWhOazJMRmxVWnRGOXVsNzd0TzZyMGxTempaX1Nhcko3NHBGaUZTNWFyR1JyQ3pnOXIxQTNIanRsdjZfa2NVUkFsdldWd3BiWWI2SC14WXp6czM0UmpXTERmcmVyVDg?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-22T07:58:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.087888+00:00",
+      "collected_at": "2026-10-25T14:20:13.408984+00:00",
       "categories": [
         "금융",
         "산업·통상"
@@ -13517,7 +13646,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrUW5lLVRHOEVGclVwbXNtbFBuOVJtYl83dTlGY3NJMHBjMVM5X0NVcmVWMG5WVlBBZ0VsM1RDeEt4OU5WTzBBaGhKeS12R0I5a1NnM2N4dWxFWEZ2anpaZw?oc=5",
       "source": "뉴스토마토",
       "published": "2026-10-22T07:57:36+00:00",
-      "collected_at": "2026-10-25T14:14:27.473008+00:00",
+      "collected_at": "2026-10-25T14:20:13.708533+00:00",
       "categories": [
         "기타"
       ],
@@ -13536,7 +13665,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYSjJJckR5YXlUcVh5R0Rta3VkVmIwY0IzOUFWcllDZ1N3YnhzT0d3bmFKOVFVSm1WTHl2ZVNOLVpSZGVzZEFUS3A1VVh4ZkV1LXpPYlBORWVkaHZkcTNDVUN6czRjOTB2MXc?oc=5",
       "source": "비즈워치",
       "published": "2026-10-22T07:51:03+00:00",
-      "collected_at": "2026-10-25T14:14:27.088417+00:00",
+      "collected_at": "2026-10-25T14:20:13.409668+00:00",
       "categories": [
         "금융"
       ],
@@ -13557,7 +13686,7 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNkFhMTVmRjRYT29jZ1NUVGVSeXdRUnZpUlNZOFBfLXpGc0lGUVRDV1JwZFdtcFpsVFBqVlQzdVFfVnZqMEFhSXU4TTJTMi1hZndUaUgxSjYxbmxaT3owZ0xBa3RNZG8wM0VIdXVfSVBzaGhCWWg4Q2RVaHlhR3kxRER0NVI5NXc?oc=5",
       "source": "전북도민일보",
       "published": "2026-10-22T07:45:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.041897+00:00",
+      "collected_at": "2026-10-25T14:20:13.436823+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -13636,7 +13765,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxOWk2MGtwQU5hS3p0QmJacG9vdmRwNG12WV83TXZNRjlJUi10b3V6UVZJYlJsZDhQTWJDeUdpTzlXd1dHMkJ0WUVpdUEwUWxDUEQ0UEduYjRRM1nSAWBBVV95cUxQajVwWTJGT3p1cG51LWc0NjRyeUhLU1cwcTdPQ2o5UlRlT201MmJ1WjYta1FaLXFYcnBlM2RFQWFSSWx5MVhTOEFVSGJNc3I1WlRyT2w3ZnVQd3NxYmZScjA?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-22T07:10:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.895016+00:00",
+      "collected_at": "2026-10-25T14:20:13.480996+00:00",
       "categories": [
         "거시경제"
       ],
@@ -13796,7 +13925,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MeGtVYzhYQjZ4bG5ZZnV6RXcxOGUwVHZybktyYXpRb18zVTFyZmlUcHhDaUZsX0dMcnJsS3ZOUjRxTE85dnlVTWtiRklSUQ?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T06:35:07+00:00",
-      "collected_at": "2026-10-25T14:14:26.931604+00:00",
+      "collected_at": "2026-10-25T14:20:13.240700+00:00",
       "categories": [
         "산업·통상",
         "국제·정책"
@@ -13818,7 +13947,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95MUNHVDVkdHNNM2x1WmlvNW1mTk5RMjdEXzcxRFl0N0JVSFlWWDVTVDBSM1ctaFdlSkpkQl9iZk9jV3E4Vy1uQ01iUjlxWHlPb01GN1o5ZTdEYk1wTU5yejMxd0E0VVZ3RGpmZ3NFRVc?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-22T06:32:19+00:00",
-      "collected_at": "2026-10-25T14:14:26.895364+00:00",
+      "collected_at": "2026-10-25T14:20:13.480740+00:00",
       "categories": [
         "거시경제"
       ],
@@ -13963,7 +14092,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jNXV6R29sZUtlc2wzSmxfTkZYczJ6ZFQwVExpNFdxenZEb0VUbHdvMU4xdXZmei1HNWxoajk2bmpmLUppVTE1Z055a3VuQQ?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T06:01:35+00:00",
-      "collected_at": "2026-10-25T14:14:27.052801+00:00",
+      "collected_at": "2026-10-25T14:20:13.439023+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -14101,7 +14230,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkck9Eb3g1SC0yZWFubFJGSVIxYV9MeHRHT25yZUh2SUFSeXVtM1RUNTNQUzFkbzB1QjR0TDYxVUdBcE5XYmdKb3ZqNVNIVEVycy05MVR3?oc=5",
       "source": "중앙일보",
       "published": "2026-10-22T05:26:05+00:00",
-      "collected_at": "2026-10-25T14:14:26.931694+00:00",
+      "collected_at": "2026-10-25T14:20:13.241063+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -14122,7 +14251,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fdWRzRDBkZ1ZCWHFmWnFtZS0xdDNQdWJBS0dwcEdSVnBaVnJDNkZUYU0tNkFWcUVfbHR3Z1VibXROcXdMTjVpTlVQSUd5cVFmeWVsbDI3NUU3SjVBM3BucWRpZEY?oc=5",
       "source": "중도일보",
       "published": "2026-10-22T05:14:34+00:00",
-      "collected_at": "2026-10-25T14:14:27.473352+00:00",
+      "collected_at": "2026-10-25T14:20:13.709017+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -14242,7 +14371,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
       "source": "아시아타임즈",
       "published": "2026-10-22T04:57:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.473546+00:00",
+      "collected_at": "2026-10-25T14:20:13.709152+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -14263,7 +14392,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mT0x6eEFBbEFsYWVKQUh0SlVxT29zaVI1M08ySWRLZXp6cEQ1VUtMMnd4QmpZS1VMME1DdHBMNEFmOFlqekk1V0pCMXd2Zw?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T04:55:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.526862+00:00",
+      "collected_at": "2026-10-25T14:20:13.872421+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -14282,7 +14411,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVUJoR0Z6THdyd01wMlFZV3hGWWppelBOdjJXYkdYOXc2VFJEMFotVDRmb3ZuNXpoQ2lEN2w5SE9VaU9Yb3VGZFVWc1BjQUVBVTdsdlhKcFJrUDhjTEkxakI4aEhqTk9CS19XQ9IBcEFVX3lxTE4wYkYwOC1aNlhJZkpFTW5MdUQwVEw4MWZaRXJ1Y2w0Z1NXN0w5cVNMeHdxNDZNMFlZczczUWxfSEUwM3FqZ1JMVXVYYnZIVWluSVk4X0VOMHN3MkNoYnI5endIdVV4UnB1cFZNMHFYVU0?oc=5",
       "source": "전기신문",
       "published": "2026-10-22T04:49:39+00:00",
-      "collected_at": "2026-10-25T14:14:27.053025+00:00",
+      "collected_at": "2026-10-25T14:20:13.439236+00:00",
       "categories": [
         "에너지",
         "산업·통상"
@@ -14302,7 +14431,7 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83aEpKS0pLWko1SEpCVVdiR1J4Z18yWG9DQ0VlNXFLM1FpaDBra2RsMWk0ZDBYMjFrUFBKbTJwMFVEMzFHSU9lak1WRXNIME9lV29idmdJR2h4b2JjOFFTSHJha1BYUnNCUEprUmpn?oc=5",
       "source": "울산종합일보",
       "published": "2026-10-22T04:44:11+00:00",
-      "collected_at": "2026-10-25T14:14:27.051033+00:00",
+      "collected_at": "2026-10-25T14:20:13.437305+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -14345,7 +14474,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
       "source": "데일리대구경북뉴스",
       "published": "2026-10-22T04:40:26+00:00",
-      "collected_at": "2026-10-25T14:14:27.533166+00:00",
+      "collected_at": "2026-10-25T14:20:13.872990+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -14409,7 +14538,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nbzExczIwU3hmb0ZIOGlxOG8wb0NXLUQzSWhMMHRYWnlxV3p1T2FUSFltS0J6aF9vVUlNcUtPVWNENzhCbGE1UHljSUxudw?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T04:37:49+00:00",
-      "collected_at": "2026-10-25T14:14:26.894584+00:00",
+      "collected_at": "2026-10-25T14:20:13.480296+00:00",
       "categories": [
         "거시경제"
       ],
@@ -14489,7 +14618,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LTXFSMG5pMmd5ZjA4c2tYSEZiVnlMbV84dXEwazU5V0NWQTdIb0JSaDFhSHNlcUJNanRYc19mMjVnQWtUNVdaXzExd2I1X2lNU3JRREFwbGNKUGJScFU3NUpyanlDSl9B?oc=5",
       "source": "농축유통신문",
       "published": "2026-10-22T04:12:46+00:00",
-      "collected_at": "2026-10-25T14:14:27.052495+00:00",
+      "collected_at": "2026-10-25T14:20:13.438800+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -14720,7 +14849,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CRDVPR1lSOVJfOUZuVTNDdV95Y3FBRUVMMFJFN3Fnd3Bhem51bERWUEo3RnBrTnZvWVJSVkh6VWhIVElPSlZJWXNQbEpBaUM4ZGpDdzRyMTU0Wm9NUVAtOVVhUTZoTDJMcEN4SNIBcEFVX3lxTE1NRWE0MTJlUXBSZEZ6a1FJV2I3c3ZmUnA2c0xzOG9sdW11d3RrWDl0dEpEVXdjV2xacy0takpZZ0JxVUFHVS1IVWNoZkE5WHF0bGp3NFdublVCQ0ZuSlZuTEFPMGNBSDB5S0d2Q3lSMTI?oc=5",
       "source": "전기신문",
       "published": "2026-10-22T02:31:32+00:00",
-      "collected_at": "2026-10-25T14:14:27.052911+00:00",
+      "collected_at": "2026-10-25T14:20:13.439116+00:00",
       "categories": [
         "에너지",
         "산업·통상",
@@ -14988,7 +15117,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yVTZHbXo1R24tME1FcjFOU3NPMmsyOGpIb0hxQXNqMzE3QXhZVjNReE1RODM0YUpDZ1B3UnZWbjBlYzQ3X2poX3BsajYtZw?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T01:31:19+00:00",
-      "collected_at": "2026-10-25T14:14:27.041616+00:00",
+      "collected_at": "2026-10-25T14:20:13.436532+00:00",
       "categories": [
         "에너지",
         "국제·정책"
@@ -15029,7 +15158,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnM0pKNElMRnRhVmtzTlVkcVVmRV9uNkktb3l4aGZpbHV2bjM2Mk1kNDM0dE8xMjZLYUVMUzZzSk9VRDNmWTN6VUZYdVdSLS05QWNtblIwQTBBUEFzeGktY2ViM3VZVFk?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-22T01:06:00+00:00",
-      "collected_at": "2026-10-23T22:48:57.942054+00:00",
+      "collected_at": "2026-10-25T14:20:13.481762+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15114,7 +15243,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fT3JFSktucjNmZnlPbjdpaHlnQWIwUVRxTG55YXdwRGM1Nmd2MFNNUzhvUEVyd0ZSSlYxQ1B4NGFzLVhHOFYtZE9jNmtuZw?oc=5",
       "source": "전자신문",
       "published": "2026-10-22T00:53:32+00:00",
-      "collected_at": "2026-10-25T14:14:26.896134+00:00",
+      "collected_at": "2026-10-25T14:20:13.481275+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15135,7 +15264,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kT0VvRFhtemFJTlp3U3VnalFXSjlmV2RuY1hGYWUxbWlUZ1AtWVpDZUIyR0hOSmxPRzB2T0xJb1JMSVlDa1BXcUdEQ2gtOE9xVk5nVTF6M1BSOFpXLXc?oc=5",
       "source": "YTN",
       "published": "2026-10-22T00:53:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.089225+00:00",
+      "collected_at": "2026-10-25T14:20:13.481604+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -15202,7 +15331,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQWYwSndyLVN1VGhwczBMT3dyZWE0WThtcThFS3VoLWFBRENXMXVZNUFOemxMRmxBTnZLYUxKZlhNeFRSbFpVeVhNRjdLQnZ6Mm1CS2ladEFMeF90elQ2bWVYUzNUUm4zOTVQRUM5RnNNaUxq0gF0QVVfeXFMTWRHZnVURGFISXdsY3YzSVNxNXhzM3lEMi1laURubDlHbjhWRGljX1dEb0NjUUtHaFB1VWgzdFRJcTVwYVdxcTZRVlR1Z2ZGNV9uRTNyNVNabW1GT0RzNGdpWjcyZE9MamVmOWVJQXNUNzFwMVE?oc=5",
       "source": "MBC 뉴스",
       "published": "2026-10-22T00:51:33+00:00",
-      "collected_at": "2026-10-25T14:14:26.894925+00:00",
+      "collected_at": "2026-10-25T14:20:13.480654+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15223,7 +15352,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KQkNZNnZqWnFRMS1XcU1yR2IzX0N5SU5sdE1nRXY5eEZ3TXQtMi1xOEY5OEFicjZROVZRTXNVRWQ2THN0eHRDMDZvaTFEbVZZc3pST05pN2R2eEXSAWBBVV95cUxQQk42QzZWeW5wMnhVck15c19kU3NYYnhLeTA5OS1KNHBoMXpYZHU1SEJ2S2k2MU41R2lWVVNCUnFEdFV6eTFFNUg2QzVGRkxtc2dYN3B0QnpHMFZ0VnhQbEs?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-22T00:51:04+00:00",
-      "collected_at": "2026-10-23T22:48:57.941036+00:00",
+      "collected_at": "2026-10-25T14:20:13.480481+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15244,7 +15373,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UbHlZc2pHM3NJU1FMMG95N3E1T3VySEh5UjgyMUNKYkN5TUlKVnZMbnF1amdOd3ZFaU9qNjdxampUYzV3aFV2aGVvTlVGN0VDWXJqb1lPb0RWejg?oc=5",
       "source": "KBS 뉴스",
       "published": "2026-10-22T00:51:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.895538+00:00",
+      "collected_at": "2026-10-25T14:20:13.480830+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15351,7 +15480,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnNFFWWkwzQ09lbWJrZTRIQ1ZaanVralZ5VDZSazIxQ3RWb2UxYXBCT3pycTBaaFFPRmVYVEp6a0ljdUY3VlR4ZUxZcFk4dHlyWHpWMFFleHJCejIwWTNlYjh1Q1FWcGxrZWpDSVVuMEQ?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-22T00:06:06+00:00",
-      "collected_at": "2026-10-25T14:14:27.475096+00:00",
+      "collected_at": "2026-10-25T14:20:13.710625+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -15374,7 +15503,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hT1BUdWxOQTlETTdlS3hMWVVNRlJncFozYkNMM29QVWdnSzV5RC1EWm9JTnRMaXZkMVdTeW50T0NLUG5JQng2OTk0NG1tbUxWNkJUTGozbkw4d2xlakpmTw?oc=5",
       "source": "KB Think",
       "published": "2026-10-21T23:10:20+00:00",
-      "collected_at": "2026-10-23T22:48:57.942270+00:00",
+      "collected_at": "2026-10-25T14:20:13.480391+00:00",
       "categories": [
         "거시경제"
       ],
@@ -15689,7 +15818,7 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fUC1qcGhPWHN5NjZscnprNmdwLWJaUHR0Yk5wMkN6RWUwSU5leEdqODY4YTFfRFg3OUtzOTNpQTZMM3h3cUFUWEVKSXgzVXBYRHJsd0V5Q01QUUc1Y2VudlpXRW1XZzlLUUVTQjlqLWEzTmVB?oc=5",
       "source": "대한경제",
       "published": "2026-10-21T21:00:46+00:00",
-      "collected_at": "2026-10-25T14:14:27.533531+00:00",
+      "collected_at": "2026-10-25T14:20:13.873324+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -16124,7 +16253,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tZkVDdU13bVRMRmV3VU1fRVB5eldJc21yN3M3dTVTdGdKWC1fTXVZNGlneldLR24tT1pFbGU4YWhUR1l6VlFMQkM3R2tDUzFMaHNyU29mdXVITVhGMFJ5anVUdzlhb2ZvREloLQ?oc=5",
       "source": "약사공론",
       "published": "2026-10-21T20:50:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.035617+00:00",
+      "collected_at": "2026-10-25T14:20:13.386592+00:00",
       "categories": [
         "기타"
       ],
@@ -16436,7 +16565,7 @@
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0WkdGaVhqS3IwUm9BenNoWGN3SFFCLWRaWkxhc1RhRjAtcWExNjZjcE9YXzhKQzRHNldJYzVrb0NQZDlBV19PMFpqNnZGc1E3b1VwUTVWckZPOWFRSHBxaDhfTXJyYUJyeXhFajU5Zkw5V1RpSXfSAWZBVV95cUxPZXh5NnQ4dzZ2TVVaUm1oMVhQVTBoUXZ6YWVpeTZzY2JoOENCZjVZZktrQV9yZWNsbGFDQUkxQkNuYzMtTmpWQUVETFdFczNkR1dkWGh1N1Q5VE15NlB4Q3F5LTU5Rnc?oc=5",
       "source": "동아일보",
       "published": "2026-10-21T19:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.043545+00:00",
+      "collected_at": "2026-10-25T14:20:13.394778+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -16499,7 +16628,7 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0h5OVJJWExheDE4c2RabkxqSXBYTWw3eUozU0JIdXc2LVFQMDlVREJlYTdKd2tlZDBlbkwtdUxhUXlwNHBOdFE2THJlcEtWdjBJZnhDOE90QXhIaDdGaU53aDV3VWF2YUZnTnB4cVlyMFRXUjZDbHhtT1NqUU12bWJmNTF3YUR5RnBNc2FBUQ?oc=5",
       "source": "조선일보",
       "published": "2026-10-21T15:58:20+00:00",
-      "collected_at": "2026-10-25T14:14:26.885498+00:00",
+      "collected_at": "2026-10-25T14:20:13.294441+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -16520,7 +16649,7 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUXVnaDJnZWVIcW5uNE0ycVhYWW9saFo0ZzNHUldyMTFGbWZtclA5WExsNzZmY0Z6MldaNktZQ2M1ZHczLThraGNwVVZGMm1pZXJCQm1lY1lFTHF1NmI5RnFVUTRxdDdKaEZ4RlBWc0hKSjBlTU9yeFVkWmFNZlgzc0c2bw?oc=5",
       "source": "조선일보",
       "published": "2026-10-21T15:53:20+00:00",
-      "collected_at": "2026-10-25T14:14:26.885201+00:00",
+      "collected_at": "2026-10-25T14:20:13.293827+00:00",
       "categories": [
         "산업·통상",
         "국제·정책"
@@ -16679,7 +16808,7 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNnl5VGxfLWxoWWFVY2RnaE84blhwa3ZUZWRiekRha2ZSNG9UV2lmZXI5Qm54NWQ5ZmRKU1NJSThwLVptOXZXVE80UHFVbzMtZVlHLU92bU5CS3R6X3BXOXpVTXVXX24xVkJoUEd0SmJJODgyNjRjZ25yUjJaUjdKZ0R4VmZXZ9IBmgFBVV95cUxNZkVYOWp6QVM0a3NlQmpNR1l5aVNCanZvbVhWbVhNaWIyaExPOFBQOUlEQ1hDQUxUaExVNTJxNUxjUUJwVXZXMngwVzYyS0txeUE4ZU5peTNFb3dhRFpUdVJWeVFxSEdncDBsS1g4QUhQaWx5Zk1hVmhWV1k4amM4X3ZNQWdnV3UzS0gwbXpPZ3VDeC13REgtWHJn?oc=5",
       "source": "Chosunbiz",
       "published": "2026-10-21T14:28:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.525959+00:00",
+      "collected_at": "2026-10-25T14:20:13.871539+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -18479,7 +18608,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EdTY2QkN6bjZZQ1I0ckl3czh0c2V2dVdMOG4wcGstR0p6c3RxTlc1bEc5RHNPZWZPdDV1Zk5vLUhMQVFHcmJSVVRRZ1hUQTFLUU9DZmlDU3lqODZSWE8zQVZ3?oc=5",
       "source": "경기신문",
       "published": "2026-10-21T08:24:27+00:00",
-      "collected_at": "2026-10-25T14:14:27.042514+00:00",
+      "collected_at": "2026-10-25T14:20:13.387942+00:00",
       "categories": [
         "기타"
       ],
@@ -18655,7 +18784,7 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZlBlS2J5aFU5UGMwaVNpd0FHa3h3U0lacWYzOEhwRjJ4Z0pMVV9kcmRQY09HM0V2X3l3M2ltZEpwc084Q01FQ0txQVN3TXg3MUhXaXU3azlOOGFwYzEySGRHdHc3MDlSVW9PakZOa0RrSHRlV0NDUi1XelRQSXJzd1ZnS1QtclhQNngtVGY4XzRvNDNzSmNBdtIBrAFBVV95cUxPU1p5NHh6eUg4OFZOcE9FUGIta2RKajRJUF9ycEh2YU9oTFJOWkFaWGQzWEFOVHRtLW1LdEVDVENVOWdpV2ZWcWtYMTZDRFJyWXZyd2gyTFFPNzIyb0RZbHhrU2dSOC1DOFRvNUhLRU9XcE9XTlRNR2JXN0F1cGd2dlF6UDc5UFY0Y2tWUUNXMVBkTkhxUjJwaFR4X1JoRmZoazFVSElnQzltdXpE?oc=5",
       "source": "Chosunbiz",
       "published": "2026-10-21T07:53:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.472842+00:00",
+      "collected_at": "2026-10-25T14:20:13.708371+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -18754,7 +18883,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Lc19SZXNFNF8yQ25BZ01USnNtb3U1STRCZ0hFWThGanU1a2VpS1VSaGw3X05jcHJOX0RnYnRYQzZKbklxQ1JKVEZYMlZQMl9IdUJEZWJJTmNsM1A0?oc=5",
       "source": "뉴스핌",
       "published": "2026-10-21T07:35:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.473103+00:00",
+      "collected_at": "2026-10-25T14:20:13.708629+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -18815,7 +18944,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PN3pCbnFrdU5JU0lwUTJ5SXBoTjlMakE1NFB4V3lsQWgyLUhsTWc2bEszYV8tdm1Pc1kyMThXN3MxVV9Vem9XSjBFVUN5ZEV3dGg5SnoxaHg?oc=5",
       "source": "매일경제",
       "published": "2026-10-21T07:29:52+00:00",
-      "collected_at": "2026-10-25T14:14:27.472748+00:00",
+      "collected_at": "2026-10-25T14:20:13.708271+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -19055,7 +19184,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tVGVjcFdEa3NXVEVjbXI3cXRFZUFYajdZSEJnWFZ1UmZLYXh6S25PZXdrYlk5aHl4TXZiYUZIc3NFc3l0Y2JtQ1dwemd0WHZqYWVpX2VFWURyVmFWOFh0WTBxZ1lZSDNyQ3lTMThHSFk?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-21T06:41:18+00:00",
-      "collected_at": "2026-10-25T14:14:26.930726+00:00",
+      "collected_at": "2026-10-25T14:20:13.239843+00:00",
       "categories": [
         "거시경제",
         "금융",
@@ -19135,7 +19264,7 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWV9KS2p0Tm9UdlFKNVJnU1FKTDFxdTZlWFpnd1lKaDZkMFhxOVRFajZBZDI0NGtOSDN4d2E0cWlVeGVpTHdLbW9QdjRRczNhSmVmNGtiU19CZzZTQ1Z3alBqcm5Nd29zbU5BeGpqby1ObEFNbHF6QXVUcERGS09GRHVCVF9TQQ?oc=5",
       "source": "Tbc.co.kr",
       "published": "2026-10-21T06:29:48+00:00",
-      "collected_at": "2026-10-25T14:14:26.931511+00:00",
+      "collected_at": "2026-10-25T14:20:13.240561+00:00",
       "categories": [
         "거시경제",
         "고용·사회",
@@ -19360,7 +19489,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90WmJ4Y3cwOWQtU0c2SUFhcFh6LTd2cEZsSmQ2M3JWaVRPWW96V1ZBd0x4WWV1RUpwWGlSSkFPQjY4TnNtekNfaVh0Vlh4MldhZU0xeFZaZ2tMbFQ5MDloWGFsa3Jsd2c?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-21T05:18:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.089064+00:00",
+      "collected_at": "2026-10-25T14:20:13.410373+00:00",
       "categories": [
         "금융"
       ],
@@ -19571,7 +19700,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zN2FibG5zRkxhcHdxNlRCejdHeE1YUmV2bDdaWTI1TjBSTU1USXNxQ0lTU2E5NjhJMWNLZThUWWlUcHdJUXQwaGFHX1dDZW1TRnIwbkRHeXJWdUZDUXIwUTRDdkx2TWRITG95VQ?oc=5",
       "source": "월간조선",
       "published": "2026-10-21T02:14:41+00:00",
-      "collected_at": "2026-10-25T14:14:27.043339+00:00",
+      "collected_at": "2026-10-25T14:20:13.388373+00:00",
       "categories": [
         "기타"
       ],
@@ -19670,7 +19799,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vS2hDQ3BmRFJhWUk1Q1BwOFRxUkFIMk9XT2lFWWFxSkNmVW9DaEVUMmY2dVAweURObW9kR2dUNERibGFIWk1XY0kxRDBlZjhnN1VYOVpXSGNwckJMdnhqZk40UGxXcE5jTnBR?oc=5",
       "source": "일간투데이",
       "published": "2026-10-21T01:08:44+00:00",
-      "collected_at": "2026-10-25T14:14:27.526628+00:00",
+      "collected_at": "2026-10-25T14:20:13.872195+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -19820,7 +19949,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYcWJVVzZWSUdUOHdNTHp5VzBsY3NkU2cybGwydXlwRnRXV190d0twZ3NUM01IQjdzcGhBLVUzZkplRUcwc1dfY1g2TXVESnl1eFdqdDZBbTh6N1JsYzZuTQ?oc=5",
       "source": "SK hynix",
       "published": "2026-10-20T23:59:56+00:00",
-      "collected_at": "2026-10-25T14:14:26.885384+00:00",
+      "collected_at": "2026-10-25T14:20:13.294522+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -20437,7 +20566,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Qd0VuTTVmR0lQaHMyN1Rwd0wydFBpQkFndTBnOGpiTWlzTm1YVGNKRENjekZXLVlNLU96UUNHOGN5VlFJMUhnNUZ0cUs4UGxB?oc=5",
       "source": "문화일보",
       "published": "2026-10-20T21:23:39+00:00",
-      "collected_at": "2026-10-25T14:14:27.036368+00:00",
+      "collected_at": "2026-10-25T14:20:13.387308+00:00",
       "categories": [
         "기타"
       ],
@@ -21915,7 +22044,7 @@
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04anJEb1pHempCaWE3UEw1WEtJbm8yQ0JuZ2NHU3pnN1Z3dGxSUmtjUkpObmdZTmVYaUhHVWFiQTZNMV9pd0I2Ul94Rk5UWmNXdWYxZjk0SXdDcnhsbmlvLTZkcmN4YjhGNEdmSG01ZkFJakl4YjVxTW5R0gF_QVVfeXFMUFJrbUFtVURTQzN6M0lPZ001VW85bUMxMGZPTXh6YVgwSWhFYUN6VjVnZ2hGQ3VmUTBMQkgtR3lVNUVsdEFfU1QyMlFTTW0xeUFfZGN5cU5rTW5oNkhGUzdGenNBVmdRODZldWlDM2Zqa3g3cFBuUjV6c3NpN3NDUQ?oc=5",
       "source": "뉴데일리 대구경북",
       "published": "2026-10-20T11:51:21+00:00",
-      "collected_at": "2026-10-25T14:14:27.036074+00:00",
+      "collected_at": "2026-10-25T14:20:13.387022+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -22052,7 +22181,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BbzRQR0dwU1djekJfY0FCZG1pazdMNy1SdHRvZkUzXzA3THY1S1pWODhVQU1CNWZIRkQzYzA3Tk5WRFY5NldBOU9EdW9nRktETlhBZG9MNkJVTlpKdXBaUGtR?oc=5",
       "source": "경향신문",
       "published": "2026-10-20T11:00:21+00:00",
-      "collected_at": "2026-10-25T14:14:27.473882+00:00",
+      "collected_at": "2026-10-25T14:20:13.709584+00:00",
       "categories": [
         "기타"
       ],
@@ -22132,7 +22261,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rMTNhUnVWSW5EclJFN3Q5VnJLUXdONUFoWDNVSG1UTERabHBnUHVuaTVFSnZsck5kWXk4TEhpb3FOWk5ET09XS05ld1BZLTRTaElzdDBmbVdxanZQUlRjWEZmRW40QQ?oc=5",
       "source": "KBS 뉴스",
       "published": "2026-10-20T10:56:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.036473+00:00",
+      "collected_at": "2026-10-25T14:20:13.387398+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -22349,7 +22478,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1SDRPS091N3VpQjNYWTZUQ3FSUmNqTTR6SWdhZjZ6c2tTT3pSLUVyYUlBazFLYlhqQzRvQnJUbWNIQUI2ODkzRmJvbU9hdTJ3Nm5ZOW9VSUxXc2Q1OVBjRHVGVkVwOXhVMHA0atIBcEFVX3lxTE9DWm1XdTZSSlY3NVNwb25LeHYyVVIyMmpaaFdSODhVdHhjM2JBZWkwSnJGS1hOdGktWWJtVGtVeldNNTBKeTFSdEFlSzhweTdadFYwQTI0OTByblNkdVVpbDBEWGxIVzVkV053SzI2QjU?oc=5",
       "source": "전기신문",
       "published": "2026-10-20T09:47:39+00:00",
-      "collected_at": "2026-10-25T14:14:27.533438+00:00",
+      "collected_at": "2026-10-25T14:20:13.873242+00:00",
       "categories": [
         "교통·인프라"
       ],
@@ -23254,7 +23383,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51cFNudHJxVjFYbUpTb1ZYeFJMaDdmZUdCVUxJRGxJQUxLMW9mNnlLZHBYa090TDZhdlJvT0NSVDkxQ1hWeVJLOWhYV1FrazFLQ2JseEhZY0hKd9IBWEFVX3lxTE5Db19EcUN2dW45WU1rWXdvN2lvZG1rWDY2Ukx3SWNiTl9xdjNhekJEd0dIak9uTHd4cWplVG9tTzdBcmNwallEa3pUbFhLM1VlZjRqQWM1RXg?oc=5",
       "source": "아주경제",
       "published": "2026-10-20T08:21:29+00:00",
-      "collected_at": "2026-10-25T14:14:27.473701+00:00",
+      "collected_at": "2026-10-25T14:20:13.709342+00:00",
       "categories": [
         "거시경제",
         "금융",
@@ -23278,7 +23407,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJcVo0WmZlN0V3MGZXSGRWc2U3QkdFcXZBemxDSm4weVBPUVl2R18yLVRYeXdIRkpXZVFBbGFVTnphSmNhbVI2QWdJQl9SZ28taEI1Wnp3c0NVQQ?oc=5",
       "source": "경북매일",
       "published": "2026-10-20T08:21:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.035452+00:00",
+      "collected_at": "2026-10-25T14:20:13.386447+00:00",
       "categories": [
         "기타"
       ],
@@ -23357,7 +23486,7 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4bi1lazBIc3dmSzA3bGg4bWhzU2k4dWhybkRlZlN6aXBQWGVMY3lWZ1NtakZzSTJSWDJXYzlSalR6NXBtZXB0STNjOHI0R2xVaUpBSTdWRHpmTkg1UzR0Rk5VZ1h0Q0xTR0dOWlVCSQ?oc=5",
       "source": "경북일보",
       "published": "2026-10-20T07:55:50+00:00",
-      "collected_at": "2026-10-25T14:14:27.035101+00:00",
+      "collected_at": "2026-10-25T14:20:13.386123+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -23461,7 +23590,7 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tYlFCM1I0VE1GT0ZONW1icFBwLVBzT2JBdHFwcXZqY2FJTkcwMzhOZHZyQmlIRGgyYVREWWlTbklsVTFWM3E5QVpvbmdHWE84RGg3ZHpFbGhESktha0lCWVVBV09VbXczU0ZFSWRGWHBoV3c?oc=5",
       "source": "대한경제",
       "published": "2026-10-20T07:24:57+00:00",
-      "collected_at": "2026-10-25T14:14:27.472558+00:00",
+      "collected_at": "2026-10-25T14:20:13.708067+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -23501,7 +23630,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdTE2cEJIN0M1VHpncXRkSnBvNjBISmVBX3g4ZWw3QVhyUE5aLU5LZjdxSWRUMW1MZVRPQ2RObUhzWTNPOUNhWHpoRnE3SVVjT0FaOEFJbFdDUjNwSGUteFRTOFFQZzA?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-20T07:11:00+00:00",
-      "collected_at": "2026-10-21T22:50:27.622803+00:00",
+      "collected_at": "2026-10-25T14:20:13.480181+00:00",
       "categories": [
         "거시경제"
       ],
@@ -23646,7 +23775,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0U3l1dnBQQ3ZYa0toSFg3YnNWZEh6LXBKWUg5bEJUczJTbDZNMTEyejlfTlc1ZDZZN1hnRDE3Q1pVdE80b2ZxdGVPT09BUFdSbnZqWFB3N0ItNGtBZkthdU53cWV4UDQ?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-20T06:25:00+00:00",
-      "collected_at": "2026-10-21T22:50:27.621892+00:00",
+      "collected_at": "2026-10-25T14:20:13.481443+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -23727,7 +23856,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MNmQzUTRZOFBWVDYwUE55TE5DZkZiOEpsRkxvTUs1aEtJWmhDWVlhQXZuZy1sNTg5LTltazd4MzRBSWtoTGdmS3lLMlJLWVpMMnc4bkRPYmpiMFhpUFpRcmQ1OFkwRVVGMl9qd205RE0?oc=5",
       "source": "신아일보",
       "published": "2026-10-20T06:14:31+00:00",
-      "collected_at": "2026-10-25T14:14:27.042814+00:00",
+      "collected_at": "2026-10-25T14:20:13.388081+00:00",
       "categories": [
         "고용·사회",
         "국제·정책"
@@ -23751,7 +23880,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EVkV5TWhNdVdlWmgtejN1MlU5eXJIUkV3Y1hmVDJNYXpIb29ySk10X1paM3ZDcmNfOHduQXBDNW85QmZRQ0pyaEVlcndpQ3pCSXdCaFNKWDFJdUF2Rm8xZVg0N0V3RTg?oc=5",
       "source": "영남경제",
       "published": "2026-10-20T06:07:16+00:00",
-      "collected_at": "2026-10-25T14:14:27.036908+00:00",
+      "collected_at": "2026-10-25T14:20:13.387806+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -23979,7 +24108,7 @@
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpOTM1elQxbzBjTjlxTXNnbXYwSU9MOVRSYWNBeGlwcFo0cUFzQ3NGekFJUXNFVVd2bHpLSm8xcEdzMGlFVTEtMDkxRGU?oc=5",
       "source": "대구MBC",
       "published": "2026-10-20T05:12:02+00:00",
-      "collected_at": "2026-10-25T14:14:26.930967+00:00",
+      "collected_at": "2026-10-25T14:20:13.240117+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -24098,7 +24227,7 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSnp6RUlmUGZRQmZJb2FReEpxU2xJbzZDY2dZUDlROUpJSUNvS0tFR1dfT29XZzRRWmtMTFdHVExzSmZ4akt0eExFOEtFeEhhU25oT2gycEpTNnlRX3hTejJBX1RBRWVGWmxwbjA3YXdqRG9RekhJb0lRWTF0WWhTNkNzaFVuVk5GaE84?oc=5",
       "source": "정책브리핑",
       "published": "2026-10-20T04:52:30+00:00",
-      "collected_at": "2026-10-20T22:49:16.793825+00:00",
+      "collected_at": "2026-10-25T14:20:13.294106+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -24218,7 +24347,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14dVdjWWpfWmdGaWkxby1zQWdRREdDbnZXOE41WWE4U29EQjhqUE42WndXSGhLbVZSSnllLVN6ZzlUd0pvZlFhY3U5ZkcwTUtpQ2dKZm9JazhJREp6ZS12WA?oc=5",
       "source": "뉴스토마토",
       "published": "2026-10-20T04:24:38+00:00",
-      "collected_at": "2026-10-25T14:14:27.474928+00:00",
+      "collected_at": "2026-10-25T14:20:13.710450+00:00",
       "categories": [
         "금융"
       ],
@@ -24599,7 +24728,7 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNOXB4YTNFd0dka21UU0l0d3RwUDFhdmNKdHRoUnYzcGM5YmgzYVY3djkxbHByam5MaHRVRldvV2hvOGdyUm14alFDdHY0SnNiTXBKOTRtYUV1UU1uTTU2QXFiVU1rY3hHajhTVnBVUFVISF91UnVxcXJTUdIBgAFBVV95cUxOajBEcTl4QVNCQUtlREdLaURRUHNaSWF3ZWRKenVuU3RWX29tZHk4aTFfU0diYmczT3ZkaDdSSVpIR2l1RTd6WS00X3RMOGtlNmtiUFlHbzFxOUF5T0JnamcxSVlZU0dJeENGelNwNE1RN3lBbEtLZHlmTGNlUlZwQg?oc=5",
       "source": "뉴데일리",
       "published": "2026-10-20T01:28:58+00:00",
-      "collected_at": "2026-10-25T14:14:27.043821+00:00",
+      "collected_at": "2026-10-25T14:20:13.395017+00:00",
       "categories": [
         "산업·통상",
         "고용·사회"
@@ -24860,7 +24989,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIOFRLVUJpR19ZUk5DaV90OFE2blBna1o2MnBKVElpYmhjSDRoQnJrU0JSelhiRDNSRXV6bmFlTFJtbEhnaWpfWl9yZ0ZvSWplT0JxMTZ1TnZrclg4Q0p6MA?oc=5",
       "source": "KB Think",
       "published": "2026-10-19T23:07:43+00:00",
-      "collected_at": "2026-10-23T22:48:57.941490+00:00",
+      "collected_at": "2026-10-25T14:20:13.481524+00:00",
       "categories": [
         "거시경제"
       ],
@@ -26055,7 +26184,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJZUdFRG1WWmp0RHhJZ0M0dWlvcUhPVTFONGo1MjZZYnJHR2ZJZVhmaHJmUHpoUFZHbjJfTi1SbVBLSmt6S1VVTjM2cVJiV1JBenRnUHVaQzBabUE4SWc?oc=5",
       "source": "YTN",
       "published": "2026-10-19T20:13:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.087494+00:00",
+      "collected_at": "2026-10-25T14:20:13.408590+00:00",
       "categories": [
         "금융",
         "산업·통상"
@@ -27617,7 +27746,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtNUZqQWFQc3g0WllieGV3dUJ6VUpVcmNfR2RsY3ZxNlo5TGRTTFBNRlBhQjhHLVdCaEdfSXM4bUpEaGpsY3RPRTBqQVM2ek1IMDV4LUtyNWcxXzJoRXfSAWNBVV95cUxQX2FDdGRvdHBNeTJOWXk5YWtxekYzZHdjTFBRbEhERURFek9YRTBkam96WGZVUlo3RTRKRGptZGlid1pucTZDMWRDMEdpcGpMTk9sWURmLWZ0QWVsNGZ4Z0pwY3M?oc=5",
       "source": "BBC",
       "published": "2026-10-19T09:10:31+00:00",
-      "collected_at": "2026-10-25T14:14:26.884690+00:00",
+      "collected_at": "2026-10-25T14:20:13.293242+00:00",
       "categories": [
         "거시경제",
         "산업·통상",
@@ -27931,7 +28060,7 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TaXhFVEZXcDN6Wkw3OGRjcXlkTmVqN2RxOHhHelp6TGlRR3pHa3ZMUnJJSkhPOGVyTlpDb0JsZG5rd2JfY1FRYUZDZ2ZqZTlOZnc?oc=5",
       "source": "매일경제 마켓",
       "published": "2026-10-19T08:56:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.035268+00:00",
+      "collected_at": "2026-10-25T14:20:13.386304+00:00",
       "categories": [
         "기타"
       ],
@@ -28228,7 +28357,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdDYxNUJhRHhadDgxWDJaaHF0akpBMmJRdFFobEN1aEpsRms2ejNoQ0I5Wjd1OVR0VEdmUUZlY2RSS1J6c2lNVVdGNm5remE5LTd0dURB?oc=5",
       "source": "중앙일보",
       "published": "2026-10-19T07:57:54+00:00",
-      "collected_at": "2026-10-25T14:14:27.034874+00:00",
+      "collected_at": "2026-10-25T14:20:13.385892+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -28450,7 +28579,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ScllwdGdGbFNqLTB3dUUxcVNtS09hWmR5UzJwRnp3OW1zSmVwMzhCWnZoc0gwV3B0UkstcEU5S2swRDBsTVk3bHZjTTVKdjlqTm81cGZxN2ZyZkZk?oc=5",
       "source": "뉴스핌",
       "published": "2026-10-19T07:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:27.036765+00:00",
+      "collected_at": "2026-10-25T14:20:13.387670+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -28471,7 +28600,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEb2Q4YlJET2FielJ2SktKWEJGNjVvSUxGcjRhMHRXQ3FRYmFldGdIQ005cmJ2dnBPaF9YV1VRbUxreXJYLU1IZDBPMUZneXZOaWMxQ0p3V1dlUU91RUg0enlET2FLTy1hdHfSAW9BVV95cUxPZW5iTWlSdVlsUjVnQ3FyS3ZOTUJpeE01cGJkYkVtLU9SUUF0eTlkbDMtbjVZaUtqeUN6OGJELXJGQ1poQnZyU0FQZnQ5LVZpdTI0c2htX04xUFpvdlBiajFtcmtreXhxVEFYZ0toVXM?oc=5",
       "source": "머니투데이",
       "published": "2026-10-19T06:46:10+00:00",
-      "collected_at": "2026-10-25T14:14:27.473196+00:00",
+      "collected_at": "2026-10-25T14:20:13.708721+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -28611,7 +28740,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91M1dBZTVHV25nTFZpVWZDVWJ6WUl6TWtHb0dqRlNyMlVHYy12QUNKQ1loOXRQQzhoRHJxbTRwQ2xRWjZtLXk4TUs2NEhqVDZ4dkJlejJwZGo0QkhsbFY2UHJTV0VPNzVR?oc=5",
       "source": "SK hynix",
       "published": "2026-10-19T06:00:24+00:00",
-      "collected_at": "2026-10-25T14:14:26.878912+00:00",
+      "collected_at": "2026-10-25T14:20:13.294010+00:00",
       "categories": [
         "금융",
         "산업·통상",
@@ -28625,6 +28754,25 @@
         "통상·공급망",
         "규제·재정"
       ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "7f4d42eb3bd82a5ccea8",
+      "title": "SK하이닉스, 반도체 소부장 지원에 2조원 투입…상생 생태계 강화",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6SDVXVWRCR1dISm1hdnJvbllSYWJieS0wT2NiSUs5eUVlTkk2X0FrS0IwUHd1WTZHaFBSdjcwWnJHV1VlWV9RdTF3V3lRZw?oc=5",
+      "source": "전자신문",
+      "published": "2026-10-19T06:00:00+00:00",
+      "collected_at": "2026-10-25T14:20:13.294283+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [],
       "search_topics": [
         "산업·통상"
       ]
@@ -28658,7 +28806,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VX1hfdEtDT0VXUWNURlRrbE9UakdzdzVlemJEd3M0ZlgzdjZCVDNCMEM0MzRIQVVMcUpMSlRxRkVQMlM3YnlJaDIybWJPbEJmSVp1dFNhVG9nWmxoTVJJSWxObW0?oc=5",
       "source": "매일일보",
       "published": "2026-10-19T05:26:14+00:00",
-      "collected_at": "2026-10-25T14:14:27.474223+00:00",
+      "collected_at": "2026-10-25T14:20:13.709894+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -28717,7 +28865,7 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ3JLNk9SR1o2V1FKc0N6T1dnLVlTMDVWemhqNVVvUE9FT0tWbEcxWU9mUGp3Mkt5Z2VFa0ZXc2M3YmZWX0JqdHVMRmx1UTFrdEFtTWNoeEUxelJlTEppS291V2w5N3Z1UmsyQ1I4YkRaMUx0RUFfSUtHSWdBX21NT0NveXVYdTdaQzlF?oc=5",
       "source": "정책브리핑",
       "published": "2026-10-19T04:30:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.930300+00:00",
+      "collected_at": "2026-10-25T14:20:13.239278+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -28801,7 +28949,7 @@
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9pSlg3aV9oNjdKX0RTbzhONzhlVW9BTkprVVJ0NkgzQ2I1WjVhQ2piZ3JQUG1xVkZ4VzM5LVp3cDlLUQ?oc=5",
       "source": "참세상",
       "published": "2026-10-19T02:43:07+00:00",
-      "collected_at": "2026-10-25T14:14:26.930466+00:00",
+      "collected_at": "2026-10-25T14:20:13.239423+00:00",
       "categories": [
         "거시경제"
       ],
@@ -28998,7 +29146,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fV1BjVXZLUDB4d1FRa2RwdVVTUkhVNnp4SVpLdjVaNFRJOThZcG9rZTNuMEtsdlVVOC1ROTROUHlZRWRSR1lsenZFU2JQTHNGZC03YlRaQmtIUUF5UUs5ZQ?oc=5",
       "source": "KB Think",
       "published": "2026-10-18T23:05:07+00:00",
-      "collected_at": "2026-10-20T22:49:16.818913+00:00",
+      "collected_at": "2026-10-25T14:20:13.481844+00:00",
       "categories": [
         "거시경제"
       ],
@@ -29020,7 +29168,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NQXdweHNITzF0RW8yTkgzcnV5WFhyYTJ5SFhtOUpJeWltUkozdzRQeEdVTWJNLWhyWGdJRm93cnlLb1dlRDJLaFhEbkVERkk3cTMySUhTLUM1cGJMalVNdXM4RXdVamlZLWgzY1NZd1k?oc=5",
       "source": "연합인포맥스",
       "published": "2026-10-18T22:44:51+00:00",
-      "collected_at": "2026-10-25T14:14:26.877947+00:00",
+      "collected_at": "2026-10-25T14:20:13.292521+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -29163,7 +29311,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uU2V3SEtzVVRtdm1NNDNTWkljNHZRNVMyUjdMV2huengzRkhVeUtkbkxKbTlBZ29VWWNZb1hPcnViVXVpV2hiUHpqQVoyNnh1dEgzZGszMThWLU9JYWVkd0QyOHJidWdJ0gFuQVVfeXFMTlY2QzJIQm43V0pSNlhkWjRkVmRsTE5qUmhrV3ZtOTBBcldRY1lfVWpTblpZM1c4QTRReGNKbkFXNklXUkZTUGdFeGpmTjcxXzNiZzllOVBKWEozaWFpd3RuOXE2LVJjYWtNUmtYQ3c?oc=5",
       "source": "머니투데이",
       "published": "2026-10-18T22:05:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.878742+00:00",
+      "collected_at": "2026-10-25T14:20:13.292989+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -29243,7 +29391,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qbHBkTG1icVBkaGx6STdpanBqOC1pbWFIR2VxdDgwNU5BN21JWlpLbWtWby1xTE95WmJ4YTZKMUFOQ3lHNE5OMnNZNjN5SElEQkpqN0xCZllwZlXSAWBBVV95cUxQS25EY1Q4b256YUtxXzZhUnp5b2tIVVNzbk9xQXJQcld6ak5GWTNoazF5eW5CWGlBWnlqQzRtbF9KRE9CWnd1RWJyWGxGcVFqMDVDOHhfaTMta2xJa1MyVDY?oc=5",
       "source": "연합뉴스",
       "published": "2026-10-18T21:57:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.931059+00:00",
+      "collected_at": "2026-10-25T14:20:13.240975+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -29363,7 +29511,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UQUw2c242enlidjNBLVpPQlhFNUwyMGJDYkRvYTB5VzQzT3V6U3g4ZTFMZGVYUndWNzhnR3FpbkQwTVo1RmJlclZ6bmdQWGNydEFZZElhb1hxMHlzSVNNNUZCTDJaTXc?oc=5",
       "source": "연합뉴스TV",
       "published": "2026-10-18T21:16:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.930554+00:00",
+      "collected_at": "2026-10-25T14:20:13.239564+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -29423,7 +29571,7 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdjY4UFdvMWV1RlFUMEVPM2tJTnNfSGwzOHY3WF9uXzQxMHBFZUhnNGE2dE5pdG5kLVMzdi00Vk9lU19JLWJ4ZmxYUk8yb2JPdWJGekxnVmV5WS1IbHNOMWdYOW5hMFhvMmU2RlQwbmk4b05SMkN6YkdrUjlFNHlILUxOajNQZ9IBmgFBVV95cUxNbDFrYkhQX3ZjbVQ5dTRndjhrZWdYandnS2staW1hYUd5VElmLW5NYi1pZUYxY3BWdXRXMkN2WFdUNm0yREJXejVfUkVxQ1lWRE1xTFd5OVFUOWNmZzBPRV9HU1FtUXNaLURjOXlZUnlFUjlRWHkyMmFtX1ZzSVptZDlJVWFmLTNra29LVS1TX0lSMm1JalpJVVBB?oc=5",
       "source": "Chosunbiz",
       "published": "2026-10-18T21:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.877569+00:00",
+      "collected_at": "2026-10-25T14:20:13.292230+00:00",
       "categories": [
         "산업·통상",
         "국제·정책"
@@ -29445,7 +29593,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qUnhmUFJKcE9ESENmRGJOQTZJdFBKQWlVWE9lM2lVMUFSUnNzTnNLbWdzNS1qYjIweUFNRXNlUVNGNXNGZ01LVDJOdTlJNG5BY1hRM0FBTlYxTDdxNWNOX2E2bkZiUGtUeVNJ0gFwQVVfeXFMT0M4bk1WbGFxUDlyZFQwaVNQUDlmV0J5Mmpic2U5bVZrRUZfTkE0SzhVVDBob1FKaWY4Ym54RGhxRTM2X1hqY3VjUDFpdGhHVnVLWkdSNGdPSUpnZXAxTlo1TkQ0MmRseGFGZUtyUV9LTw?oc=5",
       "source": "머니투데이",
       "published": "2026-10-18T21:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.931867+00:00",
+      "collected_at": "2026-10-25T14:20:13.241252+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -59418,145 +59566,6 @@
       ],
       "search_topics": [
         "거시경제"
-      ]
-    },
-    {
-      "id": "0cb937f1ef41213725f9",
-      "title": "[단독]위생 인증 수도꼭지 5개 중 1개 '부적합'…19개서 납 기준 초과",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823187",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:14:50+00:00",
-      "collected_at": "2026-10-13T05:06:14.904705+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "b6a597b0eab9cc7322a5",
-      "title": "에코프로비엠, 유상증자 발행가액 8만9500원 확정",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823652",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:06:42+00:00",
-      "collected_at": "2026-10-13T05:06:15.756424+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "92e3dd7ed1daf3a46f46",
-      "title": "프랑스 슈퍼마켓 400곳 넘게 해킹…냉장고 온도 50도까지 치솟아",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823237",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:06:41+00:00",
-      "collected_at": "2026-10-13T05:06:14.904824+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "70905d40e1d87ad0e628",
-      "title": "코스피가 싼 이유?…대신證 \"금리 아닌 '이익 지속성' 의문 때문\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823635",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:05:14+00:00",
-      "collected_at": "2026-10-13T05:06:15.756546+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "7d26b08238a57f5df8e5",
-      "title": "성장 3%, 소득 4만弗 청신호 켜졌지만…민생 회복은 숙제",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823075",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:05:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.904941+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "be6299535a13b0ef6327",
-      "title": "중국 9월 승용차 수출 73.7% 급증…내수 부진 두드러져",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hZEIyZUFIQ0xicTNKU2pYeVplQVI3UXpLdnpCTkM4WjB4V2JuZHBzQ2Q1MWNDVzBGWEltWWZpdTE2Y3ppb2RoZFY1OXpha21TdG1XaWdvcExRZFN3TU1oT9IBYEFVX3lxTE1hZEIyZUFIQ0xicTNKU2pYeVplQVI3UXpLdnpCTkM4WjB4V2JuZHBzQ2Q1MWNDVzBGWEltWWZpdTE2Y3ppb2RoZFY1OXpha21TdG1XaWdvcExRZFN3TU1oTw?oc=5",
-      "source": "연합뉴스",
-      "published": "2026-10-13T02:02:55+00:00",
-      "collected_at": "2026-10-13T05:06:13.674621+00:00",
-      "categories": [
-        "산업·통상",
-        "국제·정책"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "통상·공급망"
-      ],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "78fe4b56017f7126703e",
-      "title": "'7% 주담대' 못 버틴다…美 건설사도 할인 경쟁",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138135i",
-      "source": "한국경제 국제",
-      "published": "2026-10-13T02:01:10+00:00",
-      "collected_at": "2026-10-13T22:48:23.509452+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [],
-      "search_topics": [
-        "국제·정책"
       ]
     }
   ]

@@ -1,35 +1,38 @@
 {
-  "updated_at": "2026-10-25T14:14:28.339466+00:00",
+  "updated_at": "2026-10-25T14:20:14.425742+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "94f882b74d9ef002bd46",
-      "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
+      "id": "be4d12d3fa70c2ccdc10",
+      "title": "[10월 넷째 주 세계경제동향 브리핑] 한미 금리 내려도 증시는 약세…유가 급등에 물가 부담 재부상",
       "summary": "",
-      "link": "https://www.hankyung.com/article/2026102423667",
-      "source": "한국경제 경제",
-      "published": "2026-10-24T03:09:24+00:00",
-      "collected_at": "2026-10-24T22:45:58.112100+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
+      "source": "기호일보",
+      "published": "2026-10-24T03:13:07+00:00",
+      "collected_at": "2026-10-25T14:20:13.241396+00:00",
       "categories": [
-        "기타"
-      ],
-      "industries": [
-        "전력·에너지"
-      ],
-      "issues": [],
-      "search_topics": [
         "거시경제"
       ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "금리·자금조달",
+        "환율·원가"
+      ],
+      "search_topics": [
+        "국제·정책"
+      ],
       "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.hankyung.com/article/2026102423667",
-        "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
-        "checked_at": "2026-10-25T14:14:28.985257+00:00",
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:20:15.057150+00:00",
         "kind": "보도",
-        "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "에너지",
-      "brief_theme": "제도·예산",
+      "brief_theme": "연료·환율",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
@@ -58,7 +61,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:14:28.986026+00:00",
+        "checked_at": "2026-10-25T14:20:15.057363+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -74,7 +77,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839950",
       "source": "뉴시스 경제",
       "published": "2026-10-25T03:50:13+00:00",
-      "collected_at": "2026-10-25T14:14:28.285912+00:00",
+      "collected_at": "2026-10-25T14:20:14.152367+00:00",
       "categories": [
         "기타"
       ],
@@ -89,7 +92,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003839950",
         "excerpt": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세 등록 2026.10.25 12:50:13 수정 2026.10.25 13:10:23 구글에서 선호하는 매체로 추가 서울 0.61% 올라…전월보다 상승폭 반토막 동탄·병점·군포",
-        "checked_at": "2026-10-25T14:14:28.986300+00:00",
+        "checked_at": "2026-10-25T14:20:15.057391+00:00",
         "kind": "보도",
         "page_title": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세"
       },
@@ -99,34 +102,33 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "2e448e7b91e77bddc32a",
-      "title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입",
+      "id": "94f882b74d9ef002bd46",
+      "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261025_0003840029",
-      "source": "뉴시스 경제",
-      "published": "2026-10-25T06:45:45+00:00",
-      "collected_at": "2026-10-25T14:14:28.285565+00:00",
+      "link": "https://www.hankyung.com/article/2026102423667",
+      "source": "한국경제 경제",
+      "published": "2026-10-24T03:09:24+00:00",
+      "collected_at": "2026-10-24T22:45:58.112100+00:00",
       "categories": [
-        "에너지"
+        "기타"
       ],
       "industries": [
         "전력·에너지"
       ],
       "issues": [],
       "search_topics": [
-        "거시경제",
-        "산업·통상"
+        "거시경제"
       ],
       "evidence": {
         "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261025_0003840029",
-        "excerpt": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입 등록 2026.10.25 15:45:45 구글에서 선호하는 매체로 추가 RPS 폐지에 경쟁입찰 전환…정부 물량 이행 공공 역할",
-        "checked_at": "2026-10-25T14:14:28.986952+00:00",
+        "url": "https://www.hankyung.com/article/2026102423667",
+        "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
+        "checked_at": "2026-10-25T14:20:15.058086+00:00",
         "kind": "보도",
-        "page_title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입"
+        "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
       },
       "brief_group": "에너지",
-      "brief_theme": "탄소·전환",
+      "brief_theme": "제도·예산",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
@@ -153,7 +155,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:14:28.987639+00:00",
+        "checked_at": "2026-10-25T14:20:15.058784+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
