@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:20:14.425742+00:00",
+  "updated_at": "2026-10-25T14:22:57.189133+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
@@ -27,7 +27,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:20:15.057150+00:00",
+        "checked_at": "2026-10-25T14:22:57.667970+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -43,7 +43,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
       "source": "농민신문",
       "published": "2026-10-24T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:14:26.898359+00:00",
+      "collected_at": "2026-10-25T14:22:55.879950+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -61,7 +61,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:20:15.057363+00:00",
+        "checked_at": "2026-10-25T14:22:57.668117+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -77,7 +77,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839950",
       "source": "뉴시스 경제",
       "published": "2026-10-25T03:50:13+00:00",
-      "collected_at": "2026-10-25T14:20:14.152367+00:00",
+      "collected_at": "2026-10-25T14:22:56.957534+00:00",
       "categories": [
         "기타"
       ],
@@ -91,8 +91,8 @@
       "evidence": {
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003839950",
-        "excerpt": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세 등록 2026.10.25 12:50:13 수정 2026.10.25 13:10:23 구글에서 선호하는 매체로 추가 서울 0.61% 올라…전월보다 상승폭 반토막 동탄·병점·군포",
-        "checked_at": "2026-10-25T14:20:15.057391+00:00",
+        "excerpt": "[서울=뉴시스] 조성우 기자 = 서울 아파트값이 강남 3구의 하락세에도 비강남권과 외곽 지역의 상승세에 힘입어 89주 연속 상승한 것으로 나타난 22일 서울 동대문구의 한 공인중개사무소에",
+        "checked_at": "2026-10-25T14:22:57.668137+00:00",
         "kind": "보도",
         "page_title": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세"
       },
@@ -122,8 +122,8 @@
       "evidence": {
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
-        "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
-        "checked_at": "2026-10-25T14:20:15.058086+00:00",
+        "excerpt": "한국전력의 사채 발행 한도를 늘려준 한시 특례 조항이 내년 말 종료를 앞두면서, 발행 잔액이 법정 한도를 19조 원 이상 초과할 것이라는 추계가 나왔다. 첨단산업",
+        "checked_at": "2026-10-25T14:22:57.668857+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
       },
@@ -155,7 +155,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:20:15.058784+00:00",
+        "checked_at": "2026-10-25T14:22:57.669392+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
