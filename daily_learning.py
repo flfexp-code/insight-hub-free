@@ -76,7 +76,7 @@ def depth_schema(packet):
         'event': obj({**{key: text() for key in ('who', 'when', 'where', 'what', 'why_known', 'how_known')}, 'source_ids': references()}),
         'why_now': obj({'explanation': text('왜 지금 부각됐는지 근거로 설명하는 120~300자 문단.'), 'source_ids': references()}),
         'foundations': rows({'term': text(), 'explanation': text('정의와 헷갈리는 점을 설명하는 80~180자 문단.'),
-                             'application': text('개념을 이 기사에 적용하는 방법을 60~160자로 설명.')}, 2, 3),
+                             'application': text('개념을 이 기사에 적용하는 방법을 60~160자로 설명.')}, 3, 3),
         'mechanism': rows({'change': text('무엇이 변하는지 15~80자로 설명.'),
                           'because': text('다음 단계가 생기는 중간 경로를 100~220자로 구체적으로 설명. 화살표만 나열하거나 변화 내용을 반복하지 않음.'),
                           'condition': text('경로의 성립 조건을 40~120자로 설명.'), 'source_ids': references()}, 3, 4),
@@ -85,7 +85,7 @@ def depth_schema(packet):
                              'pathway': text('반드시 130~260자의 완결된 2~3문장. 출발 변화에서 중간 비용·수요·자금 경로를 거쳐 대상의 영향으로 넘어가는 이유를 설명. 짧은 화살표·단어 나열 금지.'),
                              'condition': text('언제 이 연결이 성립하는지 40~120자.'),
                              'limit': text('반대 효과 또는 아직 모르는 점을 40~120자로 설명.'),
-                             'source_ids': references()}, 1, 3),
+                             'source_ids': references()}, 2, 3),
         'source_contributions': rows({'source_id': {'type': 'STRING', 'enum': refs}, 'supports': text(), 'does_not_prove': text()}, 2, 5),
         'thinking_questions': rows({'question': text(), 'hint': text()}, 2, 3),
     })
@@ -206,7 +206,7 @@ def validate_depth(study, packet):
         text(event, key, maximum=260)
     refs(event, news_required=True)
     text(depth.get('why_now'), 'explanation', 40, 500); refs(depth['why_now'])
-    sizes = {'foundations': (2, 3), 'mechanism': (3, 4), 'connections': (1, 3),
+    sizes = {'foundations': (3, 3), 'mechanism': (3, 4), 'connections': (2, 3),
              'source_contributions': (2, 5), 'thinking_questions': (2, 3)}
     for key, (minimum, maximum) in sizes.items():
         rows = depth.get(key)
@@ -218,6 +218,8 @@ def validate_depth(study, packet):
         text(item, 'change', 10, 200); text(item, 'because', 40, 420); text(item, 'condition', 15, 250); refs(item)
         if item['change'].strip() == item['because'].strip():
             raise ValueError('변화를 반복하지 말고 중간 경로를 설명해야 합니다.')
+    if len({item.get('kind') for item in depth['connections'] if isinstance(item, dict)}) < 2:
+        raise ValueError('서로 다른 분야의 연결을 구분해야 합니다.')
     for item in depth['connections']:
         if item.get('kind') not in ('산업', '사회', '거시경제'):
             raise ValueError('연결 분야 오류')
@@ -264,19 +266,21 @@ topic은 사건이 드러나는 제목, background는 사건과 배경 200~280�
 concept_pair는 제공한 목록에서 하나. term_a/meaning_a/term_b/meaning_b/difference는 목록과 맞게.
 logic_chain은 3단계 요약(각 100자 이하), claim·counter·condition 각 80~180자, check_metrics 2~3개.
 해법을 정답처럼 가르치지 말고 판단에 필요한 차이·경로·조건을 설명합니다.
+claim과 counter는 각각 비용·수요·자금·소득 등 손익이 생기는 이유를 담아야 합니다. counter에 단순히 효율성 제고가 선행되어야 한다고만 쓰지 마세요.
 
 [depth: 충분히 읽고 배울 본문. 전체 약 2500~3500자 목표]
 1 event: who(누가), when(언제), where(어디/적용 범위), what(무엇), why_known(보도에서 확인한 이유), how_known(확인한 추진/진행 방식).
 각 항목 1~2문장. 자료에 없는 내용은 '자료에서 확인되지 않음'으로 적으세요. 추측으로 육하원칙을 채우지 않습니다.
 2 why_now.explanation: 120~300자. 왜 지금 이 문제가 부각됐는지 입력의 배경과 변화를 설명. 알 수 없는 역사·정책을 보충하지 않습니다.
-3 foundations: 주제 이해에 필요한 기초 개념 2~3개. term, explanation(쉬운 정의와 헷갈리는 점 80~180자), application(이 사건에 적용하는 법 60~160자).
+3 foundations: 주제 이해에 필요한 기초 개념 3개. term, explanation(쉬운 정의와 헷갈리는 점 80~180자), application(이 사건에 적용하는 법 60~160자).
+기초 개념 중 하나는 재무·경제 변수의 구분(예: 유동성과 수익성, 자산과 현금, 가격수준과 상승률)을 가르치세요. 사채 발행 한도 같은 개별 기관의 법적 조건을 모든 기업에 공통으로 적용되는 규정처럼 설명하지 마세요.
 기초 개념은 안정적인 일반 지식으로 설명하되 새로운 현황 수치·법령·실제 해외 사례를 만들지 마세요. 가상 예시는 반드시 '가정한 예'라고 표시.
 4 mechanism: 3~4단계. change(무엇이 변하는가), because(왜 다음 변화가 생기는가, 100~220자), condition(성립 조건 40~120자).
 각 단계에 인센티브·비용·수익·자금·수요 중 실제 연결 고리를 드러내세요. 앞 문장에 '그래서'만 붙이는 반복은 금지.
 예: 차입 한도 확대는 현금 조달 여지를 넓힐 수 있으나 수입·비용 차이를 직접 없애지는 않는다. 이를 비용 상승의 증거로 쓰면 안 된다.
-5 connections: 근거가 있는 연결 1~3개. kind(산업/사회/거시경제), target(어떤 다른 산업·사회문제·경제 변수),
+5 connections: 근거가 있는 연결 2~3개. kind(산업/사회/거시경제), target(어떤 다른 산업·사회문제·경제 변수),
 pathway(출발 변화→중간 경로→대상 영향, 130~260자), condition(언제 성립하는지), limit(반대 효과·모르는 점).
-같은 뉴스를 산업·사회라고 이름만 바꿔 반복하지 마세요. 모든 분야를 억지로 채우지 말고 설명 가능한 연결만.
+산업·사회·거시경제 중 서로 다른 두 분야 이상을 다루세요. 각 연결은 서로 다른 대상·중간 경로를 가져야 합니다. 같은 뉴스를 이름만 바꿔 반복하지 마세요. 구체적 현황 근거가 없는 부분은 일반적인 조건부 파급 경로라고 명시하며 현재 피해가 발생했다고 주장하지 마세요. 연결을 설명할 근거가 부족하면 그 주제를 선택하지 마세요.
 이 연결은 앱의 조건부 해석입니다. 보고서가 개별 기업의 결과나 현재 효과 크기를 입증했다고 쓰지 마세요.
 6 source_contributions: 인용한 기사·보고서마다 source_id, supports(정확히 무엇을 확인했나), does_not_prove(무엇까지 입증하지는 못하나).
 7 thinking_questions: 2~3개. question(주장 근거를 점검/조건 변경/대안 비교하는 질문), hint(살펴볼 변수와 구분할 개념. 완성 답안을 주지 않음).
