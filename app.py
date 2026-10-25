@@ -214,12 +214,13 @@ with brief_tab:
     for article in brief:
         summary = summaries.get(source_ids.get(article['id']), {})
         evidence = article.get('evidence', {})
+        title_only = evidence.get('status', '제목만 확인') == '제목만 확인'
         items.append({'id': article['id'], 'kind': 'news', 'title': article['title'],
                       'group': article['brief_group'], 'date': format_kst(article.get('published', '')),
                       'url': article.get('link', ''),
                       'status': evidence.get('status', '제목만 확인') + ' · ' + article.get('source', ''),
-                      'summary': summary.get('summary') or '제목에서 확인한 단서: ' + article['title'],
-                      'reason': article['brief_reason'] if article.get('mou_context') else summary.get('why', article['brief_reason']),
+                      'summary': '' if title_only else summary.get('summary') or '공개 근거를 확인한 기사입니다. 원문에서 배경을 살펴보세요.',
+                      'reason': article['brief_reason'] if article.get('mou_context') or title_only else summary.get('why', article['brief_reason']),
                       'details': ['생각할 질문: ' + article['brief_question']]})
     reading_items(items, 'daily_reader')
     if summaries:
