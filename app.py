@@ -17,15 +17,35 @@ from reader_ui import reading_items
 
 st.set_page_config(page_title='경제·산업 인사이트 허브', page_icon='📰', layout='wide')
 st.markdown('''<style>
-.block-container {max-width:1200px; padding-top:2rem;}
-html, body, [class*="css"] {font-size:16px;}
-.news-title {font-size:1.08rem;font-weight:650;line-height:1.55;margin:0 0 .5rem;}
-.hero-tag {color:#147D73; font-weight:700;letter-spacing:.06em;font-size:.85rem;}
-[data-testid="stMetric"] {background:white;border:1px solid #E0E8ED;padding:1rem;border-radius:12px;}
+:root {--ink:#303A2A;--muted:#617052;--sage:#5B783D;--line:#DDE5D1;--paper:#FFFFFA;}
+.block-container {max-width:1120px;padding-top:2rem;padding-bottom:4rem;}
+html,body,[class*="css"] {font-size:16px;}
+[data-testid="stMain"] {background:#F7F8F2;}
+[data-testid="stSidebar"] {background:#EEF3E5;border-right:1px solid var(--line);}
+[data-testid="stMarkdownContainer"] p {line-height:1.85;}
+h1 {font-size:2.1rem!important;letter-spacing:-.045em;color:var(--ink);}
+h2 {font-size:1.65rem!important;letter-spacing:-.025em;}
+h3 {font-size:1.25rem!important;line-height:1.55!important;}
+.hero-tag {display:inline-block;color:#5B783D;background:#E8F0DA;border:1px solid #D3E0BC;border-radius:20px;padding:5px 12px;font-size:.85rem;font-weight:650;}
+[data-testid="stMetric"] {background:var(--paper);border:1px solid var(--line);padding:1rem 1.2rem;border-radius:16px;}
+[data-testid="stMetricValue"] {color:var(--sage);}
+[data-testid="stTabs"] [role="tablist"] {gap:8px;border-bottom:1px solid var(--line);padding:8px 0 12px;}
+[data-testid="stTabs"] [role="tab"] {border-radius:10px;padding:9px 17px;height:auto;color:#637154;}
+[data-testid="stTabs"] [aria-selected="true"] {background:#E2EDCE;color:#415E2D;font-weight:700;}
+[data-testid="stTabs"] [data-baseweb="tab-highlight"] {background:transparent;}
+[data-testid="stVerticalBlockBorderWrapper"]>div {border-color:var(--line)!important;border-radius:16px!important;}
+[data-testid="stExpander"] {background:var(--paper);border-radius:12px;}
+[data-testid="stAlert"] {border-radius:12px;}
+[data-testid="stTable"] {font-size:1rem;}
+.section-tag {display:inline-block;margin:1.5rem 0 .55rem;padding:4px 10px;border-radius:7px;font-size:.85rem;font-weight:700;background:#E8F0DA;color:#486431;}
+.section-tag.blue {background:#E6ECF3;color:#405C76;}
+.section-tag.sand {background:#F0E9DB;color:#75603B;}
+.news-title {font-size:1.1rem;font-weight:650;line-height:1.6;margin:0 0 .5rem;}
+@media(max-width:640px){.block-container{padding:1.2rem 1rem 3rem;}h1{font-size:1.65rem!important;}[data-testid="stTabs"] [role="tab"]{padding:8px 10px;}html,body{font-size:16px;}}
 </style>''', unsafe_allow_html=True)
 st.markdown('<div class="hero-tag">뉴스에서 쟁점으로</div>', unsafe_allow_html=True)
 st.title('경제·산업 인사이트 허브')
-st.caption('에너지 · 경제 · 시사 · 금융 | 하루 5개 이슈와 한 가지 논리 | 관심기업은 필요할 때')
+st.caption('에너지 · 경제 · 시사 · 금융  ·  뉴스 5개, 깊이 읽는 주제 하나')
 status_area = st.container()
 
 brief_tab, study_tab, company_tab, library_tab = st.tabs(
@@ -217,24 +237,78 @@ with study_tab:
         st.markdown('### ' + study['topic'])
         st.write(study['background'])
         st.info('생각할 질문: ' + study['question'])
-        with st.expander('배경지식 · 헷갈리는 개념 비교'):
-            st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
-            st.write('다른 점: ' + study['difference'])
-        with st.expander('논리·반론·판단 조건 보기'):
-            st.caption('아래 내용은 앱의 조건부 해석입니다. 연구기관·필자의 직접 권고와 구분합니다.')
-            for i, step in enumerate(study['logic_chain'], 1):
-                st.write(f'{i}. {step}')
+        depth = study.get('depth', {})
+        if depth:
+            def section(number, title, tone=''):
+                st.markdown(f'<div class="section-tag {tone}">{number} · {title}</div>', unsafe_allow_html=True)
+            section('01', '사건을 먼저 파악하기')
+            event = depth['event']
+            with st.container(border=True):
+                labels = [('누가', 'who'), ('언제', 'when'), ('어디·적용 범위', 'where'),
+                          ('무엇을', 'what'), ('확인된 이유', 'why_known'), ('확인된 진행 방식', 'how_known')]
+                for label, key in labels:
+                    st.markdown('**' + label + '**'); st.write(event[key])
+            st.markdown('**왜 지금 이 문제인가**'); st.write(depth['why_now']['explanation'])
+            section('02', '이 뉴스를 읽는 데 필요한 기초', 'blue')
+            for concept in depth['foundations']:
+                with st.container(border=True):
+                    st.markdown('#### ' + concept['term'])
+                    st.write(concept['explanation'])
+                    st.markdown('**이 사건에 적용하면**'); st.write(concept['application'])
+            with st.expander('개념 두 개를 나란히 비교하기'):
+                st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
+                st.write(study['difference'])
+            section('03', '왜 그런 영향이 생기는가')
+            st.caption('아래 경로와 연결 해석은 앱의 학습용 조건부 설명입니다. 출처가 현재 효과의 크기까지 입증한 것은 아닙니다.')
+            for i, step in enumerate(depth['mechanism'], 1):
+                with st.container(border=True):
+                    st.markdown('**' + str(i) + '. ' + step['change'] + '**')
+                    st.write(step['because'])
+                    st.caption('성립 조건: ' + step['condition'] + ' · 근거: ' + ', '.join(step['source_ids']))
+            section('04', '산업·사회·경제와 연결해서 읽기', 'sand')
+            for connection in depth['connections']:
+                with st.container(border=True):
+                    st.caption(connection['kind'] + ' 연결 · 조건부 해석')
+                    st.markdown('#### ' + connection['target'])
+                    st.write(connection['pathway'])
+                    st.markdown('**이 연결이 성립하려면**'); st.write(connection['condition'])
+                    st.markdown('**반대로 볼 점·아직 모르는 점**'); st.write(connection['limit'])
+                    st.caption('출발 근거: ' + ', '.join(connection['source_ids']))
+            section('05', '판단을 바꾸는 조건', 'blue')
             for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
                 st.markdown('**' + label + '**'); st.write(study[field])
             st.caption('확인할 지표: ' + ' · '.join(study['check_metrics']))
+            section('06', '내 생각으로 정리하기')
+            for exercise in depth['thinking_questions']:
+                st.markdown('**' + exercise['question'] + '**')
+                with st.expander('생각할 단서'):
+                    st.write(exercise['hint'])
+        else:
+            st.caption('이 자료는 이전 형식입니다. 다음 자동 생성부터 사건·기초·인과 경로·연결 학습을 제공합니다.')
+            with st.expander('배경지식 · 헷갈리는 개념 비교', expanded=True):
+                st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
+                st.write('다른 점: ' + study['difference'])
+            with st.expander('논리·반론·판단 조건 보기', expanded=True):
+                for i, step in enumerate(study['logic_chain'], 1):
+                    st.write(f'{i}. {step}')
+                for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
+                    st.markdown('**' + label + '**'); st.write(study[field])
         source_index = {x['id']: x for group in learning.get('sources', {}).values() for x in group}
-        with st.expander('뉴스·연구자료·오피니언 근거'):
+        with st.expander('뉴스·연구자료·오피니언 근거와 각각의 한계'):
+            contributions = {x['source_id']: x for x in depth.get('source_contributions', [])}
             for ref in study['source_ids']:
                 source = source_index.get(ref, {})
                 if source:
                     st.write(ref + ' · ' + source.get('kind', '') + ' · ' + source['title'])
                     st.caption(source.get('published', '') + ' · ' + source.get('status', '발행 당시 요지를 검토한 자료'))
                     st.write(source.get('summary', source.get('excerpt', '')))
+                    contribution = contributions.get(ref)
+                    if contribution:
+                        st.write('확인한 내용: ' + contribution['supports'])
+                        st.caption('입증하지 않는 내용: ' + contribution['does_not_prove'])
+                    if source.get('context'):
+                        with st.expander('확인한 공개 문맥 발췌'):
+                            st.write(source['context'])
                     if source.get('scope'): st.caption(source['scope'])
                     if source.get('url'): st.link_button('출처 원문', source['url'])
             views = study.get('opinion_views', [])
@@ -246,10 +320,15 @@ with study_tab:
                 if source.get('url'): st.link_button(source['title'], source['url'])
         details = ['배경: ' + study['background'], ' → '.join(study['logic_chain']),
                    '논리: ' + study['claim'], '반론: ' + study['counter'], '조건: ' + study['condition']]
+        if depth:
+            details += ['기초 · ' + x['term'] + ': ' + x['explanation'] + ' 적용: ' + x['application'] for x in depth['foundations']]
+            details += ['작동 경로 · ' + x['change'] + ': ' + x['because'] + ' 조건: ' + x['condition'] for x in depth['mechanism']]
+            details += ['연결 · ' + x['target'] + ': ' + x['pathway'] + ' 조건: ' + x['condition'] + ' 한계: ' + x['limit'] for x in depth['connections']]
+            details += ['질문 · ' + x['question'] + ' 단서: ' + x['hint'] for x in depth['thinking_questions']]
         reading_items([{'id': 'study:' + learning.get('updated_at', '')[:10], 'kind': 'study', 'group': '논리 공부',
                         'title': study['topic'], 'date': format_kst(learning.get('updated_at', '')),
                         'summary': study['question'], 'details': details, 'url': ''}], 'study_bookmark')
-        st.caption('기본은 하루 한 주제입니다. 토론 연습도 같은 질문을 사용하고 별도의 긴 자료를 덧붙이지 않습니다.')
+        st.caption('하루 한 주제를 충분히 읽고, 마지막 질문은 내 생각으로 정리해 보세요. 메모는 아래 저장 후 남길 수 있습니다.')
     else:
         st.info('본문·공개 요약문과 공식 자료를 확인한 뒤 하루 한 주제를 생성합니다. 자료가 없으면 만든 것처럼 표시하지 않습니다.')
         for report in REPORTS[:1]:
