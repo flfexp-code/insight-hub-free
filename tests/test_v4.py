@@ -81,7 +81,7 @@ def packet_and_output():
     ref = packet['reports'][0]['id']
     study = {key: '검토할 조건과 예외' for key in ('topic','background','term_a','meaning_a','term_b','meaning_b','difference','claim','counter','condition','question')}
     study.update(logic_chain=['수요 변화','투자 조건','공급 여력'], check_metrics=['접속 일정'],
-                 news_ids=['N1'], report_ids=[ref], source_ids=['N1',ref], opinion_views=[])
+                 news_ids=['N1'], report_ids=[ref], source_ids=['N1',ref], opinion_views=[], concept_pair='cost_price')
     return brief, packet, {'briefs':[{'news_id':'N1','summary':'확인한 기사 단서','why':'전력 공급의 조건 변화'}], 'study':study}
 
 
@@ -105,7 +105,9 @@ def test_learning_no_body_means_no_external_ai_request():
 
 @pytest.mark.parametrize('title', ['조달청 노동-홍천 도로건설공사 입찰 확대',
                                   '환율 하락에도 버틴 기업 주가 상승 이유는',
-                                  '경기도의회 의원 신재생에너지 정책 개편 촉구'])
+                                  '경기도의회 의원 신재생에너지 정책 개편 촉구',
+                                  '미국 반도체 상승에 베팅 서학개미 속슬 35억달러 순매수',
+                                  '서부발전 지진부터 폭설까지 재난안전망 강화 확대'])
 def test_basic_brief_skips_local_notices_and_stock_picks(title):
     assert curate_brief([row(title)]) == []
 
@@ -118,6 +120,7 @@ def test_learning_uses_one_request_with_allowed_source_schema():
     assert result['article_ids'] == [brief[0]['id']]
     assert '인터넷·외부 도구는 사용할 수 없습니다' in request.call_args.args[0]
     assert 'N1' in json.dumps(request.call_args.args[1])
+    assert result['study']['term_a'] == '비용'
 
 
 def test_daily_ai_failure_preserves_previous_learning(tmp_path):
