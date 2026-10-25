@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-25T14:56:26.634562+00:00",
+  "updated_at": "2026-10-25T22:44:19.245414+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "be4d12d3fa70c2ccdc10",
-      "title": "[10월 넷째 주 세계경제동향 브리핑] 한미 금리 내려도 증시는 약세…유가 급등에 물가 부담 재부상",
+      "id": "7d14b51fdc391a51344f",
+      "title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
-      "source": "기호일보",
-      "published": "2026-10-24T03:13:07+00:00",
-      "collected_at": "2026-10-25T14:50:21.008450+00:00",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840140",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753802+00:00",
       "categories": [
-        "거시경제"
+        "기타"
       ],
       "industries": [
         "기타"
       ],
-      "issues": [
-        "금리·자금조달",
-        "환율·원가"
-      ],
+      "issues": [],
       "search_topics": [
-        "국제·정책"
+        "거시경제",
+        "산업·통상"
       ],
       "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4Wm9BeHFiZWxhSzhQNE1LbFJtWEg3bWhudkotTkhvTzM3V29EYVhTR2ZvMWt6d0VvWmhCbHhRMjNFQTdITlNoMkRuclM5MWlSMGtrYVJCN2pOdTQ4ZVJ5S0VyOVZROUVNTFJISjZiVQ?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-25T14:56:27.154158+00:00",
+        "status": "본문 일부 확인",
+        "url": "https://www.newsis.com/view/NISX20261025_0003840140",
+        "excerpt": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를",
+        "checked_at": "2026-10-25T22:44:19.863606+00:00",
         "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
+        "page_title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
+        "context": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를 사들이는 가격인 전력도매가격(SMP)이 모두 상승한 상황에서, 전기요금 현실화 필요성이 커지고 있다. […] 26일 국회예산정책처의 '산업동향&이슈'에 따르면 지난달 발전사가 연료 공급사로부터 구입한 에너지원별 연료비단가는 유류를 제외한 모든 에너지원에서 전년 동월 대비 상승했다. […] 반면 유류는 같은 기간 -19.8% 떨어졌다. […] 발전 연료비 상승으로 전력을 사들이는 가격이 높아지는 반면, 판매단가는 하락하면서 한전의 재무 부담이 커지고 있는 것이다.",
+        "context_version": 2
       },
       "brief_group": "에너지",
       "brief_theme": "연료·환율",
@@ -61,7 +61,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:56:27.154343+00:00",
+        "checked_at": "2026-10-25T22:44:19.864201+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -92,7 +92,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003840252",
         "excerpt": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만,",
-        "checked_at": "2026-10-25T14:56:27.154369+00:00",
+        "checked_at": "2026-10-25T22:44:19.864880+00:00",
         "kind": "보도",
         "page_title": "트럼프 2기 물가 상승세, 바이든 때보다 둔화했지만…민심은 '싸늘'",
         "context": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만, 이미 높아진 물가에 추가 상승분이 더해지면서 유권자들의 불만은 여전히 큰 것으로 나타났다. […] 특히 이란 전쟁에 따른 에너지 가격 급등과 관세로 인한 일부 상품 가격 상승이 11월 중간선거를 앞둔 트럼프 대통령과 공화당에 부담으로 작용하고 있다. […] 반면 달걀 가격은 바이든 행정부 당시 월평균 2.57% 상승했지만 트럼프 집권 2기에는 월평균 3.82% 하락했다. […] 트럼프 대통령은 물가 안정을 위해 최근 농민에 대한 80억 달러 지원과 국방물자생산법(DPA)을 통한 정유 능력 확대 조치 등을 발표했다. […] 그러나 휘발유 가격은 바이든 행정부 당시와 사실상 비슷한 수준이다.",
@@ -125,7 +125,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
         "excerpt": "한국전력의 사채 발행 한도를 늘려준 한시 특례 조항이 내년 말 종료를 앞두면서, 발행 잔액이 법정 한도를 19조 원 이상 초과할 것이라는 추계가 나왔다. […] 24일 한전과 국회예산정책처에 따르면 한전의 사채 발행 한도를 '자본금과 적립금 합계액의 최대 5배'까지 확대한 정부 특례가",
-        "checked_at": "2026-10-25T14:56:27.155214+00:00",
+        "checked_at": "2026-10-25T22:44:19.865346+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
         "context": "한국전력의 사채 발행 한도를 늘려준 한시 특례 조항이 내년 말 종료를 앞두면서, 발행 잔액이 법정 한도를 19조 원 이상 초과할 것이라는 추계가 나왔다. […] 24일 한전과 국회예산정책처에 따르면 한전의 사채 발행 한도를 '자본금과 적립금 합계액의 최대 5배'까지 확대한 정부 특례가 2027년 말 만료돼 2028년부터 종전 기준인 '2배'로 축소된다. […] 정부는 2022년 러시아·우크라이나 전쟁 여파로 에너지 수입 가격이 급등하자 적자 보전을 위해 한전법을 개정, 사채 발행 한도를 일시 확대했다. […] 그러나 주택용·일반용 전기요금 동결이 장기화하면서 한전의 사채 발행 잔액은 올해 상반기 기준 71조5000억 원까지 불어난 상태다. […] 한도 축소(2배)를 적용한 발행 한도는 56조8354억 원인 반면, 사채 발행 잔액 전망치는 76조489억 원에 달해 법정 한도를 19조2135억 원 초과하게 된다. […] 김동철 한전 사장은 지난 19일 국회 국정감사에서 \"전력망 구축 등에 필요한 투자 수요가 급증하고 있다\"며 \"정부와 최소한의 전기요금 인상 방안을 논의해야 한다\"고 밝히며 인상 필요성을 공식화했다.",
@@ -135,40 +135,8 @@
       "brief_theme": "제도·예산",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
-    },
-    {
-      "id": "5f85b9b8063eba97a9ae",
-      "title": "美 주간 신규 실업보험 청구 19만4천건…시장 전망치 하회(상보)",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-22T15:03:15+00:00",
-      "collected_at": "2026-10-22T22:49:36.962489+00:00",
-      "categories": [
-        "금융",
-        "고용·사회"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ],
-      "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-25T14:56:27.155855+00:00",
-        "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
-      },
-      "brief_group": "금융",
-      "brief_theme": "금융",
-      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
-      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
-  "selected_count": 5,
-  "candidate_count": 327
+  "selected_count": 4,
+  "candidate_count": 170
 }

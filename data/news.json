@@ -1,7 +1,904 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T14:56:26.634562+00:00",
+  "updated_at": "2026-10-25T22:44:19.245414+00:00",
   "articles": [
+    {
+      "id": "a5236b9bfcbf65557e10",
+      "title": "韓 2분기 경상흑자, 獨·日 합친 것보다 많았다",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840318",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T22:31:46+00:00",
+      "collected_at": "2026-10-25T22:44:12.753099+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "860f4a8d19595c3b41f3",
+      "title": "\"11월 증시 조심하세요\"…투자 전문가가 주목한 '4가지 업종'",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837882",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T22:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254155+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "ae6ac1fe7250bda6690b",
+      "title": "빌 게이츠 \"20년 내 AI가 인간 앞설 것\"…수학·생물학·설계 지목",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840287",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T22:08:30+00:00",
+      "collected_at": "2026-10-25T22:44:12.753211+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "10e5363ff61f89a5d5d7",
+      "title": "\"18만원에 팝니다\"…추억의 '캪틴큐' 재테크족 몰려든 이유 [프라이스&]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610230640i",
+      "source": "한국경제 경제",
+      "published": "2026-10-25T22:00:01+00:00",
+      "collected_at": "2026-10-25T22:44:11.631219+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "7a8a59f8cc63bec6333a",
+      "title": "국제유가 117달러 돌파…에너지값 급등에 연말 물가 '빨간불'",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026102638807",
+      "source": "한국경제 경제",
+      "published": "2026-10-25T21:45:56+00:00",
+      "collected_at": "2026-10-25T22:44:11.631327+00:00",
+      "categories": [
+        "거시경제",
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [
+        "환율·원가"
+      ],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "0a0e8b32fe270b51f9aa",
+      "title": "서울 460억 이상 자산가 급증…비결은 부동산이 아니었다",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261021_0003834705",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254264+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "금융"
+      ]
+    },
+    {
+      "id": "a5069750fd5908e235da",
+      "title": "코스피 한 달 새 18.8% 급락에…10대 그룹 시총 1100조 증발[간추린 주말 뉴스]",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840251",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753394+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "b6436a846f67989235c7",
+      "title": "\"트럼프, 이란 추가 공습에 무게\"…美·이란 전면전 위기 고조",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026102638597",
+      "source": "한국경제 국제",
+      "published": "2026-10-25T21:17:01+00:00",
+      "collected_at": "2026-10-25T22:44:12.056023+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "국제·정책"
+      ]
+    },
+    {
+      "id": "08c3321cdf10ca4a4fb0",
+      "title": "라이브방송으로 '18억 돈방석' 앉더니…유명 인플루언서의 최후 [차이나 워치]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610242427i",
+      "source": "한국경제 경제",
+      "published": "2026-10-25T21:04:01+00:00",
+      "collected_at": "2026-10-25T22:44:11.631419+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "6877ead65749a58982a7",
+      "title": "\"아이돌인 줄 알았는데\"…홈쇼핑에 '예능' 입혔다",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838538",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:01:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599011+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "a9903fb0a742965e51c9",
+      "title": "\"우리도 해주세요\"…해방촌 사장님들 코카콜라 반긴 이유 [현장+]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610231279g",
+      "source": "한국경제 경제",
+      "published": "2026-10-25T21:00:03+00:00",
+      "collected_at": "2026-10-25T22:44:11.631527+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "f7ca738675c32f9f02d6",
+      "title": "[오늘의 주요일정]농림축산식품부(10월26일월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837741",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753482+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "유통·식품"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "d147776843347265b42d",
+      "title": "[오늘의 주요일정]기후에너지환경부(10월26일월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838173",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753568+00:00",
+      "categories": [
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "d848ffcc9c0b17d11746",
+      "title": "[오늘의 주요일정]산업통상부(10월26일월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840041",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753655+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "49e2a982dabdaaefd073",
+      "title": "[오늘의 주요일정]경제(10월26일월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837742",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753725+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "7d14b51fdc391a51344f",
+      "title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840140",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753802+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ],
+      "evidence": {
+        "status": "본문 일부 확인",
+        "url": "https://www.newsis.com/view/NISX20261025_0003840140",
+        "excerpt": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를",
+        "checked_at": "2026-10-25T22:44:19.863606+00:00",
+        "kind": "보도",
+        "page_title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
+        "context": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를 사들이는 가격인 전력도매가격(SMP)이 모두 상승한 상황에서, 전기요금 현실화 필요성이 커지고 있다. […] 26일 국회예산정책처의 '산업동향&이슈'에 따르면 지난달 발전사가 연료 공급사로부터 구입한 에너지원별 연료비단가는 유류를 제외한 모든 에너지원에서 전년 동월 대비 상승했다. […] 반면 유류는 같은 기간 -19.8% 떨어졌다. […] 발전 연료비 상승으로 전력을 사들이는 가격이 높아지는 반면, 판매단가는 하락하면서 한전의 재무 부담이 커지고 있는 것이다.",
+        "context_version": 2
+      }
+    },
+    {
+      "id": "c706bd67df9c9a8c9d45",
+      "title": "벌써 4번째 유예…가상자산 과세 2029년 시행 유력",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840116",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254448+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "금융"
+      ]
+    },
+    {
+      "id": "8728f5baf36deb4d4422",
+      "title": "\"집값 폭락\" LH 사장의 경고…서울 집값 정말 꺾이나",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840138",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.753974+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "447757245df0d2038703",
+      "title": "코트라, 체코서 'K-부품' 유럽 공급망 진입 지원…\"스코다 상담 주선\"",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840038",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599258+00:00",
+      "categories": [
+        "산업·통상",
+        "국제·정책"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "통상·공급망"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "53aa8c6abe7b747b2e3d",
+      "title": "롯데마트·슈퍼, 외국인 관광객 겨냥 '오뚜기 굴미역국라면' 선봬",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840136",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599518+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "유통·식품"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "96943ec77a6db29c6d21",
+      "title": "\"20% 할인 쿠폰에 7% 결제 할인\" 롯데온, '빅세이브마켓' 진행",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840139",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599611+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "1ec4ffa48657d6ff7752",
+      "title": "\"럭셔리 미식 랜드마크를 잠실에\" 롯데百 잠실점, 식품관 새단장 착수",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840154",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599788+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "유통·식품"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "748580d6671f3c026af9",
+      "title": "\"6개월 금연하면 18만 포인트\" 롯데멤버스, 엔드퍼프와 금연 챌린지",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840156",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.599873+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "e48623d726bd49903794",
+      "title": "\"금리 낮춘다더니 할인은 더 줄였다?\"…국감서 뭇매 맞은 은행 '꼼수' 뭐길래[금알못]",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003839029",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254360+00:00",
+      "categories": [
+        "거시경제",
+        "금융"
+      ],
+      "industries": [
+        "금융·보험"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "3e52db85a1b1a556222e",
+      "title": "\"고수익 알바·통장매매 속지 마세요\"…금감원, 청년·외국인 맞춤 홍보 추진",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840065",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T21:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254547+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "0a2fac3963cae9457dfb",
+      "title": "佛 르펜, 반정부 시위 속 대선 출사표…\"국민 통합·프랑스 부흥\"",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840272",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T20:48:48+00:00",
+      "collected_at": "2026-10-25T22:44:12.754060+00:00",
+      "categories": [
+        "국제·정책"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "규제·재정"
+      ],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "bead119c7c60b0c0f751",
+      "title": "[오늘의 주요일정]국토교통부(10월26일 월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003839870",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T20:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.754143+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "ffbae82820c4ed49a080",
+      "title": "[오늘의 주요일정]해양수산부(10월26일 월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003839871",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T20:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.754215+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "6b30aa4b67258f7aa447",
+      "title": "요동치는 유럽·중국 전기차 판도…현대차 '맞춤형 아이오닉'으로 맞불",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840135",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T20:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600037+00:00",
+      "categories": [
+        "국제·정책"
+      ],
+      "industries": [
+        "자동차·배터리"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "3fe18919111428204d5f",
+      "title": "'순익 4324%↑' 솔리다임…IPO 접어도 SK하이닉스 '효자' 될까",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840208",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T20:30:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600122+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "c8a1c8b75424270e5363",
+      "title": "전세의 월세화 가속…'노도강'도 300만원 월세 수두룩[부동산 머니무브③]",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838739",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T20:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.754297+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "23f771ab907f3729f37c",
+      "title": "[오늘의 주요일정]중소벤처기업부(10월26일 월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003839160",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T20:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600202+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "137add6451b6eddcc918",
+      "title": "삼성전자·SK하이닉스, 메모리 호황 타고 3Q 합산 영업익 '180조' 넘나",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003839885",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T20:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600288+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "05cbf491a56a3cda7547",
+      "title": "[오늘의 주요일정]금융·증권(10월26일 월요일)",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003839081",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T20:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254635+00:00",
+      "categories": [
+        "금융"
+      ],
+      "industries": [
+        "금융·보험"
+      ],
+      "issues": [],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "b31aae608e4021d7982e",
+      "title": "\"테슬라·스페이스X, 내년 말까지 합병 확률 90%\"…월가 전망",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840269",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T18:53:14+00:00",
+      "collected_at": "2026-10-25T22:44:12.754387+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "3ea5e09e936b3b0e7d88",
+      "title": "트럼프 \"이란과 합의냐 공격이냐 결단할 때\"…이란 \"외교 가능성 열려\"",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840268",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T18:08:59+00:00",
+      "collected_at": "2026-10-25T22:44:12.754477+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "eaf2af6b10d081551231",
+      "title": "\"AI 거품·고금리 여파…11월 이후 신용 리스크 본격화 우려\"",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838939",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T18:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254716+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [
+        "금리·자금조달"
+      ],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "82186f8183355c2c3d49",
+      "title": "마차도, 10개월 망명 끝 베네수엘라 귀국…야권, 조속한 대선 요구",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261026_0003840267",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T17:13:56+00:00",
+      "collected_at": "2026-10-25T22:44:12.754579+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "25a43638db12bb5b9985",
+      "title": "\"삼전닉스 계속 들고 가도 되나\"…주가 발목 잡는 'AI 투자 위축' 우려",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838097",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T17:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254803+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "반도체·IT"
+      ],
+      "issues": [
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "06ceb5124eda0716bedb",
+      "title": "\"농가에 웃음\" 상생 디저트…숲의 상처도 보듬다[같이의 가치]",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003837842",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T16:01:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600375+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "a88b455381f4215ca2d3",
+      "title": "\"서울·경기 집 살 때 꼭 보세요\"…부동산 전문가가 짚은 '핵심' 기준",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003839900",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T16:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.754669+00:00",
+      "categories": [
+        "주택·건설"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "5b8845ebc3ae5b5b84ab",
+      "title": "\"주식해서 파산하는 사람 진짜 많아\"…개인회생 상담 절반이 '빚투'",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261020_0003833462",
+      "source": "뉴시스 금융",
+      "published": "2026-10-25T15:10:00+00:00",
+      "collected_at": "2026-10-25T22:44:13.254893+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "4ccd0eb33a32c4b66bd1",
+      "title": "이준기, 건대입구 랜드마크 아파트 14년째 거주…'15억' 시세차익",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840211",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T15:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.754758+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "건설·부동산"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ]
+    },
+    {
+      "id": "9be286c2e952f2b644d7",
+      "title": "[현장]\"코카콜라 덕분에 매출·방문객 늘었죠\" 활기 더한 해방촌 골목",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838775",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T15:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600462+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [
+        "실적·수익성"
+      ],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
+    {
+      "id": "8fdc17f99f36deb320bf",
+      "title": "마블부터 짱구까지 인기 굿즈 한자리에…신세계百 '캐릭터 페스타'",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840155",
+      "source": "뉴시스 산업",
+      "published": "2026-10-25T15:00:00+00:00",
+      "collected_at": "2026-10-25T22:44:12.600559+00:00",
+      "categories": [
+        "기타"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "산업·통상"
+      ]
+    },
     {
       "id": "02a0f43f717e8cf886da",
       "title": "트럼프 2기 물가 상승세, 바이든 때보다 둔화했지만…민심은 '싸늘'",
@@ -24,7 +921,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003840252",
         "excerpt": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만,",
-        "checked_at": "2026-10-25T14:56:27.154369+00:00",
+        "checked_at": "2026-10-25T22:44:19.864880+00:00",
         "kind": "보도",
         "page_title": "트럼프 2기 물가 상승세, 바이든 때보다 둔화했지만…민심은 '싸늘'",
         "context": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만, 이미 높아진 물가에 추가 상승분이 더해지면서 유권자들의 불만은 여전히 큰 것으로 나타났다. […] 특히 이란 전쟁에 따른 에너지 가격 급등과 관세로 인한 일부 상품 가격 상승이 11월 중간선거를 앞둔 트럼프 대통령과 공화당에 부담으로 작용하고 있다. […] 반면 달걀 가격은 바이든 행정부 당시 월평균 2.57% 상승했지만 트럼프 집권 2기에는 월평균 3.82% 하락했다. […] 트럼프 대통령은 물가 안정을 위해 최근 농민에 대한 80억 달러 지원과 국방물자생산법(DPA)을 통한 정유 능력 확대 조치 등을 발표했다. […] 그러나 휘발유 가격은 바이든 행정부 당시와 사실상 비슷한 수준이다.",
@@ -57,7 +954,7 @@
       "link": "https://www.hankyung.com/article/2026102537677",
       "source": "한국경제 국제",
       "published": "2026-10-25T13:28:43+00:00",
-      "collected_at": "2026-10-25T14:56:26.035230+00:00",
+      "collected_at": "2026-10-25T22:44:12.056125+00:00",
       "categories": [
         "거시경제"
       ],
@@ -76,7 +973,7 @@
       "link": "https://www.newsis.com/view/NISX20261021_0003834553",
       "source": "뉴시스 금융",
       "published": "2026-10-25T12:30:00+00:00",
-      "collected_at": "2026-10-25T14:56:26.346877+00:00",
+      "collected_at": "2026-10-25T22:44:13.254981+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -114,7 +1011,7 @@
       "link": "https://www.hankyung.com/article/2026102537537",
       "source": "한국경제 국제",
       "published": "2026-10-25T12:22:45+00:00",
-      "collected_at": "2026-10-25T14:56:26.035331+00:00",
+      "collected_at": "2026-10-25T22:44:12.056211+00:00",
       "categories": [
         "기타"
       ],
@@ -133,7 +1030,7 @@
       "link": "https://www.hankyung.com/article/2026102537527",
       "source": "한국경제 사회",
       "published": "2026-10-25T12:07:30+00:00",
-      "collected_at": "2026-10-25T14:56:26.253927+00:00",
+      "collected_at": "2026-10-25T22:44:12.045929+00:00",
       "categories": [
         "기타"
       ],
@@ -152,7 +1049,7 @@
       "link": "https://www.hankyung.com/article/2026102537397",
       "source": "한국경제 사회",
       "published": "2026-10-25T11:51:46+00:00",
-      "collected_at": "2026-10-25T14:56:26.254016+00:00",
+      "collected_at": "2026-10-25T22:44:12.046038+00:00",
       "categories": [
         "기타"
       ],
@@ -171,7 +1068,7 @@
       "link": "https://www.hankyung.com/article/2026102537297",
       "source": "한국경제 사회",
       "published": "2026-10-25T11:20:43+00:00",
-      "collected_at": "2026-10-25T14:56:26.254082+00:00",
+      "collected_at": "2026-10-25T22:44:12.046128+00:00",
       "categories": [
         "기타"
       ],
@@ -190,7 +1087,7 @@
       "link": "https://www.hankyung.com/article/202610253289H",
       "source": "한국경제 경제",
       "published": "2026-10-25T11:07:49+00:00",
-      "collected_at": "2026-10-25T14:56:25.748797+00:00",
+      "collected_at": "2026-10-25T22:44:11.631616+00:00",
       "categories": [
         "기타"
       ],
@@ -254,7 +1151,7 @@
       "link": "https://www.hankyung.com/article/2026102536707",
       "source": "한국경제 국제",
       "published": "2026-10-25T10:11:55+00:00",
-      "collected_at": "2026-10-25T14:56:26.035401+00:00",
+      "collected_at": "2026-10-25T22:44:12.056298+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -273,7 +1170,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839818",
       "source": "뉴시스 금융",
       "published": "2026-10-25T10:00:00+00:00",
-      "collected_at": "2026-10-25T14:56:26.346980+00:00",
+      "collected_at": "2026-10-25T22:44:13.255068+00:00",
       "categories": [
         "기타"
       ],
@@ -292,7 +1189,7 @@
       "link": "https://www.hankyung.com/article/2026102535691",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:45:37+00:00",
-      "collected_at": "2026-10-25T14:56:25.748900+00:00",
+      "collected_at": "2026-10-25T22:44:11.631703+00:00",
       "categories": [
         "에너지"
       ],
@@ -329,20 +1226,22 @@
       ]
     },
     {
-      "id": "a8705c0b9dbf27da7e5b",
-      "title": "삼전닉스, 이번주 반등의 시간 올까 [한경 프리미엄9 TODAY]",
+      "id": "99d6add39893720a9251",
+      "title": "역세권 투자 시점은 언제 [한경 프리미엄9 TODAY]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102535061",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:44:56+00:00",
-      "collected_at": "2026-10-25T14:56:25.929720+00:00",
+      "collected_at": "2026-10-25T22:44:11.743319+00:00",
       "categories": [
         "기타"
       ],
       "industries": [
         "기타"
       ],
-      "issues": [],
+      "issues": [
+        "설비·전력수요"
+      ],
       "search_topics": [
         "금융"
       ]
@@ -354,7 +1253,7 @@
       "link": "https://www.hankyung.com/article/2026102535051",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:44:02+00:00",
-      "collected_at": "2026-10-25T14:56:25.983940+00:00",
+      "collected_at": "2026-10-25T22:44:11.762357+00:00",
       "categories": [
         "기타"
       ],
@@ -373,7 +1272,7 @@
       "link": "https://www.hankyung.com/article/202610253648i",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:43:53+00:00",
-      "collected_at": "2026-10-25T14:56:25.748970+00:00",
+      "collected_at": "2026-10-25T22:44:11.631781+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -392,7 +1291,7 @@
       "link": "https://www.hankyung.com/article/2026102535071",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:43:09+00:00",
-      "collected_at": "2026-10-25T14:56:25.984038+00:00",
+      "collected_at": "2026-10-25T22:44:11.762466+00:00",
       "categories": [
         "기타"
       ],
@@ -412,7 +1311,7 @@
       "link": "https://www.hankyung.com/article/2026102535481",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:42:48+00:00",
-      "collected_at": "2026-10-25T14:56:25.749039+00:00",
+      "collected_at": "2026-10-25T22:44:11.631862+00:00",
       "categories": [
         "기타"
       ],
@@ -431,7 +1330,7 @@
       "link": "https://www.hankyung.com/article/2026102535531",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:42:07+00:00",
-      "collected_at": "2026-10-25T14:56:25.749103+00:00",
+      "collected_at": "2026-10-25T22:44:11.631939+00:00",
       "categories": [
         "기타"
       ],
@@ -450,7 +1349,7 @@
       "link": "https://www.hankyung.com/article/2026102535511",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:40:22+00:00",
-      "collected_at": "2026-10-25T14:56:25.749173+00:00",
+      "collected_at": "2026-10-25T22:44:11.632020+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -469,7 +1368,7 @@
       "link": "https://www.hankyung.com/article/2026102535521",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:40:15+00:00",
-      "collected_at": "2026-10-25T14:56:25.749237+00:00",
+      "collected_at": "2026-10-25T22:44:11.632096+00:00",
       "categories": [
         "기타"
       ],
@@ -509,7 +1408,7 @@
       "link": "https://www.hankyung.com/article/2026102535661",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:37:13+00:00",
-      "collected_at": "2026-10-25T14:56:26.254149+00:00",
+      "collected_at": "2026-10-25T22:44:12.046212+00:00",
       "categories": [
         "기타"
       ],
@@ -528,7 +1427,7 @@
       "link": "https://www.hankyung.com/article/2026102535641",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:36:56+00:00",
-      "collected_at": "2026-10-25T14:56:26.254246+00:00",
+      "collected_at": "2026-10-25T22:44:12.046300+00:00",
       "categories": [
         "기타"
       ],
@@ -547,7 +1446,7 @@
       "link": "https://www.hankyung.com/article/2026102535231",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:36:27+00:00",
-      "collected_at": "2026-10-25T14:56:26.035470+00:00",
+      "collected_at": "2026-10-25T22:44:12.056384+00:00",
       "categories": [
         "기타"
       ],
@@ -560,13 +1459,13 @@
       ]
     },
     {
-      "id": "e21eac43760aaa6a8409",
-      "title": "[포토] 美 민주당 유세 나선 오바마…\"트럼프 2년, 전례 없는 혼란\"",
+      "id": "4e37d93970d5c1f8d37d",
+      "title": "[포토] \"트럼프 2년, 전례 없는 혼란\"…오바마, 美 민주당 지원 유세",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102535211",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:35:42+00:00",
-      "collected_at": "2026-10-25T14:56:26.035544+00:00",
+      "collected_at": "2026-10-25T22:44:12.056474+00:00",
       "categories": [
         "기타"
       ],
@@ -585,7 +1484,7 @@
       "link": "https://www.hankyung.com/article/2026102535241",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:35:08+00:00",
-      "collected_at": "2026-10-25T14:56:25.749300+00:00",
+      "collected_at": "2026-10-25T22:44:11.632177+00:00",
       "categories": [
         "거시경제"
       ],
@@ -606,7 +1505,7 @@
       "link": "https://www.hankyung.com/article/2026102535261",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:34:47+00:00",
-      "collected_at": "2026-10-25T14:56:26.035614+00:00",
+      "collected_at": "2026-10-25T22:44:12.056573+00:00",
       "categories": [
         "기타"
       ],
@@ -625,7 +1524,7 @@
       "link": "https://www.hankyung.com/article/2026102535221",
       "source": "한국경제 국제",
       "published": "2026-10-25T09:34:42+00:00",
-      "collected_at": "2026-10-25T14:56:26.035672+00:00",
+      "collected_at": "2026-10-25T22:44:12.056646+00:00",
       "categories": [
         "기타"
       ],
@@ -644,7 +1543,7 @@
       "link": "https://www.hankyung.com/article/2026102535721",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:34:26+00:00",
-      "collected_at": "2026-10-25T14:56:25.749364+00:00",
+      "collected_at": "2026-10-25T22:44:11.632259+00:00",
       "categories": [
         "기타"
       ],
@@ -665,7 +1564,7 @@
       "link": "https://www.hankyung.com/article/2026102535701",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:34:01+00:00",
-      "collected_at": "2026-10-25T14:56:25.749429+00:00",
+      "collected_at": "2026-10-25T22:44:11.632340+00:00",
       "categories": [
         "산업·통상",
         "고용·사회"
@@ -688,7 +1587,7 @@
       "link": "https://www.hankyung.com/article/2026102535681",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:47+00:00",
-      "collected_at": "2026-10-25T14:56:25.749490+00:00",
+      "collected_at": "2026-10-25T22:44:11.632417+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -707,7 +1606,7 @@
       "link": "https://www.hankyung.com/article/2026102535741",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:30+00:00",
-      "collected_at": "2026-10-25T14:56:25.749549+00:00",
+      "collected_at": "2026-10-25T22:44:11.632499+00:00",
       "categories": [
         "기타"
       ],
@@ -726,7 +1625,7 @@
       "link": "https://www.hankyung.com/article/2026102535731",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:24+00:00",
-      "collected_at": "2026-10-25T14:56:25.749624+00:00",
+      "collected_at": "2026-10-25T22:44:11.632583+00:00",
       "categories": [
         "기타"
       ],
@@ -745,7 +1644,7 @@
       "link": "https://www.hankyung.com/article/2026102535711",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:33:17+00:00",
-      "collected_at": "2026-10-25T14:56:25.749684+00:00",
+      "collected_at": "2026-10-25T22:44:11.632658+00:00",
       "categories": [
         "기타"
       ],
@@ -758,13 +1657,13 @@
       ]
     },
     {
-      "id": "655f4c15933a53972d89",
-      "title": "\"서울대도 감당 못할 줄이야\"…공짜로 풀자 한달 만에 '비상'",
+      "id": "61335f6ae8acfe6ba38d",
+      "title": "\"서울대도 감당 못할 줄이야\"…공짜로 풀자 한달 만에 결국",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534821",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:32:54+00:00",
-      "collected_at": "2026-10-25T14:56:25.984112+00:00",
+      "collected_at": "2026-10-25T22:44:11.762572+00:00",
       "categories": [
         "기타"
       ],
@@ -777,13 +1676,13 @@
       ]
     },
     {
-      "id": "12098f8f7a8bab0ac3f9",
-      "title": "건물 추가로 매입한 삼성전자…실리콘밸리 본사 2배 넓혔다",
+      "id": "5f2b3881634f3cff899e",
+      "title": "삼성전자, 실리콘밸리 본사 2배 넓혔다",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534761",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:32:27+00:00",
-      "collected_at": "2026-10-25T14:56:25.749752+00:00",
+      "collected_at": "2026-10-25T22:44:11.632731+00:00",
       "categories": [
         "기타"
       ],
@@ -797,12 +1696,12 @@
     },
     {
       "id": "07742af3abf11ca70257",
-      "title": "\"20번도 안접었는데 화면 쩍\"…아이폰 듀오 내구성 논란",
+      "title": "\"20번도 안 접었는데 화면 쩍\"…아이폰 듀오 내구성 논란",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534811",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:32:06+00:00",
-      "collected_at": "2026-10-25T14:56:25.984179+00:00",
+      "collected_at": "2026-10-25T22:44:11.762662+00:00",
       "categories": [
         "기타"
       ],
@@ -816,12 +1715,12 @@
     },
     {
       "id": "11d60eafb63da17245b2",
-      "title": "UNIST 박정훈 교수팀 '형광현미경 기술' 개발",
+      "title": "UNIST 박정훈 교수팀, '형광현미경 기술' 개발",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534801",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:31:40+00:00",
-      "collected_at": "2026-10-25T14:56:25.984243+00:00",
+      "collected_at": "2026-10-25T22:44:11.762745+00:00",
       "categories": [
         "기타"
       ],
@@ -840,7 +1739,7 @@
       "link": "https://www.hankyung.com/article/2026102535281",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:30:38+00:00",
-      "collected_at": "2026-10-25T14:56:25.929814+00:00",
+      "collected_at": "2026-10-25T22:44:11.743428+00:00",
       "categories": [
         "기타"
       ],
@@ -859,7 +1758,7 @@
       "link": "https://www.hankyung.com/article/2026102535271",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:27:30+00:00",
-      "collected_at": "2026-10-25T14:56:25.929878+00:00",
+      "collected_at": "2026-10-25T22:44:11.743524+00:00",
       "categories": [
         "기타"
       ],
@@ -880,7 +1779,7 @@
       "link": "https://www.hankyung.com/article/2026102535321",
       "source": "한국경제 경제",
       "published": "2026-10-25T09:26:48+00:00",
-      "collected_at": "2026-10-25T14:56:25.749820+00:00",
+      "collected_at": "2026-10-25T22:44:11.632804+00:00",
       "categories": [
         "거시경제"
       ],
@@ -899,7 +1798,7 @@
       "link": "https://www.hankyung.com/article/2026102535331",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:25:15+00:00",
-      "collected_at": "2026-10-25T14:56:25.973550+00:00",
+      "collected_at": "2026-10-25T22:44:11.620915+00:00",
       "categories": [
         "거시경제",
         "국제·정책"
@@ -919,7 +1818,7 @@
       "link": "https://www.hankyung.com/article/2026102535301",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:24:25+00:00",
-      "collected_at": "2026-10-25T14:56:25.929943+00:00",
+      "collected_at": "2026-10-25T22:44:11.743604+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -963,7 +1862,7 @@
       "link": "https://www.hankyung.com/article/2026102535781",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:23:24+00:00",
-      "collected_at": "2026-10-25T14:56:25.930005+00:00",
+      "collected_at": "2026-10-25T22:44:11.743683+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -982,7 +1881,7 @@
       "link": "https://www.hankyung.com/article/2026102535941",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:20:46+00:00",
-      "collected_at": "2026-10-25T14:56:25.984305+00:00",
+      "collected_at": "2026-10-25T22:44:11.762822+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -1024,7 +1923,7 @@
       "link": "https://www.hankyung.com/article/2026102535951",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:19:17+00:00",
-      "collected_at": "2026-10-25T14:56:25.984366+00:00",
+      "collected_at": "2026-10-25T22:44:11.762899+00:00",
       "categories": [
         "기타"
       ],
@@ -1043,7 +1942,7 @@
       "link": "https://www.hankyung.com/article/2026102535931",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:18:50+00:00",
-      "collected_at": "2026-10-25T14:56:25.984432+00:00",
+      "collected_at": "2026-10-25T22:44:11.762980+00:00",
       "categories": [
         "기타"
       ],
@@ -1100,7 +1999,7 @@
       "link": "https://www.hankyung.com/article/2026102536041",
       "source": "한국경제 IT",
       "published": "2026-10-25T09:16:25+00:00",
-      "collected_at": "2026-10-25T14:56:25.984494+00:00",
+      "collected_at": "2026-10-25T22:44:11.763060+00:00",
       "categories": [
         "기타"
       ],
@@ -1140,7 +2039,7 @@
       "link": "https://www.hankyung.com/article/2026102536091",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:14:11+00:00",
-      "collected_at": "2026-10-25T14:56:25.973733+00:00",
+      "collected_at": "2026-10-25T22:44:11.621049+00:00",
       "categories": [
         "기타"
       ],
@@ -1159,7 +2058,7 @@
       "link": "https://www.hankyung.com/article/2026102536101",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:13:01+00:00",
-      "collected_at": "2026-10-25T14:56:25.973854+00:00",
+      "collected_at": "2026-10-25T22:44:11.621142+00:00",
       "categories": [
         "기타"
       ],
@@ -1178,7 +2077,7 @@
       "link": "https://www.hankyung.com/article/2026102536111",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:12:19+00:00",
-      "collected_at": "2026-10-25T14:56:25.973959+00:00",
+      "collected_at": "2026-10-25T22:44:11.621226+00:00",
       "categories": [
         "기타"
       ],
@@ -1197,7 +2096,7 @@
       "link": "https://www.hankyung.com/article/2026102536131",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T09:11:12+00:00",
-      "collected_at": "2026-10-25T14:56:25.974050+00:00",
+      "collected_at": "2026-10-25T22:44:11.621300+00:00",
       "categories": [
         "기타"
       ],
@@ -1216,7 +2115,7 @@
       "link": "https://www.hankyung.com/article/2026102536341",
       "source": "한국경제 사회",
       "published": "2026-10-25T09:10:16+00:00",
-      "collected_at": "2026-10-25T14:56:26.254307+00:00",
+      "collected_at": "2026-10-25T22:44:12.046378+00:00",
       "categories": [
         "기타"
       ],
@@ -1235,7 +2134,7 @@
       "link": "https://www.hankyung.com/article/2026102535141",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:06:55+00:00",
-      "collected_at": "2026-10-25T14:56:25.930065+00:00",
+      "collected_at": "2026-10-25T22:44:11.743758+00:00",
       "categories": [
         "금융"
       ],
@@ -1254,7 +2153,7 @@
       "link": "https://www.hankyung.com/article/2026102535151",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:04:15+00:00",
-      "collected_at": "2026-10-25T14:56:25.930129+00:00",
+      "collected_at": "2026-10-25T22:44:11.743837+00:00",
       "categories": [
         "기타"
       ],
@@ -1273,7 +2172,7 @@
       "link": "https://www.hankyung.com/article/2026102535401",
       "source": "한국경제 증권",
       "published": "2026-10-25T09:02:36+00:00",
-      "collected_at": "2026-10-25T14:56:25.930192+00:00",
+      "collected_at": "2026-10-25T22:44:11.743918+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -1292,7 +2191,7 @@
       "link": "https://www.hankyung.com/article/2026102535817",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:57:30+00:00",
-      "collected_at": "2026-10-25T14:56:26.254417+00:00",
+      "collected_at": "2026-10-25T22:44:12.046540+00:00",
       "categories": [
         "기타"
       ],
@@ -1311,7 +2210,7 @@
       "link": "https://www.hankyung.com/article/2026102535181",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:56:09+00:00",
-      "collected_at": "2026-10-25T14:56:25.984555+00:00",
+      "collected_at": "2026-10-25T22:44:11.763137+00:00",
       "categories": [
         "기타"
       ],
@@ -1330,7 +2229,7 @@
       "link": "https://www.hankyung.com/article/2026102535391",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:51:50+00:00",
-      "collected_at": "2026-10-25T14:56:25.984620+00:00",
+      "collected_at": "2026-10-25T22:44:11.763220+00:00",
       "categories": [
         "기타"
       ],
@@ -1349,7 +2248,7 @@
       "link": "https://www.hankyung.com/article/2026102534851",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:48:12+00:00",
-      "collected_at": "2026-10-25T14:56:26.035747+00:00",
+      "collected_at": "2026-10-25T22:44:12.056724+00:00",
       "categories": [
         "기타"
       ],
@@ -1368,7 +2267,7 @@
       "link": "https://www.hankyung.com/article/2026102535297",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:47:53+00:00",
-      "collected_at": "2026-10-25T14:56:26.254481+00:00",
+      "collected_at": "2026-10-25T22:44:12.046621+00:00",
       "categories": [
         "기타"
       ],
@@ -1382,12 +2281,12 @@
     },
     {
       "id": "c0f42d70d6c0ccd68c5d",
-      "title": "'선거 치르는 독재국' 오명…28년만에 되살아난 군부통치",
+      "title": "'선거 치르는 독재국' 오명 28년만에 되살아난 군부통치",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534841",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:43:45+00:00",
-      "collected_at": "2026-10-25T14:56:26.035813+00:00",
+      "collected_at": "2026-10-25T22:44:12.056806+00:00",
       "categories": [
         "기타"
       ],
@@ -1406,7 +2305,7 @@
       "link": "https://www.hankyung.com/article/2026102535011",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:42:42+00:00",
-      "collected_at": "2026-10-25T14:56:25.974158+00:00",
+      "collected_at": "2026-10-25T22:44:11.621382+00:00",
       "categories": [
         "국제·정책"
       ],
@@ -1423,9 +2322,9 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102535011",
         "excerpt": "청와대가 내년 1월 시행 예정이던 가상자산 소득 과세를 유예하는 쪽으로 방향을 잡았다고 한다. […] 이로써 가상자산 과세는 2029년 이후로 미뤄질 가능성이 커졌다. […] ‘이익 있는 곳에 과세 있다’는 대원칙에 배치된다는 지적이 나온다. […] 가상자산 과세는 양도·대여로 발생한 연소득에서 기본공제 250만원을",
-        "checked_at": "2026-10-25T14:56:27.155976+00:00",
+        "checked_at": "2026-10-25T22:44:19.865969+00:00",
         "kind": "오피니언",
-        "page_title": "[사설] 가상자산 과세, 또 물러서는 정부…조세 원칙에 맞나",
+        "page_title": "가상자산 과세, 또 물러서는 정부…조세 원칙에 맞나 [사설]",
         "context": "청와대가 내년 1월 시행 예정이던 가상자산 소득 과세를 유예하는 쪽으로 방향을 잡았다고 한다. […] 이로써 가상자산 과세는 2029년 이후로 미뤄질 가능성이 커졌다. […] ‘이익 있는 곳에 과세 있다’는 대원칙에 배치된다는 지적이 나온다. […] 가상자산 과세는 양도·대여로 발생한 연소득에서 기본공제 250만원을 뺀 뒤 세율 20%(지방소득세 포함 시 22%)를 적용할 예정이었다. […] 부동산은 징벌 과세하면서 주식에 이어 가상자산도 장기 비과세할 경우 형평성 논란이 불가피하다. […] 정치적 접근도 문제다.",
         "context_version": 2
       }
@@ -1437,7 +2336,7 @@
       "link": "https://www.hankyung.com/article/2026102535001",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:42:23+00:00",
-      "collected_at": "2026-10-25T14:56:25.974272+00:00",
+      "collected_at": "2026-10-25T22:44:11.621469+00:00",
       "categories": [
         "기타"
       ],
@@ -1452,9 +2351,9 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102535001",
         "excerpt": "정부가 2024년 경쟁 입찰을 통해 선정한 액화천연가스(LNG) 열병합발전소 두 곳이 착공조차 못하고 있다는 소식이다. […] 기존 석탄발전소를 LNG발전소로 바꾸는 대전열병합은 주민 수용성과 환경영향평가 문제에다 주기기 가격과 공사비 상승 부담까지 겹쳐 사업에 어려움을 겪고 있다. […] 사업성 확보가 어려운 원인은 현실을",
-        "checked_at": "2026-10-25T14:56:27.156411+00:00",
+        "checked_at": "2026-10-25T22:44:20.383832+00:00",
         "kind": "오피니언",
-        "page_title": "[사설] 낙찰받고도 착공 못하는 LNG 발전…저가 입찰 개선해야",
+        "page_title": "낙찰받고도 착공 못하는 LNG 발전…저가 입찰 개선해야 [사설]",
         "context": "정부가 2024년 경쟁 입찰을 통해 선정한 액화천연가스(LNG) 열병합발전소 두 곳이 착공조차 못하고 있다는 소식이다. […] 기존 석탄발전소를 LNG발전소로 바꾸는 대전열병합은 주민 수용성과 환경영향평가 문제에다 주기기 가격과 공사비 상승 부담까지 겹쳐 사업에 어려움을 겪고 있다. […] 사업성 확보가 어려운 원인은 현실을 외면한 입찰제도에 있다는 게 업계 지적이다. […] 신규 발전소의 용량가격 산정에 건설공사비지수가 아니라 소비자물가지수를 적용하는 것도 문제다. […] 저가 낙찰로 비용을 절감해 전력요금을 낮출 수 있지만 사업에 차질을 빚으면 더 큰 사회적 비용을 치를 가능성도 있다. […] 하지만 사업자가 정해진 발전소 건설조차 제때 이뤄지지 못하면 산업단지의 전력·열 공급은 물론 탈석탄 전환도 흔들릴 수밖에 없다.",
         "context_version": 2
       }
@@ -1466,7 +2365,7 @@
       "link": "https://www.hankyung.com/article/2026102534991",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:41:59+00:00",
-      "collected_at": "2026-10-25T14:56:25.974383+00:00",
+      "collected_at": "2026-10-25T22:44:11.621571+00:00",
       "categories": [
         "기타"
       ],
@@ -1487,7 +2386,7 @@
       "link": "https://www.hankyung.com/article/2026102535021",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:41:39+00:00",
-      "collected_at": "2026-10-25T14:56:25.974492+00:00",
+      "collected_at": "2026-10-25T22:44:11.621656+00:00",
       "categories": [
         "기타"
       ],
@@ -1506,7 +2405,7 @@
       "link": "https://www.hankyung.com/article/2026102535031",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:40:58+00:00",
-      "collected_at": "2026-10-25T14:56:25.974586+00:00",
+      "collected_at": "2026-10-25T22:44:11.621732+00:00",
       "categories": [
         "기타"
       ],
@@ -1525,7 +2424,7 @@
       "link": "https://www.hankyung.com/article/2026102534891",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:38:57+00:00",
-      "collected_at": "2026-10-25T14:56:26.254547+00:00",
+      "collected_at": "2026-10-25T22:44:12.046703+00:00",
       "categories": [
         "기타"
       ],
@@ -1538,13 +2437,13 @@
       ]
     },
     {
-      "id": "802250bed31c651ef570",
-      "title": "[포토] “오늘부터 잠수교에 車 못다녀요”",
+      "id": "7e7f8cb34a63d8acb65a",
+      "title": "[포토] “26일부터 잠수교에 車 못다녀요”",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102534861",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:38:26+00:00",
-      "collected_at": "2026-10-25T14:56:26.254611+00:00",
+      "collected_at": "2026-10-25T22:44:12.046784+00:00",
       "categories": [
         "기타"
       ],
@@ -1563,7 +2462,7 @@
       "link": "https://www.hankyung.com/article/2026102534921",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:59+00:00",
-      "collected_at": "2026-10-25T14:56:26.254670+00:00",
+      "collected_at": "2026-10-25T22:44:12.046861+00:00",
       "categories": [
         "기타"
       ],
@@ -1582,7 +2481,7 @@
       "link": "https://www.hankyung.com/article/2026102534931",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:47+00:00",
-      "collected_at": "2026-10-25T14:56:26.254746+00:00",
+      "collected_at": "2026-10-25T22:44:12.046945+00:00",
       "categories": [
         "기타"
       ],
@@ -1601,7 +2500,7 @@
       "link": "https://www.hankyung.com/article/2026102534911",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:20+00:00",
-      "collected_at": "2026-10-25T14:56:26.254812+00:00",
+      "collected_at": "2026-10-25T22:44:12.047019+00:00",
       "categories": [
         "기타"
       ],
@@ -1620,7 +2519,7 @@
       "link": "https://www.hankyung.com/article/2026102534871",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:09+00:00",
-      "collected_at": "2026-10-25T14:56:26.254898+00:00",
+      "collected_at": "2026-10-25T22:44:12.047091+00:00",
       "categories": [
         "기타"
       ],
@@ -1639,7 +2538,7 @@
       "link": "https://www.hankyung.com/article/2026102534901",
       "source": "한국경제 사회",
       "published": "2026-10-25T08:37:01+00:00",
-      "collected_at": "2026-10-25T14:56:26.254961+00:00",
+      "collected_at": "2026-10-25T22:44:12.047169+00:00",
       "categories": [
         "기타"
       ],
@@ -1658,7 +2557,7 @@
       "link": "https://www.hankyung.com/article/2026102534631",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:36:40+00:00",
-      "collected_at": "2026-10-25T14:56:25.974674+00:00",
+      "collected_at": "2026-10-25T22:44:11.621801+00:00",
       "categories": [
         "기타"
       ],
@@ -1677,7 +2576,7 @@
       "link": "https://www.hankyung.com/article/2026102534621",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:36:06+00:00",
-      "collected_at": "2026-10-25T14:56:25.974787+00:00",
+      "collected_at": "2026-10-25T22:44:11.621878+00:00",
       "categories": [
         "금융"
       ],
@@ -1698,7 +2597,7 @@
       "link": "https://www.hankyung.com/article/2026102534641",
       "source": "한국경제 오피니언",
       "published": "2026-10-25T08:35:29+00:00",
-      "collected_at": "2026-10-25T14:56:25.974889+00:00",
+      "collected_at": "2026-10-25T22:44:11.621959+00:00",
       "categories": [
         "기타"
       ],
@@ -1736,7 +2635,7 @@
       "link": "https://www.hankyung.com/article/2026102534057",
       "source": "한국경제 국제",
       "published": "2026-10-25T08:07:38+00:00",
-      "collected_at": "2026-10-25T14:56:26.035879+00:00",
+      "collected_at": "2026-10-25T22:44:12.056889+00:00",
       "categories": [
         "기타"
       ],
@@ -1774,7 +2673,7 @@
       "link": "https://www.hankyung.com/article/202610253407i",
       "source": "한국경제 IT",
       "published": "2026-10-25T08:01:34+00:00",
-      "collected_at": "2026-10-25T14:56:25.984684+00:00",
+      "collected_at": "2026-10-25T22:44:11.763301+00:00",
       "categories": [
         "기타"
       ],
@@ -1812,7 +2711,7 @@
       "link": "https://www.hankyung.com/article/202610253406i",
       "source": "한국경제 IT",
       "published": "2026-10-25T07:53:30+00:00",
-      "collected_at": "2026-10-25T14:56:25.984783+00:00",
+      "collected_at": "2026-10-25T22:44:11.763396+00:00",
       "categories": [
         "기타"
       ],
@@ -1831,7 +2730,7 @@
       "link": "https://www.hankyung.com/article/2026102533277",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:45:47+00:00",
-      "collected_at": "2026-10-25T14:56:26.255024+00:00",
+      "collected_at": "2026-10-25T22:44:12.047248+00:00",
       "categories": [
         "기타"
       ],
@@ -1850,7 +2749,7 @@
       "link": "https://www.hankyung.com/article/202610191229i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:41:53+00:00",
-      "collected_at": "2026-10-25T14:56:25.930253+00:00",
+      "collected_at": "2026-10-25T22:44:11.743994+00:00",
       "categories": [
         "기타"
       ],
@@ -1869,7 +2768,7 @@
       "link": "https://www.hankyung.com/article/2026102533767",
       "source": "한국경제 국제",
       "published": "2026-10-25T07:40:47+00:00",
-      "collected_at": "2026-10-25T14:56:26.035947+00:00",
+      "collected_at": "2026-10-25T22:44:12.056971+00:00",
       "categories": [
         "기타"
       ],
@@ -1888,7 +2787,7 @@
       "link": "https://www.hankyung.com/article/202610253382i",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:39:56+00:00",
-      "collected_at": "2026-10-25T14:56:26.255093+00:00",
+      "collected_at": "2026-10-25T22:44:12.047333+00:00",
       "categories": [
         "기타"
       ],
@@ -1907,7 +2806,7 @@
       "link": "https://www.hankyung.com/article/202610253370i",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:38:28+00:00",
-      "collected_at": "2026-10-25T14:56:26.255160+00:00",
+      "collected_at": "2026-10-25T22:44:12.047414+00:00",
       "categories": [
         "기타"
       ],
@@ -1926,7 +2825,7 @@
       "link": "https://www.hankyung.com/article/202610252718i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:38:27+00:00",
-      "collected_at": "2026-10-25T14:56:25.930318+00:00",
+      "collected_at": "2026-10-25T22:44:11.744078+00:00",
       "categories": [
         "금융"
       ],
@@ -1945,7 +2844,7 @@
       "link": "https://www.hankyung.com/article/202610253357i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:37:16+00:00",
-      "collected_at": "2026-10-25T14:56:25.930390+00:00",
+      "collected_at": "2026-10-25T22:44:11.744161+00:00",
       "categories": [
         "기타"
       ],
@@ -1964,7 +2863,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840113",
       "source": "뉴시스 금융",
       "published": "2026-10-25T07:34:28+00:00",
-      "collected_at": "2026-10-25T14:56:26.347053+00:00",
+      "collected_at": "2026-10-25T22:44:13.255156+00:00",
       "categories": [
         "기타"
       ],
@@ -1983,7 +2882,7 @@
       "link": "https://www.hankyung.com/article/202610167397i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:31:19+00:00",
-      "collected_at": "2026-10-25T14:56:25.930453+00:00",
+      "collected_at": "2026-10-25T22:44:11.744245+00:00",
       "categories": [
         "기타"
       ],
@@ -2021,7 +2920,7 @@
       "link": "https://www.hankyung.com/article/202610216499i",
       "source": "한국경제 증권",
       "published": "2026-10-25T07:28:25+00:00",
-      "collected_at": "2026-10-25T14:56:25.930518+00:00",
+      "collected_at": "2026-10-25T22:44:11.744325+00:00",
       "categories": [
         "기타"
       ],
@@ -2057,9 +2956,9 @@
       "title": "청와대, 내년 가상자산 과세 '유예' 가닥…\"검토중\"(종합)",
       "summary": "",
       "link": "https://www.newsis.com/view/NISX20261025_0003840109",
-      "source": "뉴시스 경제",
+      "source": "뉴시스 금융",
       "published": "2026-10-25T07:17:28+00:00",
-      "collected_at": "2026-10-25T14:56:26.422671+00:00",
+      "collected_at": "2026-10-25T22:44:13.255240+00:00",
       "categories": [
         "기타"
       ],
@@ -2068,8 +2967,8 @@
       ],
       "issues": [],
       "search_topics": [
-        "거시경제",
-        "금융"
+        "금융",
+        "거시경제"
       ]
     },
     {
@@ -2079,7 +2978,7 @@
       "link": "https://www.hankyung.com/article/2026102533297",
       "source": "한국경제 사회",
       "published": "2026-10-25T07:08:39+00:00",
-      "collected_at": "2026-10-25T14:56:26.255232+00:00",
+      "collected_at": "2026-10-25T22:44:12.047508+00:00",
       "categories": [
         "기타"
       ],
@@ -2129,7 +3028,7 @@
       "link": "https://www.hankyung.com/article/202610253311i",
       "source": "한국경제 증권",
       "published": "2026-10-25T06:55:16+00:00",
-      "collected_at": "2026-10-25T14:56:25.930578+00:00",
+      "collected_at": "2026-10-25T22:44:11.744405+00:00",
       "categories": [
         "기타"
       ],
@@ -2206,7 +3105,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840052",
       "source": "뉴시스 금융",
       "published": "2026-10-25T06:17:23+00:00",
-      "collected_at": "2026-10-25T14:56:26.347194+00:00",
+      "collected_at": "2026-10-25T22:44:13.255325+00:00",
       "categories": [
         "기타"
       ],
@@ -2242,9 +3141,9 @@
       "title": "코웨이 \"비렉스 R7, '굿디자인어워드' 동상 수상\"",
       "summary": "",
       "link": "https://www.newsis.com/view/NISX20261023_0003838678",
-      "source": "뉴시스 산업",
+      "source": "뉴시스 금융",
       "published": "2026-10-25T06:01:00+00:00",
-      "collected_at": "2026-10-25T14:56:26.589966+00:00",
+      "collected_at": "2026-10-25T22:44:13.255412+00:00",
       "categories": [
         "기타"
       ],
@@ -2253,8 +3152,8 @@
       ],
       "issues": [],
       "search_topics": [
-        "산업·통상",
-        "금융"
+        "금융",
+        "산업·통상"
       ]
     },
     {
@@ -2283,7 +3182,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840012",
       "source": "뉴시스 금융",
       "published": "2026-10-25T05:10:39+00:00",
-      "collected_at": "2026-10-25T14:56:26.347332+00:00",
+      "collected_at": "2026-10-25T22:44:13.255502+00:00",
       "categories": [
         "거시경제"
       ],
@@ -2323,7 +3222,7 @@
       "link": "https://www.hankyung.com/article/202610229149i",
       "source": "한국경제 국제",
       "published": "2026-10-25T05:00:01+00:00",
-      "collected_at": "2026-10-25T14:56:26.036019+00:00",
+      "collected_at": "2026-10-25T22:44:12.057059+00:00",
       "categories": [
         "기타"
       ],
@@ -2361,7 +3260,7 @@
       "link": "https://www.hankyung.com/article/202610253238i",
       "source": "한국경제 증권",
       "published": "2026-10-25T04:56:26+00:00",
-      "collected_at": "2026-10-25T14:56:25.930643+00:00",
+      "collected_at": "2026-10-25T22:44:11.744503+00:00",
       "categories": [
         "기타"
       ],
@@ -2380,9 +3279,9 @@
       "title": "靑, 가상자산 과세 재유예 가닥…청년 여론·제도 미비 등 고려",
       "summary": "",
       "link": "https://www.newsis.com/view/NISX20261025_0003839973",
-      "source": "뉴시스 경제",
+      "source": "뉴시스 금융",
       "published": "2026-10-25T04:54:37+00:00",
-      "collected_at": "2026-10-25T14:56:26.423076+00:00",
+      "collected_at": "2026-10-25T22:44:13.255589+00:00",
       "categories": [
         "기타"
       ],
@@ -2391,8 +3290,8 @@
       ],
       "issues": [],
       "search_topics": [
-        "거시경제",
-        "금융"
+        "금융",
+        "거시경제"
       ]
     },
     {
@@ -2402,7 +3301,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839917",
       "source": "뉴시스 금융",
       "published": "2026-10-25T04:43:10+00:00",
-      "collected_at": "2026-10-25T14:56:26.347463+00:00",
+      "collected_at": "2026-10-25T22:44:13.255672+00:00",
       "categories": [
         "기타"
       ],
@@ -2463,7 +3362,7 @@
       "link": "https://www.hankyung.com/article/202610230860i",
       "source": "한국경제 IT",
       "published": "2026-10-25T04:00:03+00:00",
-      "collected_at": "2026-10-25T14:56:25.984854+00:00",
+      "collected_at": "2026-10-25T22:44:11.763499+00:00",
       "categories": [
         "기타"
       ],
@@ -2539,7 +3438,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839939",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:34:34+00:00",
-      "collected_at": "2026-10-25T14:56:26.347529+00:00",
+      "collected_at": "2026-10-25T22:44:13.255758+00:00",
       "categories": [
         "기타"
       ],
@@ -2624,7 +3523,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003839815",
       "source": "뉴시스 금융",
       "published": "2026-10-25T03:04:00+00:00",
-      "collected_at": "2026-10-25T14:56:26.347599+00:00",
+      "collected_at": "2026-10-25T22:44:13.255854+00:00",
       "categories": [
         "기타"
       ],
@@ -2883,7 +3782,7 @@
       "link": "https://www.hankyung.com/article/2026102530707",
       "source": "한국경제 증권",
       "published": "2026-10-25T02:24:56+00:00",
-      "collected_at": "2026-10-25T14:56:25.930717+00:00",
+      "collected_at": "2026-10-25T22:44:11.744600+00:00",
       "categories": [
         "기타"
       ],
@@ -2902,7 +3801,7 @@
       "link": "https://www.hankyung.com/article/202610253103i",
       "source": "한국경제 증권",
       "published": "2026-10-25T02:22:33+00:00",
-      "collected_at": "2026-10-25T14:56:25.930781+00:00",
+      "collected_at": "2026-10-25T22:44:11.744694+00:00",
       "categories": [
         "기타"
       ],
@@ -3058,7 +3957,7 @@
       "link": "https://www.hankyung.com/article/202610253029i",
       "source": "한국경제 증권",
       "published": "2026-10-25T01:46:03+00:00",
-      "collected_at": "2026-10-25T14:56:25.930846+00:00",
+      "collected_at": "2026-10-25T22:44:11.744815+00:00",
       "categories": [
         "기타"
       ],
@@ -3077,7 +3976,7 @@
       "link": "https://www.hankyung.com/article/2026102530427",
       "source": "한국경제 국제",
       "published": "2026-10-25T01:43:28+00:00",
-      "collected_at": "2026-10-25T14:56:26.036097+00:00",
+      "collected_at": "2026-10-25T22:44:12.057158+00:00",
       "categories": [
         "기타"
       ],
@@ -3096,7 +3995,7 @@
       "link": "https://www.hankyung.com/article/202610231352i",
       "source": "한국경제 IT",
       "published": "2026-10-25T01:06:44+00:00",
-      "collected_at": "2026-10-25T14:56:25.984934+00:00",
+      "collected_at": "2026-10-25T22:44:11.763600+00:00",
       "categories": [
         "기타"
       ],
@@ -3115,7 +4014,7 @@
       "link": "https://www.hankyung.com/article/202610242537i",
       "source": "한국경제 IT",
       "published": "2026-10-25T01:00:04+00:00",
-      "collected_at": "2026-10-25T14:56:25.985013+00:00",
+      "collected_at": "2026-10-25T22:44:11.763698+00:00",
       "categories": [
         "기타"
       ],
@@ -3210,7 +4109,7 @@
       "link": "https://www.hankyung.com/article/2026102529337",
       "source": "한국경제 증권",
       "published": "2026-10-25T00:12:23+00:00",
-      "collected_at": "2026-10-25T14:56:25.930916+00:00",
+      "collected_at": "2026-10-25T22:44:11.744927+00:00",
       "categories": [
         "기타"
       ],
@@ -3229,7 +4128,7 @@
       "link": "https://www.hankyung.com/article/202610231190i",
       "source": "한국경제 증권",
       "published": "2026-10-25T00:00:11+00:00",
-      "collected_at": "2026-10-25T14:56:25.930979+00:00",
+      "collected_at": "2026-10-25T22:44:11.745008+00:00",
       "categories": [
         "기타"
       ],
@@ -3267,7 +4166,7 @@
       "link": "https://www.hankyung.com/article/202610252901g",
       "source": "한국경제 IT",
       "published": "2026-10-24T23:59:46+00:00",
-      "collected_at": "2026-10-25T14:56:25.985087+00:00",
+      "collected_at": "2026-10-25T22:44:11.763789+00:00",
       "categories": [
         "기타"
       ],
@@ -3305,7 +4204,7 @@
       "link": "https://www.hankyung.com/article/202610231410i",
       "source": "한국경제 IT",
       "published": "2026-10-24T23:27:01+00:00",
-      "collected_at": "2026-10-25T14:56:25.985157+00:00",
+      "collected_at": "2026-10-25T22:44:11.763877+00:00",
       "categories": [
         "기타"
       ],
@@ -4388,7 +5287,7 @@
       "link": "https://www.hankyung.com/article/202610242500i",
       "source": "한국경제 국제",
       "published": "2026-10-24T07:08:10+00:00",
-      "collected_at": "2026-10-25T14:56:26.036166+00:00",
+      "collected_at": "2026-10-25T22:44:12.057242+00:00",
       "categories": [
         "금융",
         "국제·정책"
@@ -4747,7 +5646,7 @@
       "link": "https://www.hankyung.com/article/2026102424357",
       "source": "한국경제 국제",
       "published": "2026-10-24T05:36:49+00:00",
-      "collected_at": "2026-10-25T14:56:26.036231+00:00",
+      "collected_at": "2026-10-25T22:44:12.057322+00:00",
       "categories": [
         "기타"
       ],
@@ -5048,7 +5947,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
         "excerpt": "한국전력의 사채 발행 한도를 늘려준 한시 특례 조항이 내년 말 종료를 앞두면서, 발행 잔액이 법정 한도를 19조 원 이상 초과할 것이라는 추계가 나왔다. […] 24일 한전과 국회예산정책처에 따르면 한전의 사채 발행 한도를 '자본금과 적립금 합계액의 최대 5배'까지 확대한 정부 특례가",
-        "checked_at": "2026-10-25T14:56:27.155214+00:00",
+        "checked_at": "2026-10-25T22:44:19.865346+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
         "context": "한국전력의 사채 발행 한도를 늘려준 한시 특례 조항이 내년 말 종료를 앞두면서, 발행 잔액이 법정 한도를 19조 원 이상 초과할 것이라는 추계가 나왔다. […] 24일 한전과 국회예산정책처에 따르면 한전의 사채 발행 한도를 '자본금과 적립금 합계액의 최대 5배'까지 확대한 정부 특례가 2027년 말 만료돼 2028년부터 종전 기준인 '2배'로 축소된다. […] 정부는 2022년 러시아·우크라이나 전쟁 여파로 에너지 수입 가격이 급등하자 적자 보전을 위해 한전법을 개정, 사채 발행 한도를 일시 확대했다. […] 그러나 주택용·일반용 전기요금 동결이 장기화하면서 한전의 사채 발행 잔액은 올해 상반기 기준 71조5000억 원까지 불어난 상태다. […] 한도 축소(2배)를 적용한 발행 한도는 56조8354억 원인 반면, 사채 발행 잔액 전망치는 76조489억 원에 달해 법정 한도를 19조2135억 원 초과하게 된다. […] 김동철 한전 사장은 지난 19일 국회 국정감사에서 \"전력망 구축 등에 필요한 투자 수요가 급증하고 있다\"며 \"정부와 최소한의 전기요금 인상 방안을 논의해야 한다\"고 밝히며 인상 필요성을 공식화했다.",
@@ -5119,7 +6018,7 @@
       "link": "https://www.hankyung.com/article/2026102423557",
       "source": "한국경제 국제",
       "published": "2026-10-24T02:21:13+00:00",
-      "collected_at": "2026-10-25T14:56:26.036300+00:00",
+      "collected_at": "2026-10-25T22:44:12.057407+00:00",
       "categories": [
         "기타"
       ],
@@ -5178,7 +6077,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:56:27.154343+00:00",
+        "checked_at": "2026-10-25T22:44:19.864201+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       }
@@ -5310,7 +6209,7 @@
       "link": "https://www.hankyung.com/article/2026102422997",
       "source": "한국경제 국제",
       "published": "2026-10-24T01:04:33+00:00",
-      "collected_at": "2026-10-25T14:56:26.036369+00:00",
+      "collected_at": "2026-10-25T22:44:12.057507+00:00",
       "categories": [
         "산업·통상"
       ],
@@ -5331,7 +6230,7 @@
       "link": "https://www.hankyung.com/article/202610229586i",
       "source": "한국경제 국제",
       "published": "2026-10-24T01:04:01+00:00",
-      "collected_at": "2026-10-25T14:56:26.036439+00:00",
+      "collected_at": "2026-10-25T22:44:12.057610+00:00",
       "categories": [
         "기타"
       ],
@@ -5369,7 +6268,7 @@
       "link": "https://www.hankyung.com/article/202610242096i",
       "source": "한국경제 IT",
       "published": "2026-10-24T01:00:04+00:00",
-      "collected_at": "2026-10-25T14:56:25.985232+00:00",
+      "collected_at": "2026-10-25T22:44:11.763971+00:00",
       "categories": [
         "기타"
       ],
@@ -5466,7 +6365,7 @@
       "link": "https://www.hankyung.com/article/202610242301i",
       "source": "한국경제 국제",
       "published": "2026-10-24T00:54:24+00:00",
-      "collected_at": "2026-10-25T14:56:26.036514+00:00",
+      "collected_at": "2026-10-25T22:44:12.057702+00:00",
       "categories": [
         "기타"
       ],
@@ -5649,7 +6548,7 @@
       "link": "https://www.hankyung.com/article/202610232016i",
       "source": "한국경제 IT",
       "published": "2026-10-24T00:00:08+00:00",
-      "collected_at": "2026-10-25T14:56:25.985307+00:00",
+      "collected_at": "2026-10-25T22:44:11.764065+00:00",
       "categories": [
         "기타"
       ],
@@ -7859,7 +8758,7 @@
       "link": "https://www.hankyung.com/article/2026102317431",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T09:05:22+00:00",
-      "collected_at": "2026-10-25T14:56:25.974988+00:00",
+      "collected_at": "2026-10-25T22:44:11.622035+00:00",
       "categories": [
         "기타"
       ],
@@ -7958,7 +8857,7 @@
       "link": "https://www.hankyung.com/article/2026102317411",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T09:03:01+00:00",
-      "collected_at": "2026-10-25T14:56:25.975100+00:00",
+      "collected_at": "2026-10-25T22:44:11.622122+00:00",
       "categories": [
         "기타"
       ],
@@ -8595,7 +9494,7 @@
       "link": "https://www.hankyung.com/article/2026102317541",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:38:23+00:00",
-      "collected_at": "2026-10-25T14:56:25.975221+00:00",
+      "collected_at": "2026-10-25T22:44:11.622213+00:00",
       "categories": [
         "기타"
       ],
@@ -8614,7 +9513,7 @@
       "link": "https://www.hankyung.com/article/2026102317581",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:37:26+00:00",
-      "collected_at": "2026-10-25T14:56:25.975322+00:00",
+      "collected_at": "2026-10-25T22:44:11.622291+00:00",
       "categories": [
         "기타"
       ],
@@ -8633,7 +9532,7 @@
       "link": "https://www.hankyung.com/article/2026102317511",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:36:32+00:00",
-      "collected_at": "2026-10-25T14:56:25.975415+00:00",
+      "collected_at": "2026-10-25T22:44:11.622363+00:00",
       "categories": [
         "기타"
       ],
@@ -8672,7 +9571,7 @@
       "link": "https://www.hankyung.com/article/2026102317501",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:33:57+00:00",
-      "collected_at": "2026-10-25T14:56:25.975516+00:00",
+      "collected_at": "2026-10-25T22:44:11.622439+00:00",
       "categories": [
         "기타"
       ],
@@ -8710,7 +9609,7 @@
       "link": "https://www.hankyung.com/article/2026102317521",
       "source": "한국경제 오피니언",
       "published": "2026-10-23T08:32:54+00:00",
-      "collected_at": "2026-10-25T14:56:25.975619+00:00",
+      "collected_at": "2026-10-25T22:44:11.622523+00:00",
       "categories": [
         "기타"
       ],
@@ -58677,903 +59576,6 @@
       "search_topics": [
         "주택·건설",
         "금융"
-      ]
-    },
-    {
-      "id": "a8d526ac112342f94cb4",
-      "title": "주거 PF 자기자본비율 규제 2년 유예 확정…PF대출 2년 반 만에 '증가'",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIS2RzYUxLMnZVTlhvQ2xKSV9WczNTSTN2RGpDX3gtLVduMVZScUE3MFFEZk9jLXhMd19RYVJpNkFxYWlqYm93UDkxWC1YX1JMS2pwMnBhdEVjUnBN?oc=5",
-      "source": "뉴스핌",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.076072+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "금융·보험",
-        "건설·부동산"
-      ],
-      "issues": [
-        "금리·자금조달",
-        "규제·재정"
-      ],
-      "search_topics": [
-        "주택·건설"
-      ]
-    },
-    {
-      "id": "bb83298295c0d6813675",
-      "title": "반달가슴곰·산양 AI가 알아본다…야생동물 판별 '반달렌즈AI' 적용",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823266",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.903410+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "ce7c817d20ecf247d1a1",
-      "title": "기후부, 산업계 화학물질 제도 이행지원…권역별 설명회",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823314",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.903517+00:00",
-      "categories": [
-        "산업·통상"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "99a43ae686eadfbfcb3c",
-      "title": "균형발전 새 패러다임은…'형평성'에서 '지속가능성'으로",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823351",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.903628+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "36d764b17ef5e073445f",
-      "title": "교복 입찰 51건 '짬짜미'…대리점 8곳에 과징금 1억",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823536",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.903737+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "c1faa5e4e39385181313",
-      "title": "\"해외규격인증 획득 하세요\"…수출 중소기업 지원",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823642",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.821113+00:00",
-      "categories": [
-        "산업·통상"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "통상·공급망"
-      ],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "2887dee78e5b745314a1",
-      "title": "\"찬바람 불면 라떼 생각\" 카페업계, 라떼 선택지 다채",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823603",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.821335+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "c03199fb7c51c560e320",
-      "title": "\"푸드·뷰티·바이오 'K-소비재' 수출액, 10년간 4.2배 증가\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823767",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:14.821559+00:00",
-      "categories": [
-        "거시경제",
-        "산업·통상"
-      ],
-      "industries": [
-        "바이오·제약"
-      ],
-      "issues": [
-        "통상·공급망"
-      ],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "027bc9d2588faec9923a",
-      "title": "내일부터 기업·신한·우리·하나銀 앱서도 '모바일 신분증' 사용",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823363",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:15.754866+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "7c43258d850b9c0cf29b",
-      "title": "금감원, '오픈 다트' 개선…주총안건 분석·의결권 행사 지원",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823610",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T03:00:00+00:00",
-      "collected_at": "2026-10-13T05:06:15.754985+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "4557380534872f432f63",
-      "title": "금융감독원, '해킹 유출' 예가람·웰컴저축은행 현장점검(종합)",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMRktXYUlkZldzZEswQUxFV1Fpc3Zua1hrUm9uOGdRcnE1X2ZGcXZSSHA2RkxiUGpGa3U0X0ZTWjJkZGY5YW1zN1V0UWVUajNSUFVqbVdPVmozQVZHVS1hZtIBYEFVX3lxTFBMRktXYUlkZldzZEswQUxFV1Fpc3Zua1hrUm9uOGdRcnE1X2ZGcXZSSHA2RkxiUGpGa3U0X0ZTWjJkZGY5YW1zN1V0UWVUajNSUFVqbVdPVmozQVZHVS1hZg?oc=5",
-      "source": "연합뉴스",
-      "published": "2026-10-13T02:56:07+00:00",
-      "collected_at": "2026-10-13T05:06:13.633792+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "c84271d595e901d7bb3b",
-      "title": "임광현 \"플랫폼 세무조사, 대통령 지적 때문 아냐…정치적 중립에 최선\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823745",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:49:14+00:00",
-      "collected_at": "2026-10-13T05:06:14.903851+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "9558c928f3aa7132f200",
-      "title": "[단독] 종소세 미신고·축소 신고 가산세 3만건 넘어…1년새 31% 증가",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823464",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:49:05+00:00",
-      "collected_at": "2026-10-13T05:06:14.903976+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "5e794a717437f0207eca",
-      "title": "\"원·달러 추가 하락 여지 있다\"…원화 강세 언제까지 갈까",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823644",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:47:23+00:00",
-      "collected_at": "2026-10-13T05:06:15.755245+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "2383f2a1e0c261471f8d",
-      "title": "[올댓차이나] 위안화 기준치 1달러=6.7298위안·0.022%↑…3년반 만에 최고치",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823770",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:46:43+00:00",
-      "collected_at": "2026-10-13T05:06:15.755366+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제",
-        "금융"
-      ]
-    },
-    {
-      "id": "a425f3d2ad057d48ed0c",
-      "title": "대신자산운용 '주주환원 고배당 펀드', 출시 일주일 만에 설정액 1000억 돌파",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026101385206",
-      "source": "한국경제 증권",
-      "published": "2026-10-13T02:45:52+00:00",
-      "collected_at": "2026-10-13T06:14:33.032964+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "4503478b5a1d4126a52f",
-      "title": "[현장] 용석우 삼성전자 사장 \"전자·반도체·로봇, AI로 연결…산업 혁신 확대할 것\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823711",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T02:45:43+00:00",
-      "collected_at": "2026-10-13T05:06:14.821697+00:00",
-      "categories": [
-        "산업·통상"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "50ad6e4666b6114e8449",
-      "title": "아옳이 여권 사진까지 받았는데…로맨스 스캠이었다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138503H",
-      "source": "한국경제 사회",
-      "published": "2026-10-13T02:42:39+00:00",
-      "collected_at": "2026-10-13T06:14:33.128571+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "고용·사회"
-      ]
-    },
-    {
-      "id": "d398d63a4c5aacc8423f",
-      "title": "[속보] 한국도로공사 진천 지사 \"모가 졸음 쉼터 관리 엉망\"",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yTUZOWkRPZUg0M1Frb0NVT0lQbk1RSkNvMnNpZXp3LVMwNG9GX2U1eFF3cllOSXBlOTk0eWl5Y2QtUzJTRnJ5ajF4cG9PWjM0Q2dHUFdzbHZWYlplTk5od0VlZ0RRa1VJ?oc=5",
-      "source": "수도권지역뉴스",
-      "published": "2026-10-13T02:39:50+00:00",
-      "collected_at": "2026-10-13T05:06:14.338891+00:00",
-      "categories": [
-        "교통·인프라"
-      ],
-      "industries": [
-        "교통·인프라"
-      ],
-      "issues": [],
-      "search_topics": [
-        "기업: 한국도로공사"
-      ]
-    },
-    {
-      "id": "14332196b3e00eb1d7e1",
-      "title": "3분기 채권·CD 전자등록발행 규모 178.3조…전년比 11.1%↑",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138491i",
-      "source": "한국경제 증권",
-      "published": "2026-10-13T02:38:32+00:00",
-      "collected_at": "2026-10-13T06:14:33.033092+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "6f4b9b26a4ed8f9cf7e5",
-      "title": "'애플 감성이 언제 적 얘기'…아이폰 민심 심상치 않다는데 [트렌드+]",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138093g",
-      "source": "한국경제 IT",
-      "published": "2026-10-13T02:35:31+00:00",
-      "collected_at": "2026-10-13T22:48:23.490793+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "ecf03658408de0df3365",
-      "title": "IMF \"통화정책, 물가안정에만 초점 맞춰 충분히 긴축적이어야\"",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiYUl2T1o4NFFiVEVqVFVIWUtuZXRDQ0M4ZEVGY3hPa1BmODVrbEc5VUMxV2Z6dzBsSzc2dURnTlNVQjBDZHlKcEJvQmxQMlBFUXNoeVlwaGo1NGNObWlpY1czeWxsSWRUMURfeFFteXbSAXRBVV95cUxNOU9Gb0FjeUo3SUxUMFFKTlZObW9ueDhZRmpWbVdaUzhyeVBoTVRnMVY1M1VOS0l0dk5YYkg5LVhwT1NkQmtiU0ltajdLamZtY3FaNUtSZjBUN2ZMazBtcVkzcFIyVU1VNDhqZHJSZnhlZDRxdA?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-13T02:34:42+00:00",
-      "collected_at": "2026-10-13T10:37:05.692919+00:00",
-      "categories": [
-        "거시경제",
-        "국제·정책"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "규제·재정"
-      ],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "4f30aa31f1528a59dfe3",
-      "title": "코스피 급락에 초고수 '반도체' 팔자 행렬…자금 옮겨간 곳은?",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14WkR6UkFHZmNtdU1RYmZETVdraGtjZHZfOVlyNnktQ0xqQU8xbkFyajg4cjJna3pfakdiQ2RudHFUVDFmVFllcnhzQzI4V2pZcDRBNW0tc21wUQ?oc=5",
-      "source": "한국경제",
-      "published": "2026-10-13T02:34:31+00:00",
-      "collected_at": "2026-10-14T22:47:43.287418+00:00",
-      "categories": [
-        "산업·통상"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상",
-        "금융"
-      ]
-    },
-    {
-      "id": "9d2da4e5519faf6fcc2f",
-      "title": "포스코퓨처엠, LFP로 돌파구 찾았다…내년 영업익 3배↑ 전망",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823718",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T02:34:29+00:00",
-      "collected_at": "2026-10-13T05:06:14.821825+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "1d845431ce6de0ad2d72",
-      "title": "임광현 \"가상자산 과세 어떻게 결정되든 차질없이 집행 준비\"",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52UFYwUzlQMC05d0NFOWxneF9lTW83QzBGeWFJNGZpb3d2dThzTnNrM25kaGVCc0F0b0RELXdES3lwUzRhTG9XVmh0ZDM3NWlHLXBYaDVwRG5OU1VyUE1JY0Fhdy1XR3kxZkRidWxsZjg?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-13T02:33:59+00:00",
-      "collected_at": "2026-10-13T05:06:13.370469+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "국제·정책"
-      ]
-    },
-    {
-      "id": "a37f6a8c8504781d24e2",
-      "title": "삼성보다 2년 빨랐다…위협적인 속도로 치고 올라오는 중국 D램",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823332",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T02:33:24+00:00",
-      "collected_at": "2026-10-13T05:06:14.821941+00:00",
-      "categories": [
-        "국제·정책"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "285128ca7a6d7e003a48",
-      "title": "지슨 \"은행권 보안 투자 확대…무선백도어 탐지 매출 7배↑\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823741",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:32:58+00:00",
-      "collected_at": "2026-10-13T05:06:15.755495+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [
-        "설비·전력수요",
-        "실적·수익성"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "2957d8e1ef8ae4783307",
-      "title": "윤지호 \"2028년 실적까지 봐야…삼전닉스 전망치 상향 확인\" [한경 넥스트 머니포럼]",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026101272766",
-      "source": "한국경제 증권",
-      "published": "2026-10-13T02:32:36+00:00",
-      "collected_at": "2026-10-13T06:14:33.033333+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "실적·수익성"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "47df21ec583d9b9c9e5b",
-      "title": "남광토건, 한국토지주택공사와 3441억원 규모 공급계약",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSX2RHZ3AxSHE5VTZlWVYwbm1MdnBQUnZmXzRrMUw2QlVwazdfc2ZHZjdWcG1jbVhXT2FNem1aRVI2YWtlYXhmd043WWl5Vjd6aElUa0pHYzZFczEyZDE3akgxd0prYWVNa1hEdmNvbGR4Yzg?oc=5",
-      "source": "데이터투자",
-      "published": "2026-10-13T02:32:07+00:00",
-      "collected_at": "2026-10-17T22:42:12.563908+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [],
-      "search_topics": [
-        "기업: 한국토지주택공사"
-      ]
-    },
-    {
-      "id": "64acf9786a3ff52711f9",
-      "title": "\"지금 하락은 진짜 공포일까\"…외국인 이탈에 흔들리는 반도체",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823739",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:31:32+00:00",
-      "collected_at": "2026-10-13T05:06:15.755607+00:00",
-      "categories": [
-        "산업·통상"
-      ],
-      "industries": [
-        "반도체·IT"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "db15d135f681ff2984f5",
-      "title": "대우건설, 4130억 규모 공사 수주",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823721",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:30:28+00:00",
-      "collected_at": "2026-10-13T05:06:15.755717+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "6bf28edec7f1f3661709",
-      "title": "임광현 \"가상자산 과세는 전세계 과제…진일보한 자료 교환 이뤄질 것\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823686",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:28:41+00:00",
-      "collected_at": "2026-10-13T05:06:14.904256+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "cde5be685455973a7648",
-      "title": "\"실적 좋아도 外人 마구 팔았다\"…코스피 200조 매도세 돌릴 방법 없나",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823699",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:27:24+00:00",
-      "collected_at": "2026-10-13T05:06:15.755826+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "실적·수익성"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "734fc4622b2836adda3f",
-      "title": "일본 9월 기업물가 6.8%↑…\"쌀값 하락에 둔화\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823716",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:26:13+00:00",
-      "collected_at": "2026-10-13T05:06:14.904373+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "3bbf49ecb25d50f7ab97",
-      "title": "경실련 \"그린벨트, 9년간 위법행위 3만건…해제보다 관리가 우선\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823696",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:24:37+00:00",
-      "collected_at": "2026-10-13T05:06:14.904483+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "0c27f45485d2f655c33d",
-      "title": "[단독] 신한, '리딩 금융그룹 마지막 퍼즐' 롯데손보 품는다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138450i",
-      "source": "한국경제 증권",
-      "published": "2026-10-13T02:23:46+00:00",
-      "collected_at": "2026-10-13T06:14:33.033460+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "33f078aa270b9a7dcc79",
-      "title": "바로팜-CHD제약, 코스메슈티컬 '레비클' 日 진출",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823705",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:22:10+00:00",
-      "collected_at": "2026-10-13T05:06:15.755941+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "바이오·제약"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "1e00da92a69a29cb6f9d",
-      "title": "세보엠이씨, 삼성물산과 970억 규모 기계설비공사 계약",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823677",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:22:00+00:00",
-      "collected_at": "2026-10-13T05:06:15.756076+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "1b817bf9452c364f691f",
-      "title": "[단독]농촌시설 태양광 가능 면적 84% 미활용…\"마스터플랜 시급\"",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823401",
-      "source": "뉴시스 경제",
-      "published": "2026-10-13T02:21:20+00:00",
-      "collected_at": "2026-10-13T05:06:14.904595+00:00",
-      "categories": [
-        "에너지"
-      ],
-      "industries": [
-        "전력·에너지"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "거시경제",
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "4d946df774d78aa47353",
-      "title": "한국제지, 드라마 '로또 1등도 출근합니다' 복사지 협찬",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823669",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:21:20+00:00",
-      "collected_at": "2026-10-13T05:06:15.756193+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "eb600135cd1f05b631db",
-      "title": "\"내부 논의 거쳤다\"는 쿠팡…국감서 반복된 책임 회피 논란",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823576",
-      "source": "뉴시스 산업",
-      "published": "2026-10-13T02:21:18+00:00",
-      "collected_at": "2026-10-13T05:06:14.822202+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "산업·통상"
-      ]
-    },
-    {
-      "id": "b49b835ca1f399eb9f08",
-      "title": "개인정보 다루는데 보안 투자는 부담…중소 금융업체 '보안 사각지대'",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261013_0003823691",
-      "source": "뉴시스 금융",
-      "published": "2026-10-13T02:20:49+00:00",
-      "collected_at": "2026-10-13T05:06:15.756308+00:00",
-      "categories": [
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "cb35f6605ba63f1d7640",
-      "title": "조국 \"내 가족 압색 90회, 한동훈은 0회\"…韓 재수사 공방",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610138401H",
-      "source": "한국경제 사회",
-      "published": "2026-10-13T02:20:38+00:00",
-      "collected_at": "2026-10-13T06:14:33.128713+00:00",
-      "categories": [
-        "기타"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [],
-      "search_topics": [
-        "고용·사회"
-      ]
-    },
-    {
-      "id": "9c04c76056f67f2c8542",
-      "title": "참을 수 없는 네고의 무거움…꾸준한 매도에 열리는 환율 하단",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jMEtoR1Z4dlRTZFFlMzdsdnJYTlBFOEVsekRLMHViYjRJemstUTA5Y1hJWEVuWWNGSnZLYk41SkgxWEFNZDBSRUI5S1J0bkYybFRqUF9tSUpvc05Sd2Q2bkowc0Y2SWN3d3h6RGdXbDM?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-13T02:19:56+00:00",
-      "collected_at": "2026-10-13T10:37:05.692740+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제"
-      ]
-    },
-    {
-      "id": "54b6e8dc798499ce6a44",
-      "title": "달러-원 환율 2년래 최저…조선사 환헤지, 실적 버팀목 될까",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wR0t5bmZSVWlYTHNQaldCS1VTcEg1c0tzdTdqcWh2cEdXVlZWM0JNR2lwWTNjMnJFZDByZnplWUpDQ0lDZWZIbHZVU1Vjb1lXQ2YxWTdxX0h0OFpCbmptSG12UjFpVVhEejQwaWZjOG8?oc=5",
-      "source": "연합인포맥스",
-      "published": "2026-10-13T02:17:58+00:00",
-      "collected_at": "2026-10-13T22:48:22.659796+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가",
-        "실적·수익성"
-      ],
-      "search_topics": [
-        "거시경제"
       ]
     }
   ]
