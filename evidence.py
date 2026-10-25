@@ -44,8 +44,9 @@ class ArticleParser(HTMLParser):
         marker = ' '.join((attrs.get('id', ''), attrs.get('class', ''), attrs.get('itemprop', '')))
         parent_active = bool(self.stack and self.stack[-1][1])
         blocked = tag in ('script', 'style', 'nav', 'aside', 'footer', 'form', 'button', 'noscript') or bool(self.stack and self.stack[-1][2])
-        active = parent_active or bool(re.search(
-            r'article[-_]?body|articleBody|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body', marker, re.I))
+        active = parent_active or any(re.fullmatch(
+            r'article[-_]?body|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body', token, re.I)
+            for token in marker.split())
         self.stack.append((tag, active, blocked))
 
     def handle_endtag(self, tag):
@@ -67,6 +68,15 @@ def _title_matches(expected, actual):
     words = set(re.findall(r'[가-힣A-Za-z0-9]{2,}', expected))
     other = set(re.findall(r'[가-힣A-Za-z0-9]{2,}', actual))
     return len(words & other) >= min(3, len(words)) and bool(words)
+
+
+
+def article_text(parser, title):
+    # 사이트 외곽 컨테이너가 섞여도 제목·메뉴·등록 시각을 근거로 쓰지 않는다.
+    chrome = re.compile(r'구독하기|AI 추천 뉴스|PREMIUM|선호하는 매체|무단.?전재|재배포.?금지|copyright|기사 스크랩', re.I)
+    return clean(' '.join(part for part in parser.parts
+                          if len(part) >= 60 and len(part.split()) >= 8
+                          and part != title and not chrome.search(part)))
 
 
 def read_evidence(article):
@@ -110,7 +120,7 @@ def read_evidence(article):
             if not _title_matches(article['title'], title):
                 result['reason'] = '기사 제목과 원문 페이지가 일치하지 않음'
                 return result
-            body = clean(' '.join(parser.parts))
+            body = article_text(parser, title)
             result['url'], result['page_title'] = url, title
             if len(body) >= 120:
                 result.update(status='본문 일부 확인', excerpt=' '.join(body.split()[:24])[:480])
