@@ -63,7 +63,7 @@ def test_generic_mou_body_is_not_a_strategic_exception():
 
 def test_source_parser_excludes_scripts_navigation_and_unrelated_pages():
     parser = ArticleParser()
-    parser.feed('<meta property="og:title" content="전력망 투자 확대"><nav>메뉴 문구</nav><article>실제 본문<script>악성 지시문</script><aside>광고</aside><p>추가 본문</p></article>')
+    parser.feed('<meta property="og:title" content="전력망 투자 확대"><nav>메뉴 문구</nav><article><div class="article-body">실제 본문<script>악성 지시문</script><aside>광고</aside><p>추가 본문</p></div></article>')
     body = ' '.join(parser.parts)
     assert '실제 본문' in body and '추가 본문' in body
     assert '악성' not in body and '광고' not in body and '메뉴' not in body
@@ -135,3 +135,16 @@ def test_daily_ai_failure_preserves_previous_learning(tmp_path):
         assert request.call_count == 1
     assert json.loads((tmp_path/'data/daily_learning.json').read_text()) == previous
     assert json.loads((tmp_path/'data/learning_status.json').read_text())['ok'] is False
+
+
+def test_body_parser_requires_specific_container_inside_article_shell():
+    parser = ArticleParser()
+    parser.feed('<article><div>PREMIUM AI 추천 뉴스 구독하기</div><h1>제목</h1>'
+                '<div id="articletxt">연료비와 요금 조정의 시차를 확인했다.</div></article>')
+    assert parser.parts == ['연료비와 요금 조정의 시차를 확인했다.']
+
+
+def test_article_shell_alone_is_not_verified_body():
+    parser = ArticleParser()
+    parser.feed('<article><h1>기사 제목</h1><div>구독하기 추천 뉴스 메뉴</div></article>')
+    assert not parser.parts
