@@ -2,10 +2,10 @@
   "version": "v5.0",
   "checked_at": "2026-10-25",
   "app_url": "https://insight-app-free-jeaigezue99ssijooexnga.streamlit.app/",
-  "local_tests": "87 passed",
+  "local_tests": "88 passed",
   "github_ci": {
     "status": "success",
-    "run_id": 40204546406
+    "run_id": 40204980695
   },
   "cloud_deployed": true,
   "app_access": "private; existing owner login",
@@ -93,5 +93,6 @@
     "mobile_supported": true
   },
   "browser_design_verified": true,
-  "reading_backup_limit_mb": 2
+  "reading_backup_limit_mb": 2,
+  "title_only_policy": "원래 제목 유지; AI 재서술과 추가 수치 해석을 표시하지 않음"
 }
