@@ -47,7 +47,10 @@ def learning_schema(packet):
                                     'difference', 'claim', 'counter', 'condition', 'question')}
     study['logic_chain'] = {'type': 'ARRAY', 'minItems': 3, 'maxItems': 3, 'items': text()}
     study['check_metrics'] = {'type': 'ARRAY', 'minItems': 1, 'maxItems': 3, 'items': text()}
-    study['source_ids'] = {'type': 'ARRAY', 'minItems': 2, 'items': {'type': 'STRING', 'enum': refs}}
+    study['news_ids'] = {'type': 'ARRAY', 'minItems': 1, 'items': {'type': 'STRING',
+        'enum': [s['id'] for s in packet['news'] if s['excerpt']]}}
+    study['report_ids'] = {'type': 'ARRAY', 'minItems': 1, 'items': {'type': 'STRING',
+        'enum': [s['id'] for s in packet['reports']]}}
     opinion_ids = [s['id'] for s in packet['opinions']]
     study['opinion_views'] = {'type': 'ARRAY', 'maxItems': 2, 'items': {'type': 'OBJECT', 'properties': {
         'source_id': {'type': 'STRING', 'enum': opinion_ids or ['사용안함']}, 'view': text()},
@@ -85,11 +88,19 @@ def validate_learning(value, packet):
     if len(study['logic_chain']) != 3:
         raise ValueError('논리는 세 단계로 제한합니다.')
     source_index = {s['id']: s for group in packet.values() for s in group}
-    refs = study.get('source_ids')
+    article_refs, report_refs = study.get('news_ids'), study.get('report_ids')
+    if not isinstance(article_refs, list) or not isinstance(report_refs, list) or not article_refs or not report_refs:
+        raise ValueError('본문 기사와 공식 자료를 각각 인용해야 합니다.')
+    if any(ref not in ids or not source_index.get(ref, {}).get('excerpt') for ref in article_refs):
+        raise ValueError('본문·요약 근거와 공식 자료 요지를 함께 인용해야 합니다.')
+    if any(ref not in {r['id'] for r in packet['reports']} for ref in report_refs):
+        raise ValueError('입력에 없는 학습 출처 차단')
+    refs = study.get('source_ids', [*article_refs, *report_refs])
     if not isinstance(refs, list) or not refs or any(not isinstance(ref, str) or ref not in source_index for ref in refs):
         raise ValueError('입력에 없는 학습 출처 차단')
     if not any(ref in ids and source_index[ref]['excerpt'] for ref in refs) or not any(ref in {r['id'] for r in packet['reports']} for ref in refs):
         raise ValueError('본문·요약 근거와 공식 자료 요지를 함께 인용해야 합니다.')
+    study['source_ids'] = list(dict.fromkeys([*article_refs, *report_refs]))
     opinion_ids = {s['id'] for s in packet['opinions']}
     views = study.get('opinion_views')
     if not isinstance(views, list) or len(views) > 2:
@@ -121,7 +132,7 @@ study는 오늘 기사 중 본문/공개 요약문 근거가 있는 한 주제: 
 세 단계 logic_chain, claim·counter·condition 각 120자, question 한 개, check_metrics 3개 이하.
 claim·counter·condition은 앱의 학습용 조건부 해석입니다. 기관·전문가의 직접 권고처럼 쓰지 마세요.
 question은 사용자가 스스로 판단할 수 있는 질문으로 쓰세요. 답안 시나리오를 길게 만들지 마세요.
-source_ids에는 실제로 사용한 기사 N번호와 공식 자료 id를 함께 넣으세요.
+news_ids에는 본문·공개 요약문을 확인한 기사 N번호만 넣고, report_ids에는 실제 사용한 공식 자료 id를 따로 넣으세요.
 opinion_views는 입력 opinions의 주장만 짧게 바꿔 쓰고 source_id로 연결하세요.
 의견이 한 개뿐이면 한 개만, 없으면 빈 목록. 가상의 칼럼·전문가 발언·찬반 출처를 만들지 마세요.
 모든 문자열은 300자 이내. 수치가 없어도 채우려 만들지 마세요.
