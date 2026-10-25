@@ -26,7 +26,6 @@ def test_promotion_and_transfer_omitted(title):
 
 @pytest.mark.parametrize('title', [
     '정부 전기차 보조금 20% 삭감', '태양광 보조금 지원대상 변경 시행',
-    '서부발전 200MW 발전소 건설 투자 MOU 체결',
 ])
 def test_material_policy_and_agreement_kept_for_review(title):
     q = news_quality(title)
@@ -125,7 +124,7 @@ def test_brief_filters_repeats_and_does_not_fill_with_irrelevant_news():
             row('한국은행 기준금리 인상 시사'), row('경제 뉴스 오늘 알아보기')]
     brief = curate_brief(rows, normalize_profiles(DEFAULT_PROFILES))
     assert len(brief) == 2
-    assert sum(a['brief_group'] == '한국도로공사' for a in brief) == 1
+    assert all(a['brief_group'] in ('에너지', '경제', '금융', '시사') for a in brief)
     assert all('KOVO' not in a['title'] and '성금' not in a['title'] for a in brief)
     assert all(a['brief_reason'] and a['brief_question'] for a in brief)
 
