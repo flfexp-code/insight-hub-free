@@ -7,6 +7,17 @@ from ai_insights import request_json
 from insights import REPORTS, news_quality, signal_tags
 from news_core import UTC, excluded_personnel, parse_time
 
+CONCEPT_PAIRS = {
+    'cost_price': ('비용', '생산·공급 과정에서 쓰는 자원과 지출.', '가격·요금', '상품·서비스를 제공하고 받는 대가.',
+                   '비용 증가와 요금 인상은 별개다. 요금 조정 규칙과 비용 회수 시차에 따라 이익·현금흐름 영향이 달라진다.'),
+    'policy_market_rate': ('기준금리', '중앙은행이 통화정책을 운용할 때 기준으로 삼는 금리.', '대출금리', '금융기관이 대출에 적용하는 금리.',
+                           '대출금리에는 조달비용·신용위험·가산금리 등이 반영되므로 기준금리와 같은 폭·시점에 움직이지 않을 수 있다.'),
+    'capacity_generation': ('설비용량', '발전설비가 낼 수 있는 전력의 규모. 보통 kW·MW 등으로 표시한다.', '발전량', '일정 시간 동안 생산한 전기에너지. 보통 kWh·MWh 등으로 표시한다.',
+                            '설비용량이 늘어도 가동시간·연료·기상·전력망 제약에 따라 발전량이 같은 비율로 늘지는 않는다.'),
+    'announcement_execution': ('정책 발표', '정부·기관이 추진 방향이나 계획을 공개한 단계.', '정책 시행', '필요한 절차를 거쳐 대상과 조건에 맞춰 정책을 적용하는 단계.',
+                               '발표만으로 시행일·예산·적용 대상이 확정되는 것은 아니다. 법령·예산·후속 절차를 따로 확인한다.'),
+}
+
 
 def learning_sources(brief, articles):
     news, reports, opinions = [], [], []
@@ -45,6 +56,7 @@ def learning_schema(packet):
     refs = [s['id'] for group in packet.values() for s in group]
     study = {key: text() for key in ('topic', 'background', 'term_a', 'meaning_a', 'term_b', 'meaning_b',
                                     'difference', 'claim', 'counter', 'condition', 'question')}
+    study['concept_pair'] = {'type': 'STRING', 'enum': list(CONCEPT_PAIRS)}
     study['logic_chain'] = {'type': 'ARRAY', 'minItems': 3, 'maxItems': 3, 'items': text()}
     study['check_metrics'] = {'type': 'ARRAY', 'minItems': 1, 'maxItems': 3, 'items': text()}
     study['news_ids'] = {'type': 'ARRAY', 'minItems': 1, 'items': {'type': 'STRING',
@@ -78,6 +90,11 @@ def validate_learning(value, packet):
     if seen != ids:
         raise ValueError('핵심 기사 누락')
     study = value['study']
+    if study.get('concept_pair') not in CONCEPT_PAIRS:
+        raise ValueError('확인하지 않은 개념 비교는 표시하지 않습니다.')
+    pair = CONCEPT_PAIRS[study['concept_pair']]
+    for key, content in zip(('term_a', 'meaning_a', 'term_b', 'meaning_b', 'difference'), pair):
+        study[key] = content
     for key in ('topic', 'background', 'term_a', 'meaning_a', 'term_b', 'meaning_b', 'difference',
                 'claim', 'counter', 'condition', 'question'):
         sentence(study, key)
@@ -91,9 +108,9 @@ def validate_learning(value, packet):
     article_refs, report_refs = study.get('news_ids'), study.get('report_ids')
     if not isinstance(article_refs, list) or not isinstance(report_refs, list) or not article_refs or not report_refs:
         raise ValueError('본문 기사와 공식 자료를 각각 인용해야 합니다.')
-    if any(ref not in ids or not source_index.get(ref, {}).get('excerpt') for ref in article_refs):
+    if any(not isinstance(ref, str) or ref not in ids or not source_index.get(ref, {}).get('excerpt') for ref in article_refs):
         raise ValueError('본문·요약 근거와 공식 자료 요지를 함께 인용해야 합니다.')
-    if any(ref not in {r['id'] for r in packet['reports']} for ref in report_refs):
+    if any(not isinstance(ref, str) or ref not in {r['id'] for r in packet['reports']} for ref in report_refs):
         raise ValueError('입력에 없는 학습 출처 차단')
     refs = study.get('source_ids', [*article_refs, *report_refs])
     if not isinstance(refs, list) or not refs or any(not isinstance(ref, str) or ref not in source_index for ref in refs):
@@ -129,13 +146,15 @@ MOU는 mou_reason이 있는 경우만 사용하며, 전략적 방향의 단서�
 briefs는 입력 뉴스마다 하나씩: summary 2문장 180자 이내, why 1문장 100자 이내.
 study는 오늘 기사 중 본문/공개 요약문 근거가 있는 한 주제: background 180자,
 헷갈리는 개념 두 개(term_a, meaning_a, term_b, meaning_b, difference),
+concept_pair는 아래 앱의 개념 비교 목록에서 주제에 맞는 하나를 선택하세요. RPS와 경쟁입찰처럼 동시에 존재할 수 있는 제도를 양자택일 관계로 단정하지 마세요.
 세 단계 logic_chain, claim·counter·condition 각 120자, question 한 개, check_metrics 3개 이하.
 claim·counter·condition은 앱의 학습용 조건부 해석입니다. 기관·전문가의 직접 권고처럼 쓰지 마세요.
+condition은 '목표와 실행력의 조화' 같은 추상어 대신 비용 회수 시차·예산 확정·접속 일정처럼 판단이 달라지는 조건을 쓰세요.
 question은 사용자가 스스로 판단할 수 있는 질문으로 쓰세요. 답안 시나리오를 길게 만들지 마세요.
 news_ids에는 본문·공개 요약문을 확인한 기사 N번호만 넣고, report_ids에는 실제 사용한 공식 자료 id를 따로 넣으세요.
 opinion_views는 입력 opinions의 주장만 짧게 바꿔 쓰고 source_id로 연결하세요.
 의견이 한 개뿐이면 한 개만, 없으면 빈 목록. 가상의 칼럼·전문가 발언·찬반 출처를 만들지 마세요.
 모든 문자열은 300자 이내. 수치가 없어도 채우려 만들지 마세요.
-자료:\n''' + json.dumps(packet, ensure_ascii=False)
+개념 비교 목록:\n''' + json.dumps(CONCEPT_PAIRS, ensure_ascii=False) + '\n자료:\n' + json.dumps(packet, ensure_ascii=False)
     output = validate_learning(request_json(prompt, learning_schema(packet), settings), packet)
     return {**output, 'sources': packet, 'article_ids': [a['id'] for a in brief]}
