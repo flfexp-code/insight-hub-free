@@ -1,17 +1,17 @@
 {
-  "version": "v4.0",
+  "version": "v5.0",
   "checked_at": "2026-10-25",
   "app_url": "https://insight-app-free-jeaigezue99ssijooexnga.streamlit.app/",
-  "local_tests": "82 passed",
+  "local_tests": "87 passed",
   "github_ci": {
     "status": "success",
-    "run_id": 40201904822
+    "run_id": 40204546406
   },
   "cloud_deployed": true,
   "app_access": "private; existing owner login",
   "daily_collection": {
     "status": "success",
-    "run_id": 40201948109,
+    "run_id": 40204561422,
     "received": 327,
     "stored": 3000,
     "brief_count": 5,
@@ -21,9 +21,10 @@
   "daily_learning": {
     "status": "success",
     "requests": 1,
-    "last_success": "2026-10-25T14:23:03.242713+00:00",
+    "last_success": "2026-10-25T14:56:33.040827+00:00",
     "model": "gemini-3.5-flash-lite",
-    "automatic_retry": false
+    "automatic_retry": false,
+    "schema_version": 5
   },
   "basic_brief": {
     "limit": 5,
@@ -51,7 +52,7 @@
     "검토된 공식 자료",
     "선정 이유와 협약 단계 표시"
   ],
-  "source_excerpt_limit_words": 24,
+  "source_excerpt_limit_words": 40,
   "source_check": "기사 제목·요약문·본문 일부 확인을 구별하며 메뉴·등록 시각은 본문 근거에서 제외",
   "opinion_policy": "확인한 필자의 의견만 인용; 관련 근거가 없으면 비움",
   "ai_key_storage": "Streamlit Secrets and GitHub Actions Secret only",
@@ -61,5 +62,36 @@
     "새 보고서 목록 후보는 검토 완료 근거로 사용하지 않음",
     "관심기업·저장·읽음·메모는 브라우저별 저장; 다른 기기는 백업 필요"
   ],
-  "blocker": null
+  "blocker": null,
+  "source_context_limit_words": 180,
+  "source_context_limit_chars": 1800,
+  "deep_study": {
+    "event": "육하원칙; 미확인 항목은 모른다고 표시",
+    "foundations": 3,
+    "definitions": "앱 검토 목록의 정의를 사용; 적용 문장은 AI 작성",
+    "mechanism": "3~4단계; 중간 경로·조건·출처 필수",
+    "connections": "서로 다른 분야 2~3개; 산업·사회·거시경제",
+    "source_contributions": "각 출처의 확인 범위와 입증하지 않는 내용",
+    "thinking_questions": "2~3개; 완성 답안 대신 생각할 변수 제공",
+    "minimum_news_context_chars": 300,
+    "unrelated_report_rejected": true
+  },
+  "editorial_example": {
+    "topic": "한전 사채 한도·요금 압박",
+    "reviewed": true,
+    "checks": [
+      "요금 적용 대상",
+      "차입·수익성",
+      "부채 잔액·기간 손익",
+      "원문·보고서 요지 대조"
+    ],
+    "automatic_future_outputs_professionally_reviewed": false
+  },
+  "design": {
+    "palette": "밝은 미색·부드러운 연두색",
+    "body_font_px": 16,
+    "mobile_supported": true
+  },
+  "browser_design_verified": true,
+  "reading_backup_limit_mb": 2
 }
