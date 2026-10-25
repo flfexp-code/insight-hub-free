@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:06:13.297731+00:00",
+  "updated_at": "2026-10-25T14:14:28.339466+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
@@ -24,7 +24,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
         "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
-        "checked_at": "2026-10-25T14:06:14.185755+00:00",
+        "checked_at": "2026-10-25T14:14:28.985257+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
       },
@@ -40,7 +40,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
       "source": "농민신문",
       "published": "2026-10-24T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:06:11.858474+00:00",
+      "collected_at": "2026-10-25T14:14:26.898359+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -58,7 +58,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:06:14.186590+00:00",
+        "checked_at": "2026-10-25T14:14:28.986026+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -68,70 +68,34 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "c1f637f9786f7b07d1d8",
-      "title": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수",
+      "id": "d2deec1633b36741afaa",
+      "title": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261023_0003838736",
-      "source": "뉴시스 금융",
-      "published": "2026-10-24T21:00:00+00:00",
-      "collected_at": "2026-10-24T22:45:58.859887+00:00",
+      "link": "https://www.newsis.com/view/NISX20261025_0003839950",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T03:50:13+00:00",
+      "collected_at": "2026-10-25T14:14:28.285912+00:00",
       "categories": [
-        "산업·통상"
+        "기타"
       ],
       "industries": [
-        "반도체·IT"
+        "기타"
       ],
-      "issues": [
-        "환율·원가"
-      ],
+      "issues": [],
       "search_topics": [
-        "금융"
+        "거시경제"
       ],
       "evidence": {
         "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261023_0003838736",
-        "excerpt": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수 등록 2026.10.25 06:00:00 수정 2026.10.25 09:30:24 구글에서 선호하는 매체로 추가 美 주식 순매수 48억달러…9월 전체",
-        "checked_at": "2026-10-25T14:06:14.187005+00:00",
+        "url": "https://www.newsis.com/view/NISX20261025_0003839950",
+        "excerpt": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세 등록 2026.10.25 12:50:13 수정 2026.10.25 13:10:23 구글에서 선호하는 매체로 추가 서울 0.61% 올라…전월보다 상승폭 반토막 동탄·병점·군포",
+        "checked_at": "2026-10-25T14:14:28.986300+00:00",
         "kind": "보도",
-        "page_title": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수"
+        "page_title": "서울 집값 상승폭 0.61%로 둔화…경기 남부는 2%대 강세"
       },
       "brief_group": "경제",
-      "brief_theme": "연료·환율",
+      "brief_theme": "경제",
       "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
-      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
-    },
-    {
-      "id": "0d73a49d1d6ef70b0201",
-      "title": "지진부터 폭설까지…서부발전, 재난안전망 강화 나선다",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhd1NBd28zZnN4QXdyNE4wTnJlU3ZfUVJlV0R0anZ5QUoxREdmd3pIOG9xM1hBc3g0QVA4RWtJbkpEMGJUZW1RS2lVS0M0SFpZUlQtZDA4b3JBY2hrampwb2Nkd2lVbXZzTC13RGlfcmXSAXBBVV95cUxQYXdTQXdvM2ZzeEF3cjROME5yZVN2X1FSZVdEdGp2eUFKMURHZnd6SDhvcTNYQXN4NEFQOEVrSW5KRDBiVGVtUUtpVUtDNEhaWVJULWQwOG9yQWNoa2pqcG9jZHdpVW12c0wtd0RpX3Jl?oc=5",
-      "source": "전기신문",
-      "published": "2026-10-23T06:49:31+00:00",
-      "collected_at": "2026-10-24T22:45:58.257560+00:00",
-      "categories": [
-        "에너지"
-      ],
-      "industries": [
-        "전력·에너지"
-      ],
-      "issues": [
-        "설비·전력수요",
-        "안전·운영관리"
-      ],
-      "search_topics": [
-        "기업: 한국서부발전"
-      ],
-      "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhd1NBd28zZnN4QXdyNE4wTnJlU3ZfUVJlV0R0anZ5QUoxREdmd3pIOG9xM1hBc3g0QVA4RWtJbkpEMGJUZW1RS2lVS0M0SFpZUlQtZDA4b3JBY2hrampwb2Nkd2lVbXZzTC13RGlfcmXSAXBBVV95cUxQYXdTQXdvM2ZzeEF3cjROME5yZVN2X1FSZVdEdGp2eUFKMURHZnd6SDhvcTNYQXN4NEFQOEVrSW5KRDBiVGVtUUtpVUtDNEhaWVJULWQwOG9yQWNoa2pqcG9jZHdpVW12c0wtd0RpX3Jl?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-25T14:06:14.187185+00:00",
-        "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
-      },
-      "brief_group": "시사",
-      "brief_theme": "기후·안전",
-      "brief_reason": "시사 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
@@ -141,7 +105,7 @@
       "link": "https://www.newsis.com/view/NISX20261025_0003840029",
       "source": "뉴시스 경제",
       "published": "2026-10-25T06:45:45+00:00",
-      "collected_at": "2026-10-25T14:06:13.227633+00:00",
+      "collected_at": "2026-10-25T14:14:28.285565+00:00",
       "categories": [
         "에너지"
       ],
@@ -157,13 +121,45 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003840029",
         "excerpt": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입 등록 2026.10.25 15:45:45 구글에서 선호하는 매체로 추가 RPS 폐지에 경쟁입찰 전환…정부 물량 이행 공공 역할",
-        "checked_at": "2026-10-25T14:06:14.187470+00:00",
+        "checked_at": "2026-10-25T14:14:28.986952+00:00",
         "kind": "보도",
         "page_title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입"
       },
       "brief_group": "에너지",
       "brief_theme": "탄소·전환",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "5f85b9b8063eba97a9ae",
+      "title": "美 주간 신규 실업보험 청구 19만4천건…시장 전망치 하회(상보)",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-10-22T15:03:15+00:00",
+      "collected_at": "2026-10-22T22:49:36.962489+00:00",
+      "categories": [
+        "금융",
+        "고용·사회"
+      ],
+      "industries": [
+        "금융·보험"
+      ],
+      "issues": [],
+      "search_topics": [
+        "금융"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOGdFMVJwQzE0STZBUi1KbHVUQ25wS25WeGJhQzRmMHJMS19HeVRfQ05MSVc2RlNfLWgxMmxoVjByWTczazVjT1FoQzBOQ2tkM3J3V1g0TGxIWnNELTlwSmRtY0tPWW9SYXYtSmphLU0?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:14:28.987639+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "금융",
+      "brief_theme": "금융",
+      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
