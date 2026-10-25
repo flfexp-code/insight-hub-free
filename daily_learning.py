@@ -127,10 +127,15 @@ def validate_learning(value, packet):
         if not isinstance(item.get(key), str) or not 1 <= len(item[key]) <= maximum:
             raise ValueError('학습 문장 누락 또는 분량 초과')
     ids = {s['id'] for s in packet['news']}
+    news_index = {s['id']: s for s in packet['news']}
     seen = set()
     for card in value['briefs']:
         if not isinstance(card, dict) or card.get('news_id') not in ids or card['news_id'] in seen:
             raise ValueError('기사 출처 중복·불일치')
+        source = news_index[card['news_id']]
+        if source.get('status') == '제목만 확인':
+            card['summary'] = source['title']
+            card['why'] = '제목 기준으로 선별한 현안입니다.'
         seen.add(card['news_id']); sentence(card, 'summary', 300); sentence(card, 'why', 180)
     if seen != ids:
         raise ValueError('핵심 기사 누락')
