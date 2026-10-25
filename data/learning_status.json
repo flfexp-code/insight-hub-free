@@ -1,7 +1,6 @@
 {
-  "attempted_at": "2026-10-25T14:23:03.242713+00:00",
-  "ok": true,
+  "attempted_at": "2026-10-25T14:43:59.586436+00:00",
+  "ok": false,
   "last_success": "2026-10-25T14:23:03.242713+00:00",
-  "error": "",
-  "requests": 1
+  "error": "학습 내용 누락·분량 오류: pathway"
 }
