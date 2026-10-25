@@ -21,11 +21,11 @@ def test_screen_filters_company_search_refresh():
         at = AppTest.from_file(str(ROOT/'app.py'), default_timeout=30).run()
         assert not at.exception
         assert at.title[0].value == '경제·산업 인사이트 허브'
-        assert at.tabs[0].label == '핵심 브리핑'
-        assert int(at.metric[0].value.removesuffix('건')) <= 10
+        assert at.tabs[0].label == '오늘의 브리핑'
+        assert int(at.metric[0].value.removesuffix('건')) <= 5
         at.sidebar.text_input[0].set_value('한국서부발전').run()
         assert not at.exception
-        assert at.metric[1].value != '기업명 입력'
+        assert at.text_input(key='company').value == '한국서부발전'
         at.button(key='search_company').click().run()
         assert not at.exception
         at.selectbox(key='industry').set_value('전력·에너지').run()
@@ -39,7 +39,9 @@ def test_screen_filters_company_search_refresh():
         at.sidebar.multiselect[0].set_value([]).run()
         assert not at.exception
         assert at.metric[0].value == '0건'
+        before = at.metric[0].value
         at.selectbox(key='watch_company').set_value('한국도로공사').run()
+        assert at.metric[0].value == before
         assert not at.exception
         assert at.text_input(key='company').value == '한국도로공사'
         at.selectbox(key='watch_company').set_value('한국토지주택공사').run()
