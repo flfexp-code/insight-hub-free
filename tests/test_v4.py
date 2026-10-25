@@ -234,3 +234,14 @@ def test_deep_study_renders_full_learning_and_unknown_event_fields():
     assert '자료에서 확인되지 않음' in rendered + '\n'.join(str(x.value) for x in app.table)
     assert '전력망 접속' in rendered
     assert '입증하지 않는 내용' in '\n'.join(x.value for x in app.caption)
+
+
+def test_title_only_news_never_uses_model_rewritten_numbers():
+    _, packet, output = packet_and_output()
+    title = '미국 신규 실업보험 청구 19만4천건으로 감소'
+    packet['news'].append({'id':'N2','article_id':'number-check','title':title,'status':'제목만 확인','excerpt':'','context':''})
+    output['briefs'].append({'news_id':'N2','summary':'신규 청구가 1만4천건이었다.','why':'없는 추가 해석'})
+    result = validate_learning(output, packet)
+    assert result['briefs'][1]['summary'] == title
+    assert '1만4천' not in result['briefs'][1]['summary']
+    assert result['briefs'][1]['why'] == '제목 기준으로 선별한 현안입니다.'
