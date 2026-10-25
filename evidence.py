@@ -13,6 +13,7 @@ PUBLISHERS = ('hankyung.com', 'newsis.com', 'yna.co.kr', 'mk.co.kr', 'sedaily.co
               'bok.or.kr', 'kdi.re.kr', 'kiet.re.kr', 'keei.re.kr', 'koti.re.kr')
 MOU = re.compile(r'\bMOU\b|업무협약|협약\s*체결|협약식', re.I)
 OPINION = re.compile(r'사설|칼럼|기고|오피니언')
+CONTEXT_WORD_LIMIT = 180
 
 
 def allowed_url(url):
@@ -79,6 +80,28 @@ def article_text(parser, title):
                           and part != title and not chrome.search(part)))
 
 
+def evidence_context(body, title, limit=CONTEXT_WORD_LIMIT):
+    """첫 문단만 자르지 않고 원인·제약·반론을 포함한 짧은 발췌를 구성한다."""
+    sentences = [clean(s) for s in re.split(r'(?<=[.!?。])\s+', body) if clean(s)]
+    if not sentences:
+        return ''
+    keywords = set(re.findall(r'[가-힣A-Za-z0-9]{2,}', title))
+    causal = re.compile(r'때문|따라|반면|다만|그러나|원인|부담|제약|배경|위해|인해|경우|우려|문제|비용|수요|공급|한도')
+    ranked = sorted(range(len(sentences)), key=lambda i: (
+        i == 0, bool(causal.search(sentences[i])),
+        sum(word in sentences[i] for word in keywords), -i), reverse=True)
+    chosen, budget = [], max(1, limit - 5)  # 문장 사이의 생략 표지도 단어 예산에 포함
+    for i in ranked:
+        words = sentences[i].split()
+        if len(words) <= budget:
+            chosen.append(i); budget -= len(words)
+        elif not chosen:
+            return ' '.join(words[:limit])[:1800]
+        if budget < 8 or len(chosen) == 6:
+            break
+    return ' […] '.join(sentences[i] for i in sorted(chosen))[:1800]
+
+
 def read_evidence(article):
     url = article.get('link', '')
     result = {'status': '제목만 확인', 'url': url, 'excerpt': '',
@@ -123,9 +146,13 @@ def read_evidence(article):
             body = article_text(parser, title)
             result['url'], result['page_title'] = url, title
             if len(body) >= 120:
-                result.update(status='본문 일부 확인', excerpt=' '.join(body.split()[:24])[:480])
+                context = evidence_context(body, title)
+                result.update(status='본문 일부 확인', context=context,
+                              excerpt=' '.join(context.split()[:40])[:600], context_version=2)
             elif len(parser.description) >= 60:
-                result.update(status='공개 요약문 확인', excerpt=' '.join(parser.description.split()[:24])[:300])
+                context = evidence_context(parser.description, title)
+                result.update(status='공개 요약문 확인', context=context,
+                              excerpt=' '.join(context.split()[:40])[:600], context_version=2)
             else:
                 result['reason'] = '기사 본문을 식별하지 못함'
             return result
@@ -142,7 +169,7 @@ def strategic_mou_context(article):
     evidence = article.get('evidence', {})
     if not MOU.search(title) or evidence.get('status') != '본문 일부 확인':
         return None
-    body = evidence.get('excerpt', '')
+    body = evidence.get('context') or evidence.get('excerpt', '')
     if len(body) < 120 or not re.search(r'공동개발|공동 개발|실증|생산시설|저장시설|공급망|연료.{0,10}조달|PPA|장기.{0,10}조달|설비|연구개발|전력망|송전', body, re.I):
         return None
     trends = [
