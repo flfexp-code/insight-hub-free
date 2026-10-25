@@ -178,6 +178,10 @@ def curate_brief(articles: list[dict], profiles=None, limit=5) -> list[dict]:
         if not date or not 0 <= (now-date).total_seconds() <= 3*86400:
             continue
         quality = news_quality(title, article)
+        if re.search(r'입찰|조달청|수의계약|낙찰|도의회|시의회|군의회|구의회|시의원|도의원', title):
+            continue
+        if re.search(r'주가|상한가|급등주|추천주|목표가', title) and not re.search(r'코스피|코스닥|세계 증시|글로벌 증시', title):
+            continue
         if not quality['include'] or re.search(r'사설|칼럼|기고|오피니언|질의에 답|질의 듣|현장 찾|휴게소.*(?:새 단장|테마공원)|연쇄 추돌|협력 강화', title):
             continue
         strategic = bool(article.get('mou_context')) and quality['include']
