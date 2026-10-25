@@ -16,7 +16,7 @@ from test_insights import row
 def article(title='전력망 투자 확대와 전력 수요 증가'):
     a = row(title)
     a['id'] = article_id(title)
-    a['evidence'] = {'status': '본문 일부 확인', 'excerpt': '전력망 접속 지연이 설비 가동에 제약을 줄 수 있다는 단서가 보도됐다. ' * 5}
+    a['evidence'] = {'status': '본문 일부 확인', 'excerpt': '전력망 접속 지연이 설비 가동에 제약을 줄 수 있다는 단서가 보도됐다. ' * 5, 'context': '전력망 투자에서 설비가 완공되어도 접속 절차가 끝나야 전력을 공급할 수 있다. 접속 지연은 투자금 회수 시점에 영향을 줄 수 있으므로 가동 일정과 자금 조달 조건을 구분해 확인해야 한다. ' * 4}
     return a
 
 
@@ -82,6 +82,7 @@ def packet_and_output():
     study = {key: '검토할 조건과 예외' for key in ('topic','background','term_a','meaning_a','term_b','meaning_b','difference','claim','counter','condition','question')}
     study.update(logic_chain=['수요 변화','투자 조건','공급 여력'], check_metrics=['접속 일정'],
                  news_ids=['N1'], report_ids=[ref], source_ids=['N1',ref], opinion_views=[], concept_pair='cost_price')
+    study['depth'] = depth_fixture(ref)
     return brief, packet, {'briefs':[{'news_id':'N1','summary':'확인한 기사 단서','why':'전력 공급의 조건 변화'}], 'study':study}
 
 
@@ -157,3 +158,79 @@ def test_evidence_excerpt_starts_with_substantive_body_not_title_metadata():
     parser.feed(f'<div class="article-body">구독하기 AI 추천 뉴스<h1>{title}</h1>'
                 f'<div>등록 2026.10.25 수정 2026.10.25</div><p>{body}</p></div>')
     assert article_text(parser, title) == body
+
+
+def depth_fixture(report_ref):
+    refs = ['N1', report_ref]
+    return {
+        'event': {**{k: '자료에서 확인되지 않음' for k in ('who','when','where','why_known','how_known')},
+                  'what':'전력망 접속 지연과 발전설비 가동 시점의 관계를 다룬 기사', 'source_ids':['N1']},
+        'why_now': {'explanation':'설비 투자 이후에도 전력망에 연결되는 시점이 늦어지면 생산과 판매를 시작하는 시점이 달라질 수 있어 가동 조건을 함께 확인할 필요가 있다.', 'source_ids':refs},
+        'foundations': [{'term':term, 'explanation':'설비를 마련하는 지출과 생산물을 판매하는 시점은 다를 수 있다. 설비 완공만으로 수입이 생기는 것은 아니므로 가동 조건을 확인한다.',
+                         'application':'이 기사에서는 건설 일정과 전력망 접속 일정이 일치하는지 구분해 살펴본다.'} for term in ('설비 투자','현금흐름')],
+        'mechanism': [{'change':f'{i}단계 전력망 접속 조건 변화', 'because':f'{i}단계에서는 전력망 접속이 완료되어야 생산한 전력을 공급할 수 있으므로 공사 완료 일정과 판매 개시 시점을 따로 확인해야 한다.', 'condition':'전력망 접속 이전에는 공급할 수 없는 사업 조건인 경우', 'source_ids':refs} for i in range(1,4)],
+        'connections':[{'kind':'산업','target':'전력 공급을 필요로 하는 제조업', 'pathway':'발전설비가 완공되어도 전력망 연결이 늦어지면 공급 가능한 시점이 달라질 수 있다. 신규 공장의 전력 조달 계획이 해당 설비에 의존한다면 가동 계획도 함께 점검할 필요가 있다.', 'condition':'공장의 추가 수요를 기존 공급원으로 충당할 수 없는 경우', 'limit':'개별 제조업체의 계약과 기존 공급 여력을 확인하지 않아 현재의 생산 차질을 단정할 수 없다.', 'source_ids':refs}],
+        'source_contributions':[{'source_id':r,'supports':'접속 조건과 에너지 전환의 일반적인 제약 요인을 참고했다.', 'does_not_prove':'개별 기업의 생산 손실 규모나 현재 계약 조건을 입증하지는 않는다.'} for r in refs],
+        'thinking_questions':[{'question':'설비가 늘어도 전력 공급이 바로 늘지 않는 조건은 무엇인가?', 'hint':'건설 완료와 접속 허가의 시점을 구분하고 기존 설비의 여유 용량을 확인한다.'}, {'question':'접속이 빨라지면 모든 기업의 수익이 늘어난다고 볼 수 있는가?', 'hint':'판매 단가와 가동 비용, 계약 조건을 나누어 비교해 본다.'}],
+    }
+
+
+def test_context_includes_later_explanation_and_has_strict_word_budget():
+    from evidence import evidence_context
+    lead = '전력망 투자가 발표됐으며 다음 해 가동 일정을 점검한다고 전했다.'
+    filler = '관계자들은 일정과 준비 사항을 검토했다고 밝혔다. ' * 15
+    reason = '그러나 전력망 접속이 지연되면 설비가 완공되어도 전력을 공급할 수 없어 자금 회수 시점이 달라질 수 있다.'
+    context = evidence_context(lead + ' ' + filler + reason, '전력망 접속 지연', limit=100)
+    assert lead in context and reason in context
+    assert len(context.split()) <= 100
+
+
+def test_shallow_excerpt_cannot_trigger_deep_study_request():
+    brief, _, _ = packet_and_output()
+    brief[0]['evidence'].pop('context')
+    with patch('daily_learning.request_json') as request:
+        with pytest.raises(ValueError, match='부족'): generate_learning(brief, brief, {})
+        request.assert_not_called()
+
+
+def test_deep_study_rejects_unrelated_report_even_if_in_packet():
+    _, packet, output = packet_and_output()
+    report_id = output['study']['report_ids'][0]
+    packet['reports'].append({'id':'other_report','related_news_ids':['N2']})
+    output['study']['report_ids'] = ['other_report']
+    output['study']['source_ids'] = ['N1','other_report']
+    # Another relevant report still makes N1 eligible, but the chosen report is unrelated.
+    with pytest.raises(ValueError, match='관련 없는 보고서'):
+        validate_learning(output, packet)
+
+
+def test_deep_connections_need_mechanism_conditions_and_evidence():
+    _, packet, output = packet_and_output()
+    bad = copy.deepcopy(output)
+    bad['study']['depth']['connections'][0]['pathway'] = '산업 경쟁력 강화'
+    with pytest.raises(ValueError, match='pathway'): validate_learning(bad, packet)
+    bad = copy.deepcopy(output)
+    bad['study']['depth']['mechanism'][0]['source_ids'] = ['invented']
+    with pytest.raises(ValueError, match='출처'): validate_learning(bad, packet)
+    bad = copy.deepcopy(output)
+    bad['study']['depth']['source_contributions'] = bad['study']['depth']['source_contributions'][:1]
+    with pytest.raises(ValueError): validate_learning(bad, packet)
+
+
+def test_deep_study_renders_full_learning_and_unknown_event_fields():
+    import streamlit as st
+    from streamlit.testing.v1 import AppTest
+    from news_core import ROOT
+    brief, packet, output = packet_and_output()
+    payload = {**output, 'schema_version':5, 'sources':packet, 'updated_at':datetime.now(UTC).isoformat()}
+    def load(path):
+        return payload if path.name == 'daily_learning.json' else {}
+    st.cache_data.clear()
+    with patch('news_core.load_json', side_effect=load):
+        app = AppTest.from_file(str(ROOT/'app.py'), default_timeout=30).run()
+    assert not app.exception
+    rendered = '\n'.join(x.value for x in app.markdown)
+    assert '산업·사회·경제와 연결해서 읽기' in rendered
+    assert '자료에서 확인되지 않음' in rendered
+    assert packet['news'][0]['id'] in rendered
+    assert '입증하지 않는 내용' in '\n'.join(x.value for x in app.caption)
