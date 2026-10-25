@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:00:31.222500+00:00",
+  "updated_at": "2026-10-25T14:06:13.297731+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
@@ -24,7 +24,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026102423667",
         "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
-        "checked_at": "2026-10-25T14:00:32.120243+00:00",
+        "checked_at": "2026-10-25T14:06:14.185755+00:00",
         "kind": "보도",
         "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
       },
@@ -40,7 +40,7 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
       "source": "농민신문",
       "published": "2026-10-24T02:00:00+00:00",
-      "collected_at": "2026-10-25T14:00:29.857976+00:00",
+      "collected_at": "2026-10-25T14:06:11.858474+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -58,7 +58,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:00:32.121137+00:00",
+        "checked_at": "2026-10-25T14:06:14.186590+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -68,18 +68,18 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "b47029eb48251181d2ec",
-      "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
+      "id": "c1f637f9786f7b07d1d8",
+      "title": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수",
       "summary": "",
-      "link": "https://www.hankyung.com/article/202610231161i",
-      "source": "한국경제 증권",
-      "published": "2026-10-23T07:19:33+00:00",
-      "collected_at": "2026-10-23T22:48:58.336449+00:00",
+      "link": "https://www.newsis.com/view/NISX20261023_0003838736",
+      "source": "뉴시스 금융",
+      "published": "2026-10-24T21:00:00+00:00",
+      "collected_at": "2026-10-24T22:45:58.859887+00:00",
       "categories": [
-        "거시경제"
+        "산업·통상"
       ],
       "industries": [
-        "유통·식품"
+        "반도체·IT"
       ],
       "issues": [
         "환율·원가"
@@ -88,12 +88,12 @@
         "금융"
       ],
       "evidence": {
-        "status": "제목만 확인",
-        "url": "https://www.hankyung.com/article/202610231161i",
-        "excerpt": "",
-        "checked_at": "2026-10-25T14:00:32.121521+00:00",
+        "status": "본문 일부 확인",
+        "url": "https://www.newsis.com/view/NISX20261023_0003838736",
+        "excerpt": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수 등록 2026.10.25 06:00:00 수정 2026.10.25 09:30:24 구글에서 선호하는 매체로 추가 美 주식 순매수 48억달러…9월 전체",
+        "checked_at": "2026-10-25T14:06:14.187005+00:00",
         "kind": "보도",
-        "reason": "접근 제한이 표시된 원문"
+        "page_title": "\"美 반도체 상승에 크게 건다\"…서학개미, 3배 '속슬'에 35억달러 순매수"
       },
       "brief_group": "경제",
       "brief_theme": "연료·환율",
@@ -101,68 +101,65 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "2b6bb05a6f89e1ee1b7c",
-      "title": "내주 '국도31호선 평창 노동-홍천 자운 도로건설공사' 등 조달청 입찰",
+      "id": "0d73a49d1d6ef70b0201",
+      "title": "지진부터 폭설까지…서부발전, 재난안전망 강화 나선다",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiR1BTUkdyWlowcHFFNjhXcWVLWlg1eTFlUlVkRWFpOTNSVnFiczNuZ0RKYUZodHFXNDVQR0RvdjZjM0FaYlp4eV9NZmZhY0ViUFhaSUUzVXVHN3c3Q0REOUtMSTRRVllOcExCaXhOTlA?oc=5",
-      "source": "신아일보",
-      "published": "2026-10-24T06:55:00+00:00",
-      "collected_at": "2026-10-25T14:00:30.362383+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhd1NBd28zZnN4QXdyNE4wTnJlU3ZfUVJlV0R0anZ5QUoxREdmd3pIOG9xM1hBc3g0QVA4RWtJbkpEMGJUZW1RS2lVS0M0SFpZUlQtZDA4b3JBY2hrampwb2Nkd2lVbXZzTC13RGlfcmXSAXBBVV95cUxQYXdTQXdvM2ZzeEF3cjROME5yZVN2X1FSZVdEdGp2eUFKMURHZnd6SDhvcTNYQXN4NEFQOEVrSW5KRDBiVGVtUUtpVUtDNEhaWVJULWQwOG9yQWNoa2pqcG9jZHdpVW12c0wtd0RpX3Jl?oc=5",
+      "source": "전기신문",
+      "published": "2026-10-23T06:49:31+00:00",
+      "collected_at": "2026-10-24T22:45:58.257560+00:00",
       "categories": [
-        "고용·사회",
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [
-        "고용·운영"
-      ],
-      "search_topics": [
-        "교통·인프라"
-      ],
-      "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiR1BTUkdyWlowcHFFNjhXcWVLWlg1eTFlUlVkRWFpOTNSVnFiczNuZ0RKYUZodHFXNDVQR0RvdjZjM0FaYlp4eV9NZmZhY0ViUFhaSUUzVXVHN3c3Q0REOUtMSTRRVllOcExCaXhOTlA?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-25T14:00:32.122257+00:00",
-        "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
-      },
-      "brief_group": "시사",
-      "brief_theme": "시사",
-      "brief_reason": "시사 현안 · 비용·수요·제도 변화의 단서",
-      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
-    },
-    {
-      "id": "1cce3e4c0c0304d840fd",
-      "title": "경기도의회 신미숙 의원 “신재생에너지 정책, 설치 실적 넘어 운영성과 중심으로 전환해야”",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iYVUyT04tMzIwekNteG1meXRvY2N0UW9qUkhQYzdWMEhaUFBHQVZlZzktck00QzR4QmpfM0o2eWNPLWlWdnZTaHNPS1d0azdLRzNIZm5laWdhNDJtRWN5YmQ1aGNxNVhrMUF6aVZGa3I?oc=5",
-      "source": "산경일보",
-      "published": "2026-10-25T06:58:10+00:00",
-      "collected_at": "2026-10-25T14:00:29.542747+00:00",
-      "categories": [
-        "에너지",
-        "국제·정책"
+        "에너지"
       ],
       "industries": [
         "전력·에너지"
       ],
       "issues": [
-        "규제·재정",
-        "실적·수익성"
+        "설비·전력수요",
+        "안전·운영관리"
       ],
       "search_topics": [
-        "에너지"
+        "기업: 한국서부발전"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iYVUyT04tMzIwekNteG1meXRvY2N0UW9qUkhQYzdWMEhaUFBHQVZlZzktck00QzR4QmpfM0o2eWNPLWlWdnZTaHNPS1d0azdLRzNIZm5laWdhNDJtRWN5YmQ1aGNxNVhrMUF6aVZGa3I?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhd1NBd28zZnN4QXdyNE4wTnJlU3ZfUVJlV0R0anZ5QUoxREdmd3pIOG9xM1hBc3g0QVA4RWtJbkpEMGJUZW1RS2lVS0M0SFpZUlQtZDA4b3JBY2hrampwb2Nkd2lVbXZzTC13RGlfcmXSAXBBVV95cUxQYXdTQXdvM2ZzeEF3cjROME5yZVN2X1FSZVdEdGp2eUFKMURHZnd6SDhvcTNYQXN4NEFQOEVrSW5KRDBiVGVtUUtpVUtDNEhaWVJULWQwOG9yQWNoa2pqcG9jZHdpVW12c0wtd0RpX3Jl?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-25T14:00:32.122559+00:00",
+        "checked_at": "2026-10-25T14:06:14.187185+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "시사",
+      "brief_theme": "기후·안전",
+      "brief_reason": "시사 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "2e448e7b91e77bddc32a",
+      "title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840029",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T06:45:45+00:00",
+      "collected_at": "2026-10-25T14:06:13.227633+00:00",
+      "categories": [
+        "에너지"
+      ],
+      "industries": [
+        "전력·에너지"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제",
+        "산업·통상"
+      ],
+      "evidence": {
+        "status": "본문 일부 확인",
+        "url": "https://www.newsis.com/view/NISX20261025_0003840029",
+        "excerpt": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입 등록 2026.10.25 15:45:45 구글에서 선호하는 매체로 추가 RPS 폐지에 경쟁입찰 전환…정부 물량 이행 공공 역할",
+        "checked_at": "2026-10-25T14:06:14.187470+00:00",
+        "kind": "보도",
+        "page_title": "기후부, RPS 폐지 맞춰 공공기관 재생에너지 목표 관리제 도입"
       },
       "brief_group": "에너지",
       "brief_theme": "탄소·전환",
