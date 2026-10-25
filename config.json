@@ -1,4 +1,11 @@
 {
-  "companies": ["한국서부발전", "한국도로공사", "한국토지주택공사"],
-  "max_per_feed": 20
+  "companies": [
+    "한국서부발전",
+    "한국도로공사",
+    "한국토지주택공사"
+  ],
+  "max_per_feed": 20,
+  "collect_company_news": false,
+  "brief_limit": 5,
+  "company_analysis_mode": "manual"
 }

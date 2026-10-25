@@ -22,7 +22,7 @@ SEARCHES = {
     '금융': '은행 OR 금융위원회 OR 금융시장 OR 보험',
     '에너지': '전력망 OR 발전공기업 OR 에너지 정책',
     '산업·통상': '수출 OR 관세 OR 반도체 OR 산업정책',
-    '고용·사회': '고용률 OR 청년고용 OR 노동시장',
+    '고용·사회': '고용률 OR 청년고용 OR 노동시장 OR 연금개혁 OR 고령화',
     '국제·정책': '국제경제 OR 재정정책 OR 경제정책',
     '주택·건설': '공공주택 OR 공사비 OR 부동산 PF OR 미분양',
     '교통·인프라': '고속도로 OR 통행료 OR 교통량 OR 도로 건설',
@@ -90,6 +90,7 @@ ISSUES = {
     },
 }
 DIRECT_FEEDS = [
+    ('한국경제 오피니언', 'https://www.hankyung.com/feed/opinion', '오피니언'),
     ('한국경제 경제', 'https://www.hankyung.com/feed/economy', '거시경제'),
     ('한국경제 증권', 'https://www.hankyung.com/feed/finance', '금융'),
     ('한국경제 IT', 'https://www.hankyung.com/feed/it', '산업·통상'),

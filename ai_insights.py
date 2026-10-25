@@ -75,13 +75,20 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
 "counter":"반대 경로·예외·원문 확인 필요사항","check_metrics":["확인할 지표"],
 "news_ids":["N1"],"report_ids":["입력의 보고서 id"]}]}
 """
+    value = request_json(prompt, output_schema(news_ids, report_ids), settings)
+    return validate_output(value, news_ids, report_ids)
+
+
+def request_json(prompt: str, schema: dict, settings: dict):
+    if not ready(settings):
+        raise ValueError('무료 AI 연결 전입니다. API 요청을 보내지 않았습니다.')
     try:
         response = requests.post(ENDPOINT, headers={'x-goog-api-key': settings['GEMINI_API_KEY']},
                                  json={'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
                                        'generationConfig': {'temperature': 1.0, 'maxOutputTokens': 8192,
                                                             'thinkingConfig': {'thinkingLevel': 'low'},
                                                             'responseMimeType': 'application/json',
-                                                            'responseSchema': output_schema(news_ids, report_ids)}},
+                                                            'responseSchema': schema}},
                                  timeout=(5, 90))
         if response.status_code == 429:
             raise ValueError('무료 사용 한도 또는 요청 제한에 도달했습니다. 유료 전환·재시도 없이 중단했습니다.')
@@ -100,4 +107,4 @@ news_ids와 report_ids에는 해당 해석에 실제로 사용한 입력 출처 
         raise ValueError('AI 응답 형식을 해석하지 못했습니다. 불완전한 초안은 표시하지 않습니다.') from None
     except (requests.RequestException, KeyError, IndexError):
         raise ValueError('AI 연결 또는 결과 해석에 실패했습니다. 기존 자료를 유지합니다.') from None
-    return validate_output(value, news_ids, report_ids)
+    return value

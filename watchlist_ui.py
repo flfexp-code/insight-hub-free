@@ -51,6 +51,13 @@ def watchlist_component(**kwargs):
         remove.onclick=()=>save(profiles.filter((_,j)=>i!==j));
         row.append(text,remove);root.append(row);
       });
+      if(!profiles.some(p=>p.name==='한국마사회')) {
+        const quick=document.createElement('button');quick.type='button';quick.textContent='한국마사회 빠른 등록';
+        quick.onclick=()=>{if(profiles.length>=10){status.textContent='최대 10개까지 등록할 수 있습니다.';return;}
+          save([...profiles,{name:'한국마사회',aliases:['마사회'],sector:'레저·말산업',
+            business:'경마 운영과 말산업 육성',keywords:['경마','말산업','온라인 발매','불법도박','동물복지'],source_url:'https://www.kra.co.kr/'}]);};
+        root.append(quick);
+      }
       const form=document.createElement('form');form.setAttribute('aria-label','관심 기업 등록');
       const controls={};
       const addInput=(key,label,placeholder)=>{

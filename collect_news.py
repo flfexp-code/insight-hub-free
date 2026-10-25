@@ -5,6 +5,7 @@ from pathlib import Path
 
 from news_core import ROOT, SEARCHES, UTC, atomic_json, company_query, fetch_news, load_json, merge_history
 from insights import DEFAULT_PROFILES, curate_brief, discover_reports, normalize_profiles
+from evidence import enrich_articles
 
 
 def collect(data_dir: Path, config_path: Path):
@@ -13,7 +14,7 @@ def collect(data_dir: Path, config_path: Path):
     companies = config.get('companies', [])
     if not isinstance(companies, list) or len(companies) > 10:
         raise ValueError('관심 기업은 목록 형태로 최대 10개까지 설정하세요')
-    for company in companies:
+    for company in companies if config.get('collect_company_news', False) else []:
         searches['기업: ' + company] = company_query(company)
     articles, errors = fetch_news(searches, int(config.get('max_per_feed', 40)))
     old = load_json(data_dir / 'news.json').get('articles', [])
@@ -24,13 +25,14 @@ def collect(data_dir: Path, config_path: Path):
         print('수집 실패: 기존 news.json을 보존했습니다.')
         return 1
     merged = merge_history(old, articles, days=30, maximum=3000)
-    # 기사 전문과 RSS 설명은 저장하지 않는다.
+    # 공개 근거의 짧은 일부만 확인한다. 기사 전문은 보관하지 않는다.
+    merged = enrich_articles(merged, curate_brief(merged))
     payload = {'schema_version': 2, 'updated_at': now, 'articles': merged}
     atomic_json(data_dir / 'news.json', payload)
     defaults = {p['name']: p for p in DEFAULT_PROFILES}
     profiles = normalize_profiles([defaults.get(name, {'name': name, 'sector': '기타'}) for name in companies])
-    brief = curate_brief(merged, profiles)
-    atomic_json(data_dir / 'brief.json', {'updated_at': now, 'purpose': '취업 준비·경제 현안',
+    brief = curate_brief(merged)
+    atomic_json(data_dir / 'brief.json', {'updated_at': now, 'purpose': '에너지·경제·시사·금융 · 관심기업과 독립',
                 'articles': brief, 'selected_count': len(brief), 'candidate_count': len(articles)})
     atomic_json(data_dir / 'status.json', {'attempted_at': now, 'last_success': now, 'ok': True,
                 'received': len(articles), 'stored': len(merged), 'brief_count': len(brief), 'errors': errors})

@@ -16,7 +16,7 @@ import requests
 
 from news_core import UTC, clean, company_matches, deduplicate, excluded_personnel, format_kst, parse_time, safe_link
 
-SECTORS = ['발전·에너지', '도로·교통', '토지·주택', '금융·보험', '제조·수출', '기타']
+SECTORS = ['발전·에너지', '도로·교통', '토지·주택', '금융·보험', '제조·수출', '레저·말산업', '기타']
 DEFAULT_PROFILES = [
     {'name': '한국서부발전', 'aliases': ['서부발전', 'KOWEPO'], 'sector': '발전·에너지',
      'business': '발전설비 운영·건설과 신재생에너지 사업', 'keywords': ['전력망', '발전소', '연료비', '유연탄', 'LNG', '태양광'],
@@ -89,6 +89,7 @@ EXPOSURES = {
     '토지·주택': ['금리·자금조달', '공사비·시공사', '주택공급·수요', '기후·안전', '인구·지역수요', '제도·예산'],
     '금융·보험': ['금리·자금조달', '주택공급·수요'],
     '제조·수출': ['연료·환율', '금리·자금조달', '전력망·수요', '탄소·전환', '제도·예산'],
+    '레저·말산업': ['금리·자금조달', '인구·지역수요', '기후·안전', '제도·예산'],
     '기타': [],
 }
 
@@ -119,7 +120,7 @@ def normalize_profiles(value) -> list[dict]:
     return result
 
 
-def news_quality(title: str) -> dict:
+def news_quality(title: str, article: dict | None = None) -> dict:
     """본문 판정이 아닌 제목 선별. 홍보 의도 자체를 단정하지 않는다."""
     title = clean(title)
     if excluded_personnel(title):
@@ -134,84 +135,98 @@ def news_quality(title: str) -> dict:
         return {'include': keep, 'label': '정책 조건 확인' if keep else '단순 지원 홍보 후보',
                 'reason': '지원 규모·조건 변화 단서가 있음' if keep else '지원금 관련 제목에 규모·조건 변화 단서가 없음'}
     if re.search(r'\bMOU\b|업무협약|협약\s*체결|협약식', title, re.I):
-        keep = numeric and bool(re.search(r'공급|계약|투자|건설|생산|확보', title))
-        return {'include': keep, 'label': '계약 조건 확인' if keep else '단순 협약 홍보 후보',
-                'reason': '규모와 사업 조건 단서가 있으나 구속력·집행은 확인 필요' if keep else '제목에서 실행 조건을 확인하기 어려운 협약 소식'}
+        context = (article or {}).get('mou_context', {})
+        evidence = (article or {}).get('evidence', {})
+        valid = (isinstance(context, dict) and context.get('reviewed') is True
+                 and evidence.get('status') == '본문 일부 확인'
+                 and len(evidence.get('excerpt', '')) >= 120
+                 and context.get('trend') and context.get('direction') and context.get('reason')
+                 and context.get('report_ids')
+                 and all(ref in REPORT_INDEX for ref in context['report_ids']))
+        return {'include': bool(valid), 'label': '산업 흐름 연결 · 협약 단계' if valid else '단순 협약 홍보 후보',
+                'reason': context['reason'] if valid else 'MOU는 기본 제외. 본문·산업 근거·사업 방향을 확인한 경우에만 선정'}
     if re.search(r'기부|성금|봉사|나눔|후원|기념식|수상|표창|캠페인|커피|선물|채용\s*공고|신입사원|채용설명회|인턴\s*모집', title):
         return {'include': False, 'label': '홍보·일상 공지 후보', 'reason': '행사·지원·수상·채용 등으로 사업 영향 분석 우선순위를 낮춤'}
     return {'include': True, 'label': '분석 후보', 'reason': '사업 관련성과 실제 변화 여부는 원문 확인 필요'}
 
 
-def curate_brief(articles: list[dict], profiles: list[dict], limit=10) -> list[dict]:
-    """취업 준비·경제 현안용 짧은 읽기 목록. 근거 부족 시 정원을 채우지 않는다."""
-    limit = max(1, min(int(limit), 10))
-    changes = r'인상|인하|삭감|개편|시행|지연|손실|적자|부채|부실|급등|급락|상승|하락|증가|감소|둔화|확대|축소|원가|착공|준공|차환|발행|조달|출력제어|소송|위반|감사|공급계약|노후|스프링클러|구축|재무|공실'
-    macro = r'기준금리|한국은행|한은|물가|환율|유가|관세|수출|성장률|경기침체|고용|실업|청년|임금'
-    groups = {'경제 현안': []}
-    groups.update({p['name']: [] for p in profiles})
+def _similar_title(title, previous_titles):
+    def grams(value):
+        value = re.sub(r'\[[^\]]*\]|\([^)]*\)|\s|[\W_]', '', value)
+        return {value[i:i+3] for i in range(max(0, len(value)-2))}
+    sig = grams(title)
+    return any(len(sig & old) / max(1, len(sig | old)) >= .40 or
+               (len(sig & old) >= 10 and len(sig & old) / max(1, min(len(sig), len(old))) >= .70)
+               for old in map(grams, previous_titles))
+
+
+def curate_brief(articles: list[dict], profiles=None, limit=5) -> list[dict]:
+    """관심기업 목록과 무관한 에너지·경제·금융·시사 읽기 목록."""
+    limit = max(1, min(int(limit), 5))
+    changes = r'인상|인하|삭감|개편|시행|지연|손실|적자|부채|부실|급등|급락|상승|하락|증가|감소|둔화|확대|축소|원가|부담|착공|준공|차환|발행|조달|출력제어|도입|전환|실증|개발|구축|재무|공실|전망'
+    domains = {
+        '에너지': r'전력망|송전|출력제어|전력수요|전력 수요|연료비|전기요금|가스요금|에너지|유가|원유|천연가스|LNG|원전|탄소|재생에너지',
+        '금융': r'금융|은행|대출|채권|국채|보험|신용|가계부채|자금조달',
+        '경제': r'기준금리|한국은행|한은|물가|환율|관세|수출|수입|성장률|경기|공사비|건설투자|반도체|공급망',
+        '시사': r'고용|실업|청년|임금|고령화|저출생|인구감소|인구 감소|연금|주거|주택|노동|공공서비스|지역격차|안전|재난',
+    }
+    buckets = {name: [] for name in domains}
     now = datetime.now(UTC)
     for article in deduplicate(articles):
         title = article['title']
         date = parse_time(article.get('published', ''))
-        if not date or (now - date).total_seconds() > 3 * 86400 or date > now:
+        if not date or not 0 <= (now-date).total_seconds() <= 3*86400:
             continue
-        if not news_quality(title)['include']:
+        quality = news_quality(title, article)
+        if not quality['include'] or re.search(r'사설|칼럼|기고|오피니언|질의에 답|질의 듣|현장 찾|휴게소.*(?:새 단장|테마공원)|연쇄 추돌|협력 강화', title):
             continue
-        if re.search(r'질의에 답|질의 듣|질의에 답변|현장 찾아|현장 찾|휴게소.*(?:새 단장|테마공원)|연쇄 추돌|협력 강화', title):
+        strategic = bool(article.get('mou_context')) and quality['include']
+        if not strategic and (not re.search(changes, title) or re.search(r'\[(?:19|20)\d\d년', title)):
             continue
-        if re.search(r'\[(?:19|20)\d\d년', title):
-            continue  # 현재 RSS에 재등장한 과거 계약 등
-        if not re.search(changes, title):
+        group = next((name for name, pattern in domains.items() if re.search(pattern, title, re.I)), None)
+        if not group:
             continue
-        direct = next((p for p in profiles if company_matches(article, [p['name'], *p['aliases']])), None)
         tags = signal_tags(title)
-        macro_match = bool(re.search(macro, title))
-        business_related = next((p for p in profiles if company_matches(article, p['keywords']) and
-                                 set(tags) & set(EXPOSURES.get(p['sector'], []))), None)
-        target = direct or (business_related if not macro_match else None)
-        if not target and not macro_match:
-            continue
-        if direct and not tags and not re.search(r'부채|조달|발행|손실|적자|재무|감사|개입|블랙리스트|공급계약|스프링클러|구축', title):
-            continue
-        group = target['name'] if target else '경제 현안'
-        score = 8 if direct else 5
-        score += min(len(tags), 3)
-        score += 3 if re.search(r'기준금리|부채|손실|적자|공사비|지연|공급계약|출력제어|국정감사|국감|블랙리스트', title) else 0
-        score -= 2 if re.search(r'가능성|전망|시사|우려|유력', title) else 0
-        score -= (now - date).total_seconds() / 86400
-        row = {**article, 'brief_group': group,
-               'brief_theme': ('국정감사' if direct and re.search(r'국감|국정감사|국토위', title) else (tags[0] if tags else '경영·조직')),
-               'brief_reason': ('관심 기업의 사업·경영 현안' if direct else ('기업 사업 분야 관련 · 해당 기업 직접 거론 아님' if target else '기업 전반에 영향을 주는 경제 현안')) + (' · ' + ', '.join(tags[:2]) if tags else ''),
-               'brief_question': (f"{group}의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?" if target else '이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?')}
-        groups[group].append((score, row))
-    for items in groups.values():
+        theme = tags[0] if tags else group
+        score = 5 + min(len(tags), 3) - (now-date).total_seconds()/86400
+        score += 3 if re.search(r'기준금리|물가|공사비|전력망|환율|요금|고용|연금|관세', title) else 0
+        score -= 2 if re.search(r'가능성|전망|우려|유력', title) else 0
+        row = {**article, 'brief_group': group, 'brief_theme': theme,
+               'brief_reason': quality['reason'] if strategic else f'{group} 현안 · 비용·수요·제도 변화의 단서',
+               'brief_question': '누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?'}
+        buckets[group].append((score, row))
+    for items in buckets.values():
         items.sort(key=lambda item: item[0], reverse=True)
-
-    def grams(title):
-        text = re.sub(r'\[[^\]]*\]|\([^)]*\)|\s|[\W_]', '', title)
-        return {text[i:i + 3] for i in range(max(0, len(text) - 2))}
-
-    selected, signatures, theme_counts = [], [], {}
-    # 기업당 최대 2건, 경제 현안 최대 4건. 어느 한 기업·사건이 읽기 목록을 채우지 않게 한다.
-    for turn in range(4):
-        for group, items in groups.items():
-            if turn >= (4 if group == '경제 현안' else 2):
-                continue
+    selected, themes, mou_count = [], {}, 0
+    for turn in range(2):
+        for group, items in buckets.items():
             while items:
                 _, row = items.pop(0)
-                theme_key = (group, row['brief_theme'])
-                if theme_counts.get(theme_key, 0) >= (2 if group == '경제 현안' else 1):
+                theme = row['brief_theme']
+                is_mou = bool(re.search(r'\bMOU\b|업무협약|협약\s*체결|협약식', row['title'], re.I))
+                if themes.get(theme, 0) >= 1 or (is_mou and mou_count) or _similar_title(row['title'], [a['title'] for a in selected]):
                     continue
-                sig = grams(row['title'])
-                if any(len(sig & previous) / max(1, len(sig | previous)) >= .40 or
-                       (len(sig & previous) >= 10 and len(sig & previous) / max(1, min(len(sig), len(previous))) >= .70)
-                       for previous in signatures):
-                    continue
-                selected.append(row); signatures.append(sig)
-                theme_counts[theme_key] = theme_counts.get(theme_key, 0) + 1
+                selected.append(row); themes[theme] = themes.get(theme, 0)+1
+                mou_count += int(is_mou)
                 break
             if len(selected) >= limit:
                 return selected
+    return selected
+
+
+def curate_company_brief(articles: list[dict], profile: dict, limit=4) -> list[dict]:
+    """기관 준비 화면의 별도 입력. 기본 브리핑에 기업별 정원을 만들지 않는다."""
+    now, selected, themes = datetime.now(UTC), [], set()
+    for article in related_articles(articles, profile):
+        date = parse_time(article.get('published', ''))
+        if not date or not 0 <= (now-date).total_seconds() <= 7*86400:
+            continue
+        theme = next(iter(article.get('signals', [])), '기관 현안')
+        if theme in themes or _similar_title(article['title'], [a['title'] for a in selected]):
+            continue
+        selected.append(article); themes.add(theme)
+        if len(selected) >= limit:
+            break
     return selected
 
 
@@ -223,7 +238,7 @@ def related_articles(articles: list[dict], profile: dict, include_promo=False) -
     allowed = set(EXPOSURES.get(profile['sector'], []))
     selected = []
     for raw in deduplicate(articles):
-        quality = news_quality(raw['title'])
+        quality = news_quality(raw['title'], raw)
         if not include_promo and not quality['include']:
             continue
         direct = company_matches(raw, [profile['name'], *profile['aliases']])

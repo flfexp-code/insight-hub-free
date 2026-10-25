@@ -10,9 +10,10 @@ import streamlit as st
 from news_core import (ROOT, SEARCHES, INDUSTRIES, UTC, analysis_cards, company_query,
                        deduplicate, fetch_news, filter_articles, format_kst, load_json, parse_time)
 from insights import (DEFAULT_PROFILES, REPORTS, SECTORS, analysis_packet, build_insights,
-                      cross_connections, curate_brief, news_quality, normalize_profiles, related_articles)
+                      cross_connections, curate_brief, curate_company_brief, news_quality, normalize_profiles, related_articles)
 from watchlist_ui import render_watchlist, watchlist_download
 from ai_insights import generate as generate_ai, ready as ai_ready
+from reader_ui import reading_items
 
 st.set_page_config(page_title='경제·산업 인사이트 허브', page_icon='📰', layout='wide')
 st.markdown('''<style>
@@ -24,17 +25,25 @@ html, body, [class*="css"] {font-size:16px;}
 </style>''', unsafe_allow_html=True)
 st.markdown('<div class="hero-tag">뉴스에서 쟁점으로</div>', unsafe_allow_html=True)
 st.title('경제·산업 인사이트 허브')
-st.caption('관련 뉴스 → 공식 자료의 진단 → 기업별 영향과 대응 조건 · 무료 RSS · 유료 API 없음')
+st.caption('에너지 · 경제 · 시사 · 금융 | 하루 5개 이슈와 한 가지 논리 | 관심기업은 필요할 때')
 status_area = st.container()
 
-brief_tab, insight_tab, related_tab, news_tab, reports_tab, watch_tab, guide_tab = st.tabs(
-    ['핵심 브리핑', '기업 인사이트', '관련 뉴스', '전체 검색 자료', '공식 보고서', '관심 기업 등록', '수집·이용 안내'])
+brief_tab, study_tab, company_tab, library_tab = st.tabs(
+    ['오늘의 브리핑', '오늘의 공부', '관심기업', '저장·복습'])
+with company_tab:
+    st.caption('기관 준비가 필요할 때 찾아보세요. 등록한 기업은 기본 브리핑의 기사 수·분야를 바꾸지 않습니다.')
+    insight_tab, related_tab, watch_tab = st.tabs(['기업 인사이트', '관련 뉴스', '관심 기업 등록'])
+with brief_tab:
+    news_tab = st.expander('더 찾아보기 · 전체 검색 자료')
+    guide_tab = st.expander('수집·이용 안내')
+with study_tab:
+    reports_tab = st.expander('공식 자료와 새 보고서 후보')
 with watch_tab:
     st.subheader('관심 기업 등록과 보관')
     st.caption('기본 기업: 한국서부발전 · 한국도로공사 · 한국토지주택공사(LH). 최대 10개까지 등록할 수 있습니다.')
     profiles = render_watchlist()
     watchlist_download(profiles)
-    st.caption('목록은 현재 브라우저에 저장됩니다. 브라우저 저장 데이터를 지우거나 다른 기기를 사용하면 목록 파일을 불러오세요. 매일 저장되는 기업은 기본 3곳이며, 추가한 기업은 뉴스 추가 검색으로 갱신합니다.')
+    st.caption('기업 목록은 이 브라우저에 저장됩니다. 등록만으로 기관별 기사를 매일 모으지는 않습니다. 준비가 필요할 때 왼쪽에서 기업을 선택하고 뉴스 추가 검색을 누르세요.')
 
 config = load_json(ROOT / 'config.json')
 profile_names = [p['name'] for p in profiles]
@@ -50,7 +59,7 @@ if 'company' not in st.session_state:
     select_registered_company()
 
 with st.sidebar:
-    st.header('관심 설정')
+    st.header('읽기 설정')
     selected_name = st.selectbox('등록 기업 선택', ['직접 입력', *profile_names],
                                 key='watch_company', on_change=select_registered_company)
     topics = st.multiselect('뉴스 분야', [*SEARCHES, '기타'], default=list(SEARCHES))
@@ -59,13 +68,12 @@ with st.sidebar:
     company = st.text_input('관심 기업명', placeholder='예: 한국서부발전', max_chars=60, key='company').strip()
     alias = st.text_input('다른 표기 (쉼표 구분)', placeholder='예: 서부발전, KOWEPO', max_chars=150, key='aliases').strip()
     st.caption('등록한 사업 분야를 이용해 기업명 없는 기사도 연결합니다. 단순 협약·행사·지원 홍보는 기본 제외합니다.')
-    show_promo = st.toggle('홍보·행사 기사도 보기', value=False, key='show_promo')
+    show_promo = False
     search_company = st.button('관심 기업 뉴스 추가 검색', disabled=not company, use_container_width=True, key='search_company')
     refresh = st.button('최신 뉴스 수집', use_container_width=True, key='refresh')
     st.divider()
-    st.caption('일일 자동 수집 관심 기업')
-    st.write(' · '.join(config.get('companies', [])) or '설정 없음')
-    st.caption('이 목록은 GitHub의 config.json에서 수정합니다. 화면 검색은 현재 브라우저 세션에만 적용됩니다.')
+    st.caption('매일 자동 수집: 에너지·경제·시사·금융 등 일반 현안')
+    st.caption('관심기업 등록은 면접 준비용입니다. 기본 화면에는 기업별 기사 정원을 두지 않습니다.')
     st.caption('자동 수집 예정: 매일 오전 7:17 (한국시간)')
     if selected_name == '직접 입력':
         manual_sector = st.selectbox('직접 입력 기업의 사업 분야', SECTORS, index=len(SECTORS)-1)
@@ -123,6 +131,7 @@ if st.session_state.get('live_news'):
     articles = deduplicate(st.session_state['live_news'] + articles)
     mode = '저장본 + 이번 접속 수집'
 errors = st.session_state.get('live_errors', errors)
+general_articles = list(articles)
 if search_company:
     try:
         with st.spinner('관심 기업의 추가 뉴스를 찾고 있습니다...'):
@@ -155,38 +164,103 @@ with status_area:
                 st.caption(err)
     keyword = st.text_input('기사 제목 검색', placeholder='금리, 관세, 데이터센터 등', max_chars=80, key='keyword')
 base = filter_articles(articles, topics=topics, industry=industry, keyword=keyword, days=days)
-omitted = [a for a in base if not news_quality(a['title'])['include']]
+omitted = [a for a in base if not news_quality(a['title'], a)['include']]
 if not show_promo:
-    base = [a for a in base if news_quality(a['title'])['include']]
+    base = [a for a in base if news_quality(a['title'], a)['include']]
 names = [company, *[s.strip() for s in alias.split(',') if s.strip()]] if company else []
 company_rows = filter_articles(base, days=days, company_names=names) if names else []
 related = related_articles(base, profile, include_promo=show_promo) if profile else []
 cards = build_insights(related, profile) if profile else []
 connections = cross_connections(cards, profile) if profile else []
-brief = curate_brief(base, profiles)
+daily_base = filter_articles(general_articles, topics=topics, industry=industry, keyword=keyword, days=days)
+brief = curate_brief(daily_base)
+learning = load_json(ROOT / 'data/daily_learning.json')
+learning_status = load_json(ROOT / 'data/learning_status.json')
 with status_area:
     m1, m2, m3 = st.columns(3)
-    m1.metric('핵심 브리핑', f'{len(brief)}건')
-    m2.metric('선택 기업 핵심 기사', f"{sum(a['brief_group'] == company for a in brief)}건" if company else '기업명 입력')
-    m3.metric('기업 영향 분석 후보', f'{len(cards)}개')
+    m1.metric('오늘의 이슈', f'{len(brief)}건')
+    m2.metric('오늘의 공부', '1주제' if learning.get('study') else '생성 대기')
+    m3.metric('하루 읽기', '약 10분')
     if not topics:
         st.info('뉴스 분야를 한 개 이상 선택하세요.')
 
 with brief_tab:
-    st.subheader('취업 준비와 경제 현안 · 핵심 10건 이내')
-    st.caption('최근 3일의 기사에서 중요한 경제 변화와 관심 기업의 사업·경영 과제를 우선합니다. 기업당 최대 2건, 경제 현안 최대 4건이며 읽을 만한 후보가 부족하면 10건을 채우지 않습니다.')
-    st.caption('인사·승진·내부 채용 논란은 항상 제외합니다. 단순 홍보·스포츠·사진·부고와 유사 제목도 제외합니다. 제목 기준의 읽기 목록이므로 원문에서 실제 변화와 근거를 확인하세요.')
-    if not brief:
-        st.info('현재 조건에서 핵심으로 추릴 새 기사가 없습니다. 관심 기업을 추가하거나 뉴스 추가 검색을 이용하세요.')
-    for index, article in enumerate(brief, 1):
-        with st.container(border=True):
-            st.caption(f"{index}. {article['brief_group']} · {format_kst(article.get('published', ''))}")
-            st.markdown('**' + html.escape(article['title']) + '**')
-            st.caption('선정 이유: ' + article['brief_reason'])
-            st.write('생각해 볼 질문: ' + article['brief_question'])
-            if article.get('link'):
-                st.link_button('핵심 기사 원문 보기', article['link'])
-    st.caption('그 밖의 후보는 전체 검색 자료에서 필요할 때 찾아볼 수 있습니다. 선별 기준은 사용해 보면서 조정합니다.')
+    st.subheader('짧게 읽는 오늘 · 최대 5개 이슈')
+    st.caption('최근 3일의 에너지·경제·시사·금융 현안을 고르게 추립니다. 같은 논점은 줄이고 부족하면 채우지 않습니다. 관심기업 등록과 독립적입니다.')
+    st.caption('MOU는 기본 제외합니다. 산업 흐름과 사업 방향을 공개 본문·공식 자료로 연결한 경우만 선정 이유와 함께 보여줍니다.')
+    summaries = {x['news_id']: x for x in learning.get('briefs', [])}
+    source_ids = {x.get('article_id'): x['id'] for x in learning.get('sources', {}).get('news', [])}
+    items = []
+    for article in brief:
+        summary = summaries.get(source_ids.get(article['id']), {})
+        evidence = article.get('evidence', {})
+        items.append({'id': article['id'], 'kind': 'news', 'title': article['title'],
+                      'group': article['brief_group'], 'date': format_kst(article.get('published', '')),
+                      'url': article.get('link', ''),
+                      'status': evidence.get('status', '제목만 확인') + ' · ' + article.get('source', ''),
+                      'summary': summary.get('summary') or '제목에서 확인한 단서: ' + article['title'],
+                      'reason': article['brief_reason'] if article.get('mou_context') else summary.get('why', article['brief_reason']),
+                      'details': ['생각할 질문: ' + article['brief_question']]})
+    reading_items(items, 'daily_reader')
+    if summaries:
+        st.caption('AI 요약 작성: ' + format_kst(learning.get('updated_at', '')) + ' KST · 확인 범위 밖의 수치·인과관계는 원문 대조가 필요합니다.')
+
+with study_tab:
+    st.subheader('하나의 이슈로 배경과 논리 공부')
+    if learning_status.get('ok') is False:
+        st.warning('최근 학습자료 작성에 실패해 이전 자료를 유지합니다. ' + learning_status.get('error', ''))
+    study = learning.get('study', {})
+    if study:
+        st.caption('작성: ' + format_kst(learning.get('updated_at', '')) + ' KST · 공개 근거를 연결한 AI 학습 초안')
+        if (stamp := parse_time(learning.get('updated_at', ''))) and (datetime.now(UTC)-stamp).total_seconds() > 3*86400:
+            st.warning('3일 이상 지난 학습자료입니다. 새 이슈로 갱신되기 전까지 과거 자료로 참고하세요.')
+        st.markdown('### ' + study['topic'])
+        st.write(study['background'])
+        st.info('생각할 질문: ' + study['question'])
+        with st.expander('배경지식 · 헷갈리는 개념 비교'):
+            st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
+            st.write('다른 점: ' + study['difference'])
+        with st.expander('논리·반론·판단 조건 보기'):
+            st.caption('아래 내용은 앱의 조건부 해석입니다. 연구기관·필자의 직접 권고와 구분합니다.')
+            for i, step in enumerate(study['logic_chain'], 1):
+                st.write(f'{i}. {step}')
+            for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
+                st.markdown('**' + label + '**'); st.write(study[field])
+            st.caption('확인할 지표: ' + ' · '.join(study['check_metrics']))
+        source_index = {x['id']: x for group in learning.get('sources', {}).values() for x in group}
+        with st.expander('뉴스·연구자료·오피니언 근거'):
+            for ref in study['source_ids']:
+                source = source_index.get(ref, {})
+                if source:
+                    st.write(ref + ' · ' + source.get('kind', '') + ' · ' + source['title'])
+                    st.caption(source.get('published', '') + ' · ' + source.get('status', '발행 당시 요지를 검토한 자료'))
+                    st.write(source.get('summary', source.get('excerpt', '')))
+                    if source.get('scope'): st.caption(source['scope'])
+                    if source.get('url'): st.link_button('출처 원문', source['url'])
+            views = study.get('opinion_views', [])
+            if not views:
+                st.caption('이번 주제와 연결해 확인한 공개 오피니언이 없습니다. 가상의 전문가 의견으로 채우지 않습니다.')
+            for view in views:
+                source = source_index.get(view['source_id'], {})
+                st.markdown('**필자의 의견 · 보도 사실과 구분**'); st.write(view['view'])
+                if source.get('url'): st.link_button(source['title'], source['url'])
+        details = ['배경: ' + study['background'], ' → '.join(study['logic_chain']),
+                   '논리: ' + study['claim'], '반론: ' + study['counter'], '조건: ' + study['condition']]
+        reading_items([{'id': 'study:' + learning.get('updated_at', '')[:10], 'kind': 'study', 'group': '논리 공부',
+                        'title': study['topic'], 'date': format_kst(learning.get('updated_at', '')),
+                        'summary': study['question'], 'details': details, 'url': ''}], 'study_bookmark')
+        st.caption('기본은 하루 한 주제입니다. 토론 연습도 같은 질문을 사용하고 별도의 긴 자료를 덧붙이지 않습니다.')
+    else:
+        st.info('본문·공개 요약문과 공식 자료를 확인한 뒤 하루 한 주제를 생성합니다. 자료가 없으면 만든 것처럼 표시하지 않습니다.')
+        for report in REPORTS[:1]:
+            st.markdown('**배경 읽기 · ' + report['institution'] + '**')
+            st.write(report['summary']); st.caption(report['published'] + ' · ' + report['scope'])
+            st.link_button('배경 자료 원문', report['url'])
+
+with library_tab:
+    st.subheader('저장한 뉴스와 논리 · 복습')
+    st.caption('안 읽은 자료부터 확인하고, 읽음 취소로 다시 복습할 수 있습니다. 메모는 외부 AI로 전송하지 않습니다.')
+    reading_items([], 'reading_library', library=True)
 
 
 def render_news(rows, key):
@@ -204,7 +278,7 @@ def render_news(rows, key):
             st.caption('분야: ' + ', '.join(a.get('categories', [])) + ' / 산업: ' + ', '.join(a.get('industries', [])))
             if a.get('relation'):
                 st.caption('연결 이유: ' + a['relation'])
-            quality = news_quality(a['title'])
+            quality = news_quality(a['title'], a)
             if quality['label'] != '분석 후보':
                 st.caption(quality['label'] + ' · ' + quality['reason'])
             if a.get('link'):
@@ -222,7 +296,7 @@ with news_tab:
     st.caption(f'홍보·일상 공지 후보 {len(omitted)}건 ' + ('포함 중' if show_promo else '기본 제외 중') + ' · 제목 기준이며 원문 의도를 판정한 결과는 아닙니다.')
     render_news(base, 'news_page')
 with insight_tab:
-    st.subheader(f'{company} · 근거 연결 인사이트' if company else '기업을 선택하세요')
+    st.subheader(f'{company} · 기관 준비용 인사이트' if company else '기업을 선택하세요')
     st.info('아래 기본 인사이트는 검토한 공식 자료 요지와 기사 제목의 단서를 연결한 규칙 기반 초안입니다. 대응·교차 해석은 앱의 조건부 제안이며 연구기관의 직접 권고와 구별합니다. 별도의 AI 심층 초안도 같은 공개 근거를 사용하며, 새 보고서 전문을 자동으로 읽지는 않습니다.')
     if profile:
         st.caption(profile['sector'] + ' · ' + (profile['business'] or '직접 등록한 사업 분야'))
@@ -274,7 +348,7 @@ with insight_tab:
         except (FileNotFoundError, st.errors.StreamlitSecretNotFoundError):
             ai_settings = {}
         st.subheader('AI 심층 초안')
-        st.caption('AI 기능은 핵심 목록에서 선택된 기업 관련 기사 제목, 검토한 보고서 요지와 기업 사업정보를 Google Gemini에 전달합니다. 공개정보만 입력하세요.')
+        st.caption('이 버튼을 누를 때만 기관 분석을 요청합니다. 최근 관련 기사 최대 4개와 검토한 공식 자료 요지·공개 사업정보를 Google Gemini에 전달합니다.')
         st.caption('기사 제목과 검토한 보고서 요지를 바탕으로 관계·예외·대응을 종합합니다. 기사 원문 전체나 기업 노출 수치를 검증한 결과는 아닙니다.')
         if not ai_ready(ai_settings):
             st.caption('현재 무료 AI 계정 연결 전입니다. 자동 AI 요청이나 과금은 발생하지 않습니다. 아래 근거 자료를 현재 ChatGPT에서 분석할 수 있습니다.')
@@ -288,7 +362,7 @@ with insight_tab:
         if ai_clicked:
             try:
                 with st.spinner('자료의 근거를 연결해 AI 초안을 작성합니다...'):
-                    ai_rows = related_articles(brief, profile)
+                    ai_rows = curate_company_brief(base, profile)
                     ai_cards = build_insights(ai_rows, profile)
                     result = generate_ai(profile, ai_rows, ai_cards, ai_settings)
                 st.session_state['ai_draft'] = {'company': company, 'items': result,
@@ -359,14 +433,14 @@ with guide_tab:
 - 수집이 모두 실패하면 이전 기사는 보존합니다. 화면의 새로 수집한 결과는 세션에만 남습니다.
 - 기업 인사이트는 기업의 사업 분야, 기사 제목의 단서와 검토한 공식 자료의 일반 경로를 연결하는 규칙 기반 초안입니다.
 - 보고서의 진단과 앱의 기업 영향·대응 제안을 구분합니다. AI 심층 초안은 기사 제목·검토한 보고서 요지·공개 사업정보를 종합하며, 새 보고서 전문이나 기업 재무수치를 자동 검증하지 않습니다.
-- 협약·기부·행사·지원금 전달 등은 기본 제외합니다. 규모·실행 조건이 있는 정책·협약은 검토 후보로 남기고 원문을 확인합니다.
+- MOU는 금액만으로 통과시키지 않습니다. 공개 본문 일부·산업 변화·사업 방향·검토한 공식 자료를 연결할 때만 이유를 붙여 예외로 선정합니다. 협약을 확정 계약·매출로 간주하지 않습니다.
 - 관심 기업은 이 브라우저에 저장하며 목록 파일로 다른 기기에 옮길 수 있습니다. 목록은 GitHub에 자동 공개되지 않습니다.
-- 매일 기본 기업 3곳과 경제·전력·교통·주택 주제의 뉴스를 수집합니다. 추가 기업의 명칭 검색은 뉴스 추가 검색으로 갱신합니다.
+- 매일 일반 현안을 수집하고 핵심 이슈 최대 5개·학습 주제 1개를 저장합니다. 기관명 수집과 기업별 AI 분석은 기본 자동 실행에서 제외합니다. 관심기업은 필요할 때 추가 검색합니다.
 - 공식 기관 목록의 새 자료 후보는 매일 갱신합니다. 본문 검토 전에는 검토한 근거와 구분합니다.
 
 ### 무료 운영 범위
 공개 GitHub 저장소 + 표준 ubuntu-latest 실행 환경 + Streamlit Community Cloud를 사용합니다.
-API 키·카드 등록·유료 서비스가 필요 없습니다. 기본 자동 수집 기업과 기사 메타데이터는 공개 저장소에 공개되며 앱 접근은 비공개입니다.
+기사 목록은 키 없이 이용할 수 있습니다. 선택 AI는 결제 미연결 무료 프로젝트의 키와 무료 확인값이 있어야 실행하며, 한도·오류 시 유료 승격·자동 재시도하지 않습니다. 기본 자동 수집 기업과 기사 메타데이터는 공개 저장소에 공개되며 앱 접근은 비공개입니다.
 
 ### 예약 수집과 접속 제한
 GitHub 예약 실행은 지연될 수 있고, 공개 저장소에 60일간 활동이 없으면 비활성화될 수 있습니다.

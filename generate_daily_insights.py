@@ -1,47 +1,38 @@
-"""무료 AI 연결 후에만 기본 관심 기업의 일일 심층 초안을 생성한다."""
+"""기본 뉴스와 하루 한 주제만 AI로 작성한다. 기관 분석은 화면 요청 시 실행한다."""
 from datetime import datetime
 import os
 
-from ai_insights import MODEL, generate, ready
-from insights import DEFAULT_PROFILES, build_insights, curate_brief, related_articles
-from news_core import ROOT, UTC, atomic_json, filter_articles, load_json
+from ai_insights import MODEL, ready
+from daily_learning import generate_learning
+from insights import curate_brief
+from news_core import ROOT, UTC, atomic_json, load_json
 
 
 def run():
     settings = {k: os.getenv(k, '') for k in ('GEMINI_API_KEY', 'AI_FREE_TIER_CONFIRMED')}
     if not ready(settings):
-        print('자동 AI 미연결: API 요청 없음. 뉴스·근거 연결 초안은 정상 이용 가능합니다.')
+        print('무료 AI 미연결: API 요청 없음. 기사 목록은 이용할 수 있습니다.')
+        return 0
+    if load_json(ROOT / 'data/status.json').get('ok') is False:
+        print('뉴스 수집 실패: 이전 학습자료를 유지합니다.')
         return 0
     news = load_json(ROOT / 'data/news.json')
-    if load_json(ROOT / 'data/status.json').get('ok') is False:
-        print('뉴스 수집 실패: 이전 AI 초안을 유지합니다.')
-        return 0
-    # 수백 건의 후보 대신 화면과 같은 최대 10건의 핵심 목록만 AI 입력으로 사용.
-    rows = curate_brief(filter_articles(news.get('articles', []), days=3), DEFAULT_PROFILES)
-    output, errors = {}, []
-    for profile in DEFAULT_PROFILES:
-        selected = related_articles(rows, profile)
-        cards = build_insights(selected, profile)
-        if not cards:
-            continue
-        try:
-            result = generate(profile, selected, cards, settings)
-            output[profile['name']] = {'items': result, 'news': selected[:18],
-                                        'reports': {r['id']: r for c in cards for r in c['reports']},
-                                        'sector': profile['sector']}
-        except ValueError as exc:
-            errors.append(profile['name'] + ': ' + str(exc))
-            break
+    previous = load_json(ROOT / 'data/daily_learning.json')
     now = datetime.now(UTC).isoformat()
-    previous = load_json(ROOT / 'data/ai_insights.json')
-    if output:
-        atomic_json(ROOT / 'data/ai_insights.json',
-                    {'updated_at': now, 'news_updated_at': news.get('updated_at', ''),
-                     'model': MODEL, 'companies': output, 'errors': errors})
-    atomic_json(ROOT / 'data/ai_status.json',
-                {'attempted_at': now, 'ok': bool(output) and not errors,
-                 'last_success': now if output else previous.get('updated_at', ''), 'errors': errors})
-    return 0 if output and not errors else 1
+    try:
+        rows = curate_brief(news.get('articles', []))
+        output = generate_learning(rows, news.get('articles', []), settings)
+        atomic_json(ROOT / 'data/daily_learning.json', {**output, 'updated_at': now,
+                    'news_updated_at': news.get('updated_at', ''), 'model': MODEL})
+    except ValueError as exc:
+        atomic_json(ROOT / 'data/learning_status.json', {'attempted_at': now, 'ok': False,
+                    'last_success': previous.get('updated_at', ''), 'error': str(exc)})
+        print('하루 학습자료 작성 중단: 이전 자료 유지. ' + str(exc))
+        return 1
+    atomic_json(ROOT / 'data/learning_status.json', {'attempted_at': now, 'ok': True,
+                'last_success': now, 'error': '', 'requests': 1})
+    print(f'기본 뉴스 {len(rows)}개·학습 주제 1개 저장 완료. 기업별 자동 AI 요청 없음.')
+    return 0
 
 
 if __name__ == '__main__':
