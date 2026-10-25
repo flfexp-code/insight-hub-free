@@ -237,6 +237,11 @@ with study_tab:
         st.markdown('### ' + study['topic'])
         st.write(study['background'])
         st.info('생각할 질문: ' + study['question'])
+        source_index = {x['id']: x for group in learning.get('sources', {}).values() for x in group}
+        def source_names(refs):
+            return ', '.join(dict.fromkeys(source_index.get(ref, {}).get('institution') or source_index.get(ref, {}).get('source') or '기사 자료' for ref in refs))
+        if learning.get('editorial_review'):
+            st.caption('편집 검토 예시 · ' + learning['editorial_review']['notes'])
         depth = study.get('depth', {})
         if depth:
             def section(number, title, tone=''):
@@ -246,8 +251,8 @@ with study_tab:
             with st.container(border=True):
                 labels = [('누가', 'who'), ('언제', 'when'), ('어디·적용 범위', 'where'),
                           ('무엇을', 'what'), ('확인된 이유', 'why_known'), ('확인된 진행 방식', 'how_known')]
-                for label, key in labels:
-                    st.markdown('**' + label + '**'); st.write(event[key])
+                st.table({'항목': [label for label, _ in labels], '확인한 내용': [event[key] for _, key in labels]})
+                st.caption('사건 근거: ' + source_names(event['source_ids']))
             st.markdown('**왜 지금 이 문제인가**'); st.write(depth['why_now']['explanation'])
             section('02', '이 뉴스를 읽는 데 필요한 기초', 'blue')
             for concept in depth['foundations']:
@@ -264,7 +269,7 @@ with study_tab:
                 with st.container(border=True):
                     st.markdown('**' + str(i) + '. ' + step['change'] + '**')
                     st.write(step['because'])
-                    st.caption('성립 조건: ' + step['condition'] + ' · 근거: ' + ', '.join(step['source_ids']))
+                    st.caption('성립 조건: ' + step['condition'] + ' · 근거: ' + source_names(step['source_ids']))
             section('04', '산업·사회·경제와 연결해서 읽기', 'sand')
             for connection in depth['connections']:
                 with st.container(border=True):
@@ -273,7 +278,7 @@ with study_tab:
                     st.write(connection['pathway'])
                     st.markdown('**이 연결이 성립하려면**'); st.write(connection['condition'])
                     st.markdown('**반대로 볼 점·아직 모르는 점**'); st.write(connection['limit'])
-                    st.caption('출발 근거: ' + ', '.join(connection['source_ids']))
+                    st.caption('출발 근거: ' + source_names(connection['source_ids']))
             section('05', '판단을 바꾸는 조건', 'blue')
             for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
                 st.markdown('**' + label + '**'); st.write(study[field])
