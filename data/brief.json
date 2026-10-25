@@ -1,117 +1,46 @@
 {
-  "updated_at": "2026-10-24T22:45:59.191200+00:00",
-  "purpose": "취업 준비·경제 현안",
+  "updated_at": "2026-10-25T14:00:31.222500+00:00",
+  "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "4a8002f5f43e5541b1e7",
-      "title": "[스타트 경제] 한은, 기준금리 연 3%로 만장일치 동결...11월 인상?",
+      "id": "94f882b74d9ef002bd46",
+      "title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dWczYUlhbGF6alpycXF3ZzRyUXdjUXI4MUllTXVFbXVfX0pmYnVLVXlGT1FRWVQxckd2RFRwZlY1WUVzeDd0cGtHZHZqM00xSjNWUTRrN1RDRmFWbGc?oc=5",
-      "source": "YTN",
-      "published": "2026-10-22T22:27:00+00:00",
-      "collected_at": "2026-10-24T22:45:57.645939+00:00",
+      "link": "https://www.hankyung.com/article/2026102423667",
+      "source": "한국경제 경제",
+      "published": "2026-10-24T03:09:24+00:00",
+      "collected_at": "2026-10-24T22:45:58.112100+00:00",
       "categories": [
-        "거시경제"
-      ],
-      "industries": [
         "기타"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "금리·자금조달",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "450f0654a3f51c5f5b1d",
-      "title": "한국서부발전·태안군, 청년 중심 재난 대응체계 구축 '맞손'",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zRjB1eVFRMGZqZlhzV180ZFVLVEpWU0FZQ2g0OENIN3lZVFdTS05SMnVtUmJQSlZQcUpLVWZaMExJVXk4UHQxblp5ZEJvb1p1Y0pYa1RXM2pqYzRWVmd6SFlaamtDamdEcWRPdWV4c1JWUQ?oc=5",
-      "source": "굿모닝충청",
-      "published": "2026-10-22T03:43:46+00:00",
-      "collected_at": "2026-10-24T22:45:58.257135+00:00",
-      "categories": [
-        "에너지"
       ],
       "industries": [
         "전력·에너지"
       ],
-      "issues": [
-        "설비·전력수요",
-        "안전·운영관리"
-      ],
+      "issues": [],
       "search_topics": [
-        "기업: 한국서부발전"
+        "거시경제"
       ],
-      "brief_group": "한국서부발전",
-      "brief_theme": "기후·안전",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 기후·안전",
-      "brief_question": "한국서부발전의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+      "evidence": {
+        "status": "본문 일부 확인",
+        "url": "https://www.hankyung.com/article/2026102423667",
+        "excerpt": "정치 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다 입력 2026.10.24 12:09 수정 2026.10.24",
+        "checked_at": "2026-10-25T14:00:32.120243+00:00",
+        "kind": "보도",
+        "page_title": "한전, 사채 한도 19조 초과 위기…전기요금 인상 압박 커진다"
+      },
+      "brief_group": "에너지",
+      "brief_theme": "제도·예산",
+      "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "34ec63cc98d2263616e7",
-      "title": "한국도로공사, IT 및 모빌리티 6개 기업과 교통안전 데이터 공유 체계 구축",
+      "id": "8f7bab407c3f64b9e1e3",
+      "title": "한국은행, 기준금리 3% 유지…물가 불안에 인상 여지 남겨둬",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WSlc3dWFSV2FVRW9oMk5GT0V6TVR2RWJnN2k5dXg4MkhEWndMRk5fdldDakRmZzJvU1lvRzlYOFRhQjdMM0Rna0FaRFFjcHdwWlhpRHhxMG1Sd0NuZWxua0Y0aktjdw?oc=5",
-      "source": "데일리대구경북뉴스",
-      "published": "2026-10-22T04:40:26+00:00",
-      "collected_at": "2026-10-24T22:45:58.249037+00:00",
-      "categories": [
-        "교통·인프라"
-      ],
-      "industries": [
-        "교통·인프라"
-      ],
-      "issues": [
-        "안전·운영관리"
-      ],
-      "search_topics": [
-        "교통·인프라",
-        "기업: 한국도로공사"
-      ],
-      "brief_group": "한국도로공사",
-      "brief_theme": "경영·조직",
-      "brief_reason": "관심 기업의 사업·경영 현안",
-      "brief_question": "한국도로공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "1de361395071d0beeddc",
-      "title": "미분양·공사비 부담에 건설사 줄폐업…공공투자 확대 목소리",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwczFKcENfVnNKSXB5RkVHdUc2MU5qX25DUW5LaFZNVnZBUUNfTXpLb05EbjJ6b3JDQjdVbXhsN1E5dURHaENWd1p6bXNMSU1WSnRZZEgycTM1dTRIeUE?oc=5",
-      "source": "아시아타임즈",
-      "published": "2026-10-22T04:57:00+00:00",
-      "collected_at": "2026-10-23T22:48:58.192331+00:00",
-      "categories": [
-        "주택·건설"
-      ],
-      "industries": [
-        "건설·부동산"
-      ],
-      "issues": [
-        "설비·전력수요"
-      ],
-      "search_topics": [
-        "주택·건설"
-      ],
-      "brief_group": "한국토지주택공사",
-      "brief_theme": "공사비·시공사",
-      "brief_reason": "기업 사업 분야 관련 · 해당 기업 직접 거론 아님 · 공사비·시공사, 주택공급·수요",
-      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
-    },
-    {
-      "id": "166746a6f8c04137f07d",
-      "title": "한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5",
-      "source": "Chosunbiz",
-      "published": "2026-10-22T12:09:00+00:00",
-      "collected_at": "2026-10-22T22:49:36.963251+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
+      "source": "농민신문",
+      "published": "2026-10-24T02:00:00+00:00",
+      "collected_at": "2026-10-25T14:00:29.857976+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -123,87 +52,124 @@
         "금리·자금조달"
       ],
       "search_topics": [
-        "금융"
+        "거시경제"
       ],
-      "brief_group": "경제 현안",
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:00:32.121137+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "금융",
       "brief_theme": "금리·자금조달",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 금리·자금조달",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "a2e13bc2e442a4a9976d",
-      "title": "LH 민간과 주택공급 속도 협력 방안 논의, 연말까지 공공주택 5만 호 착공 목표",
+      "id": "b47029eb48251181d2ec",
+      "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FNmF4dFlQemZTQTJ1ak9hUWlrM3pqNEZJdERNaHFKWW5UTE96Y1MyRG9QYXNfREg3N3hlOW1lQUswUGhtTnlJbWpvVHNLX1JzSnZyajZxN0h2aG5EVlBHRmJ6b3VLRjJfOS1SMTY3YXN2RmM?oc=5",
-      "source": "비즈니스포스트",
-      "published": "2026-10-22T07:16:35+00:00",
-      "collected_at": "2026-10-24T22:45:58.303146+00:00",
+      "link": "https://www.hankyung.com/article/202610231161i",
+      "source": "한국경제 증권",
+      "published": "2026-10-23T07:19:33+00:00",
+      "collected_at": "2026-10-23T22:48:58.336449+00:00",
       "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "유통·식품"
+      ],
+      "issues": [
+        "환율·원가"
+      ],
+      "search_topics": [
+        "금융"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://www.hankyung.com/article/202610231161i",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:00:32.121521+00:00",
+        "kind": "보도",
+        "reason": "접근 제한이 표시된 원문"
+      },
+      "brief_group": "경제",
+      "brief_theme": "연료·환율",
+      "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "2b6bb05a6f89e1ee1b7c",
+      "title": "내주 '국도31호선 평창 노동-홍천 자운 도로건설공사' 등 조달청 입찰",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiR1BTUkdyWlowcHFFNjhXcWVLWlg1eTFlUlVkRWFpOTNSVnFiczNuZ0RKYUZodHFXNDVQR0RvdjZjM0FaYlp4eV9NZmZhY0ViUFhaSUUzVXVHN3c3Q0REOUtMSTRRVllOcExCaXhOTlA?oc=5",
+      "source": "신아일보",
+      "published": "2026-10-24T06:55:00+00:00",
+      "collected_at": "2026-10-25T14:00:30.362383+00:00",
+      "categories": [
+        "고용·사회",
         "주택·건설"
       ],
       "industries": [
         "건설·부동산"
       ],
-      "issues": [],
-      "search_topics": [
-        "기업: 한국토지주택공사"
+      "issues": [
+        "고용·운영"
       ],
-      "brief_group": "한국토지주택공사",
-      "brief_theme": "주택공급·수요",
-      "brief_reason": "관심 기업의 사업·경영 현안 · 주택공급·수요",
-      "brief_question": "한국토지주택공사의 사업 우선순위·운영·재무에 어떤 영향을 주며, 대응의 근거는 무엇인가?"
+      "search_topics": [
+        "교통·인프라"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiR1BTUkdyWlowcHFFNjhXcWVLWlg1eTFlUlVkRWFpOTNSVnFiczNuZ0RKYUZodHFXNDVQR0RvdjZjM0FaYlp4eV9NZmZhY0ViUFhaSUUzVXVHN3c3Q0REOUtMSTRRVllOcExCaXhOTlA?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:00:32.122257+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "시사",
+      "brief_theme": "시사",
+      "brief_reason": "시사 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "acb5d9291761f6d783e0",
-      "title": "美·이란 전운에 유가 급등…뉴욕증시 3대 지수 일제히 하락",
+      "id": "1cce3e4c0c0304d840fd",
+      "title": "경기도의회 신미숙 의원 “신재생에너지 정책, 설치 실적 넘어 운영성과 중심으로 전환해야”",
       "summary": "",
-      "link": "https://www.hankyung.com/article/2026102422807",
-      "source": "한국경제 증권",
-      "published": "2026-10-24T00:29:10+00:00",
-      "collected_at": "2026-10-24T22:45:58.268139+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iYVUyT04tMzIwekNteG1meXRvY2N0UW9qUkhQYzdWMEhaUFBHQVZlZzktck00QzR4QmpfM0o2eWNPLWlWdnZTaHNPS1d0azdLRzNIZm5laWdhNDJtRWN5YmQ1aGNxNVhrMUF6aVZGa3I?oc=5",
+      "source": "산경일보",
+      "published": "2026-10-25T06:58:10+00:00",
+      "collected_at": "2026-10-25T14:00:29.542747+00:00",
       "categories": [
-        "거시경제"
+        "에너지",
+        "국제·정책"
       ],
       "industries": [
-        "기타"
+        "전력·에너지"
       ],
       "issues": [
-        "환율·원가"
+        "규제·재정",
+        "실적·수익성"
       ],
       "search_topics": [
-        "금융"
+        "에너지"
       ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
-    },
-    {
-      "id": "0d8a0ad7755cb7420a60",
-      "title": "뉴욕증시, 유가 급등 속 하락 마감…다우 1.23%↓",
-      "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261024_0003839365",
-      "source": "뉴시스 경제",
-      "published": "2026-10-23T21:16:25+00:00",
-      "collected_at": "2026-10-23T22:48:59.028882+00:00",
-      "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "환율·원가"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "brief_group": "경제 현안",
-      "brief_theme": "연료·환율",
-      "brief_reason": "기업 전반에 영향을 주는 경제 현안 · 연료·환율",
-      "brief_question": "이 변화가 발전·도로·주택 사업에 각각 어떤 영향을 줄 수 있는가?"
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iYVUyT04tMzIwekNteG1meXRvY2N0UW9qUkhQYzdWMEhaUFBHQVZlZzktck00QzR4QmpfM0o2eWNPLWlWdnZTaHNPS1d0azdLRzNIZm5laWdhNDJtRWN5YmQ1aGNxNVhrMUF6aVZGa3I?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-25T14:00:32.122559+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "에너지",
+      "brief_theme": "탄소·전환",
+      "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
-  "selected_count": 8,
-  "candidate_count": 362
+  "selected_count": 5,
+  "candidate_count": 327
 }
