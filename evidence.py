@@ -44,8 +44,8 @@ class ArticleParser(HTMLParser):
         marker = ' '.join((attrs.get('id', ''), attrs.get('class', ''), attrs.get('itemprop', '')))
         parent_active = bool(self.stack and self.stack[-1][1])
         blocked = tag in ('script', 'style', 'nav', 'aside', 'footer', 'form', 'button', 'noscript') or bool(self.stack and self.stack[-1][2])
-        active = parent_active or tag == 'article' or bool(re.search(
-            r'article[-_]?body|articleBody|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body|news_view|news_viewer', marker, re.I))
+        active = parent_active or bool(re.search(
+            r'article[-_]?body|articleBody|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body|news_viewer', marker, re.I))
         self.stack.append((tag, active, blocked))
 
     def handle_endtag(self, tag):
