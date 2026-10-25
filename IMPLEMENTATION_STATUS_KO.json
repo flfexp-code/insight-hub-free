@@ -1,54 +1,65 @@
 {
-  "version": "v3.3",
-  "checked_at": "2026-10-13",
-  "local_tests": "64 passed in 11.70s",
+  "version": "v4.0",
+  "checked_at": "2026-10-25",
+  "app_url": "https://insight-app-free-jeaigezue99ssijooexnga.streamlit.app/",
+  "local_tests": "82 passed",
+  "github_ci": {
+    "status": "success",
+    "run_id": 40201904822
+  },
   "cloud_deployed": true,
-  "browser_watchlist_verified": true,
-  "real_ai_request_verified": true,
-  "blocker": null,
+  "app_access": "private; existing owner login",
+  "daily_collection": {
+    "status": "success",
+    "run_id": 40201948109,
+    "received": 327,
+    "stored": 3000,
+    "brief_count": 5,
+    "feed_errors": 0,
+    "schedule_kst": "07:17"
+  },
+  "daily_learning": {
+    "status": "success",
+    "requests": 1,
+    "last_success": "2026-10-25T14:23:03.242713+00:00",
+    "model": "gemini-3.5-flash-lite",
+    "automatic_retry": false
+  },
+  "basic_brief": {
+    "limit": 5,
+    "purpose": "에너지·경제·시사·금융",
+    "independent_of_watchlist": true
+  },
+  "company_analysis_mode": "manual",
   "default_companies": [
     "한국서부발전",
     "한국도로공사",
     "한국토지주택공사"
   ],
-  "api_calls_enabled": true,
-  "github_ci": "64 tests passed",
-  "daily_collection": {
-    "received": 360,
-    "stored": 1464,
-    "brief_count": 10,
-    "feed_errors": 0,
-    "run_id": 38384575187
-  },
-  "brief_limit": 10,
-  "brief_purpose": "취업 준비·경제 현안",
-  "github_ci_run_id": 38384533990,
+  "browser_watchlist_verified": true,
+  "kra_quick_registration_verified": true,
   "browser_brief_verified": true,
-  "official_candidates": 13,
-  "official_listing_issues": [
-    "한국은행 자료 후보 0건·목록 구조 확인 필요"
-  ],
+  "browser_study_verified": true,
+  "browser_reading_persistence_verified": true,
   "personnel_excluded": true,
-  "browser_personnel_exclusion_verified": true,
-  "ai_input_core_only": true,
-  "ai_connection_stage": "free API connected; all 3 companies generated and saved",
-  "google_billing_account": "none observed",
-  "stored_personnel_titles": 0,
-  "ai_key_created": true,
-  "ai_project_name": "insight-hub-free-ai",
-  "ai_model": "gemini-3.5-flash-lite",
-  "ai_automatic_retry": false,
-  "ai_last_run_id": 38384575187,
-  "ai_last_run_ok": true,
-  "ai_verified_companies": [
-    "한국서부발전",
-    "한국도로공사",
-    "한국토지주택공사"
+  "mou_default_excluded": true,
+  "mou_exception_requires": [
+    "공개 본문 일부 확인",
+    "구체적인 사업 내용",
+    "산업 흐름",
+    "사업 방향",
+    "검토된 공식 자료",
+    "선정 이유와 협약 단계 표시"
   ],
-  "ai_last_success_kst": "2026-10-13 19:37",
-  "ai_insight_counts": {
-    "한국서부발전": 3,
-    "한국도로공사": 2,
-    "한국토지주택공사": 3
-  }
+  "source_excerpt_limit_words": 24,
+  "source_check": "기사 제목·요약문·본문 일부 확인을 구별하며 메뉴·등록 시각은 본문 근거에서 제외",
+  "opinion_policy": "확인한 필자의 의견만 인용; 관련 근거가 없으면 비움",
+  "ai_key_storage": "Streamlit Secrets and GitHub Actions Secret only",
+  "billing": "existing free project; no paid service or model fallback enabled",
+  "limitations": [
+    "인용·형식 검증은 모든 사실·인과관계의 검증을 뜻하지 않음",
+    "새 보고서 목록 후보는 검토 완료 근거로 사용하지 않음",
+    "관심기업·저장·읽음·메모는 브라우저별 저장; 다른 기기는 백업 필요"
+  ],
+  "blocker": null
 }
