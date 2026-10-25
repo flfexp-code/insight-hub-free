@@ -45,7 +45,7 @@ class ArticleParser(HTMLParser):
         parent_active = bool(self.stack and self.stack[-1][1])
         blocked = tag in ('script', 'style', 'nav', 'aside', 'footer', 'form', 'button', 'noscript') or bool(self.stack and self.stack[-1][2])
         active = parent_active or bool(re.search(
-            r'article[-_]?body|articleBody|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body|news_viewer', marker, re.I))
+            r'article[-_]?body|articleBody|article[-_]?txt|article[-_]?content|article-view-content|textBody|newsct_article|read-body', marker, re.I))
         self.stack.append((tag, active, blocked))
 
     def handle_endtag(self, tag):
