@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T22:53:53.648667+00:00",
+  "updated_at": "2026-10-27T22:52:38.106461+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
@@ -25,7 +25,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261025_0003840140",
         "excerpt": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를",
-        "checked_at": "2026-10-26T22:53:54.147701+00:00",
+        "checked_at": "2026-10-27T22:52:39.011506+00:00",
         "kind": "보도",
         "page_title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
         "context": "[서울=뉴시스] 김혜진 기자 = 22일 서울 시내 한 주택가에 관계자가 전기요금고지서를 배달하고 있다 2025.09.22. […] [세종=뉴시스]손차민 기자 = 지난달 유류를 제외한 에너지원의 발전 연료비가 1년 전과 비교해 일제히 오른 것으로 나타났다. […] 전기를 만들기 위한 발전 연료비용과 한전이 발전사로부터 전기를 사들이는 가격인 전력도매가격(SMP)이 모두 상승한 상황에서, 전기요금 현실화 필요성이 커지고 있다. […] 26일 국회예산정책처의 '산업동향&이슈'에 따르면 지난달 발전사가 연료 공급사로부터 구입한 에너지원별 연료비단가는 유류를 제외한 모든 에너지원에서 전년 동월 대비 상승했다. […] 반면 유류는 같은 기간 -19.8% 떨어졌다. […] 발전 연료비 상승으로 전력을 사들이는 가격이 높아지는 반면, 판매단가는 하락하면서 한전의 재무 부담이 커지고 있는 것이다.",
@@ -37,47 +37,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "8f7bab407c3f64b9e1e3",
-      "title": "한국은행, 기준금리 3% 유지…물가 불안에 인상 여지 남겨둬",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
-      "source": "농민신문",
-      "published": "2026-10-24T02:00:00+00:00",
-      "collected_at": "2026-10-26T22:53:49.906404+00:00",
-      "categories": [
-        "거시경제",
-        "금융"
-      ],
-      "industries": [
-        "금융·보험"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vNW9lZnltS3lNdjdUYXpQQktYbGszajV0R0hnU0NTdEo0eFA4UnFfeS1ISXVteFY2Q2NRQ3dRNlRxUUpnSWFUa19sdUpFRmZBd0NkX0VjbDc3dw?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-26T22:53:54.148335+00:00",
-        "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
-      },
-      "brief_group": "금융",
-      "brief_theme": "금리·자금조달",
-      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
-      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
-    },
-    {
       "id": "2da4c98eafdbda0b49bf",
       "title": "공사비 급등에 미분양 부담까지…'벼랑 끝' 중견·중소 건설사",
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTbDllcFM0a0kyWkdkTFJXbGZ5U2JSN3oxVDZCZVpHaW52dFhrTGttbndVdTFLNlQyZEZsbjFka1pNekZ1azk2S1Zybw?oc=5",
       "source": "아이뉴스24",
       "published": "2026-10-25T02:00:01+00:00",
-      "collected_at": "2026-10-26T22:53:50.230281+00:00",
+      "collected_at": "2026-10-27T22:52:36.999530+00:00",
       "categories": [
         "주택·건설"
       ],
@@ -92,7 +58,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTbDllcFM0a0kyWkdkTFJXbGZ5U2JSN3oxVDZCZVpHaW52dFhrTGttbndVdTFLNlQyZEZsbjFka1pNekZ1azk2S1Zybw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-26T22:53:54.148553+00:00",
+        "checked_at": "2026-10-27T22:52:39.012570+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -102,14 +68,15 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "ed0e22b198ea5f746df2",
-      "title": "‘공공기관 청년고용의무’ 확대하면 3천800명 신규채용",
+      "id": "39b33a7de4f5459bbe58",
+      "title": "청년고용 질적 악화… 산업구조 변화 속 일자리 진입장벽 확대",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DdDd5cG52b3lHUXN5aGxIbW9PSUZrWmxaYWtvRVhYYVFoc1dlTF9wRnFqVF9JaENZRVBfM3NFdC1yNkVEcV9Ha1hEZTJ1ako2UFdDYXF4QUVMbGU4anExZzNJRWwwbEdsUnFPWG94OHU?oc=5",
-      "source": "매일노동뉴스",
-      "published": "2026-10-25T21:30:05+00:00",
-      "collected_at": "2026-10-26T22:53:49.991137+00:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qZWRmR1hXSTd2Yktmamk2ZnBhdGh5akpQZHFCN3NHR2txVmtHbkt1aGxNakdDSTZUeklZOE9lemR0X3Y5aFJvSWpfTHNwamNnbml4YWs5UE5EN3FxMFVBMy1IQ09qdWJwT0p0SXJUWdIBb0FVX3lxTE5qZWRmR1hXSTd2Yktmamk2ZnBhdGh5akpQZHFCN3NHR2txVmtHbkt1aGxNakdDSTZUeklZOE9lemR0X3Y5aFJvSWpfTHNwamNnbml4YWs5UE5EN3FxMFVBMy1IQ09qdWJwT0p0SXJUWQ?oc=5",
+      "source": "한국보험신문",
+      "published": "2026-10-27T00:12:50+00:00",
+      "collected_at": "2026-10-27T22:52:36.729829+00:00",
       "categories": [
+        "산업·통상",
         "고용·사회"
       ],
       "industries": [
@@ -123,9 +90,9 @@
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DdDd5cG52b3lHUXN5aGxIbW9PSUZrWmxaYWtvRVhYYVFoc1dlTF9wRnFqVF9JaENZRVBfM3NFdC1yNkVEcV9Ha1hEZTJ1ako2UFdDYXF4QUVMbGU4anExZzNJRWwwbEdsUnFPWG94OHU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qZWRmR1hXSTd2Yktmamk2ZnBhdGh5akpQZHFCN3NHR2txVmtHbkt1aGxNakdDSTZUeklZOE9lemR0X3Y5aFJvSWpfTHNwamNnbml4YWs5UE5EN3FxMFVBMy1IQ09qdWJwT0p0SXJUWdIBb0FVX3lxTE5qZWRmR1hXSTd2Yktmamk2ZnBhdGh5akpQZHFCN3NHR2txVmtHbkt1aGxNakdDSTZUeklZOE9lemR0X3Y5aFJvSWpfTHNwamNnbml4YWs5UE5EN3FxMFVBMy1IQ09qdWJwT0p0SXJUWQ?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-26T22:53:54.148578+00:00",
+        "checked_at": "2026-10-27T22:52:39.013018+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -141,7 +108,7 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjR0ZuQWtGU0dtQWZkaXlJbVI4R0NFOVJ3RGctMEFPNnNWeUhSeS1FanZSNTdlU1FHUTRUQXdpWWY5ODNhRVlHOVlaczhCZFF2TVdMZVJhQzlzbm1JM1JoVWh1SWowRU1ORzdMQldRblhLUQ?oc=5",
       "source": "에너지신문",
       "published": "2026-10-26T12:12:45+00:00",
-      "collected_at": "2026-10-26T22:53:50.025941+00:00",
+      "collected_at": "2026-10-27T22:52:36.402758+00:00",
       "categories": [
         "에너지"
       ],
@@ -158,13 +125,46 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjR0ZuQWtGU0dtQWZkaXlJbVI4R0NFOVJ3RGctMEFPNnNWeUhSeS1FanZSNTdlU1FHUTRUQXdpWWY5ODNhRVlHOVlaczhCZFF2TVdMZVJhQzlzbm1JM1JoVWh1SWowRU1ORzdMQldRblhLUQ?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-26T22:53:54.148753+00:00",
+        "checked_at": "2026-10-27T22:52:39.013061+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "에너지",
       "brief_theme": "전력망·수요",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "02a0f43f717e8cf886da",
+      "title": "트럼프 2기 물가 상승세, 바이든 때보다 둔화했지만…민심은 '싸늘'",
+      "summary": "",
+      "link": "https://www.newsis.com/view/NISX20261025_0003840252",
+      "source": "뉴시스 경제",
+      "published": "2026-10-25T14:48:22+00:00",
+      "collected_at": "2026-10-25T14:56:26.422344+00:00",
+      "categories": [
+        "거시경제"
+      ],
+      "industries": [
+        "기타"
+      ],
+      "issues": [],
+      "search_topics": [
+        "거시경제"
+      ],
+      "evidence": {
+        "status": "본문 일부 확인",
+        "url": "https://www.newsis.com/view/NISX20261025_0003840252",
+        "excerpt": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만,",
+        "checked_at": "2026-10-27T22:52:39.013288+00:00",
+        "kind": "보도",
+        "page_title": "트럼프 2기 물가 상승세, 바이든 때보다 둔화했지만…민심은 '싸늘'",
+        "context": "[페리=AP/뉴시스] 야후파이낸스는 25일(현지 시간) 미국 물가 자료를 분석한 결과, 트럼프 대통령이 지난해 1월 취임한 이후 전체 물가가 5.4% 상승했다고 보도했다. […] [서울=뉴시스]박미선 기자 = 도널드 트럼프 미국 대통령의 집권 2기 들어 물가 상승세가 전임 조 바이든 대통령 재임 기간보다 둔화했지만, 이미 높아진 물가에 추가 상승분이 더해지면서 유권자들의 불만은 여전히 큰 것으로 나타났다. […] 특히 이란 전쟁에 따른 에너지 가격 급등과 관세로 인한 일부 상품 가격 상승이 11월 중간선거를 앞둔 트럼프 대통령과 공화당에 부담으로 작용하고 있다. […] 반면 달걀 가격은 바이든 행정부 당시 월평균 2.57% 상승했지만 트럼프 집권 2기에는 월평균 3.82% 하락했다. […] 트럼프 대통령은 물가 안정을 위해 최근 농민에 대한 80억 달러 지원과 국방물자생산법(DPA)을 통한 정유 능력 확대 조치 등을 발표했다. […] 그러나 휘발유 가격은 바이든 행정부 당시와 사실상 비슷한 수준이다.",
+        "context_version": 2
+      },
+      "brief_group": "경제",
+      "brief_theme": "경제",
+      "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
