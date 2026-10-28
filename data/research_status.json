@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28",
+  "provider": "ChatGPT Work",
+  "pilot": "published",
+  "local_tests": "96 passed",
+  "scheduled_research": {
+    "enabled": true,
+    "timezone": "Asia/Seoul",
+    "cadence": "daily",
+    "time_window": "08:00 전후",
+    "output": "ChatGPT 대화"
+  },
+  "app_automatic_sync": {
+    "enabled": false,
+    "reason": "GitHub integration Contents write returned 403; accessible installation and repository lists empty"
+  },
+  "billing": "no new paid API, service or credits purchased"
+}
