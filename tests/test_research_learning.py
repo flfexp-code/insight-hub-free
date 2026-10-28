@@ -25,7 +25,7 @@ def test_research_pack_and_real_screen_render_without_ai(pack):
     content = '\n'.join(x.value for x in app.markdown)
     assert pack['topic'] in content
     assert pack['sections'][2]['heading'] in content
-    assert '같은 설비를 더 활용' in content
+    assert pack['sections'][0]['body'].split('\n')[0] in content
     assert request.call_count == 0
 
 
