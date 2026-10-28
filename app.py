@@ -14,6 +14,7 @@ from insights import (DEFAULT_PROFILES, REPORTS, SECTORS, analysis_packet, build
 from watchlist_ui import render_watchlist, watchlist_download
 from ai_insights import generate as generate_ai, ready as ai_ready
 from reader_ui import reading_items
+from research_learning import load_research, render_research
 
 st.set_page_config(page_title='경제·산업 인사이트 허브', page_icon='📰', layout='wide')
 st.markdown('''<style>
@@ -196,10 +197,11 @@ daily_base = filter_articles(general_articles, topics=topics, industry=industry,
 brief = curate_brief(daily_base)
 learning = load_json(ROOT / 'data/daily_learning.json')
 learning_status = load_json(ROOT / 'data/learning_status.json')
+research = load_research(ROOT / 'data/chatgpt_research.json')
 with status_area:
     m1, m2, m3 = st.columns(3)
     m1.metric('오늘의 이슈', f'{len(brief)}건')
-    m2.metric('오늘의 공부', '1주제' if learning.get('study') else '생성 대기')
+    m2.metric('오늘의 공부', '1주제' if research or learning.get('study') else '생성 대기')
     m3.metric('하루 읽기', '약 10분')
     if not topics:
         st.info('뉴스 분야를 한 개 이상 선택하세요.')
@@ -228,10 +230,12 @@ with brief_tab:
 
 with study_tab:
     st.subheader('하나의 이슈로 배경과 논리 공부')
-    if learning_status.get('ok') is False:
+    if not research and learning_status.get('ok') is False:
         st.warning('최근 학습자료 작성에 실패해 이전 자료를 유지합니다. ' + learning_status.get('error', ''))
     study = learning.get('study', {})
-    if study:
+    if research:
+        render_research(research)
+    elif study:
         st.caption('작성: ' + format_kst(learning.get('updated_at', '')) + ' KST · 공개 근거를 연결한 AI 학습 초안')
         if (stamp := parse_time(learning.get('updated_at', ''))) and (datetime.now(UTC)-stamp).total_seconds() > 3*86400:
             st.warning('3일 이상 지난 학습자료입니다. 새 이슈로 갱신되기 전까지 과거 자료로 참고하세요.')
