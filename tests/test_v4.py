@@ -226,7 +226,7 @@ def test_deep_study_renders_full_learning_and_unknown_event_fields():
     def load(path):
         return payload if path.name == 'daily_learning.json' else {}
     st.cache_data.clear()
-    with patch('news_core.load_json', side_effect=load):
+    with patch('news_core.load_json', side_effect=load), patch('research_learning.load_research', return_value={}):
         app = AppTest.from_file(str(ROOT/'app.py'), default_timeout=30).run()
     assert not app.exception
     rendered = '\n'.join(x.value for x in app.markdown)
