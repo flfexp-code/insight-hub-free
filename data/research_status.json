@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T09:34:30+00:00",
+  "updated_at": "2026-10-28T23:54:57+00:00",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "2026-10-28-oil-shock-monetary-policy",
-    "research_updated_at": "2026-10-28T09:32:14+00:00",
-    "previous_blob_sha": "5d0c5f4b4eb9090bc2bba1ac3fb88fb76202bcbf",
-    "content_sha": "102b8a2d4a75c152fe5fdacf7badac0de622c3a5",
-    "commit_sha": "625dd3cfe9123c71904e42c2ebb6ff9d43eb59a5",
+    "id": "2026-10-29-youth-hiring-growth",
+    "research_updated_at": "2026-10-28T23:54:34+00:00",
+    "previous_blob_sha": "102b8a2d4a75c152fe5fdacf7badac0de622c3a5",
+    "content_sha": "b4440af4f3eaa2e95b909ca75306e4e9130afd02",
+    "commit_sha": "2d7230a00a7af4cc9c470dcc90c1232fe1b0de8d",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -19,10 +19,10 @@
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research and news_core.parse_time executed locally from unchanged function ASTs; PASS",
-    "readback_verified_at": "2026-10-28T09:34:30+00:00",
+    "validator": "PASS: unchanged full research_learning module validate_research; unchanged news_core.parse_time AST executed locally. Unused UI/file helpers were not executed.",
+    "readback_verified_at": "2026-10-28T23:54:57+00:00",
     "original_content_and_blob_sha_preserved": true,
     "live_app_checked": false,
-    "scope": "GitHub main research file saved and read back; id, updated_at, sections and entire JSON matched. This run does not verify live UI, future scheduling or deployment."
+    "scope": "GitHub main research save and readback; id, updated_at, sections and full JSON matched. Live UI, deployment and future executions not checked."
   }
 }
