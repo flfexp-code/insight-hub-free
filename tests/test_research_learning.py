@@ -19,7 +19,8 @@ def test_research_pack_and_real_screen_render_without_ai(pack):
     from streamlit.testing.v1 import AppTest
     validate_research(pack)
     st.cache_data.clear()
-    with patch('ai_insights.requests.post', side_effect=AssertionError('AI request in reader')) as request:
+    with patch('news_core.fetch_news', return_value=([], [])), \
+            patch('requests.sessions.Session.request', side_effect=AssertionError('external request in reader')) as request:
         app = AppTest.from_file(str(ROOT / 'app.py'), default_timeout=30).run()
     assert not app.exception
     content = '\n'.join(x.value for x in app.markdown)
@@ -57,9 +58,12 @@ def test_invalid_saved_research_falls_back_without_crashing(tmp_path):
     assert load_research(path) == {}
 
 
-def test_chatgpt_provider_skips_gemini_requests(tmp_path):
+def test_chatgpt_provider_checks_saved_research_without_network(tmp_path, pack):
     import generate_daily_insights as daily
-    (tmp_path / 'config.json').write_text('{"learning_provider":"chatgpt_work"}')
-    with patch.object(daily, 'ROOT', tmp_path), patch.object(daily, 'generate_learning') as generate:
+    (tmp_path / 'data').mkdir()
+    (tmp_path / 'data/chatgpt_research.json').write_text(json.dumps(pack))
+    with patch.object(daily, 'ROOT', tmp_path), patch('requests.sessions.Session.request') as request:
         assert daily.run() == 0
-        generate.assert_not_called()
+        request.assert_not_called()
+    status = json.loads((tmp_path / 'data/learning_status.json').read_text())
+    assert status['ok'] and status['requests'] == 0

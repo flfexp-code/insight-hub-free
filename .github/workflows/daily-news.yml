@@ -25,12 +25,8 @@ jobs:
         id: collect
         continue-on-error: true
         run: python collect_news.py
-      - name: 무료 AI 연결 시 일일 초안 작성
+      - name: 저장된 ChatGPT 학습자료 확인
         if: steps.collect.outcome == 'success'
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          AI_FREE_TIER_CONFIRMED: ${{ vars.AI_FREE_TIER_CONFIRMED }}
         run: python generate_daily_insights.py
       - name: 결과와 수집 상태 저장
         if: always() && steps.collect.outcome != 'skipped'

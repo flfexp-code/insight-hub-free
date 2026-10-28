@@ -88,7 +88,7 @@ def render_research(value):
         st.warning('3일 이상 지난 조사 자료입니다. 작성일을 기준으로 읽어 주세요.')
     st.markdown('### ' + value['topic'])
     st.write(value['overview'])
-    st.info('오늘 붙잡을 질문 · ' + value['question'])
+    st.info('핵심 질문 · ' + value['question'])
     index = {s['id']: s for s in value['sources']}
     details = []
     for number, section in enumerate(value['sections'], 1):
@@ -98,7 +98,7 @@ def render_research(value):
             st.write(section['body'])
             st.caption('읽은 근거: ' + ' · '.join(dict.fromkeys(index[r]['publisher'] for r in section['source_ids'])))
         details.append(section['heading'] + '\n' + section['body'])
-    st.markdown('#### 내 생각으로 정리하기')
+    st.markdown('#### 생각할 질문')
     for question in value['questions']:
         st.markdown('**' + question['question'] + '**')
         with st.expander('생각할 단서'):

@@ -1,40 +1,19 @@
-"""기본 뉴스와 하루 한 주제만 AI로 작성한다. 기관 분석은 화면 요청 시 실행한다."""
+"""저장된 ChatGPT 조사 학습자료를 확인한다. 생성 API를 호출하지 않는다."""
 from datetime import datetime
-import os
 
-from ai_insights import MODEL, ready
-from daily_learning import generate_learning
-from insights import curate_brief
-from news_core import ROOT, UTC, atomic_json, load_json
+from news_core import ROOT, UTC, atomic_json
+from research_learning import load_research
 
 
 def run():
-    if load_json(ROOT / 'config.json').get('learning_provider') == 'chatgpt_work':
-        print('ChatGPT 조사 학습 모드: 여기서는 외부 AI 요청을 보내지 않습니다. 뉴스 수집은 계속됩니다.')
-        return 0
-    settings = {k: os.getenv(k, '') for k in ('GEMINI_API_KEY', 'AI_FREE_TIER_CONFIRMED')}
-    if not ready(settings):
-        print('무료 AI 미연결: API 요청 없음. 기사 목록은 이용할 수 있습니다.')
-        return 0
-    if load_json(ROOT / 'data/status.json').get('ok') is False:
-        print('뉴스 수집 실패: 이전 학습자료를 유지합니다.')
-        return 0
-    news = load_json(ROOT / 'data/news.json')
-    previous = load_json(ROOT / 'data/daily_learning.json')
+    research = load_research(ROOT / 'data/chatgpt_research.json')
     now = datetime.now(UTC).isoformat()
-    try:
-        rows = curate_brief(news.get('articles', []))
-        output = generate_learning(rows, news.get('articles', []), settings)
-        atomic_json(ROOT / 'data/daily_learning.json', {**output, 'updated_at': now,
-                    'news_updated_at': news.get('updated_at', ''), 'model': MODEL})
-    except ValueError as exc:
-        atomic_json(ROOT / 'data/learning_status.json', {'attempted_at': now, 'ok': False,
-                    'last_success': previous.get('updated_at', ''), 'error': str(exc)})
-        print('하루 학습자료 작성 중단: 이전 자료 유지. ' + str(exc))
-        return 1
-    atomic_json(ROOT / 'data/learning_status.json', {'attempted_at': now, 'ok': True,
-                'last_success': now, 'error': '', 'requests': 1})
-    print(f'기본 뉴스 {len(rows)}개·학습 주제 1개 저장 완료. 기업별 자동 AI 요청 없음.')
+    atomic_json(ROOT / 'data/learning_status.json', {
+        'attempted_at': now, 'ok': bool(research), 'provider': 'chatgpt_work',
+        'last_success': research.get('updated_at', ''), 'requests': 0,
+        'error': '' if research else '검증된 ChatGPT 조사 자료가 없습니다. 이전 파일은 보존합니다.'})
+    print('ChatGPT 조사 자료 확인 완료. 외부 생성 API 요청 없음.' if research
+          else 'ChatGPT 조사 자료 대기 중. 외부 생성 API 요청 없음.')
     return 0
 
 

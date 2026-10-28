@@ -12,7 +12,6 @@ from news_core import (ROOT, SEARCHES, INDUSTRIES, UTC, analysis_cards, company_
 from insights import (DEFAULT_PROFILES, REPORTS, SECTORS, analysis_packet, build_insights,
                       cross_connections, curate_brief, curate_company_brief, news_quality, normalize_profiles, related_articles)
 from watchlist_ui import render_watchlist, watchlist_download
-from ai_insights import generate as generate_ai, ready as ai_ready
 from reader_ui import reading_items
 from research_learning import load_research, render_research
 
@@ -195,13 +194,12 @@ cards = build_insights(related, profile) if profile else []
 connections = cross_connections(cards, profile) if profile else []
 daily_base = filter_articles(general_articles, topics=topics, industry=industry, keyword=keyword, days=days)
 brief = curate_brief(daily_base)
-learning = load_json(ROOT / 'data/daily_learning.json')
 learning_status = load_json(ROOT / 'data/learning_status.json')
 research = load_research(ROOT / 'data/chatgpt_research.json')
 with status_area:
     m1, m2, m3 = st.columns(3)
     m1.metric('오늘의 이슈', f'{len(brief)}건')
-    m2.metric('오늘의 공부', '1주제' if research or learning.get('study') else '생성 대기')
+    m2.metric('오늘의 공부', '1주제' if research else '생성 대기')
     m3.metric('하루 읽기', '약 10분')
     if not topics:
         st.info('뉴스 분야를 한 개 이상 선택하세요.')
@@ -210,141 +208,28 @@ with brief_tab:
     st.subheader('짧게 읽는 오늘 · 최대 5개 이슈')
     st.caption('최근 3일의 에너지·경제·시사·금융 현안을 고르게 추립니다. 같은 논점은 줄이고 부족하면 채우지 않습니다. 관심기업 등록과 독립적입니다.')
     st.caption('MOU는 기본 제외합니다. 산업 흐름과 사업 방향을 공개 본문·공식 자료로 연결한 경우만 선정 이유와 함께 보여줍니다.')
-    summaries = {x['news_id']: x for x in learning.get('briefs', [])}
-    source_ids = {x.get('article_id'): x['id'] for x in learning.get('sources', {}).get('news', [])}
     items = []
     for article in brief:
-        summary = summaries.get(source_ids.get(article['id']), {})
         evidence = article.get('evidence', {})
         title_only = evidence.get('status', '제목만 확인') == '제목만 확인'
         items.append({'id': article['id'], 'kind': 'news', 'title': article['title'],
                       'group': article['brief_group'], 'date': format_kst(article.get('published', '')),
                       'url': article.get('link', ''),
                       'status': evidence.get('status', '제목만 확인') + ' · ' + article.get('source', ''),
-                      'summary': '' if title_only else summary.get('summary') or '공개 근거를 확인한 기사입니다. 원문에서 배경을 살펴보세요.',
-                      'reason': article['brief_reason'] if article.get('mou_context') or title_only else summary.get('why', article['brief_reason']),
+                      'summary': '' if title_only else '기사 원문에서 배경과 세부 내용을 확인하세요.',
+                      'reason': article['brief_reason'],
                       'details': ['생각할 질문: ' + article['brief_question']]})
     reading_items(items, 'daily_reader')
-    if summaries:
-        st.caption('AI 요약 작성: ' + format_kst(learning.get('updated_at', '')) + ' KST · 확인 범위 밖의 수치·인과관계는 원문 대조가 필요합니다.')
 
 with study_tab:
-    st.subheader('하나의 이슈로 배경과 논리 공부')
-    if not research and learning_status.get('ok') is False:
-        st.warning('최근 학습자료 작성에 실패해 이전 자료를 유지합니다. ' + learning_status.get('error', ''))
-    study = learning.get('study', {})
+    st.subheader('경제·산업 깊이 읽기')
     if research:
         render_research(research)
-    elif study:
-        st.caption('작성: ' + format_kst(learning.get('updated_at', '')) + ' KST · 공개 근거를 연결한 AI 학습 초안')
-        if (stamp := parse_time(learning.get('updated_at', ''))) and (datetime.now(UTC)-stamp).total_seconds() > 3*86400:
-            st.warning('3일 이상 지난 학습자료입니다. 새 이슈로 갱신되기 전까지 과거 자료로 참고하세요.')
-        st.markdown('### ' + study['topic'])
-        st.write(study['background'])
-        st.info('생각할 질문: ' + study['question'])
-        source_index = {x['id']: x for group in learning.get('sources', {}).values() for x in group}
-        def source_names(refs):
-            return ', '.join(dict.fromkeys(source_index.get(ref, {}).get('institution') or source_index.get(ref, {}).get('source') or '기사 자료' for ref in refs))
-        if learning.get('editorial_review'):
-            st.caption('편집 검토 예시 · ' + learning['editorial_review']['notes'])
-        depth = study.get('depth', {})
-        if depth:
-            def section(number, title, tone=''):
-                st.markdown(f'<div class="section-tag {tone}">{number} · {title}</div>', unsafe_allow_html=True)
-            section('01', '사건을 먼저 파악하기')
-            event = depth['event']
-            with st.container(border=True):
-                labels = [('누가', 'who'), ('언제', 'when'), ('어디·적용 범위', 'where'),
-                          ('무엇을', 'what'), ('확인된 이유', 'why_known'), ('확인된 진행 방식', 'how_known')]
-                st.table({'항목': [label for label, _ in labels], '확인한 내용': [event[key] for _, key in labels]})
-                st.caption('사건 근거: ' + source_names(event['source_ids']))
-            st.markdown('**왜 지금 이 문제인가**'); st.write(depth['why_now']['explanation'])
-            section('02', '이 뉴스를 읽는 데 필요한 기초', 'blue')
-            for concept in depth['foundations']:
-                with st.container(border=True):
-                    st.markdown('#### ' + concept['term'])
-                    st.write(concept['explanation'])
-                    st.markdown('**이 사건에 적용하면**'); st.write(concept['application'])
-            with st.expander('개념 두 개를 나란히 비교하기'):
-                st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
-                st.write(study['difference'])
-            section('03', '왜 그런 영향이 생기는가')
-            st.caption('아래 경로와 연결 해석은 앱의 학습용 조건부 설명입니다. 출처가 현재 효과의 크기까지 입증한 것은 아닙니다.')
-            for i, step in enumerate(depth['mechanism'], 1):
-                with st.container(border=True):
-                    st.markdown('**' + str(i) + '. ' + step['change'] + '**')
-                    st.write(step['because'])
-                    st.caption('성립 조건: ' + step['condition'] + ' · 근거: ' + source_names(step['source_ids']))
-            section('04', '산업·사회·경제와 연결해서 읽기', 'sand')
-            for connection in depth['connections']:
-                with st.container(border=True):
-                    st.caption(connection['kind'] + ' 연결 · 조건부 해석')
-                    st.markdown('#### ' + connection['target'])
-                    st.write(connection['pathway'])
-                    st.markdown('**이 연결이 성립하려면**'); st.write(connection['condition'])
-                    st.markdown('**반대로 볼 점·아직 모르는 점**'); st.write(connection['limit'])
-                    st.caption('출발 근거: ' + source_names(connection['source_ids']))
-            section('05', '판단을 바꾸는 조건', 'blue')
-            for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
-                st.markdown('**' + label + '**'); st.write(study[field])
-            st.caption('확인할 지표: ' + ' · '.join(study['check_metrics']))
-            section('06', '내 생각으로 정리하기')
-            for exercise in depth['thinking_questions']:
-                st.markdown('**' + exercise['question'] + '**')
-                with st.expander('생각할 단서'):
-                    st.write(exercise['hint'])
-        else:
-            st.caption('이 자료는 이전 형식입니다. 다음 자동 생성부터 사건·기초·인과 경로·연결 학습을 제공합니다.')
-            with st.expander('배경지식 · 헷갈리는 개념 비교', expanded=True):
-                st.table({'개념': [study['term_a'], study['term_b']], '뜻': [study['meaning_a'], study['meaning_b']]})
-                st.write('다른 점: ' + study['difference'])
-            with st.expander('논리·반론·판단 조건 보기', expanded=True):
-                for i, step in enumerate(study['logic_chain'], 1):
-                    st.write(f'{i}. {step}')
-                for label, field in [('한쪽 논리', 'claim'), ('반론', 'counter'), ('판단 조건', 'condition')]:
-                    st.markdown('**' + label + '**'); st.write(study[field])
-        source_index = {x['id']: x for group in learning.get('sources', {}).values() for x in group}
-        with st.expander('뉴스·연구자료·오피니언 근거와 각각의 한계'):
-            contributions = {x['source_id']: x for x in depth.get('source_contributions', [])}
-            for ref in study['source_ids']:
-                source = source_index.get(ref, {})
-                if source:
-                    st.write(ref + ' · ' + source.get('kind', '') + ' · ' + source['title'])
-                    st.caption(source.get('published', '') + ' · ' + source.get('status', '발행 당시 요지를 검토한 자료'))
-                    st.write(source.get('summary', source.get('excerpt', '')))
-                    contribution = contributions.get(ref)
-                    if contribution:
-                        st.write('확인한 내용: ' + contribution['supports'])
-                        st.caption('입증하지 않는 내용: ' + contribution['does_not_prove'])
-                    if source.get('context'):
-                        with st.expander('확인한 공개 문맥 발췌'):
-                            st.write(source['context'])
-                    if source.get('scope'): st.caption(source['scope'])
-                    if source.get('url'): st.link_button('출처 원문', source['url'])
-            views = study.get('opinion_views', [])
-            if not views:
-                st.caption('이번 주제와 연결해 확인한 공개 오피니언이 없습니다. 가상의 전문가 의견으로 채우지 않습니다.')
-            for view in views:
-                source = source_index.get(view['source_id'], {})
-                st.markdown('**필자의 의견 · 보도 사실과 구분**'); st.write(view['view'])
-                if source.get('url'): st.link_button(source['title'], source['url'])
-        details = ['배경: ' + study['background'], ' → '.join(study['logic_chain']),
-                   '논리: ' + study['claim'], '반론: ' + study['counter'], '조건: ' + study['condition']]
-        if depth:
-            details += ['기초 · ' + x['term'] + ': ' + x['explanation'] + ' 적용: ' + x['application'] for x in depth['foundations']]
-            details += ['작동 경로 · ' + x['change'] + ': ' + x['because'] + ' 조건: ' + x['condition'] for x in depth['mechanism']]
-            details += ['연결 · ' + x['target'] + ': ' + x['pathway'] + ' 조건: ' + x['condition'] + ' 한계: ' + x['limit'] for x in depth['connections']]
-            details += ['질문 · ' + x['question'] + ' 단서: ' + x['hint'] for x in depth['thinking_questions']]
-        reading_items([{'id': 'study:' + learning.get('updated_at', '')[:10], 'kind': 'study', 'group': '논리 공부',
-                        'title': study['topic'], 'date': format_kst(learning.get('updated_at', '')),
-                        'summary': study['question'], 'details': details, 'url': ''}], 'study_bookmark')
-        st.caption('하루 한 주제를 충분히 읽고, 마지막 질문은 내 생각으로 정리해 보세요. 메모는 아래 저장 후 남길 수 있습니다.')
     else:
-        st.info('본문·공개 요약문과 공식 자료를 확인한 뒤 하루 한 주제를 생성합니다. 자료가 없으면 만든 것처럼 표시하지 않습니다.')
-        for report in REPORTS[:1]:
-            st.markdown('**배경 읽기 · ' + report['institution'] + '**')
-            st.write(report['summary']); st.caption(report['published'] + ' · ' + report['scope'])
-            st.link_button('배경 자료 원문', report['url'])
+        st.info('검증된 ChatGPT 조사 자료를 기다리고 있습니다.')
+        if learning_status.get('error'):
+            st.caption(learning_status['error'])
+
 
 with library_tab:
     st.subheader('저장한 뉴스와 논리 · 복습')
@@ -386,7 +271,7 @@ with news_tab:
     render_news(base, 'news_page')
 with insight_tab:
     st.subheader(f'{company} · 기관 준비용 인사이트' if company else '기업을 선택하세요')
-    st.info('아래 기본 인사이트는 검토한 공식 자료 요지와 기사 제목의 단서를 연결한 규칙 기반 초안입니다. 대응·교차 해석은 앱의 조건부 제안이며 연구기관의 직접 권고와 구별합니다. 별도의 AI 심층 초안도 같은 공개 근거를 사용하며, 새 보고서 전문을 자동으로 읽지는 않습니다.')
+    st.info('아래 기본 인사이트는 검토한 공식 자료 요지와 기사 제목의 단서를 연결한 규칙 기반 초안입니다. 대응·교차 해석은 앱의 조건부 제안이며 연구기관의 직접 권고와 구별합니다. ChatGPT 심층 분석에 사용할 근거 자료는 아래에서 내려받을 수 있습니다.')
     if profile:
         st.caption(profile['sector'] + ' · ' + (profile['business'] or '직접 등록한 사업 분야'))
     if not cards:
@@ -432,56 +317,8 @@ with insight_tab:
                         st.link_button(r['institution'] + ' · ' + r['published'] + ' 자료', r['url'])
     if profile and related:
         packet = analysis_packet(profile, related, cards)
-        try:
-            ai_settings = {k: st.secrets.get(k, '') for k in ('GEMINI_API_KEY', 'AI_FREE_TIER_CONFIRMED')}
-        except (FileNotFoundError, st.errors.StreamlitSecretNotFoundError):
-            ai_settings = {}
-        st.subheader('AI 심층 초안')
-        st.caption('이 버튼을 누를 때만 기관 분석을 요청합니다. 최근 관련 기사 최대 4개와 검토한 공식 자료 요지·공개 사업정보를 Google Gemini에 전달합니다.')
-        st.caption('기사 제목과 검토한 보고서 요지를 바탕으로 관계·예외·대응을 종합합니다. 기사 원문 전체나 기업 노출 수치를 검증한 결과는 아닙니다.')
-        if not ai_ready(ai_settings):
-            st.caption('현재 무료 AI 계정 연결 전입니다. 자동 AI 요청이나 과금은 발생하지 않습니다. 아래 근거 자료를 현재 ChatGPT에서 분석할 수 있습니다.')
-        else:
-            st.caption('무료 AI 연결됨 · 핵심 기사와 검토한 보고서 요지만 사용 · 한도·서버 오류 시 자동 재시도 없음')
-        ai_status = load_json(ROOT / 'data/ai_status.json')
-        if ai_status.get('ok') is False and ai_status.get('errors'):
-            st.warning('최근 일일 AI 분석을 완료하지 못했습니다. 시도: ' + format_kst(ai_status.get('attempted_at', '')) + ' KST')
-            st.caption(' · '.join(ai_status['errors']))
-        ai_clicked = st.button('AI 심층 초안 작성', disabled=not ai_ready(ai_settings), key='ai_generate')
-        if ai_clicked:
-            try:
-                with st.spinner('자료의 근거를 연결해 AI 초안을 작성합니다...'):
-                    ai_rows = curate_company_brief(base, profile)
-                    ai_cards = build_insights(ai_rows, profile)
-                    result = generate_ai(profile, ai_rows, ai_cards, ai_settings)
-                st.session_state['ai_draft'] = {'company': company, 'items': result,
-                    'news': ai_rows[:18], 'reports': {r['id']: r for c in ai_cards for r in c['reports']},
-                    'created_at': datetime.now(UTC).isoformat()}
-            except ValueError as exc:
-                st.warning(str(exc))
-        saved_ai = load_json(ROOT / 'data/ai_insights.json')
-        draft = st.session_state.get('ai_draft', {})
-        if draft.get('company') != company:
-            draft = saved_ai.get('companies', {}).get(company, {})
-            if draft:
-                st.caption('일일 AI 초안 작성: ' + format_kst(saved_ai.get('updated_at', '')) + ' KST · 입력 뉴스 갱신: ' + format_kst(saved_ai.get('news_updated_at', '')))
-        if draft:
-            st.warning('AI가 작성한 검토 전 초안입니다. 인용한 자료의 존재는 확인하지만 모든 주장의 사실성·인과관계를 자동 검증하지는 않습니다.')
-            for item in draft['items']:
-                with st.container(border=True):
-                    st.markdown('### ' + item['title'])
-                    for label, field in [('현상·근거 구분', 'phenomenon'), ('기업 영향', 'impact'), ('대응 제안', 'response'), ('예외·추가 확인', 'counter')]:
-                        st.markdown('**' + label + '**')
-                        st.write(item[field])
-                    st.caption('확인 지표: ' + ' · '.join(item.get('check_metrics', [])))
-                    with st.expander('AI가 연결한 입력 출처'):
-                        for ref in item['news_ids']:
-                            a = draft['news'][int(ref[1:])-1]
-                            if a.get('link'):
-                                st.link_button(ref + ' · ' + a['title'], a['link'])
-                        for ref in item['report_ids']:
-                            r = draft['reports'][ref]
-                            st.link_button(r['institution'] + ' · ' + r['published'] + ' · ' + r['title'], r['url'])
+        st.subheader('관심기업 분석 자료')
+        st.caption('아래 자료를 ChatGPT에 전달해 관련 기사와 공식 보고서를 대조할 수 있습니다. 앱은 외부 생성 API에 요청하지 않습니다.')
         st.download_button('심층 분석용 근거 자료 내려받기', packet, 'company_analysis_packet.txt', 'text/plain')
         with st.expander('ChatGPT에서 더 깊이 분석하기'):
             st.caption('아래 자료를 복사하거나 내려받아 현재 ChatGPT 대화에 붙여 넣으면 근거를 확인하며 심층 분석할 수 있습니다. 앱에서 자동으로 보내지는 않습니다.')
@@ -521,15 +358,15 @@ with guide_tab:
 - GitHub Actions가 매일 오전 7:17에 수집합니다. 최근 30일, 최대 3,000건을 저장합니다.
 - 수집이 모두 실패하면 이전 기사는 보존합니다. 화면의 새로 수집한 결과는 세션에만 남습니다.
 - 기업 인사이트는 기업의 사업 분야, 기사 제목의 단서와 검토한 공식 자료의 일반 경로를 연결하는 규칙 기반 초안입니다.
-- 보고서의 진단과 앱의 기업 영향·대응 제안을 구분합니다. AI 심층 초안은 기사 제목·검토한 보고서 요지·공개 사업정보를 종합하며, 새 보고서 전문이나 기업 재무수치를 자동 검증하지 않습니다.
+- 보고서의 진단과 규칙 기반 기업 영향·대응 해석을 구분합니다. 깊이 읽기에는 별도로 조사·저장한 ChatGPT 자료를 표시합니다.
 - MOU는 금액만으로 통과시키지 않습니다. 공개 본문 일부·산업 변화·사업 방향·검토한 공식 자료를 연결할 때만 이유를 붙여 예외로 선정합니다. 협약을 확정 계약·매출로 간주하지 않습니다.
 - 관심 기업은 이 브라우저에 저장하며 목록 파일로 다른 기기에 옮길 수 있습니다. 목록은 GitHub에 자동 공개되지 않습니다.
-- 매일 일반 현안을 수집하고 핵심 이슈 최대 5개·학습 주제 1개를 저장합니다. 기관명 수집과 기업별 AI 분석은 기본 자동 실행에서 제외합니다. 관심기업은 필요할 때 추가 검색합니다.
+- GitHub Actions는 일반 현안 수집을 맡고, ChatGPT 예약 작업은 깊이 읽기 자료 작성을 맡습니다. 관심기업은 필요할 때 추가 검색합니다.
 - 공식 기관 목록의 새 자료 후보는 매일 갱신합니다. 본문 검토 전에는 검토한 근거와 구분합니다.
 
 ### 무료 운영 범위
 공개 GitHub 저장소 + 표준 ubuntu-latest 실행 환경 + Streamlit Community Cloud를 사용합니다.
-기사 목록은 키 없이 이용할 수 있습니다. 선택 AI는 결제 미연결 무료 프로젝트의 키와 무료 확인값이 있어야 실행하며, 한도·오류 시 유료 승격·자동 재시도하지 않습니다. 기본 자동 수집 기업과 기사 메타데이터는 공개 저장소에 공개되며 앱 접근은 비공개입니다.
+기사 목록은 키 없이 이용할 수 있습니다. 학습자료는 ChatGPT 예약 조사 결과를 저장해 읽습니다. 앱과 GitHub Actions는 외부 생성 API를 호출하지 않습니다. 기본 자동 수집 기업과 기사 메타데이터는 공개 저장소에 공개되며 앱 접근은 비공개입니다.
 
 ### 예약 수집과 접속 제한
 GitHub 예약 실행은 지연될 수 있고, 공개 저장소에 60일간 활동이 없으면 비활성화될 수 있습니다.

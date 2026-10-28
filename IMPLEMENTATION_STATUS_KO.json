@@ -94,5 +94,15 @@
   },
   "browser_design_verified": true,
   "reading_backup_limit_mb": 2,
-  "title_only_policy": "원래 제목 유지; AI 재서술과 추가 수치 해석을 표시하지 않음"
+  "title_only_policy": "원래 제목 유지; AI 재서술과 추가 수치 해석을 표시하지 않음",
+  "gemini_removal_prepared": {
+    "prepared_at": "2026-10-28T09:23:11.302186+00:00",
+    "local_tests_passed": 94,
+    "provider_call_implementation_removed": true,
+    "legacy_drafts_auto_display_removed": true,
+    "workflow_provider_secrets_removed": true,
+    "production_applied": false,
+    "repository_write_verified": false,
+    "blocker": "자동 승인 검토가 기존 외부 저장소 수정 금지 지시로 운영 쓰기를 거절함. 사용자 승인 필요."
+  }
 }

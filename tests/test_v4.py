@@ -99,8 +99,8 @@ def test_learning_rejects_invented_sources_opinions_and_title_only_causal_eviden
 
 def test_learning_no_body_means_no_external_ai_request():
     a = article(); a.pop('evidence')
-    with patch('daily_learning.request_json') as request:
-        with pytest.raises(ValueError, match='부족'): generate_learning([a], [a], {})
+    with patch('requests.sessions.Session.request') as request:
+        with pytest.raises(ValueError, match='제거'): generate_learning([a], [a], {})
         request.assert_not_called()
 
 
@@ -113,29 +113,24 @@ def test_basic_brief_skips_local_notices_and_stock_picks(title):
     assert curate_brief([row(title)]) == []
 
 
-def test_learning_uses_one_request_with_allowed_source_schema():
-    brief, packet, output = packet_and_output()
-    with patch('daily_learning.request_json', return_value=output) as request:
-        result = generate_learning(brief, brief, {})
-    assert request.call_count == 1
-    assert result['article_ids'] == [brief[0]['id']]
-    assert '인터넷·외부 도구는 사용할 수 없습니다' in request.call_args.args[0]
-    assert 'N1' in json.dumps(request.call_args.args[1])
-    assert result['study']['term_a'] == '비용'
+def test_retired_generator_rejects_even_complete_source_packets():
+    brief, _, _ = packet_and_output()
+    with patch('requests.sessions.Session.request') as request:
+        with pytest.raises(ValueError, match='제거'):
+            generate_learning(brief, brief, {'GEMINI_API_KEY':'fake','AI_FREE_TIER_CONFIRMED':'true'})
+        request.assert_not_called()
 
 
-def test_daily_ai_failure_preserves_previous_learning(tmp_path):
+def test_daily_check_preserves_archived_learning_without_generation(tmp_path):
     import generate_daily_insights as daily
     (tmp_path/'data').mkdir()
     previous = {'updated_at':'2026-10-24T00:00:00+00:00','study':{'topic':'이전 자료'}}
     (tmp_path/'data/daily_learning.json').write_text(json.dumps(previous))
-    (tmp_path/'data/news.json').write_text(json.dumps({'articles':[article()]}))
-    (tmp_path/'data/status.json').write_text('{"ok":true}')
-    with patch.object(daily, 'ROOT', tmp_path), patch.dict('os.environ', {'GEMINI_API_KEY':'fake','AI_FREE_TIER_CONFIRMED':'true'}), patch.object(daily, 'generate_learning', side_effect=ValueError('무료 한도')) as request:
-        assert daily.run() == 1
-        assert request.call_count == 1
+    with patch.object(daily, 'ROOT', tmp_path), patch('requests.sessions.Session.request') as request:
+        assert daily.run() == 0
+        request.assert_not_called()
     assert json.loads((tmp_path/'data/daily_learning.json').read_text()) == previous
-    assert json.loads((tmp_path/'data/learning_status.json').read_text())['ok'] is False
+    assert json.loads((tmp_path/'data/learning_status.json').read_text())['requests'] == 0
 
 
 def test_body_parser_requires_specific_container_inside_article_shell():
@@ -188,8 +183,8 @@ def test_context_includes_later_explanation_and_has_strict_word_budget():
 def test_shallow_excerpt_cannot_trigger_deep_study_request():
     brief, _, _ = packet_and_output()
     brief[0]['evidence'].pop('context')
-    with patch('daily_learning.request_json') as request:
-        with pytest.raises(ValueError, match='부족'): generate_learning(brief, brief, {})
+    with patch('requests.sessions.Session.request') as request:
+        with pytest.raises(ValueError, match='제거'): generate_learning(brief, brief, {})
         request.assert_not_called()
 
 
@@ -217,23 +212,23 @@ def test_deep_connections_need_mechanism_conditions_and_evidence():
     with pytest.raises(ValueError): validate_learning(bad, packet)
 
 
-def test_deep_study_renders_full_learning_and_unknown_event_fields():
+def test_missing_chatgpt_research_does_not_display_archived_gemini_text():
     import streamlit as st
     from streamlit.testing.v1 import AppTest
     from news_core import ROOT
-    brief, packet, output = packet_and_output()
-    payload = {**output, 'schema_version':5, 'sources':packet, 'updated_at':datetime.now(UTC).isoformat()}
+    _, packet, output = packet_and_output()
+    output['study']['topic'] = '이전 제미나이 제목 - 표시 금지'
+    payload = {**output, 'sources':packet, 'updated_at':datetime.now(UTC).isoformat()}
     def load(path):
         return payload if path.name == 'daily_learning.json' else {}
     st.cache_data.clear()
-    with patch('news_core.load_json', side_effect=load), patch('research_learning.load_research', return_value={}):
+    with patch('news_core.load_json', side_effect=load), patch('news_core.fetch_news', return_value=([], [])), patch('research_learning.load_research', return_value={}):
         app = AppTest.from_file(str(ROOT/'app.py'), default_timeout=30).run()
     assert not app.exception
     rendered = '\n'.join(x.value for x in app.markdown)
-    assert '산업·사회·경제와 연결해서 읽기' in rendered
-    assert '자료에서 확인되지 않음' in rendered + '\n'.join(str(x.value) for x in app.table)
-    assert '전력망 접속' in rendered
-    assert '입증하지 않는 내용' in '\n'.join(x.value for x in app.caption)
+    assert output['study']['topic'] not in rendered
+    assert not any(x.key == 'ai_generate' for x in app.button)
+    assert any('ChatGPT 조사 자료' in x.value for x in app.info)
 
 
 def test_title_only_news_never_uses_model_rewritten_numbers():

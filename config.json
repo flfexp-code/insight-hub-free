@@ -7,5 +7,7 @@
   "max_per_feed": 20,
   "collect_company_news": false,
   "brief_limit": 5,
-  "company_analysis_mode": "manual"
+  "company_analysis_mode": "chatgpt_packet",
+  "learning_provider": "chatgpt_work",
+  "ai_generation_enabled": false
 }

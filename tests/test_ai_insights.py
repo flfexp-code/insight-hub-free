@@ -1,66 +1,31 @@
-import copy
-import json
 from unittest.mock import patch
-
 import pytest
-
-from ai_insights import generate, ready, validate_output
-from insights import DEFAULT_PROFILES, build_insights, related_articles
-from test_insights import row
+from ai_insights import generate, ready, request_json, validate_output
 
 
-def output():
-    return {'insights': [{'title': '검증용 연결', 'phenomenon': '기사 단서',
-                         'impact': '조건부 영향', 'response': '대응 검토', 'counter': '예외 확인',
-                         'news_ids': ['N1'], 'report_ids': ['bok_construction'], 'check_metrics': ['공정률']}]}
+@pytest.mark.parametrize('settings', [{}, {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'}])
+def test_removed_provider_cannot_be_enabled_by_old_secrets(settings):
+    with patch('requests.sessions.Session.request', side_effect=AssertionError('network call')) as request:
+        assert ready(settings) is False
+        with pytest.raises(ValueError, match='제거'):
+            generate({}, [], [], settings)
+        with pytest.raises(ValueError, match='제거'):
+            request_json('prompt', {}, settings)
+        request.assert_not_called()
 
 
-def test_no_key_or_confirmation_means_no_request():
-    assert not ready({}) and not ready({'GEMINI_API_KEY': 'fake'})
-    with patch('ai_insights.requests.post') as post:
-        with pytest.raises(ValueError, match='요청을 보내지'):
-            generate(DEFAULT_PROFILES[2], [], [], {})
-        post.assert_not_called()
-
-
-def test_unknown_source_is_rejected():
-    value = output()
-    value['insights'][0]['report_ids'] = ['invented']
+def test_archived_draft_still_rejects_invented_sources():
+    item = {'title':'제목', 'phenomenon':'현상', 'impact':'영향', 'response':'검토', 'counter':'조건',
+            'news_ids':['N1'], 'report_ids':['invented']}
     with pytest.raises(ValueError, match='없는 출처'):
-        validate_output(value, {'N1'}, {'bok_construction'})
-    assert validate_output(output(), {'N1'}, {'bok_construction'})
+        validate_output({'insights':[item]}, {'N1'}, {'R1'})
 
 
-def test_personnel_never_sent_to_ai():
-    with patch('ai_insights.requests.post') as post:
-        with pytest.raises(ValueError, match='인사·승진'):
-            generate(DEFAULT_PROFILES[1], [row('도로공사 승진 논란')], [{}],
-                     {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'})
-        post.assert_not_called()
-
-
-@pytest.mark.parametrize(('status', 'message'), [(429, '유료 전환·재시도 없이'), (503, '자동 재시도하지')])
-def test_rate_limit_or_unavailable_has_no_retry_or_upgrade(status, message):
-    profile = DEFAULT_PROFILES[2]
-    rows = related_articles([row('LH 공사비 상승 우려')], profile)
-    cards = build_insights(rows, profile)
-    class Response:
-        status_code = status
-    with patch('ai_insights.requests.post', return_value=Response()) as post:
-        with pytest.raises(ValueError, match=message):
-            generate(profile, rows, cards, {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'})
-        assert post.call_count == 1
-        assert 'tools' not in post.call_args.kwargs['json']
-
-
-def test_model_result_citations_are_validated():
-    profile = DEFAULT_PROFILES[2]
-    rows = related_articles([row('LH 공사비 상승 우려')], profile)
-    cards = build_insights(rows, profile)
-    class Response:
-        status_code = 200
-        def json(self):
-            return {'candidates': [{'content': {'parts': [{'text': json.dumps(output())}]}}]}
-    with patch('ai_insights.requests.post', return_value=Response()):
-        result = generate(profile, rows, cards, {'GEMINI_API_KEY': 'fake', 'AI_FREE_TIER_CONFIRMED': 'true'})
-    assert result[0]['report_ids'] == ['bok_construction']
+def test_collection_workflow_does_not_pass_provider_secrets():
+    from news_core import ROOT
+    import yaml
+    text = (ROOT / '.github/workflows/daily-news.yml').read_text()
+    workflow = yaml.safe_load(text)
+    assert 'GEMINI_API_KEY' not in text
+    assert 'AI_FREE_TIER_CONFIRMED' not in text
+    assert any(step.get('run') == 'python collect_news.py' for step in workflow['jobs']['collect']['steps'])
