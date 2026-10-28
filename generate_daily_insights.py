@@ -9,6 +9,9 @@ from news_core import ROOT, UTC, atomic_json, load_json
 
 
 def run():
+    if load_json(ROOT / 'config.json').get('learning_provider') == 'chatgpt_work':
+        print('ChatGPT 조사 학습 모드: 여기서는 외부 AI 요청을 보내지 않습니다. 뉴스 수집은 계속됩니다.')
+        return 0
     settings = {k: os.getenv(k, '') for k in ('GEMINI_API_KEY', 'AI_FREE_TIER_CONFIRMED')}
     if not ready(settings):
         print('무료 AI 미연결: API 요청 없음. 기사 목록은 이용할 수 있습니다.')
