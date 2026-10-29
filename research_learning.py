@@ -63,6 +63,9 @@ def validate_research(value):
         raise ValueError('생각할 질문이 필요합니다.')
     for question in questions:
         sentence(question, 'question', high=250); sentence(question, 'hint', high=450)
+    if 'pt' in value:
+        from pt_learning import validate_pt
+        validate_pt(value['pt'], index)
     return value
 
 
@@ -80,6 +83,18 @@ def publish_research(value, destination):
 
 
 def render_research(value):
+    import streamlit as st
+    validate_research(value)
+    if 'pt' in value:
+        from pt_learning import render_pt
+        render_pt(value)
+        with st.expander('배경 학습 읽기', expanded=False):
+            _render_learning(value)
+    else:
+        _render_learning(value)
+
+
+def _render_learning(value):
     import streamlit as st
     from reader_ui import reading_items
     validate_research(value)
@@ -114,3 +129,4 @@ def render_research(value):
     reading_items([{'id': 'research:' + value['id'], 'kind': 'study', 'group': '조사 학습',
                    'title': value['topic'], 'date': format_kst(value['updated_at']),
                    'summary': value['overview'], 'details': details, 'url': ''}], 'research_bookmark')
+

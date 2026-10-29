@@ -199,8 +199,8 @@ research = load_research(ROOT / 'data/chatgpt_research.json')
 with status_area:
     m1, m2, m3 = st.columns(3)
     m1.metric('오늘의 이슈', f'{len(brief)}건')
-    m2.metric('오늘의 공부', '1주제' if research else '생성 대기')
-    m3.metric('하루 읽기', '약 10분')
+    m2.metric('오늘의 공부', 'PT 1세트' if research.get('pt') else ('1주제' if research else '생성 대기'))
+    m3.metric('하루 학습', 'PT 준비·발표' if research.get('pt') else '약 10분')
     if not topics:
         st.info('뉴스 분야를 한 개 이상 선택하세요.')
 
@@ -222,7 +222,7 @@ with brief_tab:
     reading_items(items, 'daily_reader')
 
 with study_tab:
-    st.subheader('경제·산업 깊이 읽기')
+    st.subheader('경제·산업 PT 연습' if research.get('pt') else '경제·산업 깊이 읽기')
     if research:
         render_research(research)
     else:
@@ -375,3 +375,4 @@ RSS 제공처 사정에 따라 연결 실패나 기사 누락이 생길 수 있�
 ''')
     st.link_button('GitHub Actions 무료 조건', 'https://docs.github.com/en/actions/concepts/billing-and-usage')
     st.link_button('Streamlit 배포 안내', 'https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy')
+
