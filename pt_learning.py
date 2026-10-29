@@ -4,6 +4,11 @@ import math
 from news_core import format_kst
 
 
+def _plain(value):
+    # Streamlit의 Markdown이 두 개 이상의 기간 표기 ~를 취소선으로 읽지 않게 한다.
+    return value.replace('~', r'\~')
+
+
 def validate_pt(pt, source_index):
     def text(item, key, low=1, high=3000):
         value = item.get(key) if isinstance(item, dict) else None
@@ -147,7 +152,7 @@ def render_pt(value):
     st.caption(f"준비 {pt['preparation_minutes']}분 · 발표 {pt['presentation_minutes']}분")
     st.info(pt['task'])
     st.write('역할: ' + pt['role'])
-    st.write(pt['conditions'])
+    st.write(_plain(pt['conditions']))
     st.markdown('#### 발표에 포함할 내용')
     for item in pt['deliverables']:
         st.write('• ' + item)
@@ -157,11 +162,11 @@ def render_pt(value):
         with st.container(border=True):
             st.markdown('#### ' + material['id'] + ' · ' + material['heading'])
             st.caption(material['provenance'])
-            st.write(material['body'])
+            st.write(_plain(material['body']))
             if material.get('chart'):
                 c = material['chart']
                 st.markdown('**' + c['title'] + '**')
-                st.caption('단위: ' + c['unit'] + ' · ' + c['period'])
+                st.caption(_plain('단위: ' + c['unit'] + ' · ' + c['period']))
                 frame = pd.DataFrame(c['rows'], columns=c['columns'])
                 if c['kind'] == 'bar':
                     st.bar_chart(frame.set_index(c['columns'][0]), stack=False, sort=False, color=['#627e42', '#a4b98c'][:len(c['columns'])-1] if len(c['columns']) <= 3 else None)
@@ -169,7 +174,7 @@ def render_pt(value):
                         st.dataframe(frame, hide_index=True)
                 else:
                     st.dataframe(frame, hide_index=True)
-                st.caption(c['note'])
+                st.caption(_plain(c['note']))
             st.caption('근거: ' + ' · '.join(source_index[s]['publisher'] for s in material['source_ids']))
         details.append(material['heading']+'\n'+material['body'])
         if material.get('chart'):
@@ -188,7 +193,7 @@ def render_pt(value):
             st.write('• ' + item)
         st.markdown('#### 예시 발표 스크립트')
         st.caption(guide['script_notes'])
-        st.write(guide['sample_script'])
+        st.write(_plain(guide['sample_script']))
         st.markdown('#### 피드백에서 확인할 내용')
         for item in guide['rubric']:
             st.write('• ' + item)
