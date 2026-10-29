@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T03:30:20+00:00",
+  "updated_at": "2026-10-29T08:27:12.787Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
     "id": "2026-10-29-pt-youth-hiring",
-    "research_updated_at": "2026-10-29T03:22:42+00:00",
-    "previous_blob_sha": "b4440af4f3eaa2e95b909ca75306e4e9130afd02",
-    "content_sha": "b94ac5555d62f07e09a6dd6db11d889865e9f4b2",
-    "commit_sha": "a073aa7512ee35dde15dce5c5524e70e41e8596d",
+    "research_updated_at": "2026-10-29T08:24:27+00:00",
+    "previous_blob_sha": "b94ac5555d62f07e09a6dd6db11d889865e9f4b2",
+    "content_sha": "e82c8ab4f3fa03485c33628af2494fb6d193af21",
+    "commit_sha": "829e58a79f0cbaa6f4f0f8fef0543936936328d4",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -52,6 +52,23 @@
         }
       },
       "scope": "UI pagination and both live PDF downloads verified. Daily automation still writes the existing PT schema; future scheduled runs not executed in this interactive change."
+    }
+  },
+  "material_expansion_update": {
+    "updated_at": "2026-10-29T08:27:12.787Z",
+    "result": "success",
+    "article_body_chars": {
+      "A1": 619,
+      "A2": 616
+    },
+    "verification": {
+      "validator": "Current research_learning.validate_research PASS. Extended bodies preserved in practice page model and feedback packet. Expanded Korean summaries found in generated problem PDF text (7 pages).",
+      "sources": "NewsPim reporter body and corrected Yonhap article reread directly; direct quotes separated from original-language summaries. Unchanged other materials not newly researched.",
+      "originals": "Both prior data files, current validator, authoring documents and blob SHAs preserved locally; previous research blob retained in GitHub history.",
+      "readback": "Saved JSON fetched again; id, updated_at and full JSON equal.",
+      "live_ui": "Live app reloaded; both expanded article bodies and separate A1/A2 pages verified. Screenshot of A1 saved.",
+      "automation": "Existing daily task prompt updated; schedule unchanged; future scheduled execution not run.",
+      "scope": "Existing chart values, task and answer guide preserved. PDF checked locally; live download not repeated in this content-only update."
     }
   }
 }
