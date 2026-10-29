@@ -1,74 +1,28 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T08:27:12.787Z",
+  "updated_at": "2026-10-29T23:30:03.547Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "2026-10-29-pt-youth-hiring",
-    "research_updated_at": "2026-10-29T08:24:27+00:00",
-    "previous_blob_sha": "b94ac5555d62f07e09a6dd6db11d889865e9f4b2",
-    "content_sha": "e82c8ab4f3fa03485c33628af2494fb6d193af21",
-    "commit_sha": "829e58a79f0cbaa6f4f0f8fef0543936936328d4",
+    "id": "2026-10-30-pt-eu-hybrid-trade",
+    "research_updated_at": "2026-10-29T23:29:22.660847+00:00",
+    "previous_blob_sha": "e82c8ab4f3fa03485c33628af2494fb6d193af21",
+    "commit_sha": "98bb1a1d1fa4ddc29d69a3574f13f7ee26ca5bf4",
+    "content_sha": "ce802f5995fd144d00f7789bafc02a253933fcd5",
     "readback": {
       "id": true,
       "updated_at": true,
-      "body": true,
+      "sections": true,
       "pt": true,
       "entire_json": true
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research including validate_pt PASS; full suite 105 passed; after date-display fix targeted 19 passed; JS syntax check PASS.",
+    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; feedback_packet retains full material bodies and chart and excludes sample_script. RSS/network imports of news_core omitted locally because dependencies unavailable; actual validation functions and standard-library helpers unchanged.",
     "original_content_and_blob_sha_preserved": true,
-    "live_app_checked": true,
-    "scope": "Live Streamlit today-study PT task, two charts, table, answer editor, collapsed answer guide and example script verified. Clipboard includes test answer, chart values and sources and excludes example script. Test answer cleared. Next scheduled generation not executed in this interactive run.",
-    "automation": {
-      "updated": true,
-      "title": "경제·산업 PT 연습",
-      "schedule": "Existing daily Asia/Seoul around 08:00 preserved; enabled."
-    },
-    "pt_code_sha": "b06014d34eecc09fb443c1761422ef2cc0a1032a"
-  },
-  "presentation_update": {
-    "updated_at": "2026-10-29T08:16:16+00:00",
-    "result": "success",
-    "commit_sha": "15abfb1c8f0c95e4ffcb8ac61cb13227c493827d",
-    "verification": {
-      "tests": "107 passed; page/row and full script preservation, embedded font PDF export, no external PDF requests",
-      "live_ui": "Previous/next and direct page selection verified; one material page at a time; chart labels and exact numeric table visible; draft preserved across page changes and test text cleared.",
-      "live_pdf_downloads": {
-        "problem": {
-          "pages": 6,
-          "korean_text": true,
-          "chart_values": true,
-          "example_script": false
-        },
-        "guide": {
-          "pages": 7,
-          "korean_text": true,
-          "example_script": true
-        }
-      },
-      "scope": "UI pagination and both live PDF downloads verified. Daily automation still writes the existing PT schema; future scheduled runs not executed in this interactive change."
-    }
-  },
-  "material_expansion_update": {
-    "updated_at": "2026-10-29T08:27:12.787Z",
-    "result": "success",
-    "article_body_chars": {
-      "A1": 619,
-      "A2": 616
-    },
-    "verification": {
-      "validator": "Current research_learning.validate_research PASS. Extended bodies preserved in practice page model and feedback packet. Expanded Korean summaries found in generated problem PDF text (7 pages).",
-      "sources": "NewsPim reporter body and corrected Yonhap article reread directly; direct quotes separated from original-language summaries. Unchanged other materials not newly researched.",
-      "originals": "Both prior data files, current validator, authoring documents and blob SHAs preserved locally; previous research blob retained in GitHub history.",
-      "readback": "Saved JSON fetched again; id, updated_at and full JSON equal.",
-      "live_ui": "Live app reloaded; both expanded article bodies and separate A1/A2 pages verified. Screenshot of A1 saved.",
-      "automation": "Existing daily task prompt updated; schedule unchanged; future scheduled execution not run.",
-      "scope": "Existing chart values, task and answer guide preserved. PDF checked locally; live download not repeated in this content-only update."
-    }
+    "live_app_checked": false,
+    "scope": "Only two authorized JSON data paths updated. No UI, PDF download, code, workflow or permissions changed or checked. Official report web executive summary read; full PDF unavailable. Final automotive measure regulation not obtained."
   }
 }
