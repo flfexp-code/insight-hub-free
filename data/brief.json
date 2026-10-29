@@ -1,32 +1,34 @@
 {
-  "updated_at": "2026-10-28T22:55:23.511609+00:00",
+  "updated_at": "2026-10-29T22:57:25.291239+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "661a7d3c3662f6ad4db2",
-      "title": "“전력망 늦고 한전 재원 부족”...에너지전환 실행력 집중 추궁",
+      "id": "254de38841f900d72be1",
+      "title": "韓·美 전력망 정책 ’지중화·준비우선’ 선회…전선업계 장기 수혜 전망 By EBN",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjR0ZuQWtGU0dtQWZkaXlJbVI4R0NFOVJ3RGctMEFPNnNWeUhSeS1FanZSNTdlU1FHUTRUQXdpWWY5ODNhRVlHOVlaczhCZFF2TVdMZVJhQzlzbm1JM1JoVWh1SWowRU1ORzdMQldRblhLUQ?oc=5",
-      "source": "에너지신문",
-      "published": "2026-10-26T12:12:45+00:00",
-      "collected_at": "2026-10-27T22:52:36.402758+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwMGYzSDhMVXZQNVEtWjBIRTMwU2w5dlY1UmZlSENhcXRTUlpfV3NxcVdqTlZOWkVIUjYxa21FdVczaVZqR29HOXMzX2dWeGFlWlNkWW0tTFo5WUJzS2h2WXRtVHp5eXktRTlIQWQ5TC0?oc=5",
+      "source": "Investing.com 한국어",
+      "published": "2026-10-29T05:53:00+00:00",
+      "collected_at": "2026-10-29T22:57:23.576428+00:00",
       "categories": [
-        "에너지"
+        "에너지",
+        "국제·정책"
       ],
       "industries": [
         "전력·에너지"
       ],
       "issues": [
-        "설비·전력수요"
+        "설비·전력수요",
+        "규제·재정"
       ],
       "search_topics": [
         "에너지"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjR0ZuQWtGU0dtQWZkaXlJbVI4R0NFOVJ3RGctMEFPNnNWeUhSeS1FanZSNTdlU1FHUTRUQXdpWWY5ODNhRVlHOVlaczhCZFF2TVdMZVJhQzlzbm1JM1JoVWh1SWowRU1ORzdMQldRblhLUQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwMGYzSDhMVXZQNVEtWjBIRTMwU2w5dlY1UmZlSENhcXRTUlpfV3NxcVdqTlZOWkVIUjYxa21FdVczaVZqR29HOXMzX2dWeGFlWlNkWW0tTFo5WUJzS2h2WXRtVHp5eXktRTlIQWQ5TC0?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-28T22:55:23.992665+00:00",
+        "checked_at": "2026-10-29T22:57:25.915042+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -58,7 +60,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ob2hrVVFUQ2xCS1VwZVMxbWhuTWhmelZyT0FjZ2Q3Y2hydkl4NWpUUFppQzJycjFLdU9lcVJFOC1xMFBka01OMDR0Y1ZYM0RRMkdVOVBoZ0VWcmlHZ0FEVWJTeWZHMjJXMFQ5YQ?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-28T22:55:23.992828+00:00",
+        "checked_at": "2026-10-29T22:57:25.915216+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -68,13 +70,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "a29a3189f2fcde7d3e37",
-      "title": "워시 \"물가 높지만 지표 추가 확인 뒤 금리 결정\"…12월 인상 힘 받나 [Fed워치]",
+      "id": "c4aae86a5b485b8fbd1a",
+      "title": "미 금리 동결에 원/달러 환율 소폭 하락",
       "summary": "",
-      "link": "https://www.hankyung.com/article/202610291910i",
-      "source": "한국경제 증권",
-      "published": "2026-10-28T19:39:04+00:00",
-      "collected_at": "2026-10-28T22:55:22.412855+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fVUwwcl9GQkpVaC1pWkl5VHp2WEVUMEJ3d1VNMEJ5S1lBSWRnWUF0MUVoUElJTEJoWHRoMEpyazVSTF9OcUt1RWNBbUhyWWV0S3lpVnZUNGUzSVnSAWBBVV95cUxPeFR1UXBDcS15eHdXaDMtTWVHRVV6R01LVUkyckVkYXRHbEQ1MXJ4UG5qVHloZkt0MDVEank5a0JPcFRIZ18wY2liTU9sdkw2RlR5bFI2OWVMTUliMmpVNXA?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-29T07:34:41+00:00",
+      "collected_at": "2026-10-29T22:57:23.779276+00:00",
       "categories": [
         "거시경제"
       ],
@@ -82,54 +84,52 @@
         "기타"
       ],
       "issues": [
-        "금리·자금조달"
+        "금리·자금조달",
+        "환율·원가"
       ],
       "search_topics": [
-        "금융"
+        "거시경제"
       ],
       "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.hankyung.com/article/202610291910i",
-        "excerpt": "미국 중앙은행(Fed)이 28일(현지 시간) 기준금리를 연 3.75~4.00%로 동결했다. […] 다만 워시 의장은 현재 금리가 충분한 수준인지에 대해서는 \"확고한 결론은 없다\"고 밝혔다. […] \"왜 오늘 금리를 올리지 않았느냐\"는 질문엔 \"물가안정을 확보하고 인플레이션을 억제하는 것은 달력의 특정 날짜나 특정 경제지표 하나에 관한",
-        "checked_at": "2026-10-28T22:55:23.992849+00:00",
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fVUwwcl9GQkpVaC1pWkl5VHp2WEVUMEJ3d1VNMEJ5S1lBSWRnWUF0MUVoUElJTEJoWHRoMEpyazVSTF9OcUt1RWNBbUhyWWV0S3lpVnZUNGUzSVnSAWBBVV95cUxPeFR1UXBDcS15eHdXaDMtTWVHRVV6R01LVUkyckVkYXRHbEQ1MXJ4UG5qVHloZkt0MDVEank5a0JPcFRIZ18wY2liTU9sdkw2RlR5bFI2OWVMTUliMmpVNXA?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-10-29T22:57:25.915247+00:00",
         "kind": "보도",
-        "page_title": "워시 \"물가 높지만 지표 추가 확인 뒤 금리 결정\"…12월 인상 힘 받나 [Fed워치]",
-        "context": "미국 중앙은행(Fed)이 28일(현지 시간) 기준금리를 연 3.75~4.00%로 동결했다. […] 다만 워시 의장은 현재 금리가 충분한 수준인지에 대해서는 \"확고한 결론은 없다\"고 밝혔다. […] \"왜 오늘 금리를 올리지 않았느냐\"는 질문엔 \"물가안정을 확보하고 인플레이션을 억제하는 것은 달력의 특정 날짜나 특정 경제지표 하나에 관한 문제가 아니다\"며 \"앞으로의 기간은 정보가 매우 풍부한 시기이고 동료들과 함께 이를 면밀히 살펴볼 것\"이라고 말했다. […] 워시는 그러나 현재 기준금리 수준이 '최종 수준'인지를 묻는 질문에는 명확한 답을 내놓지 않았다. […] 다만 경제가 과열된 수준이냐는 질문에는 \"대부분의 동료는 그렇게 판단하지 않는다\"고 밝혔다. […] 워시 의장은 \"우리는 연간 FOMC 8회가 적절한 횟수라고 생각한다\"며 \"그러나 2027년에는 1번은 광범위한 통화정책 전략만 논의하고, 이때 금리에 대한 투표나 정책 성명 발표는 없을 것\"이라고 말했다.",
-        "context_version": 2
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "경제",
-      "brief_theme": "금리·자금조달",
+      "brief_theme": "연료·환율",
       "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "39b33a7de4f5459bbe58",
-      "title": "청년고용 질적 악화… 산업구조 변화 속 일자리 진입장벽 확대",
+      "id": "7f838a89a20a3d7d7017",
+      "title": "2030년 퇴직금 제도 사라진다…'기금형 퇴직연금'도 도입",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPVlBIS1RSWkJRV0RGaW0wRDFuY0dqSnJzc2hQVWhISFFLSDJwTV9SbzQ4b0lJMFhUOTI0dXdSOXp0RHNFSE1ELUdfVUxfU25Ra0lCam9lX3MtQ282cmw2VXRSczZKdkM0V1lz0gFvQVVfeXFMTmplZGZHWFdJN3ZiS2ZqaTZmcGF0aHlqSlBkcUI3c0dHa3FWa0duS3VobE1qR0NJNlR6SVk4T2V6ZHRfdjloUm9Jal9Mc3BqY2duaXhhazlQTkQ3cXEwVUEzLUhDT2p1YnBPSnRJclRZ?oc=5",
-      "source": "한국보험신문",
-      "published": "2026-10-27T00:12:50+00:00",
-      "collected_at": "2026-10-28T22:55:22.005374+00:00",
+      "link": "https://www.hankyung.com/article/2026102943271",
+      "source": "한국경제 사회",
+      "published": "2026-10-29T09:01:35+00:00",
+      "collected_at": "2026-10-29T22:57:24.441496+00:00",
       "categories": [
-        "산업·통상",
         "고용·사회"
       ],
       "industries": [
         "기타"
       ],
-      "issues": [
-        "고용·운영"
-      ],
+      "issues": [],
       "search_topics": [
         "고용·사회"
       ],
       "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPVlBIS1RSWkJRV0RGaW0wRDFuY0dqSnJzc2hQVWhISFFLSDJwTV9SbzQ4b0lJMFhUOTI0dXdSOXp0RHNFSE1ELUdfVUxfU25Ra0lCam9lX3MtQ282cmw2VXRSczZKdkM0V1lz0gFvQVVfeXFMTmplZGZHWFdJN3ZiS2ZqaTZmcGF0aHlqSlBkcUI3c0dHa3FWa0duS3VobE1qR0NJNlR6SVk4T2V6ZHRfdjloUm9Jal9Mc3BqY2duaXhhazlQTkQ3cXEwVUEzLUhDT2p1YnBPSnRJclRZ?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-10-28T22:55:23.993552+00:00",
+        "status": "본문 일부 확인",
+        "url": "https://www.hankyung.com/article/2026102943271",
+        "excerpt": "2030년에는 퇴직금 제도가 완전히 사라질 전망이다. […] 퇴직연금의 수익률 개선을 위해 기금화를 촉진하는 방안도 내놨다. […] 사업주의 경영 악화, 폐업 등으로 근로자가 퇴직금을 받지 못하는 위험을 줄이기 위해서다. […] 퇴직연금의 낮은 수익률 문제를 개선하기 위해 ‘기금형 퇴직연금’ 조성도 본격화한다. […]",
+        "checked_at": "2026-10-29T22:57:25.915399+00:00",
         "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
+        "page_title": "2030년 퇴직금 제도 사라진다…'기금형 퇴직연금'도 도입",
+        "context": "2030년에는 퇴직금 제도가 완전히 사라질 전망이다. […] 퇴직연금의 수익률 개선을 위해 기금화를 촉진하는 방안도 내놨다. […] 사업주의 경영 악화, 폐업 등으로 근로자가 퇴직금을 받지 못하는 위험을 줄이기 위해서다. […] 퇴직연금의 낮은 수익률 문제를 개선하기 위해 ‘기금형 퇴직연금’ 조성도 본격화한다. […] 노동계가 거대 자금을 굴리는 연금 시장의 사업자가 될 경우 퇴직연금 시장 지형에 적지 않은 변화가 예상된다. […] 정부는 퇴직연금의 장기 적립과 연금 수령을 유도하기 위해 중도 인출 대신 활용할 수 있는 담보대출 상품 출시도 지원한다.",
+        "context_version": 2
       },
       "brief_group": "시사",
       "brief_theme": "시사",
@@ -137,16 +137,15 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "6d1a2168b82bdcdeb0ff",
-      "title": "한재연, 재생에너지 산업계 정책 소통창구 구축",
+      "id": "693c3f41c00c9edd01d1",
+      "title": "제주도, 발전공기업 통합·재생에너지 정책 개편 방향 ‘촉각’",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iX2RnQlVKeDhEUkFEQlQyQlFFOXRQWVplXzl2THo2dDdNWW82ZEFIZlU2SE9SeGNXd0ZxaVlBWTN5cTM1d3ZZeWtwTmlkX3dWWm9Od1RUdGZucXNuSVFRYkVRRQ?oc=5",
-      "source": "국토일보",
-      "published": "2026-10-27T02:11:03+00:00",
-      "collected_at": "2026-10-28T22:55:22.078650+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51eExnS3BLS0tER1VjLUJOb1pzblEzSGlLQ1VLZFN1ZGVjOWJYZDVXNlpscDh5SWdqcmtoa0tTT245dkVwS0pMOVV0eHc1MDRYbl9haTVIeDViampIZ2JNMjdWWHpnMGFNVW1fcG9R?oc=5",
+      "source": "제주투데이",
+      "published": "2026-10-29T04:44:58+00:00",
+      "collected_at": "2026-10-29T22:57:23.574594+00:00",
       "categories": [
         "에너지",
-        "산업·통상",
         "국제·정책"
       ],
       "industries": [
@@ -160,9 +159,9 @@
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iX2RnQlVKeDhEUkFEQlQyQlFFOXRQWVplXzl2THo2dDdNWW82ZEFIZlU2SE9SeGNXd0ZxaVlBWTN5cTM1d3ZZeWtwTmlkX3dWWm9Od1RUdGZucXNuSVFRYkVRRQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51eExnS3BLS0tER1VjLUJOb1pzblEzSGlLQ1VLZFN1ZGVjOWJYZDVXNlpscDh5SWdqcmtoa0tTT245dkVwS0pMOVV0eHc1MDRYbl9haTVIeDViampIZ2JNMjdWWHpnMGFNVW1fcG9R?oc=5",
         "excerpt": "",
-        "checked_at": "2026-10-28T22:55:23.993839+00:00",
+        "checked_at": "2026-10-29T22:57:25.915576+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -173,5 +172,5 @@
     }
   ],
   "selected_count": 5,
-  "candidate_count": 325
+  "candidate_count": 331
 }
