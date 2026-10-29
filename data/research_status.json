@@ -1,28 +1,34 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T23:54:57+00:00",
+  "updated_at": "2026-10-29T03:30:20+00:00",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "2026-10-29-youth-hiring-growth",
-    "research_updated_at": "2026-10-28T23:54:34+00:00",
-    "previous_blob_sha": "102b8a2d4a75c152fe5fdacf7badac0de622c3a5",
-    "content_sha": "b4440af4f3eaa2e95b909ca75306e4e9130afd02",
-    "commit_sha": "2d7230a00a7af4cc9c470dcc90c1232fe1b0de8d",
+    "id": "2026-10-29-pt-youth-hiring",
+    "research_updated_at": "2026-10-29T03:22:42+00:00",
+    "previous_blob_sha": "b4440af4f3eaa2e95b909ca75306e4e9130afd02",
+    "content_sha": "b94ac5555d62f07e09a6dd6db11d889865e9f4b2",
+    "commit_sha": "a073aa7512ee35dde15dce5c5524e70e41e8596d",
     "readback": {
       "id": true,
       "updated_at": true,
       "body": true,
+      "pt": true,
       "entire_json": true
     }
   },
   "verification": {
-    "validator": "PASS: unchanged full research_learning module validate_research; unchanged news_core.parse_time AST executed locally. Unused UI/file helpers were not executed.",
-    "readback_verified_at": "2026-10-28T23:54:57+00:00",
+    "validator": "Current research_learning.validate_research including validate_pt PASS; full suite 105 passed; after date-display fix targeted 19 passed; JS syntax check PASS.",
     "original_content_and_blob_sha_preserved": true,
-    "live_app_checked": false,
-    "scope": "GitHub main research save and readback; id, updated_at, sections and full JSON matched. Live UI, deployment and future executions not checked."
+    "live_app_checked": true,
+    "scope": "Live Streamlit today-study PT task, two charts, table, answer editor, collapsed answer guide and example script verified. Clipboard includes test answer, chart values and sources and excludes example script. Test answer cleared. Next scheduled generation not executed in this interactive run.",
+    "automation": {
+      "updated": true,
+      "title": "경제·산업 PT 연습",
+      "schedule": "Existing daily Asia/Seoul around 08:00 preserved; enabled."
+    },
+    "pt_code_sha": "b06014d34eecc09fb443c1761422ef2cc0a1032a"
   }
 }
