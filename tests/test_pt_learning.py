@@ -66,10 +66,37 @@ def test_pt_screen_renders_script_collapsed_and_charts_without_network(pack):
         app = AppTest.from_file(str(ROOT / 'app.py'), default_timeout=30).run()
     assert not app.exception
     content = '\n'.join(item.value for item in app.markdown)
-    assert pack['pt']['task'] in '\n'.join(item.value for item in app.info)
-    assert pack['pt']['answer_guide']['sample_script'] in content.replace(r'\~', '~')
-    assert r'25\~29세' in '\n'.join(item.value for item in app.caption)
+    viewers=[json.loads(e.proto.json) for e in app.get('bidi_component') if e.proto.component_name=='insight_pt_pages_v1']
+    practice=next(v for v in viewers if v['mode']=='pt_material_pages')
+    guide_data=next(v for v in viewers if v['mode']=='pt_guide_pages')
+    assert practice['pages'][0]['body']==pack['pt']['task']
+    script=''.join(p['body'] for p in guide_data['pages'] if p['label'].startswith('예시 발표'))
+    assert script==pack['pt']['answer_guide']['sample_script']
     guide = next(e for e in app.expander if '예시 발표' in e.label)
     assert not guide.proto.expanded
-    assert len(app.get('vega_lite_chart')) == 2
+    assert len([p for p in practice['pages'] if p.get('chart')])==3
+    assert {'문제·자료집 PDF 저장','해설·예시 발표 PDF 저장'} <= {b.label for b in app.get('download_button')}
     assert request.call_count == 0
+
+
+def test_pages_keep_all_chart_rows_and_full_prose(pack):
+    from pt_pages import practice_pages, guide_pages, split_text
+    text=('긴 문단입니다. 중간 문장은 사라지면 안 됩니다.\n\n'*100)
+    assert ''.join(split_text(text))==text
+    original=pack['pt']['materials'][2]['chart']
+    original['rows']=[[f'범주 {i}',i,i+1] for i in range(25)]
+    pages=practice_pages(pack)
+    rows=[r for p in pages if p.get('chart',{}).get('title')==original['title'] for r in p['chart']['rows']]
+    assert rows==original['rows']
+    assert all(len(p['chart']['rows'])<=8 for p in pages if p.get('chart'))
+    assert ''.join(p['body'] for p in guide_pages(pack) if p['label'].startswith('예시 발표'))==pack['pt']['answer_guide']['sample_script']
+
+
+def test_pdf_exports_have_embedded_font_and_are_separate_without_network(pack):
+    from pt_pdf import export_pdf
+    with patch('requests.sessions.Session.request',side_effect=AssertionError('PDF network request')):
+        problem=export_pdf(json.dumps(pack,ensure_ascii=False),'practice')
+        guide=export_pdf(json.dumps(pack,ensure_ascii=False),'guide')
+    assert problem.startswith(b'%PDF-') and guide.startswith(b'%PDF-')
+    assert b'/FontFile2' in problem and b'/FontFile2' in guide
+    assert problem!=guide

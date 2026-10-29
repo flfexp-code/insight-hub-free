@@ -123,7 +123,7 @@ def answer_editor(value, packet):
         .hint{font-size:.88rem;color:#58674e} .packet{min-height:280px}''',
         js=r'''
         export default function({data,parentElement}) {
-          const root=parentElement.querySelector('#pt-answer');
+          const root=parentElement.querySelector('#pt-answer');root.replaceChildren();
           const el=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e;};
           const label=el('label','내 발표문·메모'),answer=el('textarea');
           answer.id='pt-draft';answer.maxLength=15000;answer.placeholder='결론과 근거, 실행 방법, 반론에 대한 생각을 적으세요.';
@@ -143,71 +143,36 @@ def answer_editor(value, packet):
 
 
 def render_pt(value):
-    import pandas as pd
     import streamlit as st
     from reader_ui import reading_items
+    from pt_pages import practice_pages, guide_pages
+    from pt_viewer import page_viewer
+    from pt_pdf import export_pdf
     pt = value['pt']
     st.caption('ChatGPT 직접 조사 · PT 연습 · ' + format_kst(value['updated_at']) + ' KST')
     st.markdown('### ' + value['topic'])
-    st.caption(f"준비 {pt['preparation_minutes']}분 · 발표 {pt['presentation_minutes']}분")
-    st.info(pt['task'])
-    st.write('역할: ' + pt['role'])
-    st.write(_plain(pt['conditions']))
-    st.markdown('#### 발표에 포함할 내용')
-    for item in pt['deliverables']:
-        st.write('• ' + item)
-    source_index = {s['id']: s for s in value['sources']}
-    details = [pt['task'], pt['conditions']]
-    for material in pt['materials']:
-        with st.container(border=True):
-            st.markdown('#### ' + material['id'] + ' · ' + material['heading'])
-            st.caption(material['provenance'])
-            st.write(_plain(material['body']))
-            if material.get('chart'):
-                c = material['chart']
-                st.markdown('**' + c['title'] + '**')
-                st.caption(_plain('단위: ' + c['unit'] + ' · ' + c['period']))
-                frame = pd.DataFrame(c['rows'], columns=c['columns'])
-                if c['kind'] == 'bar':
-                    st.bar_chart(frame.set_index(c['columns'][0]), stack=False, sort=False, color=['#627e42', '#a4b98c'][:len(c['columns'])-1] if len(c['columns']) <= 3 else None)
-                    with st.expander('그래프 수치 표로 보기'):
-                        st.dataframe(frame, hide_index=True)
-                else:
-                    st.dataframe(frame, hide_index=True)
-                st.caption(_plain(c['note']))
-            st.caption('근거: ' + ' · '.join(source_index[s]['publisher'] for s in material['source_ids']))
-        details.append(material['heading']+'\n'+material['body'])
-        if material.get('chart'):
-            details.append(json.dumps(material['chart'], ensure_ascii=False))
+    serialized=json.dumps(value,ensure_ascii=False)
+    c1,c2=st.columns(2)
+    c1.download_button('문제·자료집 PDF 저장',data=lambda:export_pdf(serialized,'practice'),
+                       file_name=value['id']+'-problem.pdf',mime='application/pdf',on_click='ignore',key='pdf_problem_'+value['id'])
+    c2.download_button('해설·예시 발표 PDF 저장',data=lambda:export_pdf(serialized,'guide'),
+                       file_name=value['id']+'-guide.pdf',mime='application/pdf',on_click='ignore',key='pdf_guide_'+value['id'])
+    page_viewer(value,practice_pages(value),'pt_material_pages')
     st.markdown('#### 내 답변과 피드백')
-    packet = feedback_packet(value)
-    answer_editor(value, packet)
-    guide = pt['answer_guide']
-    with st.expander('해설·예시 발표 스크립트 보기 · 답변 후 열기', expanded=False):
-        st.markdown('#### 자료를 연결하는 방법')
-        st.write(guide['reasoning'])
-        for item in guide['contrasts']:
-            st.write('• ' + item)
-        st.markdown('#### 다른 결론이 성립하는 조건')
-        for item in guide['approaches']:
-            st.write('• ' + item)
-        st.markdown('#### 예시 발표 스크립트')
-        st.caption(guide['script_notes'])
-        st.write(_plain(guide['sample_script']))
-        st.markdown('#### 피드백에서 확인할 내용')
-        for item in guide['rubric']:
-            st.write('• ' + item)
-        st.markdown('#### 꼬리질문 예시')
-        for item in guide['followups']:
-            st.write('• ' + item)
+    answer_editor(value,feedback_packet(value))
+    with st.expander('해설·예시 발표 스크립트 보기 · 답변 후 열기',expanded=False):
+        page_viewer(value,guide_pages(value),'pt_guide_pages')
     with st.expander('출처와 확인 범위'):
         for s in value['sources']:
             st.markdown('**'+s['publisher']+' · '+s['title']+'**')
             st.caption(s['published']+' · '+s['checked'])
             st.write('확인: '+s['supports'])
             st.caption('한계: '+s['limits'])
-            st.link_button('원문 보기', s['url'])
-    details.append('예시 발표 스크립트\n'+guide['sample_script'])
-    reading_items([{'id': 'pt:'+value['id'], 'kind': 'study', 'group': 'PT 연습',
-                   'title': value['topic'], 'date': format_kst(value['updated_at']),
-                   'summary': pt['task'], 'details': details, 'url': ''}], 'pt_bookmark')
+            st.link_button('원문 보기',s['url'])
+    details=[pt['task'],pt['conditions']]
+    for m in pt['materials']:
+        details.append(m['heading']+'\n'+m['body'])
+        if m.get('chart'):details.append(json.dumps(m['chart'],ensure_ascii=False))
+    details.append('예시 발표 스크립트\n'+pt['answer_guide']['sample_script'])
+    reading_items([{'id':'pt:'+value['id'],'kind':'study','group':'PT 연습','title':value['topic'],
+                   'date':format_kst(value['updated_at']),'summary':pt['task'],'details':details,'url':''}],'pt_bookmark')
