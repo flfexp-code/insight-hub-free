@@ -67,7 +67,8 @@ def test_pt_screen_renders_script_collapsed_and_charts_without_network(pack):
     assert not app.exception
     content = '\n'.join(item.value for item in app.markdown)
     assert pack['pt']['task'] in '\n'.join(item.value for item in app.info)
-    assert pack['pt']['answer_guide']['sample_script'] in content
+    assert pack['pt']['answer_guide']['sample_script'] in content.replace(r'\~', '~')
+    assert r'25\~29세' in '\n'.join(item.value for item in app.caption)
     guide = next(e for e in app.expander if '예시 발표' in e.label)
     assert not guide.proto.expanded
     assert len(app.get('vega_lite_chart')) == 2
