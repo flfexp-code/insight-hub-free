@@ -30,5 +30,28 @@
       "schedule": "Existing daily Asia/Seoul around 08:00 preserved; enabled."
     },
     "pt_code_sha": "b06014d34eecc09fb443c1761422ef2cc0a1032a"
+  },
+  "presentation_update": {
+    "updated_at": "2026-10-29T08:16:16+00:00",
+    "result": "success",
+    "commit_sha": "15abfb1c8f0c95e4ffcb8ac61cb13227c493827d",
+    "verification": {
+      "tests": "107 passed; page/row and full script preservation, embedded font PDF export, no external PDF requests",
+      "live_ui": "Previous/next and direct page selection verified; one material page at a time; chart labels and exact numeric table visible; draft preserved across page changes and test text cleared.",
+      "live_pdf_downloads": {
+        "problem": {
+          "pages": 6,
+          "korean_text": true,
+          "chart_values": true,
+          "example_script": false
+        },
+        "guide": {
+          "pages": 7,
+          "korean_text": true,
+          "example_script": true
+        }
+      },
+      "scope": "UI pagination and both live PDF downloads verified. Daily automation still writes the existing PT schema; future scheduled runs not executed in this interactive change."
+    }
   }
 }
