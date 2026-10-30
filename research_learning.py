@@ -66,6 +66,13 @@ def validate_research(value):
     if 'pt' in value:
         from pt_learning import validate_pt
         validate_pt(value['pt'], index)
+    if 'discussion' in value:
+        discussion = value['discussion']
+        if not isinstance(discussion, dict) or 'discussion' in discussion:
+            raise ValueError('사회현상 자료 형식 오류')
+        validate_research(discussion)
+        if 'pt' not in value or 'pt' not in discussion or discussion['id'] == value['id']:
+            raise ValueError('두 연습 세트의 PT 또는 식별자 오류')
     return value
 
 
@@ -85,6 +92,11 @@ def publish_research(value, destination):
 def render_research(value):
     import streamlit as st
     validate_research(value)
+    if 'discussion' in value:
+        selected = st.radio('오늘의 연습 선택', ['분야별 PT', '사회현상·토론'],
+                            horizontal=True, key='daily_practice_kind')
+        if selected == '사회현상·토론':
+            value = value['discussion']
     if 'pt' in value:
         from pt_learning import render_pt
         render_pt(value)
@@ -129,4 +141,5 @@ def _render_learning(value):
     reading_items([{'id': 'research:' + value['id'], 'kind': 'study', 'group': '조사 학습',
                    'title': value['topic'], 'date': format_kst(value['updated_at']),
                    'summary': value['overview'], 'details': details, 'url': ''}], 'research_bookmark')
+
 
