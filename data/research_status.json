@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T23:30:03.547Z",
+  "updated_at": "2026-10-30T23:29:53.030Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "2026-10-30-pt-eu-hybrid-trade",
-    "research_updated_at": "2026-10-29T23:29:22.660847+00:00",
-    "previous_blob_sha": "e82c8ab4f3fa03485c33628af2494fb6d193af21",
-    "commit_sha": "98bb1a1d1fa4ddc29d69a3574f13f7ee26ca5bf4",
-    "content_sha": "ce802f5995fd144d00f7789bafc02a253933fcd5",
+    "id": "energy-lng-winter-20261031",
+    "research_updated_at": "2026-10-30T23:27:53.513722+00:00",
+    "previous_blob_sha": "ce802f5995fd144d00f7789bafc02a253933fcd5",
+    "commit_sha": "41e4123e9014da87bd0021a97d1af6f6337c1fb7",
+    "content_sha": "30ef320db410f0fa172a4a686d67199ed9143e8f",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -20,9 +20,10 @@
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; feedback_packet retains full material bodies and chart and excludes sample_script. RSS/network imports of news_core omitted locally because dependencies unavailable; actual validation functions and standard-library helpers unchanged.",
+    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS. Exact news_core stdlib helpers loaded with AST; RSS dependencies omitted. Feedback packet full material bodies verified; sample_script excluded.",
     "original_content_and_blob_sha_preserved": true,
     "live_app_checked": false,
-    "scope": "Only two authorized JSON data paths updated. No UI, PDF download, code, workflow or permissions changed or checked. Official report web executive summary read; full PDF unavailable. Final automotive measure regulation not obtained."
+    "pdf": "16-page Korean PDF generated; embedded Nanum fonts, charts and tables rendered and visually reviewed. Text bounding boxes checked.",
+    "scope": "Only the two authorized JSON data files updated. Energy PT only per latest instruction; no independent discussion duplicated. Source checks limited to stated public web bodies; full report PDFs not claimed."
   }
 }
