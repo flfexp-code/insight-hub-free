@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T23:29:53.030Z",
+  "updated_at": "2026-10-31T23:55:23.741Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "energy-lng-winter-20261031",
-    "research_updated_at": "2026-10-30T23:27:53.513722+00:00",
-    "previous_blob_sha": "ce802f5995fd144d00f7789bafc02a253933fcd5",
-    "commit_sha": "41e4123e9014da87bd0021a97d1af6f6337c1fb7",
-    "content_sha": "30ef320db410f0fa172a4a686d67199ed9143e8f",
+    "id": "energy-nuclear-lto-20261101",
+    "research_updated_at": "2026-10-31T23:53:58.925879+00:00",
+    "previous_blob_sha": "30ef320db410f0fa172a4a686d67199ed9143e8f",
+    "commit_sha": "21d53546d7a85f8f541b019d024a4ef8b373aa46",
+    "content_sha": "6ffbb1794fa233e5ad6b740997ab5ff705dddf13",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -20,10 +20,10 @@
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS. Exact news_core stdlib helpers loaded with AST; RSS dependencies omitted. Feedback packet full material bodies verified; sample_script excluded.",
+    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; exact news_core stdlib helpers loaded with AST, RSS dependencies not imported. Feedback packet full material bodies checked and sample script excluded.",
     "original_content_and_blob_sha_preserved": true,
     "live_app_checked": false,
-    "pdf": "16-page Korean PDF generated; embedded Nanum fonts, charts and tables rendered and visually reviewed. Text bounding boxes checked.",
-    "scope": "Only the two authorized JSON data files updated. Energy PT only per latest instruction; no independent discussion duplicated. Source checks limited to stated public web bodies; full report PDFs not claimed."
+    "pdf": "17-page PDF generated; embedded Korean font verified, all pages rendered, visual review and text bounds checks passed.",
+    "scope": "Only two authorized JSON data paths changed. Energy PT only per latest instruction, no independent discussion. Source verification limited to named public article and report web text; full technical review reports not claimed."
   }
 }
