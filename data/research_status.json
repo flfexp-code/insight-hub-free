@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T23:55:23.741Z",
+  "updated_at": "2026-11-01T23:12:13.357Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
-    "id": "energy-nuclear-lto-20261101",
-    "research_updated_at": "2026-10-31T23:53:58.925879+00:00",
-    "previous_blob_sha": "30ef320db410f0fa172a4a686d67199ed9143e8f",
-    "commit_sha": "21d53546d7a85f8f541b019d024a4ef8b373aa46",
-    "content_sha": "6ffbb1794fa233e5ad6b740997ab5ff705dddf13",
+    "id": "energy-grid-local-ppa-20261102",
+    "research_updated_at": "2026-11-01T23:10:30.707690+00:00",
+    "previous_blob_sha": "6ffbb1794fa233e5ad6b740997ab5ff705dddf13",
+    "commit_sha": "58023830c2093a8b52726525b7174cedee19f959",
+    "content_sha": "106dae9222d4c3b033695507b49602ffd6df8b9c",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -20,10 +20,10 @@
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; exact news_core stdlib helpers loaded with AST, RSS dependencies not imported. Feedback packet full material bodies checked and sample script excluded.",
+    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; exact news_core stdlib helpers loaded with AST; RSS dependencies not imported. Full material bodies verified in feedback packet; sample_script excluded.",
     "original_content_and_blob_sha_preserved": true,
     "live_app_checked": false,
-    "pdf": "17-page PDF generated; embedded Korean font verified, all pages rendered, visual review and text bounds checks passed.",
-    "scope": "Only two authorized JSON data paths changed. Energy PT only per latest instruction, no independent discussion. Source verification limited to named public article and report web text; full technical review reports not claimed."
+    "pdf": "16-page PDF generated; embedded Korean font and glyph coverage verified, all pages rendered and visually reviewed, text bounds passed.",
+    "scope": "Only two authorized JSON data paths updated. Energy PT only. Law article bodies and cited report web chapters read; final implementing PPA notice not obtained. No code/workflow/permission changes; live UI and app PDF button not checked."
   }
 }
