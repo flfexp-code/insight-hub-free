@@ -1,50 +1,116 @@
 {
-  "updated_at": "2026-11-01T22:52:43.285903+00:00",
+  "updated_at": "2026-11-02T22:56:56.644648+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "46e1d587915809664503",
-      "title": "원/달러 환율, 수출기업 달러 매도에 소폭 하락",
+      "id": "deef2ffe0748b233645b",
+      "title": "한·독, 에너지 전환·전력망 혁신 협력",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MQW5FUXNINUFjTXo2QldZTm0weF84WUNpU2ZqdmhidWNhOGVWQnF4c1l2MVpkMkJzenFiYm0zWjdacFpVNFZNUHl1SDBXN2R5QkJSbGtYZ1RlZnPSAWBBVV95cUxORldxY3dHOUQ1aU5GQllUV2NjSl81VEMyeXdnYW9ZOGJTTkhqSVE2UmJRWVZYUl8yRlZ4YnZiU3hHZHdCb2t3OEdFTmNBYzEyd0Qzb1EwVWFoM3RKTHFJUEM?oc=5",
-      "source": "연합뉴스",
-      "published": "2026-10-30T07:50:27+00:00",
-      "collected_at": "2026-11-01T22:52:42.317857+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16QWVCeGRCVU9QTWhIQ1lBNl9tX1d3cXcxRTFZcDJrWl85bnRMS2Eya3VzZTI0SlFzWW1Mb1hWT0FrSjB3RDc0VmtqUmhFVVk2bTg2d0FpMzRHb2pndWdGLWd3MzVxTFRD?oc=5",
+      "source": "환경일보",
+      "published": "2026-11-01T05:24:15+00:00",
+      "collected_at": "2026-11-02T22:56:55.517323+00:00",
       "categories": [
-        "거시경제",
-        "산업·통상"
+        "에너지"
       ],
       "industries": [
-        "기타"
+        "전력·에너지"
       ],
       "issues": [
-        "환율·원가",
-        "통상·공급망"
+        "설비·전력수요"
+      ],
+      "search_topics": [
+        "에너지"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16QWVCeGRCVU9QTWhIQ1lBNl9tX1d3cXcxRTFZcDJrWl85bnRMS2Eya3VzZTI0SlFzWW1Mb1hWT0FrSjB3RDc0VmtqUmhFVVk2bTg2d0FpMzRHb2pndWdGLWd3MzVxTFRD?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-11-02T22:56:57.180416+00:00",
+        "kind": "보도",
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
+      },
+      "brief_group": "에너지",
+      "brief_theme": "전력망·수요",
+      "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "5e55ffb680623a6137e0",
+      "title": "환율 하락에 여행객은 ‘웃고’ 대출금리 상승에 차주는 ‘울고’",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrT0RMZjlrenQxNnJZUF8tQW9reUtpc2FVYUZBUDJOYXI2YVdERWtoWWtjdmMwRGd2LV9ub1dpRmhoYzJhZEIycUZENGlXTjdMSnR0UzZkWXNrQk95WUZiaFRHenpPY204WWI4?oc=5",
+      "source": "영남일보",
+      "published": "2026-10-31T03:00:41+00:00",
+      "collected_at": "2026-11-02T22:56:55.592894+00:00",
+      "categories": [
+        "거시경제",
+        "금융"
+      ],
+      "industries": [
+        "금융·보험"
+      ],
+      "issues": [
+        "금리·자금조달",
+        "환율·원가"
       ],
       "search_topics": [
         "거시경제"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MQW5FUXNINUFjTXo2QldZTm0weF84WUNpU2ZqdmhidWNhOGVWQnF4c1l2MVpkMkJzenFiYm0zWjdacFpVNFZNUHl1SDBXN2R5QkJSbGtYZ1RlZnPSAWBBVV95cUxORldxY3dHOUQ1aU5GQllUV2NjSl81VEMyeXdnYW9ZOGJTTkhqSVE2UmJRWVZYUl8yRlZ4YnZiU3hHZHdCb2t3OEdFTmNBYzEyd0Qzb1EwVWFoM3RKTHFJUEM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrT0RMZjlrenQxNnJZUF8tQW9reUtpc2FVYUZBUDJOYXI2YVdERWtoWWtjdmMwRGd2LV9ub1dpRmhoYzJhZEIycUZENGlXTjdMSnR0UzZkWXNrQk95WUZiaFRHenpPY204WWI4?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-01T22:52:44.184331+00:00",
+        "checked_at": "2026-11-02T22:56:57.180564+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
-      "brief_group": "경제",
+      "brief_group": "금융",
       "brief_theme": "연료·환율",
+      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
+      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
+    },
+    {
+      "id": "7675c26af043799523a8",
+      "title": "中 자동차 수출 급증에 현대글로비스 11% 급등...선박 부족에 수혜 기대",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202611020408i",
+      "source": "한국경제 증권",
+      "published": "2026-11-02T22:00:02+00:00",
+      "collected_at": "2026-11-02T22:56:55.817479+00:00",
+      "categories": [
+        "산업·통상"
+      ],
+      "industries": [
+        "자동차·배터리"
+      ],
+      "issues": [
+        "통상·공급망"
+      ],
+      "search_topics": [
+        "금융"
+      ],
+      "evidence": {
+        "status": "제목만 확인",
+        "url": "https://www.hankyung.com/article/202611020408i",
+        "excerpt": "",
+        "checked_at": "2026-11-02T22:56:57.180611+00:00",
+        "kind": "보도",
+        "reason": "접근 제한이 표시된 원문"
+      },
+      "brief_group": "경제",
+      "brief_theme": "경제",
       "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "4abea61aaffdc3bd1450",
-      "title": "미국 3분기 고용비용 0.8%↑…임금 상승세 둔화",
+      "id": "000b9e4baf1703cefb22",
+      "title": "[기획] 예산 41.6% 늘린다는데… 청년 고용률 29개월째 하락",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261030_0003849096",
-      "source": "뉴시스 경제",
-      "published": "2026-10-30T13:13:56+00:00",
-      "collected_at": "2026-10-30T22:54:44.338722+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUb2FQNUVFc0VmRVhWWEZ2czJhWkNGaldjdF9Zek1kcVk2ZDlOaWVLcjBObFNwSmZjOWVjSDhHVVQxTDdVUTY4SEZpVjJST1pYTjR5RkRYYzdmaGpwQkVPVDJuSTM?oc=5",
+      "source": "매일일보",
+      "published": "2026-11-02T03:00:00+00:00",
+      "collected_at": "2026-11-02T22:56:55.476513+00:00",
       "categories": [
         "고용·사회",
         "국제·정책"
@@ -53,20 +119,19 @@
         "기타"
       ],
       "issues": [
-        "고용·운영"
+        "고용·운영",
+        "규제·재정"
       ],
       "search_topics": [
-        "거시경제"
+        "고용·사회"
       ],
       "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261030_0003849096",
-        "excerpt": "AP 통신과 CNBC는 30일 미국 노동부가 발표한 고용비용지수(ECI)을 인용해 7~9월 분기 민간 부문 근로자의 보상비용은 전분기보다 0.8% 상승했다고 보도했다. […] 4~6월 분기 상승률 0.9%보다 0.1% 포인트 낮아졌으며 시장 예상에는 부합했다. […] 전년 동기 대비 상승률은 3.4%로 전분기와 같았다. […] 임금·급여는",
-        "checked_at": "2026-11-01T22:52:44.184558+00:00",
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUb2FQNUVFc0VmRVhWWEZ2czJhWkNGaldjdF9Zek1kcVk2ZDlOaWVLcjBObFNwSmZjOWVjSDhHVVQxTDdVUTY4SEZpVjJST1pYTjR5RkRYYzdmaGpwQkVPVDJuSTM?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-11-02T22:56:57.181239+00:00",
         "kind": "보도",
-        "page_title": "미국 3분기 고용비용 0.8%↑…임금 상승세 둔화",
-        "context": "AP 통신과 CNBC는 30일 미국 노동부가 발표한 고용비용지수(ECI)을 인용해 7~9월 분기 민간 부문 근로자의 보상비용은 전분기보다 0.8% 상승했다고 보도했다. […] 4~6월 분기 상승률 0.9%보다 0.1% 포인트 낮아졌으며 시장 예상에는 부합했다. […] 전년 동기 대비 상승률은 3.4%로 전분기와 같았다. […] 임금·급여는 전분기에 비해 0.7% 올라 4~6월 분기 상승률 0.9%에서 감속했다. […] 복리후생 비용은 0.9% 올라 역시 4~6월 분기 상승률 1.0%를 밑돌았다. […] 근로자의 직종이나 산업 간 이동에 따른 영향을 줄여 노동비용의 실제 변화를 파악하는 지표로 미국 연방준비제도(Fed)는 임금 압력과 물가 흐름을 판단할 때 이를 참작한다.",
-        "context_version": 2
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "시사",
       "brief_theme": "시사",
@@ -74,50 +139,19 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "26c4aaa92fc9caa90c8f",
-      "title": "日銀, 금리동결 속 '물가 목표 2% 도달' 판단…\"금리 계속 인상\"(종합)",
+      "id": "0d8c3864c156cae39864",
+      "title": "공공주택 PF 부담 낮춘 LH·HUG…평택고덕서 금융 보증 첫 적용",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG8?oc=5",
-      "source": "연합뉴스",
-      "published": "2026-10-30T05:26:40+00:00",
-      "collected_at": "2026-11-01T22:52:42.317242+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
+      "source": "신아일보",
+      "published": "2026-11-02T10:19:32+00:00",
+      "collected_at": "2026-11-02T22:56:56.019347+00:00",
       "categories": [
-        "거시경제"
-      ],
-      "industries": [
-        "기타"
-      ],
-      "issues": [
-        "금리·자금조달"
-      ],
-      "search_topics": [
-        "거시경제"
-      ],
-      "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zU1oycW1Dd2tKeVJseEJmcXNZMnFvMFF1OGJOV1g5X1hXSF9oaFU3aWlfNWRVSFd6bjFObnpqYVR6WDBpYVhxV0RhZThwb1pobk9VU3pBNnFnUG8?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-11-01T22:52:44.184741+00:00",
-        "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
-      },
-      "brief_group": "경제",
-      "brief_theme": "금리·자금조달",
-      "brief_reason": "경제 현안 · 비용·수요·제도 변화의 단서",
-      "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
-    },
-    {
-      "id": "81d3966531a68f37a9ca",
-      "title": "[기획] 청약 경쟁률도 하락…지방 주택시장, 미분양 ‘비상’",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
-      "source": "매일일보",
-      "published": "2026-11-01T00:00:00+00:00",
-      "collected_at": "2026-11-01T22:52:42.391842+00:00",
-      "categories": [
+        "금융",
         "주택·건설"
       ],
       "industries": [
+        "금융·보험",
         "건설·부동산"
       ],
       "issues": [],
@@ -126,18 +160,18 @@
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zdHdianViYmtsczZQQ2d2RU1pUnlvSkZTUElLMXRwcXl1akc0VEpnRFlIdE15R0p3NFZXb1hUdnh6a3h0MDFub0hLNFVUbnotZTltWWhKWlluNVZYVWcxMC0xQmQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-01T22:52:44.184955+00:00",
+        "checked_at": "2026-11-02T22:56:57.181270+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
-      "brief_group": "시사",
+      "brief_group": "금융",
       "brief_theme": "주택공급·수요",
-      "brief_reason": "시사 현안 · 비용·수요·제도 변화의 단서",
+      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
-  "selected_count": 4,
-  "candidate_count": 325
+  "selected_count": 5,
+  "candidate_count": 328
 }
