@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T23:12:13.357Z",
+  "updated_at": "2026-11-02T02:51:48.185Z",
   "repository": "flfexp-code/insight-hub-free",
   "branch": "main",
   "research_save": {
     "result": "success",
     "path": "data/chatgpt_research.json",
     "id": "energy-grid-local-ppa-20261102",
-    "research_updated_at": "2026-11-01T23:10:30.707690+00:00",
-    "previous_blob_sha": "6ffbb1794fa233e5ad6b740997ab5ff705dddf13",
-    "commit_sha": "58023830c2093a8b52726525b7174cedee19f959",
-    "content_sha": "106dae9222d4c3b033695507b49602ffd6df8b9c",
+    "research_updated_at": "2026-11-02T02:31:40.868810+00:00",
+    "previous_blob_sha": "106dae9222d4c3b033695507b49602ffd6df8b9c",
+    "commit_sha": "1cf4eb510f23a033aa1cdb11660b58f773ba5c44",
+    "content_sha": "4ffa97d36441f178841858828a0af34aa0e95f61",
     "readback": {
       "id": true,
       "updated_at": true,
@@ -20,10 +20,26 @@
     }
   },
   "verification": {
-    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS; exact news_core stdlib helpers loaded with AST; RSS dependencies not imported. Full material bodies verified in feedback packet; sample_script excluded.",
+    "validator": "Current research_learning.validate_research and pt_learning.validate_pt PASS, with original news_core dependencies. All material bodies present in feedback packet; sample script excluded.",
     "original_content_and_blob_sha_preserved": true,
-    "live_app_checked": false,
-    "pdf": "16-page PDF generated; embedded Korean font and glyph coverage verified, all pages rendered and visually reviewed, text bounds passed.",
-    "scope": "Only two authorized JSON data paths updated. Energy PT only. Law article bodies and cited report web chapters read; final implementing PPA notice not obtained. No code/workflow/permission changes; live UI and app PDF button not checked."
+    "live_app_checked": true,
+    "pdf": {
+      "practice_pages": 4,
+      "guide_pages": 3,
+      "original_attachment_pages": 11,
+      "material_body_chart_same_page": {
+        "A": 1,
+        "B": 2,
+        "C": 2,
+        "D": 3,
+        "E": 4
+      },
+      "body_font_points": 10.5,
+      "table_font_points": 10.5,
+      "checked": "All material bodies/provenance/chart cells/units/periods/notes, 12 questions, source titles/dates/direct URLs/supports/limits, Korean glyph coverage, embedded font, text bounds, full guide script and long-material/signed-bar regression PASS. Every practice page rendered and visually reviewed.",
+      "live_download": "Both PDF buttons used after Streamlit reboot. Practice 4 pages and guide 3 pages; every page's complete extracted text matches the locally validated output.",
+      "library_copy": "Updated PDF read back; 4 pages and complete page text match."
+    },
+    "scope": "Direct user-requested PDF revision: pt_pdf.py, PT_FORMAT_KO.md, data/chatgpt_research.json and this status file. No workflow, permissions or other settings changed. Screen paging, answer editor and folded guide preserved. IEA C–E necessary original paragraphs translated; background sections and answer guide unchanged."
   }
 }
