@@ -1,48 +1,50 @@
 {
-  "updated_at": "2026-11-03T23:01:25.864407+00:00",
+  "updated_at": "2026-11-04T23:02:08.747210+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
-      "id": "deef2ffe0748b233645b",
-      "title": "한·독, 에너지 전환·전력망 혁신 협력",
+      "id": "f4f4b518d939f7722a05",
+      "title": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16QWVCeGRCVU9QTWhIQ1lBNl9tX1d3cXcxRTFZcDJrWl85bnRMS2Eya3VzZTI0SlFzWW1Mb1hWT0FrSjB3RDc0VmtqUmhFVVk2bTg2d0FpMzRHb2pndWdGLWd3MzVxTFRD?oc=5",
-      "source": "환경일보",
-      "published": "2026-11-01T05:24:15+00:00",
-      "collected_at": "2026-11-03T23:01:24.684193+00:00",
+      "link": "https://www.hankyung.com/article/2026110569576",
+      "source": "한국경제 증권",
+      "published": "2026-11-04T22:21:11+00:00",
+      "collected_at": "2026-11-04T23:02:07.237015+00:00",
       "categories": [
-        "에너지"
+        "거시경제"
       ],
       "industries": [
-        "전력·에너지"
+        "기타"
       ],
       "issues": [
-        "설비·전력수요"
+        "환율·원가"
       ],
       "search_topics": [
-        "에너지"
+        "금융"
       ],
       "evidence": {
-        "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16QWVCeGRCVU9QTWhIQ1lBNl9tX1d3cXcxRTFZcDJrWl85bnRMS2Eya3VzZTI0SlFzWW1Mb1hWT0FrSjB3RDc0VmtqUmhFVVk2bTg2d0FpMzRHb2pndWdGLWd3MzVxTFRD?oc=5",
-        "excerpt": "",
-        "checked_at": "2026-11-03T23:01:26.489393+00:00",
+        "status": "본문 일부 확인",
+        "url": "https://www.hankyung.com/article/2026110569576",
+        "excerpt": "미 중간선거에서 민주당이 압승하고 공화당 소속 도널드 트럼프 미국 대통령이 선거 결과를 인정하자 뉴욕증시 주요 지수가 일제히 급등했다. […] 4일(현지시간) 뉴욕증권거래소(NYSE)에서 다우존스30 산업평균지수는 전 거래일 대비 1569.40포인트(3.03%) 오른 5만3356.12에 장을 마쳤다. […] 다우 지수는 지난해 4월9일 이후 약 19개월 만에",
+        "checked_at": "2026-11-04T23:02:09.649276+00:00",
         "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
+        "page_title": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
+        "context": "미 중간선거에서 민주당이 압승하고 공화당 소속 도널드 트럼프 미국 대통령이 선거 결과를 인정하자 뉴욕증시 주요 지수가 일제히 급등했다. […] 4일(현지시간) 뉴욕증권거래소(NYSE)에서 다우존스30 산업평균지수는 전 거래일 대비 1569.40포인트(3.03%) 오른 5만3356.12에 장을 마쳤다. […] 다우 지수는 지난해 4월9일 이후 약 19개월 만에 가장 큰 폭의 상승세를 기록했다. […] 트럼프 대통령은 당초 시장의 우려와 달리 선거 결과에 승복했다. […] 국제유가 급락도 증시 상승을 뒷받침했다. […] 반면 다른 기술주들은 강세를 보였다.",
+        "context_version": 2
       },
       "brief_group": "에너지",
-      "brief_theme": "전력망·수요",
+      "brief_theme": "연료·환율",
       "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "0d8c3864c156cae39864",
-      "title": "공공주택 PF 부담 낮춘 LH·HUG…평택고덕서 금융 보증 첫 적용",
+      "id": "3feb99c9728b956f238e",
+      "title": "[단독]금융위 “주택가격 상승세 당분간 계속…대출규제 유지 불가피”",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
-      "source": "신아일보",
-      "published": "2026-11-02T10:19:32+00:00",
-      "collected_at": "2026-11-03T23:01:25.098136+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtQzdZM0V2LTlQZWh5SkpqQTJHdlpodkJCT3ZsaHJNalIwZGE0QUdjVW53UDJBcE5Qd3JicXJhWGxJSTUwN25selVGSmg0QUdzZWZSS251bkxtZ2Z5VkE4bW00N0FzamJjNXhIZTI5alNvQ1NTR1Nr0gFmQVVfeXFMTUIxQTVoLTVfUGVOci16ZzZPT0tUek9BYXEwWlJPN251cS01MTBSdnJ0V3F4dHRmTVRVcDJfaVBYUHpneWdHMUxWeFJ6cWFDOEpyTkJTeklBUDBZZVdnMXRFNndyZ3NB?oc=5",
+      "source": "동아일보",
+      "published": "2026-11-04T06:59:00+00:00",
+      "collected_at": "2026-11-04T23:02:06.812386+00:00",
       "categories": [
         "금융",
         "주택·건설"
@@ -51,20 +53,23 @@
         "금융·보험",
         "건설·부동산"
       ],
-      "issues": [],
+      "issues": [
+        "금리·자금조달",
+        "규제·재정"
+      ],
       "search_topics": [
-        "주택·건설"
+        "금융"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtQzdZM0V2LTlQZWh5SkpqQTJHdlpodkJCT3ZsaHJNalIwZGE0QUdjVW53UDJBcE5Qd3JicXJhWGxJSTUwN25selVGSmg0QUdzZWZSS251bkxtZ2Z5VkE4bW00N0FzamJjNXhIZTI5alNvQ1NTR1Nr0gFmQVVfeXFMTUIxQTVoLTVfUGVOci16ZzZPT0tUek9BYXEwWlJPN251cS01MTBSdnJ0V3F4dHRmTVRVcDJfaVBYUHpneWdHMUxWeFJ6cWFDOEpyTkJTeklBUDBZZVdnMXRFNndyZ3NB?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-03T23:01:26.489572+00:00",
+        "checked_at": "2026-11-04T23:02:09.650449+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "금융",
-      "brief_theme": "주택공급·수요",
+      "brief_theme": "금융",
       "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
@@ -92,7 +97,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.hankyung.com/article/2026110339777",
         "excerpt": "호주 중앙은행(RBA)이 3일 기준금리를 추가 인상해 연 4.85%로 결정했다고 밝혔다. […] 고유가 여파에 좀처럼 떨어지지 않는 물가로 인한 추가 인상이지만, 경기침체 우려가 커지면서 앞으로 추가 인상에는 신중해야 한다는 목소리가 높아지고 있다. […] RBA는 이번 인상의 주된 요인이 물가 상승 압력",
-        "checked_at": "2026-11-03T23:01:26.489599+00:00",
+        "checked_at": "2026-11-04T23:02:09.650721+00:00",
         "kind": "보도",
         "page_title": "호주 기준금리 4.85%로 인상…18년 만에 최고치",
         "context": "호주 중앙은행(RBA)이 3일 기준금리를 추가 인상해 연 4.85%로 결정했다고 밝혔다. […] 고유가 여파에 좀처럼 떨어지지 않는 물가로 인한 추가 인상이지만, 경기침체 우려가 커지면서 앞으로 추가 인상에는 신중해야 한다는 목소리가 높아지고 있다. […] RBA는 이번 인상의 주된 요인이 물가 상승 압력 때문이라고 밝혔다. […] 올 들어 이란전쟁 발발 이후 장기화한 고유가 여파로 물가상승률이 좀처럼 내려가지 않으면서 물가 안정화를 위해 금리를 추가 인상했다는 것이다. […] 다만 RBA는 추가 인상이 필요할 경우 금리를 더 올릴 수 있다고 적었던 기존 문구를 이번에 삭제했다. […] 호주 금융당국은 물가 상승을 우려하면서도 한편으로 경기침체 우려가 커지는 것을 경계하는 것으로 알려졌다.",
@@ -104,13 +109,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "7c98f7464994362b9387",
-      "title": "충북 여성 고용률 58.7% ‘뚝’…세종·충남 상승할 때 나홀로 역주행",
+      "id": "f6bc174de5894bb83eb4",
+      "title": "‘쉬었음’ 4년 만에 감소했지만…청년 고용률은 29개월 연속 하락",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZLUNidS1MSV92YzJrbmd2U1dlNXlNMlZfRTZHY18zMVZoNkwtWVRwS2xtdlpHOHV4WmRwcTZBNFoxa1FxZU9aZko1bmkzc1k5RUY3WFZvZlV2Wk55YnF4TEJ0Z0NxQmx6NlHSAW5BVV95cUxOYllYVGZMNWNCQXlHQjdpeV84UkZnZGF1OEtvWkl1NC04S1prekt1ZnNjVFJjM3Q3VmN4S2ZQdnV0R3puWld1aE1zNFdJc1hkQWNGSzdDQ0t1OXhMMTRoRmRUa3U1bXpLUU8zeERwUQ?oc=5",
-      "source": "중부매일",
-      "published": "2026-11-02T05:02:25+00:00",
-      "collected_at": "2026-11-03T23:01:24.596864+00:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZFBScDdqWFFSalYyYWJLSWo1LXVTaTgwM2RldkZuWGYtMkJmbW1maTduRVFLNlJ6REVXNmVkMjA5QTlqaG9XUUp1WFFqSkJQb1JGSnlJelhxUDZJOXgtdHBoNmg3dm1aTVFkZFlEdGFNdw?oc=5",
+      "source": "한겨레",
+      "published": "2026-11-04T22:31:08+00:00",
+      "collected_at": "2026-11-04T23:02:06.725052+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -125,9 +130,9 @@
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZLUNidS1MSV92YzJrbmd2U1dlNXlNMlZfRTZHY18zMVZoNkwtWVRwS2xtdlpHOHV4WmRwcTZBNFoxa1FxZU9aZko1bmkzc1k5RUY3WFZvZlV2Wk55YnF4TEJ0Z0NxQmx6NlHSAW5BVV95cUxOYllYVGZMNWNCQXlHQjdpeV84UkZnZGF1OEtvWkl1NC04S1prekt1ZnNjVFJjM3Q3VmN4S2ZQdnV0R3puWld1aE1zNFdJc1hkQWNGSzdDQ0t1OXhMMTRoRmRUa3U1bXpLUU8zeERwUQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZFBScDdqWFFSalYyYWJLSWo1LXVTaTgwM2RldkZuWGYtMkJmbW1maTduRVFLNlJ6REVXNmVkMjA5QTlqaG9XUUp1WFFqSkJQb1JGSnlJelhxUDZJOXgtdHBoNmg3dm1aTVFkZFlEdGFNdw?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-03T23:01:26.490259+00:00",
+        "checked_at": "2026-11-04T23:02:09.651392+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -137,41 +142,39 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "dc684a57b0cfb713bc13",
-      "title": "[오늘의 증시]코스피, 美 AI 투심 위축에 다시 위기감…유가 급락이 낙폭 막을까",
+      "id": "0d8c3864c156cae39864",
+      "title": "공공주택 PF 부담 낮춘 LH·HUG…평택고덕서 금융 보증 첫 적용",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261103_0003851887",
-      "source": "뉴시스 금융",
-      "published": "2026-11-02T22:46:23+00:00",
-      "collected_at": "2026-11-02T22:56:56.599366+00:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
+      "source": "신아일보",
+      "published": "2026-11-02T10:19:32+00:00",
+      "collected_at": "2026-11-04T23:02:07.109266+00:00",
       "categories": [
-        "거시경제"
+        "금융",
+        "주택·건설"
       ],
       "industries": [
-        "반도체·IT"
+        "금융·보험",
+        "건설·부동산"
       ],
-      "issues": [
-        "환율·원가"
-      ],
+      "issues": [],
       "search_topics": [
-        "금융"
+        "주택·건설"
       ],
       "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261103_0003851887",
-        "excerpt": "코스피는 128.34포인트(2.24%) 오른 5859.08에, 코스닥지수는 9.98포인트(1.38%) 오른 734.36에 정규장을 마감했다. […] 미국 중간선거를 앞둔 경계심리도 증시에 부담으로 작용할 것으로 보인다. […] 다만 미국과 이란 간 종전 협상 기대감에 국제유가가 급락하고 금리도 하락하면서 지수의 낙폭은 제한될 수 있다는 관측이 나온다. […]",
-        "checked_at": "2026-11-03T23:01:26.490561+00:00",
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTW9qNkRGOFp2ZlNfVTFaZ25GSDNsaUpjbVRjUnZyTTQyckhHLUc5UkxvaXB3LS1mUlBYdkpKN2NzMGFNOVY1d3JSak8tSHh0b2pSQ01TS3VNNzcwcWVMMG1rSlpDZVRvZHd0N3VuMzk?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-11-04T23:02:09.651831+00:00",
         "kind": "보도",
-        "page_title": "[오늘의 증시]코스피, 美 AI 투심 위축에 다시 위기감…유가 급락이 낙폭 막을까",
-        "context": "코스피는 128.34포인트(2.24%) 오른 5859.08에, 코스닥지수는 9.98포인트(1.38%) 오른 734.36에 정규장을 마감했다. […] 미국 중간선거를 앞둔 경계심리도 증시에 부담으로 작용할 것으로 보인다. […] 다만 미국과 이란 간 종전 협상 기대감에 국제유가가 급락하고 금리도 하락하면서 지수의 낙폭은 제한될 수 있다는 관측이 나온다. […] 반면 코스피200 야간선물은 전 거래일보다 3.85% 내린 883.30에 거래를 마쳤다. […] 모건스탠리캐피털인터내셔널(MSCI) 한국 증시 상장지수펀드(ETF)는 0.83% 하락한 반면 MSCI 신흥국 ETF는 0.11% 상승했다. […] 증권가에서는 미국 반도체 업종의 추가 하락이 국내 증시에 부담을 줄 것으로 보고 있다.",
-        "context_version": 2
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
-      "brief_group": "에너지",
-      "brief_theme": "연료·환율",
-      "brief_reason": "에너지 현안 · 비용·수요·제도 변화의 단서",
+      "brief_group": "금융",
+      "brief_theme": "주택공급·수요",
+      "brief_reason": "금융 현안 · 비용·수요·제도 변화의 단서",
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     }
   ],
   "selected_count": 5,
-  "candidate_count": 325
+  "candidate_count": 329
 }
