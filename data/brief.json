@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:02:18.866975+00:00",
+  "updated_at": "2026-11-06T22:58:18.680879+00:00",
   "purpose": "에너지·경제·시사·금융 · 관심기업과 독립",
   "articles": [
     {
@@ -27,7 +27,7 @@
         "status": "본문 일부 확인",
         "url": "https://www.newsis.com/view/NISX20261105_0003856476",
         "excerpt": "[서울=뉴시스] 미국 중간선거 개표가 4일(현지시간) 진행 중인 가운데 뉴욕타임스(NYT)는 이날 오전 3시(미 동부시간·한국시간 오후 5시) 기준 상원의원 선거에서 민주당이 54석, 공화당이 43석을 확보한 것으로 집계했다. […] (그래픽=안지혜 기자) [세종=뉴시스]여동준 기자 = 미국 중간선거 이후 국제유가가 하루 만에 8% 넘게 떨어지면서",
-        "checked_at": "2026-11-05T23:02:19.781930+00:00",
+        "checked_at": "2026-11-06T22:58:19.578929+00:00",
         "kind": "보도",
         "page_title": "美 중간선거 뒤 유가 8% 급락…석유류가 밀어올린 물가, 11월엔 꺾일까",
         "context": "[서울=뉴시스] 미국 중간선거 개표가 4일(현지시간) 진행 중인 가운데 뉴욕타임스(NYT)는 이날 오전 3시(미 동부시간·한국시간 오후 5시) 기준 상원의원 선거에서 민주당이 54석, 공화당이 43석을 확보한 것으로 집계했다. […] (그래픽=안지혜 기자) [세종=뉴시스]여동준 기자 = 미국 중간선거 이후 국제유가가 하루 만에 8% 넘게 떨어지면서 11월 국내 소비자물가의 상승 압력이 줄어들지 주목된다. […] 이를 두고 미국 중간선거에서 민주당이 상·하원 주도권을 확보하면서 이란 전쟁이 끝날 수 있다는 기대가 유가 하락에 영향을 미쳤다는 분석이 나온다. […] [서울=뉴시스] 이영환 기자 = 미국 중간선거 민주당 압승에 국제유가가 90달러 아래로 떨어진 5일 서울의 한 주유소에 유가정보가 표시되어 있다. […] 국제유가가 떨어질 때 원화가 약해지면 원화로 환산한 원유 수입 비용의 하락 폭은 줄어든다. […] 정부가 석유제품 최고가격제를 통해 석유류 가격 안정 노력을 펼치고 있는 가운데, 미국 중간선거 이후 국제유가가 안정세를 이어가 국내 물가 안정으로 이어질지에 관심이 모인다.",
@@ -39,13 +39,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "f5d5aafe7d559b8ab698",
-      "title": "잉글랜드은행, 기준금리 3.75%→4%로 25bp인상(상보)",
+      "id": "6249f4f4e3a4cc6f77db",
+      "title": "멕시코 중앙은행, 기준금리 6.25%로 깜짝 인하",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yZlJIS3dGelE5Z0xzWXlmeGdRVGU0N18zc2VpRTVqREhBWnQzc0R6RTVZYU0xbVQ4SDRGRGZCeFdQb19rMVlhMnJ3N09HSjY1U2U5V1lfeHdGQmFfU1hsdFlKQWZhd3JSY1VvaWlTb3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rWUxORnpGbU9Mb1RjRk04QTJncEUxdVl4NUtCSGZQS0pleW8yZVF0TkFxZGU1aTEwa2dWUFQ5LUFiQXZKUzRDSEozWUktRzZFYTRnR0ZMT0hPZTZ2TERWc1hVVmRGREp1UE9qUjhJUEs?oc=5",
       "source": "연합인포맥스",
-      "published": "2026-11-05T14:42:33+00:00",
-      "collected_at": "2026-11-05T23:02:17.737836+00:00",
+      "published": "2026-11-06T01:32:10+00:00",
+      "collected_at": "2026-11-06T22:58:16.897423+00:00",
       "categories": [
         "거시경제",
         "금융"
@@ -57,14 +57,13 @@
         "금리·자금조달"
       ],
       "search_topics": [
-        "거시경제",
-        "금융"
+        "거시경제"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yZlJIS3dGelE5Z0xzWXlmeGdRVGU0N18zc2VpRTVqREhBWnQzc0R6RTVZYU0xbVQ4SDRGRGZCeFdQb19rMVlhMnJ3N09HSjY1U2U5V1lfeHdGQmFfU1hsdFlKQWZhd3JSY1VvaWlTb3c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rWUxORnpGbU9Mb1RjRk04QTJncEUxdVl4NUtCSGZQS0pleW8yZVF0TkFxZGU1aTEwa2dWUFQ5LUFiQXZKUzRDSEozWUktRzZFYTRnR0ZMT0hPZTZ2TERWc1hVVmRGREp1UE9qUjhJUEs?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-05T23:02:19.782970+00:00",
+        "checked_at": "2026-11-06T22:58:19.579946+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -74,13 +73,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "c1cbe5b33c8fa4216a94",
-      "title": "채솟값 급락, 최고가격제로 2%대 지켰지만…점점 커지는 물가 부담",
+      "id": "1f9f15b8d3260f758db2",
+      "title": "10월 소비자물가 2.8%↑, 상승폭 둔화…\"물가 관리에 역량 집중\"",
       "summary": "",
-      "link": "https://www.newsis.com/view/NISX20261103_0003853470",
-      "source": "뉴시스 경제",
-      "published": "2026-11-03T21:00:00+00:00",
-      "collected_at": "2026-11-03T23:01:25.571633+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDVFR4SnBRU0R2OVBnMXpqM0dtdm0yZVF6cTZDM1Fzd3g4RU9BUmo5VXFxbnNiVDVlbm9oYzlCQkNTOEc1OUJVNVhGeGJVeFRYV0hmMXNMZ1FlaGY5S09vNERNWmp5WjBGenBWQQ?oc=5",
+      "source": "대한민국 정책브리핑",
+      "published": "2026-11-04T05:23:38+00:00",
+      "collected_at": "2026-11-06T22:58:16.895120+00:00",
       "categories": [
         "거시경제"
       ],
@@ -92,14 +91,12 @@
         "거시경제"
       ],
       "evidence": {
-        "status": "본문 일부 확인",
-        "url": "https://www.newsis.com/view/NISX20261103_0003853470",
-        "excerpt": "[서울=뉴시스] 조성우 기자 =서울 서초구 만남의광장 주유소에서 시민들이 차량에 주유하고 있다. […] 최고가격제로 정유사의 공급 가격에 상한선이 설정됐기 때문이다. […] 특히 서울의 경우 상승률이 2.1%에 달했다. […] 이에 따라 물가의 기조적인 흐름을 나타내는 근원물가지수 상승률은 2%대 후반까지 높아졌다. […] 김장",
-        "checked_at": "2026-11-05T23:02:19.783397+00:00",
+        "status": "제목만 확인",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDVFR4SnBRU0R2OVBnMXpqM0dtdm0yZVF6cTZDM1Fzd3g4RU9BUmo5VXFxbnNiVDVlbm9oYzlCQkNTOEc1OUJVNVhGeGJVeFRYV0hmMXNMZ1FlaGY5S09vNERNWmp5WjBGenBWQQ?oc=5",
+        "excerpt": "",
+        "checked_at": "2026-11-06T22:58:19.580245+00:00",
         "kind": "보도",
-        "page_title": "채솟값 급락, 최고가격제로 2%대 지켰지만…점점 커지는 물가 부담",
-        "context": "[서울=뉴시스] 조성우 기자 =서울 서초구 만남의광장 주유소에서 시민들이 차량에 주유하고 있다. […] 최고가격제로 정유사의 공급 가격에 상한선이 설정됐기 때문이다. […] 특히 서울의 경우 상승률이 2.1%에 달했다. […] 이에 따라 물가의 기조적인 흐름을 나타내는 근원물가지수 상승률은 2%대 후반까지 높아졌다. […] 김장 준비 부담을 덜기 위해 역대 최대 수준인 640억원 규모의 김장 대책을 마련했다. […] 또 고병원성 조류독감 등 가축 전염병을 예방하기 위해 방역 관리를 강화하고, 엘니뇨와 한파 등에 대비해 비축물량 확보, 조기출하 등 선제적 대응 체계를 가동하기로 했다.",
-        "context_version": 2
+        "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
       "brief_group": "경제",
       "brief_theme": "경제",
@@ -107,13 +104,13 @@
       "brief_question": "누가 먼저 영향을 받으며, 어떤 조건에서는 영향이 달라질까?"
     },
     {
-      "id": "f6bc174de5894bb83eb4",
-      "title": "‘쉬었음’ 4년 만에 감소했지만…청년 고용률은 29개월 연속 하락",
+      "id": "8ba256810a414522f5cf",
+      "title": "[속보] 美 10월 고용 16만5000명 '깜짝 증가'…실업률 4.1%로 하락",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZFBScDdqWFFSalYyYWJLSWo1LXVTaTgwM2RldkZuWGYtMkJmbW1maTduRVFLNlJ6REVXNmVkMjA5QTlqaG9XUUp1WFFqSkJQb1JGSnlJelhxUDZJOXgtdHBoNmg3dm1aTVFkZFlEdGFNdw?oc=5",
-      "source": "한겨레",
-      "published": "2026-11-04T22:31:08+00:00",
-      "collected_at": "2026-11-04T23:02:06.725052+00:00",
+      "link": "https://www.hankyung.com/article/2026110618237",
+      "source": "한국경제 국제",
+      "published": "2026-11-06T13:40:05+00:00",
+      "collected_at": "2026-11-06T22:58:17.470569+00:00",
       "categories": [
         "고용·사회"
       ],
@@ -124,15 +121,16 @@
         "고용·운영"
       ],
       "search_topics": [
-        "고용·사회"
+        "국제·정책"
       ],
       "evidence": {
         "status": "제목만 확인",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZFBScDdqWFFSalYyYWJLSWo1LXVTaTgwM2RldkZuWGYtMkJmbW1maTduRVFLNlJ6REVXNmVkMjA5QTlqaG9XUUp1WFFqSkJQb1JGSnlJelhxUDZJOXgtdHBoNmg3dm1aTVFkZFlEdGFNdw?oc=5",
+        "url": "https://www.hankyung.com/article/2026110618237",
         "excerpt": "",
-        "checked_at": "2026-11-05T23:02:19.784120+00:00",
+        "checked_at": "2026-11-06T22:58:19.580294+00:00",
         "kind": "보도",
-        "reason": "공개 원문 직접 링크를 확인하지 못함"
+        "page_title": "[속보] 美 10월 고용 16만5000명 '깜짝 증가'…실업률 4.1%로 하락",
+        "reason": "기사 본문을 식별하지 못함"
       },
       "brief_group": "시사",
       "brief_theme": "시사",
@@ -146,7 +144,7 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GZWNlQ01EUUdMVnlHNVBCM2FVNzBFSmtpNFloQmpremhKd1gxNjdoRlk5WFRHaFFPMEpZdTY5VDRmV1Jhc0JMMll6WEdKNndjV05ZNzF1TDZJdUHSAWBBVV95cUxPVFgxTnVPcXNDeENLbVRaMlFaWXlmakZsSzZIY3VDZ0ZHcENpNmNXNENHbERtQTZZXzNHUHMwLThIYVdqZEFIVl8zb1VxSXVFcHZOZDZyUDlMbkUxS1pIbHU?oc=5",
       "source": "연합뉴스",
       "published": "2026-11-04T10:55:05+00:00",
-      "collected_at": "2026-11-05T23:02:17.669797+00:00",
+      "collected_at": "2026-11-06T22:58:16.895605+00:00",
       "categories": [
         "거시경제",
         "에너지"
@@ -162,7 +160,7 @@
         "status": "제목만 확인",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GZWNlQ01EUUdMVnlHNVBCM2FVNzBFSmtpNFloQmpremhKd1gxNjdoRlk5WFRHaFFPMEpZdTY5VDRmV1Jhc0JMMll6WEdKNndjV05ZNzF1TDZJdUHSAWBBVV95cUxPVFgxTnVPcXNDeENLbVRaMlFaWXlmakZsSzZIY3VDZ0ZHcENpNmNXNENHbERtQTZZXzNHUHMwLThIYVdqZEFIVl8zb1VxSXVFcHZOZDZyUDlMbkUxS1pIbHU?oc=5",
         "excerpt": "",
-        "checked_at": "2026-11-05T23:02:19.784547+00:00",
+        "checked_at": "2026-11-06T22:58:19.580996+00:00",
         "kind": "보도",
         "reason": "공개 원문 직접 링크를 확인하지 못함"
       },
@@ -173,5 +171,5 @@
     }
   ],
   "selected_count": 5,
-  "candidate_count": 330
+  "candidate_count": 334
 }
