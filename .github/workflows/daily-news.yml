@@ -1,7 +1,8 @@
 name: 일일 뉴스 수집
 on:
-  schedule:
-    - cron: '17 22 * * *' # UTC 22:17 = 다음 날 한국시간 07:17
+  # 2026-11-07 사용자 요청으로 자동 뉴스 수집 일시중지. 재개 시 아래 주석 해제.
+  # schedule:
+  #   - cron: '17 22 * * *' # UTC 22:17 = 다음 날 한국시간 07:17
   workflow_dispatch:
 permissions:
   contents: write
