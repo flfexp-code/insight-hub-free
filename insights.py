@@ -18,9 +18,9 @@ from news_core import UTC, clean, company_matches, deduplicate, excluded_personn
 
 SECTORS = ['발전·에너지', '도로·교통', '토지·주택', '금융·보험', '제조·수출', '레저·말산업', '기타']
 DEFAULT_PROFILES = [
-    {'name': '한국서부발전', 'aliases': ['서부발전', 'KOWEPO'], 'sector': '발전·에너지',
+    {'name': '한국동서발전', 'aliases': ['동서발전', 'EWP'], 'sector': '발전·에너지',
      'business': '발전설비 운영·건설과 신재생에너지 사업', 'keywords': ['전력망', '발전소', '연료비', '유연탄', 'LNG', '태양광'],
-     'source_url': 'https://www.iwest.co.kr/'},
+     'source_url': 'https://www.ewp.co.kr/'},
     {'name': '한국도로공사', 'aliases': ['도로공사'], 'sector': '도로·교통',
      'business': '고속도로 건설·유지관리와 통행 서비스', 'keywords': ['고속도로', '통행료', '교통량', '도로 유지관리', '물동량'],
      'source_url': 'https://www.ex.co.kr/'},
