@@ -60,7 +60,7 @@ with study_tab:
     reports_tab = st.expander('공식 자료와 새 보고서 후보')
 with watch_tab:
     st.subheader('관심 기업 등록과 보관')
-    st.caption('기본 기업: 한국서부발전 · 한국도로공사 · 한국토지주택공사(LH). 최대 10개까지 등록할 수 있습니다.')
+    st.caption('기본 기업: 한국동서발전 · 한국도로공사 · 한국토지주택공사(LH). 최대 10개까지 등록할 수 있습니다.')
     profiles = render_watchlist()
     watchlist_download(profiles)
     st.caption('기업 목록은 이 브라우저에 저장됩니다. 등록만으로 기관별 기사를 매일 모으지는 않습니다. 준비가 필요할 때 왼쪽에서 기업을 선택하고 뉴스 추가 검색을 누르세요.')
@@ -85,8 +85,8 @@ with st.sidebar:
     topics = st.multiselect('뉴스 분야', [*SEARCHES, '기타'], default=list(SEARCHES))
     industry = st.selectbox('산업 선택', ['전체', *INDUSTRIES, '기타'], key='industry')
     days = st.selectbox('조회 기간', [1, 3, 7, 14, 30], index=1, format_func=lambda n: f'최근 {n}일', key='days')
-    company = st.text_input('관심 기업명', placeholder='예: 한국서부발전', max_chars=60, key='company').strip()
-    alias = st.text_input('다른 표기 (쉼표 구분)', placeholder='예: 서부발전, KOWEPO', max_chars=150, key='aliases').strip()
+    company = st.text_input('관심 기업명', placeholder='예: 한국동서발전', max_chars=60, key='company').strip()
+    alias = st.text_input('다른 표기 (쉼표 구분)', placeholder='예: 동서발전, EWP', max_chars=150, key='aliases').strip()
     st.caption('등록한 사업 분야를 이용해 기업명 없는 기사도 연결합니다. 단순 협약·행사·지원 홍보는 기본 제외합니다.')
     show_promo = False
     search_company = st.button('관심 기업 뉴스 추가 검색', disabled=not company, use_container_width=True, key='search_company')
