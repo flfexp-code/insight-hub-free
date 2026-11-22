@@ -20,12 +20,24 @@ def watchlist_component(**kwargs):
     export default function({data,parentElement,setStateValue}) {
       const root=parentElement.querySelector('#watchlist-root');
       const storageKey='insight-hub-watchlist-v3';
+      const migrationKey='insight-hub-target-dongseo-20261122';
       let profiles=data.current;
       let error='';
       try {
         if(!data.loaded) {
           const raw=localStorage.getItem(storageKey);
           if(raw) profiles=JSON.parse(raw);
+          // One-time change of the former default target; keep all other companies.
+          if(!localStorage.getItem(migrationKey) && Array.isArray(profiles)) {
+            const hasWest=profiles.some(p=>p.name==='한국서부발전');
+            const hasEast=profiles.some(p=>p.name==='한국동서발전');
+            if(hasWest) {
+              profiles=hasEast ? profiles.filter(p=>p.name!=='한국서부발전')
+                : profiles.map(p=>p.name==='한국서부발전' ? data.defaultPowerProfile : p);
+              localStorage.setItem(storageKey,JSON.stringify(profiles));
+            }
+            localStorage.setItem(migrationKey,'1');
+          }
         } else {
           localStorage.setItem(storageKey,JSON.stringify(profiles));
         }
@@ -112,6 +124,7 @@ def render_watchlist():
             st.session_state['watchlist_error'] = '저장된 목록 형식이 올바르지 않습니다. 등록 화면에서 목록을 다시 확인하세요.'
 
     result = watchlist_component(data={'current': st.session_state['profiles'], 'sectors': SECTORS,
+                                      'defaultPowerProfile': DEFAULT_PROFILES[0],
                                       'loaded': st.session_state['watchlist_loaded']},
                                 default={'profiles': st.session_state['profiles']},
                                 on_profiles_change=sync_profiles, key='watchlist_store')
